@@ -28,7 +28,7 @@
 |    |  |
 |    |  |
 |    |  |
-|    |  |
+| Taquiri Calderon, Jhunior Giussepe  | U20221C576 |
 |  Tuesta Marin, Romina Alejandra  |    U202211706   |
 
 <strong> Julio, 2026</strong><br>
