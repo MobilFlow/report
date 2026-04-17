@@ -216,11 +216,134 @@ En el siguiente cuadro se describen las acciones realizadas y las conclusiones d
 
 ### Capítulo II: Requirements Development and Software Solution Design
 
-#### 2.1. Competidores
+# 2.1. Competidores
 
-2.1.1. Análisis competitivo
+
+## 2.1.1 Análisis Competitivo – AutoMatch
+
+### Competitive Analysis Landscape
+
+**¿Por qué llevar a cabo este análisis?**  
+Identificar y comparar a los principales competidores del mercado automotriz para entender sus fortalezas, debilidades y estrategias, con el fin de definir la propuesta de valor y ventaja competitiva de AutoMatch en el contexto peruano.
+
+---
+
+### Tabla de Análisis
+
+| Categoría | Su startup (AutoMatch) | Google Maps / Reseñas | Autingo (LatAm) | Maquinarias.pe (Perú) | Cadenas formales (Bosch Car Service / Derco) |
+|----------|------------------------|----------------------|------------------|------------------------|---------------------------------------------|
+| **Perfil** ||||| 
+| **Overview** | App que conecta conductores con mecánicos verificados cercanos | Plataforma de búsqueda con reseñas de usuarios | Plataforma digital de servicios mecánicos | Plataforma peruana de mantenimiento y postventa con agendamiento online | Talleres formales con respaldo de marca |
+| **Ventaja competitiva** | Geolocalización + verificación + comparación de precios | Gran volumen de información | Servicio estructurado y digital | Servicio formal con respaldo empresarial y agendamiento digital | Garantía y respaldo técnico |
+| **Perfil de Marketing** ||||| 
+| **Mercado objetivo** | Conductores urbanos en Perú | Usuarios globales | Mercado latinoamericano | Usuarios en Perú que buscan servicios confiables | Segmento medio-alto |
+| **Estrategias de marketing** | Marketing digital, redes sociales, referidos | Posicionamiento SEO | Marketing digital | Publicidad digital y posicionamiento en Google | Publicidad corporativa |
+| **Perfil de Producto** ||||| 
+| **Productos & Servicios** | Búsqueda, cotización, chat, historial | Reseñas y ubicación | Diagnóstico, reservas | Mantenimiento, revisión técnica, postventa | Servicios especializados |
+| **Precios & Costos** | Comisión / freemium | Gratis | Pago por servicio | Precios definidos por servicio | Alto costo |
+| **Canales de distribución** | App móvil y web | Web y app | Web + app | Web (principalmente) | Talleres físicos |
+
+
+
+
+
+## 2.1.1 Análisis Competitivo – FODA 
+
+
+| Categoría | AutoMatch | Google Maps / Reseñas | Autingo | Maquinarias.pe | Cadenas formales (Bosch / Derco) |
+|----------|-----------|----------------------|---------|----------------|----------------------------------|
+| **Fortalezas** | Plataforma especializada en mecánica con geolocalización, verificación y comparación de precios en tiempo real. Enfoque en experiencia del usuario. | Gran base de usuarios y posicionamiento global. Alta visibilidad y facilidad de uso. | Plataforma estructurada con procesos digitales definidos. Experiencia en el rubro. | Respaldo empresarial y confianza del cliente. Servicios formales con agendamiento digital. | Alta confianza, respaldo técnico y estándares de calidad elevados. |
+| **Debilidades** | Marca nueva y menor reconocimiento. Dependencia de captar usuarios y mecánicos rápidamente. | No es una solución especializada. No valida mecánicos ni precios, información poco confiable. | No completamente adaptado al contexto peruano. Menor presencia local. | No funciona como marketplace. Limitado a su propia red de servicios. | Costos elevados y menor accesibilidad. Procesos menos ágiles. |
+| **Oportunidades** | Liderar el mercado peruano como primer marketplace especializado. Integración con pagos digitales locales. | Crecimiento continuo de usuarios y datos. Integración con más servicios. | Expansión a nuevos mercados en LATAM. Mejora de funcionalidades. | Crecimiento del sector automotriz digital en Perú. Mayor demanda online. | Expansión de sucursales y digitalización de servicios. |
+| **Amenazas** | Entrada de nuevos competidores similares. Desconfianza inicial del usuario. | Plataformas especializadas como AutoMatch que ofrecen mayor valor. | Nuevas startups más adaptadas al mercado local (como AutoMatch). | Apps más completas que permitan comparar precios y opciones (como AutoMatch). | Soluciones digitales más económicas y accesibles que reduzcan su mercado. |
+
 
 2.1.2. Estrategias y tácticas frente a competidores
+
+## 2.1.2 Estrategias y Tácticas frente a Competidores 
+
+Para competir eficazmente en el mercado peruano de servicios automotrices, AutoMatch implementa un conjunto de estrategias orientadas a diferenciarse de plataformas generalistas, servicios formales tradicionales y soluciones digitales existentes.
+
+---
+
+### Diferenciación por especialización
+
+A diferencia de Google Maps, que ofrece información general, AutoMatch se enfoca exclusivamente en servicios mecánicos, brindando una experiencia más precisa y útil.
+
+Esta especialización permite incorporar funcionalidades como:
+- Filtrado por tipo de servicio  
+- Diagnóstico inicial  
+- Comparación de opciones  
+
+---
+
+### Estrategia de confianza y verificación
+
+Frente a la desconfianza en el mercado, AutoMatch implementa:
+
+- Verificación de identidad y experiencia de mecánicos  
+- Sistema de calificaciones y reseñas reales  
+
+En comparación con plataformas como Google Maps o servicios informales, donde la información puede no estar validada, AutoMatch garantiza mayor confiabilidad en la elección del servicio.
+
+---
+
+### Transparencia y comparación de precios
+
+A diferencia de Maquinarias.pe o cadenas formales, donde los precios suelen ser poco visibles o fijos, AutoMatch ofrece:
+
+- Cotizaciones previas al servicio  
+- Comparación entre múltiples mecánicos  
+
+Esto reduce la incertidumbre del usuario y mejora la toma de decisiones.
+
+---
+
+### Geolocalización en tiempo real
+
+AutoMatch incorpora funcionalidades de ubicación avanzada:
+
+- Búsqueda de mecánicos cercanos  
+- Opción de emergencia ("mecánico más cercano")  
+
+Esta estrategia permite competir con la facilidad de uso de Google Maps, pero con mayor precisión y relevancia en el servicio.
+
+---
+
+### Adaptación al contexto peruano
+
+A diferencia de plataformas internacionales como Autingo, AutoMatch está diseñada específicamente para el mercado peruano:
+
+- Consideración de distritos, tráfico y comportamiento urbano  
+- Integración de métodos de pago locales (Yape, Plin, efectivo)  
+
+Esto genera mayor cercanía con el usuario y mejora la adopción.
+
+---
+
+### Modelo de negocio Freemium
+
+AutoMatch implementa un modelo accesible:
+
+- Uso gratuito para conductores  
+- Servicios premium para mecánicos (mayor visibilidad y prioridad)  
+
+Esta estrategia permite escalar rápidamente la base de usuarios, a diferencia de competidores con costos elevados o modelos rígidos.
+
+---
+
+### Estrategia de crecimiento y adquisición
+
+Para posicionarse en el mercado, AutoMatch aplicará:
+
+- Marketing digital en redes sociales  
+- Programas de referidos  
+- Alianzas con talleres y comunidades automotrices  
+
+Esto permite competir con el posicionamiento orgánico de Google Maps y la estructura corporativa de cadenas formales.
+
+
+
 
 2.2. Entrevistas
 
