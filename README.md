@@ -359,7 +359,36 @@ Esto permite competir con el posicionamiento orgánico de Google Maps y la estru
 
 2.3.2. User Task Matrix
 
+| Task | Luciana (Conductora) |  | Ricardo (Mecánico) |  |
+|------|----------------------|--|--------------------|--|
+|      | Frecuencia | Importancia | Frecuencia | Importancia |
+| Buscar mecánico | Always | High | Rarely | Medium |
+| Comparar opciones y precios | Often | High | Rarely | Medium |
+| Evaluar confianza (reseñas/recomendaciones) | Always | High | Sometimes | High |
+| Contactar mecánico / cliente | Often | High | Always | High |
+| Coordinar servicio (tiempo y lugar) | Often | High | Always | High |
+| Solicitar servicio | Sometimes | High | Rarely | Medium |
+| Ejecutar servicio mecánico | Rarely | Medium | Always | High |
+| Gestionar pagos | Often | High | Often | High |
+| Conseguir nuevos clientes | Rarely | Low | Always | High |
+| Mantener reputación | Rarely | Medium | Often | High |
 2.3.3. User Journey Mapping
+
+
+
+#### User Journey Map – Conductora (Luciana)
+
+![User Journey Map Conductora](assets/images/User%20Journey%20Map%20-%20User%20Journey%20Map%20–%20Conductora%20(Luciana)%20(1).jpg)
+
+---
+
+#### User Journey Map – Mecánico (Ricardo)
+
+![User Journey Map Mecánico](assets/images/User%20Journey%20Map%20-%20User%20Journey%20Map%20–%20Mecánico%20(Ricardo)%20(1).jpg)
+
+
+
+
 
 2.3.4. Empathy Mapping
 
