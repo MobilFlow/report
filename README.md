@@ -484,9 +484,18 @@ En general, Luis percibe que una solución digital bien implementada podría mej
 
 ### 2.2.3. Análisis de entrevistas
 
+Los resultados evidencian que el segmento de conductores entrevistados presenta la necesidad de encontrar mecánicos confiables, transparentes y cercanos. La falla de un vehículo no representa solo un problema técnico, sino también una interrupción importante en su rutina laboral y personal. Por ello, cualquier solución dirigida a este segmento debe enfocarse no solo en la reparación del auto, sino también en reducir la incertidumbre durante la búsqueda del servicio.
+
+Otro hallazgo relevante es que ambos entrevistados ya usan canales digitales para informarse, principalmente computadora y celular. Esto demuestra una apertura hacia herramientas tecnológicas que faciliten la búsqueda de mecánicos, especialmente si incluyen reseñas verificadas y referencias reales. En ese sentido, una aplicación orientada a este segmento tendría mayor aceptación si resuelve el problema de confianza y permite comparar opciones sin    generar riesgos adicionales
+
+En conclusión, el análisis de entrevistas permite identificar que el conductor típico de este segmento es una persona joven, profesional, dependiente de su vehículo para trabajar y altamente sensible a problemas de confianza en servicios mecánicos. Sus principales necesidades se centran en encontrar mecánicos confiables, evitar cobros injustos y acceder a información verificable antes de tomar una decisión. Estas características serán clave para definir los arquetipos y orientar la propuesta de valor de la solución.
+
 #### 2.3. Needfinding
 
-2.3.1. User Personas
+### 2.3.1. User Personas
+
+![](assets/user_persona/Luciana-Solis.png)
+![](assets/user_persona/Ricardo-Sánchez.png)
 
 2.3.2. User Task Matrix
 
