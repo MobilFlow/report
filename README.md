@@ -484,11 +484,21 @@ En general, Luis percibe que una solución digital bien implementada podría mej
 
 ### 2.2.3. Análisis de entrevistas
 
+**2.2.3.1 Segmento Objetivo Conductores**
+
 Los resultados evidencian que el segmento de conductores entrevistados presenta la necesidad de encontrar mecánicos confiables, transparentes y cercanos. La falla de un vehículo no representa solo un problema técnico, sino también una interrupción importante en su rutina laboral y personal. Por ello, cualquier solución dirigida a este segmento debe enfocarse no solo en la reparación del auto, sino también en reducir la incertidumbre durante la búsqueda del servicio.
 
 Otro hallazgo relevante es que ambos entrevistados ya usan canales digitales para informarse, principalmente computadora y celular. Esto demuestra una apertura hacia herramientas tecnológicas que faciliten la búsqueda de mecánicos, especialmente si incluyen reseñas verificadas y referencias reales. En ese sentido, una aplicación orientada a este segmento tendría mayor aceptación si resuelve el problema de confianza y permite comparar opciones sin    generar riesgos adicionales
 
-En conclusión, el análisis de entrevistas permite identificar que el conductor típico de este segmento es una persona joven, profesional, dependiente de su vehículo para trabajar y altamente sensible a problemas de confianza en servicios mecánicos. Sus principales necesidades se centran en encontrar mecánicos confiables, evitar cobros injustos y acceder a información verificable antes de tomar una decisión. Estas características serán clave para definir los arquetipos y orientar la propuesta de valor de la solución.
+En conclusión, el análisis permitio identifico que el conductor es dependiente de su vehículo para trabajar y altamente sensible a problemas de confianza en servicios mecánicos. Sus principales necesidades se centran en encontrar mecánicos confiables, evitar cobros injustos y acceder a información verificable antes de tomar una decisión. Estas características serán clave para definir los arquetipos y orientar la propuesta de valor de la solución.
+
+**2.2.3.1 Segmento Objetivo Mecanicos**
+
+Los resultados evidencian que el segmento de mecánicos entrevistado presenta una necesidad clara de captar clientes sin perder control operativo. Tanto Cristian como Luisa priorizan la capacidad de atender correctamente antes que incrementar volumen indiscriminadamente, mientras Carlo enfatiza el problema de dispersión y falta de centralización en la relación con clientes.
+
+Otro hallazgo relevante es que el valor esperado de una solución digital no se limita solo a generar clientes. Los tres entrevistados asocian valor con funcionalidades como visibilidad frente a nuevos usuarios, gestión de disponibilidad, reputación basada en reseñas y un mejor emparejamiento entre la necesidad del conductor y la especialidad del mecánico. Esto sugiere que una propuesta enfocada únicamente en listar mecánicos sería insuficiente si no incorpora mecanismos que generen confianza, mejoren el descubrimiento del servicio y faciliten conexiones más relevantes entre ambas partes.
+
+En conclusión, el mecánico típico de este segmento es un profesional que valora no solo captar nuevos clientes, sino hacerlo mediante canales que fortalezcan su visibilidad, reputación y acceso a oportunidades acordes con su especialidad. Sus principales necesidades se centran en recibir clientes de forma confiable, generar confianza a través de referencias y reseñas, mejorar su exposición frente a potenciales usuarios y acceder a una solución que facilite conexiones relevantes con conductores que realmente necesiten sus servicios. Estas características serán clave para construir los arquetipos del segmento y definir una propuesta de valor alineada a sus principales necesidades. 
 
 #### 2.3. Needfinding
 
@@ -522,6 +532,13 @@ En conclusión, el análisis de entrevistas permite identificar que el conductor
 | **Precio estimado** | Costo aproximado del servicio mostrado antes de su ejecución. |
 
 #### 2.4. Requirements specification
+
+| Epics |  |
+| :---- | ----- |
+| Epic 01: Manejo de Usuarios |  |
+| Epic 02: Manejo de Servicios |  |
+| Epic 03: Matching |  |
+| Epic 04: Calificación y reseñas  |  |
 
 2.4.1. User Stories
 
