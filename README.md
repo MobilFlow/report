@@ -501,7 +501,10 @@ En conclusión, el análisis de entrevistas permite identificar que el conductor
 
 2.3.3. User Journey Mapping
 
-2.3.4. Empathy Mapping
+### 2.3.4. Empathy Mapping
+
+![](assets/empathy-mapping/empathymap.jpg)
+![](assets/empathy-mapping/empathymap1.jpg)
 
 2.3.5. Ubiquitous Language
 
