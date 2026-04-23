@@ -245,13 +245,210 @@ Soy estudiante en la Universidad Peruana de Ciencias Aplicadas (UPC) cursando el
 
 2.1.2. Estrategias y tácticas frente a competidores
 
-2.2. Entrevistas
+## 2.2. Entrevistas
 
-2.2.1. Diseño de entrevistas
+### 2.2.1. Diseño de entrevistas
 
-2.2.2. Registro de entrevistas
 
-2.2.3. Análisis de entrevistas
+### 2.2.2. Registro de entrevistas
+
+[Url a Registros de Entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310609_upc_edu_pe/IQB6eMiOs_9NRJwg7FY-8HVuAd6emf_2sFNGlHnXcElmBYM?e=LIyASH&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+#### 2.2.2.1 Segmento Objetivo: Conductores
+
+**Entrevista N°1**
+
+![entrevista foto](assets/entrevistas/ane.png)
+
+
+**Datos del entrevistado**  
+- Nombre: Anedyib   
+- Apellidos: Villar  
+- Edad: 23  
+- Genero: Mujer  
+- Lugar de Residencia: Lima, Perú  
+- Estado civil: Soltera  
+- Ocupación: Analista de Marketing  
+- Tipo de vehículo: Automatico
+
+**Resumen de la entrevista:**
+
+Las respuestas de Ane reflejan que su principal frustración como propietaria de un auto está en la confianza y el temor a ser engañada al buscar servicios mecánicos. Aunque prefiere acudir al concesionario oficial de Nissan porque desconfía de los mecánicos de la calle, incluso dentro de ese canal ha tenido malas experiencias, como cobros por servicios incompletos o trabajos que no se realizaron correctamente. Para ella, el problema no es solo reparar el auto, sino tener la seguridad de que el servicio será honesto, cumplirá con lo solicitado y tendrá una relación justa entre calidad y precio.
+
+Otro punto importante es que su auto es una necesidad para su rutina diaria, tanto para ir a trabajar como para movilizarse por temas laborales, por lo que una falla representa una interrupción importante. Cuando necesita buscar soluciones, recurre principalmente a canales que le generan confianza, como directorios oficiales y referencias, aunque reconoce que encontrar opciones puede tomar tiempo. También menciona que suele evaluar alternativas dependiendo del tipo de problema, priorizando siempre confianza y reputación.
+
+Respecto a soluciones digitales, Ane muestra apertura hacia una aplicación para encontrar mecánicos cercanos, siempre que esté respaldada por una comunidad y referencias reales de usuarios. Para ella, la propuesta de valor más fuerte sería:
+
+* Referencias y reseñas verificadas de otros conductores.  
+* Transparencia en precios y cumplimiento del servicio ofrecido.  
+* Un espacio confiable, enfocado en la comunidad automotriz, que ayude a reducir el riesgo de malas experiencias.
+
+Con esto, percibe que podría tomar mejores decisiones, reducir la incertidumbre y encontrar mecánicos confiables más fácilmente.
+
+**Información de la entrevista**
+
+Duración: 4:30
+Minuto de inicio en el video consolidado: 0:00
+
+
+
+**Entrevista N°2**
+
+![entrevista foto](assets/entrevistas/jose.png)
+
+**Datos del entrevistado**  
+
+- Nombre: Jose  
+- Apellidos: Torrejon  
+- Edad: 27  
+- Genero: Hombre  
+- Lugar de Residencia: Lima, Perú  
+- Estado civil: Soltero  
+- Ocupación: Profesor de Marketing  
+- Tipo de vehículo: Automatico  
+**Información de la entrevista**  
+
+- Fecha de la entrevista: 14/04  
+- Duración: 4:08  
+- Minuto de inicio en el video consolidado: 0:00  
+
+**Resumen de la entrevista:**
+
+Las respuestas de José reflejan que su principal frustración como propietario de un auto está en la confianza y transparencia al buscar mecánicos. Explica que el problema no es solo “arreglar el auto”, sino todo lo que se vuelve complicado alrededor: dificultad para encontrar especialistas confiables, precios poco claros, y limitaciones logísticas cuando el vehículo no puede desplazarse. En su experiencia, ha tenido que pasar por cuatro mecánicos distintos hasta encontrar uno que le brinde cierta seguridad, aunque aún siente la necesidad de contar con segundas opiniones.
+
+Otro dolor fuerte es el costo económico y la incomodidad que generan las fallas del auto. José depende de su vehículo para ir a trabajar, ya que el transporte público no está cerca. Cuando el auto falla, primero investiga en internet y luego consulta con su mecánico de confianza, pero reconoce que los precios varían mucho y que incluso su mecánico actual le cobra más por servicios a domicilio. Esa falta de estandarización le genera dudas sobre si está pagando lo justo.
+
+En cuanto a la búsqueda de mecánicos, José señala que lo más complicado es la falta de referencias confiables. Prefiere que el mecánico vaya a su casa para supervisar el trabajo, pero reconoce que en reparaciones más complejas debe dejar el auto en el taller, lo que le genera inseguridad. No suele comparar opciones porque mover el auto es difícil cuando está dañado, lo que lo obliga a depender de un único contacto.
+
+Respecto a soluciones digitales, José estaría dispuesto a usar una aplicación para encontrar mecánicos cercanos, siempre que ofrezca reseñas y recomendaciones de otros usuarios. Para él, la propuesta de valor más fuerte sería:
+
+* Referencias verificadas que generen confianza.  
+* Transparencia en precios y servicios.  
+* Disponibilidad de mecánicos que puedan atender a domicilio.
+
+Con esto, percibe que reduciría la incertidumbre, evitaría sobrecostos y tendría mayor seguridad en el mantenimiento de su vehículo.
+
+
+#### 2.2.2.1 Segmento Objetivo: Mecanicos
+
+**Entrevista N°1**
+
+
+![entrevista foto](assets/entrevistas/christian.png)
+
+
+**Datos del entrevistado**  
+
+- Nombre: Christian  
+- Apellidos: Vilcahuamán  
+- Edad: 35  
+- Genero: Hombre  
+- Lugar de Residencia: Santa Anita  
+- Estado civil: Soltero  
+- Ocupación: administrador de taller automotriz.  
+
+**Información de la entrevista**  
+
+- Fecha de la entrevista: 14/04  
+- Duración:   
+- Minuto de inicio en el video consolidado: 0:00  
+
+**Resumen de la entrevista:**  
+Las respuestas de Cristian reflejan que su principal preocupación como administrador de taller no está en la falta de clientes, sino en la capacidad operativa para atenderlos correctamente. Explica que su flujo de trabajo está bastante estructurado, con procesos definidos desde la recepción hasta el control de calidad, y que la mayor dificultad para captar nuevos clientes radica en gestionar la disponibilidad de técnicos, el espacio del taller y evitar incumplimientos por retrasos en trabajos en curso. Además, menciona que la mayoría de sus clientes son recurrentes, por lo que la captación de nuevos clientes no ha sido una prioridad, aunque reconoce que sí representa una oportunidad de crecimiento.
+
+Otro punto importante es que Cristian muestra apertura hacia soluciones digitales, siempre que estas no solo generen clientes, sino que ayuden a optimizar la operación del taller. Estaría dispuesto a usar una aplicación que le envíe clientes cercanos si esta permite gestionar disponibilidad, coordinar horarios y evitar sobrecargar la capacidad del negocio. Sin embargo, también señala que desconfiaría de una solución que falle en mostrar información real sobre espacios o tiempos disponibles, ya que eso afectaría directamente el servicio y la reputación del taller. Para él, el valor principal de una herramienta digital está en combinar captación con confiabilidad y gestión operativa.
+
+
+**Entrevista N°2**
+
+![entrevista foto](assets/entrevistas/luisa.png)
+
+**Datos del entrevistado**  
+- Nombre: Luisa  
+- Apellidos: Rios  
+- Genero: Mujer  
+- Lugar de Residencia: Bruno Terrero, Salamanca  
+- Tipo de vehículo: Automatico  
+  
+**Información de la entrevista**  
+- Fecha de la entrevista: 14/04  
+- Duración: 4:08  
+- Minuto de inicio en el video consolidado: 0:00  
+  
+**Resumen de la entrevista:**
+
+Las respuestas de Luisa reflejan que su principal preocupación como técnica de máquinas domésticas no está en la falta de clientes, sino en la capacidad operativa para atenderlos correctamente. Explica que su flujo de trabajo está bastante estructurado, con procesos definidos desde la recepción hasta la entrega en perfectas condiciones de funcionamiento, y que la mayor dificultad para captar nuevos clientes radica en demostrar su confiabilidad y la calidad de su mano de obra. Además, menciona que la mayoría de sus clientes son recurrentes o referencias de clientes existentes, por lo que la captación de nuevos clientes no ha sido una prioridad, aunque reconoce que sí representa una oportunidad de crecimiento.
+
+Luisa muestra apertura hacia soluciones digitales, siempre que estas no solo generen clientes, sino que ayuden a optimizar su operación. Estaría dispuesta a usar una aplicación que le envíe clientes cercanos si esta permite demostrar su expertise a través de reseñas y comunicación clara. Sin embargo, también señala que desconfiaría de una solución que falle en mostrar información completa sobre los trabajos realizados, las condiciones en que recibe las máquinas y en qué estado debe entregarlas, ya que eso afectaría directamente el servicio y su reputación. Para ella, el valor principal de una herramienta digital está en combinar captación con eficiencia, comunicación clara y gestión de detalles operativos.
+
+**Entrevista N°3**
+
+![entrevista foto](assets/entrevistas/carlo.png)
+
+**Datos del entrevistado**
+- Nombre: Carlo
+- Apellidos: García
+- Edad: 23 años
+- Genero: Hombre
+- Lugar de Residencia: San Borja
+  
+**Información de la entrevista**
+
+- Fecha de la entrevista: 19/04
+- Duración: 8:33
+- Minuto de inicio en el video consolidado: 0:00
+
+**Resumen de la entrevista:**
+
+Las respuestas de Carlo reflejan que su principal frustración como mecánico automotriz está en la dispersión y volatilidad del mercado. Explica que el problema no es solo "reparar autos", sino todo lo que se vuelve complicado alrededor: la necesidad de estar presente en múltiples canales de comunicación (WhatsApp, Facebook, TikTok, Instagram), la falta de un lugar centralizado para comunicarse con clientes, y la dificultad para gestionar de manera eficiente tanto a proveedores como a clientes simultáneamente. Esta dispersión genera que tenga que cambiar constantemente entre aplicaciones y flujos diferentes, lo que es bastante trabajoso.
+Volatilidad de ingresos y flujo de clientes
+Otro dolor fuerte para Carlo es la inconsistencia en sus ganancias derivada del flujo irregular de clientes. Atiende entre 12 a 20 clientes por semana, pero este volumen es muy variable. Reconoce que depende mucho de las comisiones y que, aunque tiene clientes recurrentes (aproximadamente 30% nuevos y 70% recurrentes), hay días sin ningún cliente. Esta volatilidad le genera inseguridad financiera y dificulta la planificación.
+Dificultad para conseguir clientes de manera eficiente
+Señala que lo más complicado es lograr que los clientes lo encuentren de forma eficiente. Actualmente obtiene clientes a través de redes sociales y páginas de la mecánica, pero el proceso es disperso y poco organizado. No existe un canal centralizado donde los clientes puedan encontrarlo directamente según sus necesidades específicas.
+Soluciones digitales potenciales
+Respecto a una posible solución digital, Carlo estaría totalmente dispuesto a usar una aplicación que le enviara clientes a partir de sus necesidades. Para él, esta aplicación tendría que tener:
+Un canal de comunicación bien establecido y centralizado.
+Capacidad para interactuar, realizar ofertas y propuestas de forma directa.
+Evaluación de trabajos sin tener que cambiar entre múltiples plataformas.
+Con esto, Carlo percibe que reduciría la dispersión, mejoraría la eficiencia operativa y tendría un flujo más predecible de clientes.
+
+**Entrevista N°4**
+
+![entrevista foto](assets/entrevistas/luis.png)
+
+**Datos del entrevistado**  
+- Nombre: Luis   
+- Apellidos: Péres    
+- Edad: 23 años  
+- Genero: Hombre  
+- Lugar de Residencia: Chorrillos, Lima, Perú  
+
+**Información de la entrevista**  
+
+- Fecha de la entrevista: 20/04  
+- Duración: 3:49  
+- Minuto de inicio en el video consolidado: 0:00  
+
+**Resumen de la entrevista:**
+
+Las respuestas de Luis reflejan que uno de los principales desafíos desde el lado del taller es la inestabilidad en el flujo de clientes, lo que impacta directamente en la consistencia de los ingresos. Aunque el taller atiende entre 15 a 25 clientes por semana, esta demanda varía considerablemente, generando semanas con alta carga de trabajo y otras con baja actividad.
+
+Otro punto importante es la dificultad para captar nuevos clientes, ya que la confianza juega un rol clave en la decisión del usuario. Luis menciona que existe una fuerte competencia en el mercado, donde algunos talleres reducen precios para atraer clientes, lo que también genera una percepción enfocada en lo económico más que en la calidad del servicio.
+
+En cuanto a los canales digitales, el taller utiliza principalmente WhatsApp para la comunicación directa con los clientes y Facebook como medio para visualizar servicios y referencias. Esto evidencia una adopción digital básica, pero aún limitada en términos de herramientas especializadas.
+
+Respecto a soluciones digitales, Luis muestra una actitud positiva hacia una aplicación que pueda conectar talleres con clientes cercanos, ya que percibe que podría ayudar a incrementar la demanda. Sin embargo, establece condiciones claras para su adopción:
+
+* Facilidad de uso en la plataforma.  
+* Visualización clara de la ubicación de los clientes.  
+* Generación de clientes reales y potenciales.  
+* Sistema de referencias o reputación confiable.
+
+Por otro lado, los factores que generarían desconfianza incluyen que la aplicación no funcione correctamente, que los clientes no sean reales o que implique costos elevados sin resultados tangibles.
+
+En general, Luis percibe que una solución digital bien implementada podría mejorar la captación de clientes, estabilizar los ingresos del taller y fortalecer la confianza en el servicio, siempre que cumpla con estándares de funcionalidad, transparencia y efectividad.
+
+### 2.2.3. Análisis de entrevistas
 
 #### 2.3. Needfinding
 
