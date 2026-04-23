@@ -506,7 +506,20 @@ En conclusión, el análisis de entrevistas permite identificar que el conductor
 ![](assets/empathy-mapping/empathymap.jpg)
 ![](assets/empathy-mapping/empathymap1.jpg)
 
-2.3.5. Ubiquitous Language
+### 2.3.5. Ubiquitous Language
+
+| Término | Definición |
+| :---- | :---- |
+| **Usuario** | Persona que posee un vehículo y busca servicios mecánicos dentro de la plataforma. |
+| **Mecánico** | Proveedor de servicios de mantenimiento o reparación automotriz registrado en la plataforma. |
+| **Solicitud de servicio** | Pedido generado por un usuario para recibir atención mecánica. |
+| **Match** | Proceso mediante el cual la plataforma conecta a un usuario con uno o más mecánicos disponibles según criterios como ubicación y disponibilidad. |
+| **Servicio mecánico** | Trabajo solicitado por el usuario, como mantenimiento, reparación o diagnóstico del vehículo. |
+| **Disponibilidad** | Estado del mecánico que indica si puede atender solicitudes en un momento determinado. |
+| **Calificación** | Puntuación numérica otorgada por el usuario al mecánico tras finalizar un servicio. |
+| **Reseña** | Comentario cualitativo del usuario sobre la experiencia del servicio recibido. |
+| **Historial de servicios** | Registro de todos los servicios realizados por un usuario o mecánico dentro de la plataforma. |
+| **Precio estimado** | Costo aproximado del servicio mostrado antes de su ejecución. |
 
 #### 2.4. Requirements specification
 
