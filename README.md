@@ -203,15 +203,16 @@ Nuestra startup “MobilFlow” ofrece una aplicación innovadora que conecta a 
 **Visión:** Convertirnos en la plataforma líder en soluciones mecánicas automotrices, transformando la manera en que las personas encuentran y acceden a servicios de reparación, destacando por nuestra innovación, confianza y alcance a nivel nacional.
 
 
-1.1.2. Perfiles de integrantes del equipo
+##### 1.1.2. Perfiles de integrantes del equipo
 
-1.1.2.1 Gabriel Sánchez
+###### 1.1.2.1 Gabriel Sánchez
 
 Soy estudiante en la Universidad Peruana de Ciencias Aplicadas (UPC) cursando el 7mo ciclo de la carrera de Ingeniería de Software. Soy una persona comprometida con mi desarrollo académico y profesional. Con esa responsabilidad, aspiro a proveer soluciones tecnológicas a aquellos que las requieran para facilitar su área de trabajo. Junto con mi equipo de trabajo tendré la oportunidad de poner mis conocimientos y habilidades en uso con el proyecto “AutoMatch” con el fin de disminuir la problemática identificada. 
 Jhunior GiussepeTaquiri Calderon
 Soy estudiante en la Universidad Peruana de Ciencias Aplicadas (UPC) cursando el séptimo ciclo de la carrera de Ingeniería de Software.
-
-
+<div style="max-width:200px">
+  <img src="assets/images/sanchez gonzales.png" alt="imagen perfil sanchez gabriel">
+</div>
 1.2. Solution Profile
 
 1.2.1. Antecedentes y problemática
