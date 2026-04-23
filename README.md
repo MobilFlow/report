@@ -28,7 +28,7 @@
 |    |  |
 |    |  |
 |    |  |
-|    |  |
+|  Sanchez Gonzales, Gabriel  |    U202310609  |
 |  Tuesta Marin, Romina Alejandra  |    U202211706   |
 
 <strong> Julio, 2026</strong><br>
@@ -43,7 +43,7 @@
 | Versión | Fecha      | Autor        | Descripción de modificación                   |
 |---------|------------|--------------|-----------------------------------------------|
 | 1.0     | 6/09/2025 | Romina Tuesta | Creación de la estructura inicial del reporte, cargó archivos y actualizó una rama|
-
+| 1.0     | 23/04/2026 | Gabriel Sánchez Gonzales | Cargó archivos, Descripción de la Startup, diseño de entrevistas, user personas, empathy mapping, Ubiquitous language, product backlog, event storming y actualizó una rama|
 
 ---
 
