@@ -190,11 +190,11 @@ En el siguiente cuadro se describen las acciones realizadas y las conclusiones d
 ---
 
 
-### Capítulo I: Presentación
+# Capítulo I: Presentación
 
-#### 1.1. Startup Profile
+## 1.1. Startup Profile
 
-##### 1.1.1. Descripción de la Startup
+### 1.1.1. Descripción de la Startup
 
 Nuestra startup “MobilFlow” ofrece una aplicación innovadora que conecta a proveedores de servicios mecánicos con usuarios que usan regularmente un auto particular como transporte principal. Ofrecemos una solución accesible e independiente para que el usuario pueda encontrar la mejor opción para realizar servicios de mecánica y reparación de autos, con un modelo de negocio que ayuda a quienes usan autos particulares a encontrar el mejor mecánico disponible según sus necesidades. Para ello, investigaremos cómo cumplir con esta meta, identificando y recolectando fuentes sobre modelos de negocio similares, y planificaremos el diseño y la codificación de nuestra solución.
 
@@ -203,9 +203,9 @@ Nuestra startup “MobilFlow” ofrece una aplicación innovadora que conecta a 
 **Visión:** Convertirnos en la plataforma líder en soluciones mecánicas automotrices, transformando la manera en que las personas encuentran y acceden a servicios de reparación, destacando por nuestra innovación, confianza y alcance a nivel nacional.
 
 
-##### 1.1.2. Perfiles de integrantes del equipo
+### 1.1.2. Perfiles de integrantes del equipo
 
-###### 1.1.2.1 Gabriel Sánchez
+#### 1.1.2.1 Gabriel Sánchez
 
 Soy estudiante en la Universidad Peruana de Ciencias Aplicadas (UPC) cursando el 7mo ciclo de la carrera de Ingeniería de Software. Soy una persona comprometida con mi desarrollo académico y profesional. Con esa responsabilidad, aspiro a proveer soluciones tecnológicas a aquellos que las requieran para facilitar su área de trabajo. Junto con mi equipo de trabajo tendré la oportunidad de poner mis conocimientos y habilidades en uso con el proyecto “AutoMatch” con el fin de disminuir la problemática identificada. 
 Jhunior GiussepeTaquiri Calderon
@@ -227,11 +227,19 @@ Soy estudiante en la Universidad Peruana de Ciencias Aplicadas (UPC) cursando el
 
 1.2.2.4. Lean UX Canvas
 
-1.3. Segmentos objetivo
+## 1.3. Segmentos objetivo
 
-### Capítulo II: Requirements Development and Software Solution Design
+**Segmento objetivo 1: Mecánicos**
+- Profesionales o técnicos que brindan servicios de diagnóstico, mantenimiento y reparación automotriz, y buscan captar clientes, generar confianza y mejorar la visibilidad de sus servicios.
 
-#### 2.1. Competidores
+
+**Segmento objetivo 2: Conductores**
+- Propietarios de vehículos que requieren servicios mecánicos confiables para mantener la operatividad de su auto y reducir la incertidumbre al buscar atención técnica.
+
+
+# Capítulo II: Requirements Development and Software Solution Design
+
+## 2.1. Competidores
 
 2.1.1. Análisis competitivo
 
