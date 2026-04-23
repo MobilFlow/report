@@ -249,6 +249,40 @@ Soy estudiante en la Universidad Peruana de Ciencias Aplicadas (UPC) cursando el
 
 ### 2.2.1. Diseño de entrevistas
 
+#### 2.2.1.1 Preguntas Generales
+
+1. Nombre  
+2. Edad  
+3. Género  
+4. Distrito de residencia  
+5. Estado civil  
+6. Ocupación  
+7. Canales digitales que usa para informarse, contratar o promover servicios  
+8. Dispositivos que utiliza con mayor frecuencia
+
+#### 2.2.1.2 Segmento Objetivo: Mecanicos
+
+1. ¿Cómo es el proceso desde que un cliente te contacta hasta que terminas el servicio?  
+2. ¿Cuántos clientes atiendes en una semana promedio?  
+3. ¿Sientes que este flujo de clientes deriva en una inconsistencia de ganancias?  
+4. ¿Qué porcentaje de tus clientes son nuevos vs recurrentes?  
+5. ¿Qué es lo más difícil de conseguir clientes nuevos?  
+6. ¿Qué te frustra del mercado actual?  
+7. Si existiera una app que te envía clientes cercanos, ¿la usarías?  
+8. ¿Qué tendría que tener para que realmente la uses?  
+9. ¿Qué te haría desconfiar de esa app?
+
+#### 2.2.1.3 Segmento Objetivo: Conductores**
+
+1. ¿Que tipo de vehículo que poses, mecanico o automatico?  
+2. ¿Qué tan necesario es tu auto en tu día a día?  
+3. ¿Qué pasa cuando tu auto falla?  
+4. ¿Cómo buscas un mecánico hoy?  
+5. ¿Cuánto tiempo te tomó encontrarlo?  
+6. ¿Cuál es tu mayor problema al buscar un mecánico?  
+7. ¿Alguna vez te han engañado o cobrado de más?  
+8. ¿Comparas opciones antes de elegir?  
+9. ¿Usarías una app para encontrar mecánicos cercanos? ¿Qué tendría que tener para que confíes en ella?
 
 ### 2.2.2. Registro de entrevistas
 
