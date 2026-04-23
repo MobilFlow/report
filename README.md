@@ -194,7 +194,14 @@ En el siguiente cuadro se describen las acciones realizadas y las conclusiones d
 
 #### 1.1. Startup Profile
 
-1.1.1. Descripción de la Startup
+##### 1.1.1. Descripción de la Startup
+
+Nuestra startup “MobilFlow” ofrece una aplicación innovadora que conecta a proveedores de servicios mecánicos con usuarios que usan regularmente un auto particular como transporte principal. Ofrecemos una solución accesible e independiente para que el usuario pueda encontrar la mejor opción para realizar servicios de mecánica y reparación de autos, con un modelo de negocio que ayuda a quienes usan autos particulares a encontrar el mejor mecánico disponible según sus necesidades. Para ello, investigaremos cómo cumplir con esta meta, identificando y recolectando fuentes sobre modelos de negocio similares, y planificaremos el diseño y la codificación de nuestra solución.
+
+**Misión:** Brindar a los usuarios de autos particulares una forma rápida, confiable y accesible de encontrar servicios mecánicos de calidad, conectándolos con proveedores verificados mediante una plataforma eficiente e intuitiva.
+
+**Visión:** Convertirnos en la plataforma líder en soluciones mecánicas automotrices, transformando la manera en que las personas encuentran y acceden a servicios de reparación, destacando por nuestra innovación, confianza y alcance a nivel nacional.
+
 
 1.1.2. Perfiles de integrantes del equipo
 
