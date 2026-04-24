@@ -1,23 +1,23 @@
 <div align="center">
 
-<img alt="upc-logo" src="assets/upc_logo_200x200_jao73r.png" width="200"/><br>
+<img alt="upc-logo" src="assets/upc-logo.png" width="200"/><br>
 
 <h3>Universidad Peruana de Ciencias Aplicadas</h3>
 
 <strong>Facultad de Ingeniería</strong><br>
 <strong>Carrera: Ingeniería de Software</strong><br>
 
-<strong>Periodo: 202601 </strong><br>
-<strong>Codigo del curso: </strong><br>
-<strong>Nombre del curso: </strong><br>
-<strong>NRC: <br>
+<strong>Periodo:</strong> 202601<br>
+<strong>Codigo del curso:</strong> 1ACC0238<br>
+<strong>Nombre del curso:</strong> Aplicaciones para Dispositivos Móviles<br>
+<strong>NRC:</strong> 3690<br>
 
-<strong>Nombre del profesor: </strong><br>
+<strong>Nombre del profesor:</strong> Jorge Luis Mayta Guillermo<br>
 
 <br><strong>*Informe de Trabajo Final*</strong><br><br>
 
-<strong>Nombre del startup: </strong><br>
-<strong>Nombre del producto: </strong><br>
+<strong>Nombre del startup: </strong>MobilFlow<br>
+<strong>Nombre del producto: </strong>Automatch<br>
 
 
 
@@ -36,7 +36,7 @@
 
 # Project Report Collaboration Insights
 
- 
+
 
 # Registro de Versiones del Informe
 
@@ -208,7 +208,7 @@ Nuestra startup “MobilFlow” ofrece una aplicación innovadora que conecta a 
 Soy estudiante en la Universidad Peruana de Ciencias Aplicadas (UPC) cursando el 7mo ciclo de la carrera de Ingeniería de Software. Soy una persona comprometida con mi desarrollo académico y profesional. Con esa responsabilidad, aspiro a proveer soluciones tecnológicas a aquellos que las requieran para facilitar su área de trabajo. Junto con mi equipo de trabajo tendré la oportunidad de poner mis conocimientos y habilidades en uso con el proyecto “AutoMatch” con el fin de disminuir la problemática identificada. 
 Jhunior GiussepeTaquiri Calderon
 Soy estudiante en la Universidad Peruana de Ciencias Aplicadas (UPC) cursando el séptimo ciclo de la carrera de Ingeniería de Software.
-<div style="max-width:200px">
+<div style="max-width:100px">
   <img src="assets/images/sanchez gonzales.png" alt="imagen perfil sanchez gabriel">
 </div>
 1.2. Solution Profile
