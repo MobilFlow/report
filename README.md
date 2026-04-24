@@ -263,7 +263,7 @@ A través de un ecosistema móvil intuitivo que permita geolocalizar talleres, c
 #### How much?
 La problemática genera pérdidas económicas por reparaciones mal ejecutadas. La solución requiere una inversión en desarrollo de software, recolección de datos y estrategias de validación de proveedores.
 
-1.2.2. Lean UX Process
+### 1.2.2. Lean UX Process
 
 #### 1.2.2.1. Lean UX Problem Statements
 
@@ -272,6 +272,47 @@ Observamos que la falta de una plataforma centralizada genera una asimetría de 
 
 1.2.2.2. Lean UX Assumptions
 
+#### 1.2.2.2. Lean UX Assumptions
+
+##### 1. Business Assumptions
+
+- **Creemos que nuestros clientes tienen la necesidad de:**  
+  Encontrar mecánicos de confianza sin tener que depender exclusivamente de recomendaciones informales o visitas físicas inciertas.
+
+- **El valor principal que el cliente obtiene de AutoMatch es:**  
+  La transparencia en precios, la seguridad de contratar a alguien verificado y el ahorro de tiempo en la búsqueda.
+
+- **Nuestros clientes actuales (o futuros) son:**  
+  Propietarios de vehículos particulares, de entre 20 y 55 años, con poco conocimiento técnico automotriz y alta dependencia de su auto para el día a día.
+
+- **Nuestra principal competencia son:**  
+  Los concesionarios oficiales (por estatus/garantía) y los talleres informales de barrio (por cercanía/costo).
+
+- **Nuestra mayor ventaja competitiva será:**  
+  El sistema de reputación (reviews) y la facilidad de geolocalización de servicios especializados.
+
+- **Ganaremos dinero mediante:**  
+  Comisiones por cada servicio concretado, suscripciones premium para talleres o espacios publicitarios de proveedores de repuestos.
+
+---
+
+###### 2. User Assumptions
+
+- **¿Quién es el usuario?**  
+  Personas que usan su auto para trabajar o movilizar a su familia y que ven el mantenimiento como un gasto estresante y opaco.
+
+- **¿Dónde encaja nuestro producto en su vida?**  
+  Como la herramienta de consulta inmediata ante un testigo prendido en el tablero o el vencimiento de un mantenimiento preventivo.
+
+- **¿Qué problemas resuelve nuestro producto?**  
+  El miedo a ser estafado, la incertidumbre del costo y la dificultad de encontrar un taller con disponibilidad inmediata.
+
+- **¿Cuándo y cómo se utiliza el producto?**  
+  Principalmente en situaciones de emergencia (averías en ruta) o en la planificación semanal de mantenimientos.
+
+- **¿Qué miedo tienen los usuarios sobre nuestra app?**  
+  Que los mecánicos listados no sean realmente evaluados o que la aplicación sea difícil de usar en un momento de estrés.
+  
 1.2.2.3. Lean UX Hypothesis Statements
 
 1.2.2.4. Lean UX Canvas
