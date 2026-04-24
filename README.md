@@ -312,9 +312,29 @@ Observamos que la falta de una plataforma centralizada genera una asimetría de 
 
 - **¿Qué miedo tienen los usuarios sobre nuestra app?**  
   Que los mecánicos listados no sean realmente evaluados o que la aplicación sea difícil de usar en un momento de estrés.
-  
-1.2.2.3. Lean UX Hypothesis Statements
 
+#### 1.2.2.3. Lean UX Hypothesis Statements
+
+##### 1. Hipótesis de Confianza y Validación
+
+Creemos que aumentaremos la tasa de conversión de solicitudes de servicio si los propietarios de autos particulares logran sentirse seguros al elegir un taller mediante la visualización de perfiles de mecánicos con reseñas verificadas y certificaciones.
+
+##### 2. Hipótesis de Comparación de Precios
+
+Creemos que reduciremos el abandono de la aplicación si los usuarios logran evitar la tediosa búsqueda manual con una funcionalidad de solicitud de presupuestos múltiples (multi-quote) que les permita comparar costos en tiempo real.
+
+##### 3. Hipótesis de Adopción para el Mecánico
+
+Creemos que garantizaremos una oferta de servicios estable si los mecánicos independientes logran reducir sus tiempos muertos y organizar su flujo de caja mediante un panel de gestión de citas y pagos anticipados.
+
+##### 4. Hipótesis de Retención
+
+Creemos que incrementaremos el valor de vida del cliente (LTV) si los conductores logran mantener su auto en óptimas condiciones con un sistema de alertas inteligentes de mantenimiento preventivo basado en el kilometraje y modelo del auto.
+
+##### 5. Hipótesis de Geolocalización
+
+Creemos que nos posicionaremos como la herramienta de auxilio líder si los usuarios en situaciones de emergencia logran encontrar ayuda inmediata mediante el botón de "Mecánico más cercano" con rastreo en tiempo real.
+ 
 1.2.2.4. Lean UX Canvas
 
 ## 1.3. Segmentos objetivo
