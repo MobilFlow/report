@@ -986,6 +986,10 @@ En conclusión, el mecánico típico de este segmento es un profesional que valo
 
 2.4.2. Impact Mapping
 
+<div style="max-width:100px">
+  <img src="assets/entrevistas/DDD/Impact Mapping Template (1).jpg" alt="imagen perfil sanchez gabriel">
+</div>
+
 ### 2.4.3. Product Backlog
 
 | # Orden | User Story Id | Título | Story Points (1 / 2 / 3 / 5 / 8) |
