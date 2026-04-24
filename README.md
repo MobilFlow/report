@@ -25,7 +25,6 @@
 
 | Apellidos y Nombres                  |   Código    |
 |:------------------------------------:|:-----------:|
-|                                      |             |
 | Villugas Jeronimo, Liam Anderson     | U202211634  |
 | Taquiri Calderon, Jhunior Giussepe     | U20221C576 |
 | Sanchez Gonzales, Gabriel            | U202310609  |
@@ -43,7 +42,6 @@
 
 | Versión | Fecha      | Autor        | Descripción de modificación                   |
 |---------|------------|--------------|-----------------------------------------------|
-| 1.0     | 6/09/2025 | Romina Tuesta | Creación de la estructura inicial del reporte, cargó archivos y actualizó una rama|
 | 1.0     | 23/04/2026 | Gabriel Sánchez Gonzales | Cargó archivos, Descripción de la Startup, diseño de entrevistas, entrevistas, user personas, empathy mapping, Ubiquitous language, product backlog, event storming y actualizó una rama|
 | 1.0     | 23/04/2026 | Braulio Rodrigo Torrejon Navarro | Cargo archivos, entrevistas, user stories, candidate context discovery, domain message flow modeling, bounded context canvases, software architecture y impact mapping |
 | 1.0     | 23/04/2026 | Giussepe Taquiri             | Análisis competitivo, estrategias y tácticas frente a competidores, User Task Matrix y User Journey Mapping |
@@ -53,118 +51,176 @@
 ---
 
 ## Contenido
-- [Student Outcome](#student-outcome)
-- [Capítulo I: Introducción](#capítulo-i-introducción)
-    - [1.1. Startup Profile](#11-startup-profile)
-        - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-        - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-    - [1.2. Solution Profile](#12-solution-profile)
-        - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
-        - [1.2.2. Lean UX Process](#122-lean-ux-process)
-  - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-  - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-  - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-  - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-    - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
-    - [2.1. Competidores](#21-competidores)
-        - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-        - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-    - [2.2. Entrevistas](#22-entrevistas)
-        - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-        - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-        - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-    - [2.3. Needfinding](#23-needfinding)
-        - [2.3.1. User Personas](#231-user-personas)
-        - [2.3.2. User Task Matrix](#232-user-task-matrix)
-        - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-        - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-        - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-    - [2.4. Ubiquitous Language](#24-ubiquitous-language)
-- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-    - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-    - [3.2. User Stories](#32-user-stories)
-    - [3.3. Impact Mapping](#33-impact-mapping)
-    - [3.4. Product Backlog](#34-product-backlog)
-- [Capítulo IV: Product Design](#capítulo-iv-product-design)
-    - [4.1. Style Guidelines](#41-style-guidelines)
-        - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
-        - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
-    - [4.2. Information Architecture](#42-information-architecture)
-        - [4.2.1. Organization Systems](#421-organization-systems)
-        - [4.2.2. Labeling Systems](#422-labeling-systems)
-        - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
-        - [4.2.4. Searching Systems](#424-searching-systems)
-        - [4.2.5. Navigation Systems](#425-navigation-systems)
-    - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
-        - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
-        - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
-    - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
-        - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
-        - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
-        - [4.4.2. Web Applications Mock-ups](#442-web-applications-mock-ups)
-        - [4.4.3. Web Applications User Flow Diagrams](#443-web-applications-user-flow-diagrams)
-    - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
-    - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
-        - [4.6.1. Software Architecture Context Diagram](#461-software-architecture-context-diagram)
-        - [4.6.2. Software Architecture Container Diagrams](#462-software-architecture-container-diagrams)
-        - [4.6.3. Software Architecture Components Diagrams](#463-software-architecture-components-diagrams)
-    - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
-        - [4.7.1. Class Diagrams](#471-class-diagrams)
-        - [4.7.2. Class Dictionary](#472-class-dictionary)
-    - [4.8. Database Design](#48-database-design)
-        - [4.8.1. Database Diagram](#481-database-diagram)
-- [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
-    - [5.1. Software Configuration Management](#51-software-configuration-management)
-        - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
-        - [5.1.2. Source Code Management](#512-source-code-management)
-        - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
-        - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
-    - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
-    - [5.2.1. Sprint 1](#521-sprint-1)
-        - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
-        - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
-        - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
-        - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
-        - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
-        - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
-        - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
-        - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-    - [5.2.2. Sprint 2](#522-sprint-2)
-        - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)          
-        - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
-        - [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)            
-        - [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
-        - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
-        - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
-        - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
-        - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
-    - [5.2.3. Sprint 3](#523-sprint-3)
-        - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
-        - [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
-        - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
-        - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
-        - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
-        - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
-        - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
-        - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
-      - [5.2.4. Sprint 4](#524-sprint-4)
-          - [5.2.4.1. Sprint Planning 3](#5241-sprint-planning-4)
-          - [5.2.4.2. Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)
-          - [5.2.4.3. Sprint Backlog 3](#5243-sprint-backlog-4)
-          - [5.2.4.4. Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
-          - [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
-          - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
-          - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
-          - [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
-
-    - [5.3. Validation Interviews](#53-validation-interviews)
-        - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
-        - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
-        - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
-
-    - [5.4. Video About-the-Product](#54-video-about-the-product)
+- [Project Report Collaboration Insights](#project-report-collaboration-insights)
+- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+  - [Contenido](#contenido)
+  - [Student Outcome](#student-outcome)
+- [Capítulo I: Presentación](#capítulo-i-presentación)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+      - [1.1.2.1 Gabriel Sánchez](#1121-gabriel-sánchez)
+      - [1.1.2.4 Braulio Torrejon](#1124-braulio-torrejon)
+      - [1.1.2.5  Giussepe Taquiri](#1125--giussepe-taquiri)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+      - [What?](#what)
+      - [When?](#when)
+      - [Where?](#where)
+      - [Who?](#who)
+      - [Why?](#why)
+      - [How?](#how)
+      - [How much?](#how-much)
+    - [1.2.2. Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+        - [1. Business Assumptions](#1-business-assumptions)
+          - [2. User Assumptions](#2-user-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+        - [1. Hipótesis de Confianza y Validación](#1-hipótesis-de-confianza-y-validación)
+        - [2. Hipótesis de Comparación de Precios](#2-hipótesis-de-comparación-de-precios)
+        - [3. Hipótesis de Adopción para el Mecánico](#3-hipótesis-de-adopción-para-el-mecánico)
+        - [4. Hipótesis de Retención](#4-hipótesis-de-retención)
+        - [5. Hipótesis de Geolocalización](#5-hipótesis-de-geolocalización)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+- [Capítulo II: Requirements Development and Software Solution Design](#capítulo-ii-requirements-development-and-software-solution-design)
+  - [2.1. Competidores](#21-competidores)
+    - [¿Por qué llevar a cabo este análisis?](#por-qué-llevar-a-cabo-este-análisis)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+      - [Competitive Analysis Landscape](#competitive-analysis-landscape)
+    - [Comparativa general](#comparativa-general)
+    - [Análisis FODA comparativo](#análisis-foda-comparativo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+      - [Diferenciación por especialización](#diferenciación-por-especialización)
+      - [Estrategia de confianza y verificación](#estrategia-de-confianza-y-verificación)
+      - [Transparencia y comparación de precios](#transparencia-y-comparación-de-precios)
+      - [Geolocalización en tiempo real](#geolocalización-en-tiempo-real)
+      - [Adaptación al contexto peruano](#adaptación-al-contexto-peruano)
+      - [Estrategia de crecimiento y adquisición](#estrategia-de-crecimiento-y-adquisición)
+      - [Integración de pasarela de pago](#integración-de-pasarela-de-pago)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+      - [2.2.1.1 Preguntas Generales](#2211-preguntas-generales)
+      - [2.2.1.2 Segmento Objetivo: Mecanicos](#2212-segmento-objetivo-mecanicos)
+      - [2.2.1.3 Segmento Objetivo: Conductores\*\*](#2213-segmento-objetivo-conductores)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+      - [2.2.2.1 Segmento Objetivo: Conductores](#2221-segmento-objetivo-conductores)
+      - [2.2.2.1 Segmento Objetivo: Mecanicos](#2221-segmento-objetivo-mecanicos)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+      - [User Journey Map – Conductora (Luciana)](#user-journey-map--conductora-luciana)
+      - [User Journey Map – Mecánico (Ricardo)](#user-journey-map--mecánico-ricardo)
+    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+    - [2.3.5. Ubiquitous Language](#235-ubiquitous-language)
+      - [2.4. Requirements specification](#24-requirements-specification)
+    - [2.4.1. User Stories](#241-user-stories)
+    - [**2.4.1.1 User Stories**](#2411-user-stories)
+    - [](#)
+    - [](#-1)
+    - [](#-2)
+    - [](#-3)
+    - [](#-4)
+    - [](#-5)
+    - [](#-6)
+    - [](#-7)
+    - [](#-8)
+    - [](#-9)
+    - [](#-10)
+    - [](#-11)
+    - [](#-12)
+    - [](#-13)
+    - [](#-14)
+    - [](#-15)
+    - [](#-16)
+    - [](#-17)
+    - [](#-18)
+    - [](#-19)
+    - [](#-20)
+    - [](#-21)
+    - [](#-22)
+    - [](#-23)
+    - [](#-24)
+    - [](#-25)
+    - [**2.4.1.2 Technical Stories - Todos**](#2412-technical-stories---todos)
+    - [](#-26)
+    - [](#-27)
+    - [](#-28)
+    - [](#-29)
+    - [](#-30)
+    - [](#-31)
+    - [](#-32)
+    - [](#-33)
+    - [](#-34)
+    - [](#-35)
+    - [**2.4.1.3 Spike Stories - Gabriel**](#2413-spike-stories---gabriel)
+    - [](#-36)
+    - [](#-37)
+    - [](#-38)
+    - [2.4.3. Product Backlog](#243-product-backlog)
+  - [2.5. Strategic-Level Domain-Driven Design](#25-strategic-level-domain-driven-design)
+    - [2.5.1. EventStorming](#251-eventstorming)
+      - [2.5.2. Context Mapping](#252-context-mapping)
+      - [2.6. Tactical-Level Domain-Driven Design](#26-tactical-level-domain-driven-design)
+    - [2.6.1. Bounded Context: ServiceCatalogContext](#261-bounded-context-servicecatalogcontext)
+      - [2.6.1.1. Domain Layer](#2611-domain-layer)
+      - [2.6.1.2. Interface Layer](#2612-interface-layer)
+      - [2.6.1.3. Application Layer](#2613-application-layer)
+      - [2.6.1.4 Infrastructure Layer](#2614-infrastructure-layer)
+      - [2.6.1.5. Bounded Context Software Architecture Component Level Diagrams](#2615-bounded-context-software-architecture-component-level-diagrams)
+      - [2.6.1.6. Bounded Context Software Architecture Code Level Diagrams](#2616-bounded-context-software-architecture-code-level-diagrams)
+        - [2.6.1.6.1. Bounded Context Domain Layer Class Diagrams](#26161-bounded-context-domain-layer-class-diagrams)
+        - [2.6.1.6.2. Bounded Context Database Design Diagram](#26162-bounded-context-database-design-diagram)
+    - [2.6.2. Bounded Context: UserIdentityContext (IAM)](#262-bounded-context-useridentitycontext-iam)
+      - [2.6.2.1. Domain Layer](#2621-domain-layer)
+      - [2.6.2.2. Interface Layer](#2622-interface-layer)
+      - [2.6.2.3. Application Layer](#2623-application-layer)
+      - [2.6.2.4 Infrastructure Layer](#2624-infrastructure-layer)
+      - [2.6.2.5. Bounded Context Software Architecture Component Level Diagrams](#2625-bounded-context-software-architecture-component-level-diagrams)
+      - [2.6.2.6. Bounded Context Software Architecture Code Level Diagrams](#2626-bounded-context-software-architecture-code-level-diagrams)
+        - [2.6.2.6.1. Bounded Context Domain Layer Class Diagrams](#26261-bounded-context-domain-layer-class-diagrams)
+        - [2.6.2.6.2. Bounded Context Database Design Diagram](#26262-bounded-context-database-design-diagram)
+    - [2.6.3. Bounded Context: DiagnosisContext](#263-bounded-context-diagnosiscontext)
+      - [2.6.3.1. Domain Layer](#2631-domain-layer)
+      - [2.6.3.2. Interface Layer](#2632-interface-layer)
+      - [2.6.3.3. Application Layer](#2633-application-layer)
+      - [2.6.3.4 Infrastructure Layer](#2634-infrastructure-layer)
+      - [2.6.3.5. Bounded Context Software Architecture Component Level Diagrams](#2635-bounded-context-software-architecture-component-level-diagrams)
+      - [2.6.3.6. Bounded Context Software Architecture Code Level Diagrams](#2636-bounded-context-software-architecture-code-level-diagrams)
+        - [2.6.3.6.1. Bounded Context Domain Layer Class Diagrams](#26361-bounded-context-domain-layer-class-diagrams)
+        - [2.6.3.6.2. Bounded Context Database Design Diagram](#26362-bounded-context-database-design-diagram)
+    - [2.6.4. Bounded Context: ReputationContext](#264-bounded-context-reputationcontext)
+      - [2.6.4.1. Domain Layer](#2641-domain-layer)
+      - [2.6.4.2. Interface Layer](#2642-interface-layer)
+      - [2.6.4.3. Application Layer](#2643-application-layer)
+      - [2.6.4.4 Infrastructure Layer](#2644-infrastructure-layer)
+      - [2.6.4.5. Bounded Context Software Architecture Component Level Diagrams](#2645-bounded-context-software-architecture-component-level-diagrams)
+      - [2.6.4.6. Bounded Context Software Architecture Code Level Diagrams](#2646-bounded-context-software-architecture-code-level-diagrams)
+        - [2.6.4.6.1. Bounded Context Domain Layer Class Diagrams](#26461-bounded-context-domain-layer-class-diagrams)
+        - [2.6.4.6.2. Bounded Context Database Design Diagram](#26462-bounded-context-database-design-diagram)
+    - [2.6.5. Bounded Context: ServiceManagementContext](#265-bounded-context-servicemanagementcontext)
+      - [2.6.5.1. Domain Layer](#2651-domain-layer)
+      - [2.6.5.2. Interface Layer](#2652-interface-layer)
+      - [2.6.5.3. Application Layer](#2653-application-layer)
+      - [2.6.5.4 Infrastructure Layer](#2654-infrastructure-layer)
+      - [2.6.5.5. Bounded Context Software Architecture Component Level Diagrams](#2655-bounded-context-software-architecture-component-level-diagrams)
+      - [2.6.5.6. Bounded Context Software Architecture Code Level Diagrams](#2656-bounded-context-software-architecture-code-level-diagrams)
+        - [2.6.5.6.1. Bounded Context Domain Layer Class Diagrams](#26561-bounded-context-domain-layer-class-diagrams)
+        - [2.6.5.6.2. Bounded Context Database Design Diagram](#26562-bounded-context-database-design-diagram)
+  - [Capítulo III: Solution UI/UX Design](#capítulo-iii-solution-uiux-design)
+    - [3.1. Product design](#31-product-design)
+    - [3.1.1. Style Guidelines](#311-style-guidelines)
+      - [3.1.1.1. General Style Guidelines](#3111-general-style-guidelines)
+    - [3.1.2. Information Architecture](#312-information-architecture)
+      - [3.1.2.1. Organization Systems](#3121-organization-systems)
+      - [3.1.2.2. Labelling Systems](#3122-labelling-systems)
+  - [Capítulo IV: Product Implementation \& Validation](#capítulo-iv-product-implementation--validation)
+    - [4. Product Implementation \& Validation](#4-product-implementation--validation)
+      - [4.3. Validation Interviews](#43-validation-interviews)
 - [Conclusiones](#conclusiones)
+- [Anexos](#anexos)
+  - [Anexo A: Links](#anexo-a-links)
 
 ---
 
@@ -269,8 +325,6 @@ La problemática genera pérdidas económicas por reparaciones mal ejecutadas. L
 
 El estado actual de la industria de servicios mecánicos para usuarios de autos particulares está fragmentado y carece de transparencia. A pesar de la alta demanda de mantenimientos y reparaciones, no existe un estándar digital que permita a los conductores validar la confianza, calidad y precio de los proveedores de forma rápida.
 Observamos que la falta de una plataforma centralizada genera una asimetría de información: los usuarios pierden tiempo y dinero en servicios deficientes, mientras que los mecánicos calificados pierden oportunidades de negocio por falta de visibilidad. Esto ha creado una brecha de desconfianza en el ecosistema automotriz que afecta la seguridad vial y la economía de los conductores.
-
-1.2.2.2. Lean UX Assumptions
 
 #### 1.2.2.2. Lean UX Assumptions
 
@@ -1345,7 +1399,7 @@ Durante el EventStorming se aplicó la técnica look-for-pivotal-events para ide
 
 #### 2.6. Tactical-Level Domain-Driven Design
 
-2.6.1. Bounded Context: ServiceCatalogContext 
+### 2.6.1. Bounded Context: ServiceCatalogContext 
 
 En esta sección se describe el contexto encargado de la gestión del catálogo de servicios mecánicos, incluyendo su publicación, actualización y desactivación. Se detallan las clases identificadas como parte del modelo de dominio, documentando su propósito, atributos, métodos y relaciones, con el fin de estructurar un diccionario claro del dominio.
 
@@ -1353,19 +1407,19 @@ Miró en donde se desarrolló:
 
 https://miro.com/app/board/uXjVHd8mZPo=/?share_link_id=996378247083
 
-2.6.1.1. Domain Layer
+#### 2.6.1.1. Domain Layer
 
 Aquí se modela el núcleo del catálogo de servicios. Se incluyen entidades como Servicio, junto con Value Objects relacionados (por ejemplo, categoría o ubicación). Se definen agregados que aseguran la consistencia del estado del servicio, así como interfaces de repositorios para su persistencia.
 
-2.6.1.2. Interface Layer
+#### 2.6.1.2. Interface Layer
 
 Se presentan los controladores encargados de exponer funcionalidades como publicación, edición y filtrado de servicios. Estos componentes permiten la interacción con clientes externos, como aplicaciones web o móviles.
 
-2.6.1.3. Application Layer
+#### 2.6.1.3. Application Layer
 
 Se gestionan los flujos de negocio mediante Command Handlers (por ejemplo, PublicarServicio o ActualizarServicio) y Event Handlers asociados a eventos como ServicioPublicado o ServicioActualizado.
 
-2.6.1.4 Infrastructure Layer
+#### 2.6.1.4 Infrastructure Layer
 Se implementan repositorios concretos para persistencia en base de datos, además de integraciones con servicios externos si aplica (por ejemplo, indexación para búsqueda).
 
 En este punto se muestran los layers juntos:
@@ -1373,23 +1427,23 @@ En este punto se muestran los layers juntos:
 ![ Una imagen de prueba](asset/DDD1.png )
 
 
-2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
+#### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
 
 Se presentan diagramas C4 que muestran cómo el contenedor del catálogo se descompone en componentes como API, servicios de aplicación y repositorios.
 
 ![ Una imagen de prueba](asset/C4-BOUNDED1.png )
 
-2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
+#### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 
 Se incluyen diagramas detallados que reflejan la implementación interna, incluyendo clases de dominio y estructura de persistencia.
 
-  2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
+##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
   
    Se modelan las clases principales del dominio, sus atributos, métodos y relaciones, incluyendo multiplicidades y tipos de asociación.
    
    ![ Una imagen de prueba](asset/ClassDiagram1.png )
    
-  2.6.1.6.2. Bounded Context Database Design Diagram
+##### 2.6.1.6.2. Bounded Context Database Design Diagram
    Se define la estructura de tablas como Servicios, incluyendo claves primarias, foráneas y   restricciones necesarias para garantizar integridad.
    
    ![ Una imagen de prueba](asset/DB1.png )
@@ -1398,45 +1452,45 @@ Se incluyen diagramas detallados que reflejan la implementación interna, incluy
 <br> 
 <br> 
 
-2.6.2. Bounded Context: UserIdentityContext (IAM)
+### 2.6.2. Bounded Context: UserIdentityContext (IAM)
 
 Este contexto gestiona la identidad de los usuarios, abarcando registro, autenticación y administración de perfiles. Se documentan las clases clave del dominio junto con sus responsabilidades y relaciones.
 
-2.6.2.1. Domain Layer
+#### 2.6.2.1. Domain Layer
 
 Incluye entidades como Usuario y Perfil, además de Value Objects como credenciales. Se modelan reglas de negocio relacionadas con autenticación y gestión de identidad.
 
-2.6.2.2. Interface Layer
+#### 2.6.2.2. Interface Layer
 
 Se presentan controladores para registro, login y actualización de perfiles, actuando como punto de entrada para clientes.
 
-2.6.2.3. Application Layer
+#### 2.6.2.3. Application Layer
 
 Se definen casos de uso como RegistrarUsuario o AutenticarUsuario mediante handlers que coordinan la lógica de negocio.
 
-2.6.2.4 Infrastructure Layer
+#### 2.6.2.4 Infrastructure Layer
 
 Incluye implementación de repositorios, servicios de autenticación (como JWT) y conexión a bases de datos.
 
 ![ Una imagen de prueba](asset/DDD2.png )
 
-2.6.2.5. Bounded Context Software Architecture Component Level Diagrams 
+#### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams 
 
 Se muestra la separación entre componentes como API de autenticación, servicio de usuarios y almacenamiento.
 
 ![ Una imagen de prueba](asset/C4-BOUNDED2.png )
 
-2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
+#### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
 
 Se detallan clases e implementación del dominio y persistencia.
 
-2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
+##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
 
 Se representan clases como Usuario, sus atributos y relaciones con otros objetos.
 
 ![ Una imagen de prueba](asset/ClassDiagram2.png )
 
-2.6.2.6.2. Bounded Context Database Design Diagram
+##### 2.6.2.6.2. Bounded Context Database Design Diagram
 
 Incluye tablas como Usuarios y Perfiles con sus respectivas relaciones.
 
@@ -1445,45 +1499,45 @@ Incluye tablas como Usuarios y Perfiles con sus respectivas relaciones.
 <br> 
 <br> 
 
-2.6.3. Bounded Context: DiagnosisContext
+### 2.6.3. Bounded Context: DiagnosisContext
 
 Este contexto se encarga de gestionar solicitudes de servicio, análisis de síntomas y generación de diagnósticos o cotizaciones.
 
-2.6.3.1. Domain Layer
+#### 2.6.3.1. Domain Layer
 
 Se modelan entidades como PedidoServicio y Diagnóstico, incluyendo lógica para interpretar síntomas y generar resultados.
 
-2.6.3.2. Interface Layer
+#### 2.6.3.2. Interface Layer
 
 Incluye controladores que permiten registrar solicitudes y consultar diagnósticos.
 
-2.6.3.3. Application Layer
+#### 2.6.3.3. Application Layer
 
 Se implementan flujos como RegistrarPedido o GenerarDiagnostico, así como eventos como DiagnosticoGenerado.
 
-2.6.3.4 Infrastructure Layer
+#### 2.6.3.4 Infrastructure Layer
 
 Se integran servicios externos, como motores de análisis o APIs de inteligencia artificial si corresponde.
 
 ![ Una imagen de prueba](asset/DDD3.png )
 
-2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
+#### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
 
 Se visualiza la interacción entre componentes como API, motor de diagnóstico y repositorios.
 
 ![ Una imagen de prueba](asset/C4-BOUNDED3.png )
 
-2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
+#### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
 
 Se detalla la implementación interna del procesamiento de diagnósticos.
 
-2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
+##### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
 
 Incluyen clases y relaciones para modelar síntomas, pedidos y resultados.
 
 ![ Una imagen de prueba](asset/Diagram_Class3.png )
 
-2.6.3.6.2. Bounded Context Database Design Diagram
+##### 2.6.3.6.2. Bounded Context Database Design Diagram
 
 Define tablas como Pedidos y Diagnosticos con sus relaciones.
 
@@ -1492,45 +1546,45 @@ Define tablas como Pedidos y Diagnosticos con sus relaciones.
 <br> 
 <br> 
 
-2.6.4. Bounded Context: ReputationContext
+### 2.6.4. Bounded Context: ReputationContext
 
 Este contexto gestiona la reputación mediante calificaciones y reseñas verificadas de servicios completados.
 
-2.6.4.1. Domain Layer
+#### 2.6.4.1. Domain Layer
 
 Incluye entidades como Calificación y Reseña, con reglas que aseguran que solo servicios completados puedan ser evaluados.
 
-2.6.4.2. Interface Layer
+#### 2.6.4.2. Interface Layer
 
 Se presentan endpoints para enviar, editar y visualizar reseñas.
 
-2.6.4.3. Application Layer
+#### 2.6.4.3. Application Layer
 
 Se gestionan procesos como EnviarCalificacion y PublicarReseña mediante handlers.
 
-2.6.4.4 Infrastructure Layer
+#### 2.6.4.4 Infrastructure Layer
 
 Incluye persistencia de reseñas y posibles integraciones con sistemas de moderación.
 
 ![ Una imagen de prueba](asset/DDD4.png )
 
-2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
+#### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
 
 Muestra componentes como API de reputación y repositorios.
 
 ![ Una imagen de prueba](asset/C4-BOUNDED4.png )
 
-2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
+#### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
 
 Expone la implementación detallada de la lógica de reputación.
 
-2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
+##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
 
 Modela las clases de evaluación y sus relaciones con servicios.
 
 ![ Una imagen de prueba](asset/ClassDiagram4.png )
 
-2.6.4.6.2. Bounded Context Database Design Diagram
+##### 2.6.4.6.2. Bounded Context Database Design Diagram
 
 Define tablas como Calificaciones y Reseñas.
 
@@ -1539,45 +1593,45 @@ Define tablas como Calificaciones y Reseñas.
 <br> 
 <br> 
 
-2.6.5. Bounded Context: ServiceManagementContext
+### 2.6.5. Bounded Context: ServiceManagementContext
 
 Este contexto controla el ciclo de vida completo del servicio, desde la solicitud hasta su finalización o cancelación.
 
-2.6.5.1. Domain Layer
+#### 2.6.5.1. Domain Layer
 
 Incluye entidades como ServicioEnProceso, con estados y reglas de transición (solicitado, confirmado, finalizado, cancelado).
 
-2.6.5.2. Interface Layer
+#### 2.6.5.2. Interface Layer
 
 Se presentan controladores para gestionar el estado del servicio y registrar acciones de los usuarios.
 
-2.6.5.3. Application Layer
+#### 2.6.5.3. Application Layer
 
 Incluye persistencia del historial de servicios y posible integración con sistemas de notificación.
 
-2.6.5.4 Infrastructure Layer
+#### 2.6.5.4 Infrastructure Layer
 
 Incluye persistencia del historial de servicios y posible integración con sistemas de notificación.
 
 ![ Una imagen de prueba](asset/DDD5.png )
 
-2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
+#### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
 
 Se representa la interacción entre componentes como gestor de servicios, API y base de datos.
 
 ![ Una imagen de prueba](asset/C4-BOUNDED5.png )
 
-2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
+#### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
 
 Se detalla la implementación de la lógica de estados y transiciones.
 
-2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
+##### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
 
 Incluye clases que modelan el ciclo de vida del servicio.
 
 ![ Una imagen de prueba](asset/ClassDiagram5.png )
 
-2.6.5.6.2. Bounded Context Database Design Diagram
+##### 2.6.5.6.2. Bounded Context Database Design Diagram
 
 Define tablas como Servicios y HistorialServicios con relaciones y constraints.
 
@@ -1587,15 +1641,15 @@ Define tablas como Servicios y HistorialServicios con relaciones y constraints.
 
 ### 3.1. Product design
 
-3.1.1. Style Guidelines
+### 3.1.1. Style Guidelines
 
-3.1.1.1. General Style Guidelines
+#### 3.1.1.1. General Style Guidelines
 
-3.1.2. Information Architecture
+### 3.1.2. Information Architecture
 
-3.1.2.1. Organization Systems
+#### 3.1.2.1. Organization Systems
 
-3.1.2.2. Labelling Systems
+#### 3.1.2.2. Labelling Systems
 
 3.1.2.3. SEO Tags and Meta Tags
 
@@ -1671,7 +1725,7 @@ Define tablas como Servicios y HistorialServicios con relaciones y constraints.
 
 # Anexos
 
-# Anexo A: Links
+## Anexo A: Links
 
 Event Storming: [https://lucid.app/lucidspark/273a3243-b31d-4c41-8b85-4a83e4895612/edit?view\_items=5IFPfxgRGcXX\&page=0\_0\&invitationId=inv\_9b6303f2-c7be-4e63-a883-b7ab6a8081e3](https://lucid.app/lucidspark/273a3243-b31d-4c41-8b85-4a83e4895612/edit?view_items=5IFPfxgRGcXX&page=0_0&invitationId=inv_9b6303f2-c7be-4e63-a883-b7ab6a8081e3)
 
