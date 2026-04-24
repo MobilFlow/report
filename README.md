@@ -36,6 +36,8 @@
 
 # Project Report Collaboration Insights
 
+**AV1:**
+![pcav1](assets/project%20collaboration/av1.png)
 
 
 # Registro de Versiones del Informe
@@ -208,16 +210,6 @@
       - [2.6.5.6. Bounded Context Software Architecture Code Level Diagrams](#2656-bounded-context-software-architecture-code-level-diagrams)
         - [2.6.5.6.1. Bounded Context Domain Layer Class Diagrams](#26561-bounded-context-domain-layer-class-diagrams)
         - [2.6.5.6.2. Bounded Context Database Design Diagram](#26562-bounded-context-database-design-diagram)
-  - [Capítulo III: Solution UI/UX Design](#capítulo-iii-solution-uiux-design)
-    - [3.1. Product design](#31-product-design)
-    - [3.1.1. Style Guidelines](#311-style-guidelines)
-      - [3.1.1.1. General Style Guidelines](#3111-general-style-guidelines)
-    - [3.1.2. Information Architecture](#312-information-architecture)
-      - [3.1.2.1. Organization Systems](#3121-organization-systems)
-      - [3.1.2.2. Labelling Systems](#3122-labelling-systems)
-  - [Capítulo IV: Product Implementation \& Validation](#capítulo-iv-product-implementation--validation)
-    - [4. Product Implementation \& Validation](#4-product-implementation--validation)
-      - [4.3. Validation Interviews](#43-validation-interviews)
 - [Conclusiones](#conclusiones)
 - [Anexos](#anexos)
   - [Anexo A: Links](#anexo-a-links)
@@ -391,7 +383,7 @@ Creemos que nos posicionaremos como la herramienta de auxilio líder si los usua
  
 #### 1.2.2.4. Lean UX Canvas
 
-![ Una imagen de prueba](asset/LeanUXcanvas.png )
+![ Una imagen de prueba](assets/asset/LeanUXcanvas.png )
 
 
 ## 1.3. Segmentos objetivo
@@ -1381,7 +1373,7 @@ Durante el EventStorming se aplicó la técnica look-for-pivotal-events para ide
 
 #### 2.5.2. Context Mapping
 
-![ Una imagen de prueba](asset/ContextMapping.png )
+![ Una imagen de prueba](assets/asset/ContextMapping.png )
 
 2.5.3. Software Architecture
 
@@ -1424,14 +1416,14 @@ Se implementan repositorios concretos para persistencia en base de datos, ademá
 
 En este punto se muestran los layers juntos:
 
-![ Una imagen de prueba](asset/DDD1.png )
+![ Una imagen de prueba](assets/asset/DDD1.png )
 
 
 #### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
 
 Se presentan diagramas C4 que muestran cómo el contenedor del catálogo se descompone en componentes como API, servicios de aplicación y repositorios.
 
-![ Una imagen de prueba](asset/C4-BOUNDED1.png )
+![ Una imagen de prueba](assets/asset/C4-BOUNDED1.png )
 
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -1441,12 +1433,12 @@ Se incluyen diagramas detallados que reflejan la implementación interna, incluy
   
    Se modelan las clases principales del dominio, sus atributos, métodos y relaciones, incluyendo multiplicidades y tipos de asociación.
    
-   ![ Una imagen de prueba](asset/ClassDiagram1.png )
+   ![ Una imagen de prueba](assets/asset/ClassDiagram1.png )
    
 ##### 2.6.1.6.2. Bounded Context Database Design Diagram
    Se define la estructura de tablas como Servicios, incluyendo claves primarias, foráneas y   restricciones necesarias para garantizar integridad.
    
-   ![ Una imagen de prueba](asset/DB1.png )
+   ![ Una imagen de prueba](assets/asset/DB1.png )
 
 
 <br> 
@@ -1472,13 +1464,13 @@ Se definen casos de uso como RegistrarUsuario o AutenticarUsuario mediante handl
 
 Incluye implementación de repositorios, servicios de autenticación (como JWT) y conexión a bases de datos.
 
-![ Una imagen de prueba](asset/DDD2.png )
+![ Una imagen de prueba](assets/asset/DDD2.png )
 
 #### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams 
 
 Se muestra la separación entre componentes como API de autenticación, servicio de usuarios y almacenamiento.
 
-![ Una imagen de prueba](asset/C4-BOUNDED2.png )
+![ Una imagen de prueba](assets/asset/C4-BOUNDED2.png )
 
 #### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -1488,13 +1480,13 @@ Se detallan clases e implementación del dominio y persistencia.
 
 Se representan clases como Usuario, sus atributos y relaciones con otros objetos.
 
-![ Una imagen de prueba](asset/ClassDiagram2.png )
+![ Una imagen de prueba](assets/asset/ClassDiagram2.png )
 
 ##### 2.6.2.6.2. Bounded Context Database Design Diagram
 
 Incluye tablas como Usuarios y Perfiles con sus respectivas relaciones.
 
-![ Una imagen de prueba](asset/DB2.png )
+![ Una imagen de prueba](assets/asset/DB2.png )
 
 <br> 
 <br> 
@@ -1519,13 +1511,13 @@ Se implementan flujos como RegistrarPedido o GenerarDiagnostico, así como event
 
 Se integran servicios externos, como motores de análisis o APIs de inteligencia artificial si corresponde.
 
-![ Una imagen de prueba](asset/DDD3.png )
+![ Una imagen de prueba](assets/asset/DDD3.png )
 
 #### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
 
 Se visualiza la interacción entre componentes como API, motor de diagnóstico y repositorios.
 
-![ Una imagen de prueba](asset/C4-BOUNDED3.png )
+![ Una imagen de prueba](assets/asset/C4-BOUNDED3.png )
 
 #### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -1535,13 +1527,13 @@ Se detalla la implementación interna del procesamiento de diagnósticos.
 
 Incluyen clases y relaciones para modelar síntomas, pedidos y resultados.
 
-![ Una imagen de prueba](asset/Diagram_Class3.png )
+![ Una imagen de prueba](assets/asset/Diagram_Class3.png )
 
 ##### 2.6.3.6.2. Bounded Context Database Design Diagram
 
 Define tablas como Pedidos y Diagnosticos con sus relaciones.
 
-![ Una imagen de prueba](asset/DB3.png )
+![ Una imagen de prueba](assets/asset/DB3.png )
 
 <br> 
 <br> 
@@ -1566,13 +1558,13 @@ Se gestionan procesos como EnviarCalificacion y PublicarReseña mediante handler
 
 Incluye persistencia de reseñas y posibles integraciones con sistemas de moderación.
 
-![ Una imagen de prueba](asset/DDD4.png )
+![ Una imagen de prueba](assets/asset/DDD4.png )
 
 #### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
 
 Muestra componentes como API de reputación y repositorios.
 
-![ Una imagen de prueba](asset/C4-BOUNDED4.png )
+![ Una imagen de prueba](assets/asset/C4-BOUNDED4.png )
 
 #### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -1582,13 +1574,13 @@ Expone la implementación detallada de la lógica de reputación.
 
 Modela las clases de evaluación y sus relaciones con servicios.
 
-![ Una imagen de prueba](asset/ClassDiagram4.png )
+![ Una imagen de prueba](assets/asset/ClassDiagram4.png )
 
 ##### 2.6.4.6.2. Bounded Context Database Design Diagram
 
 Define tablas como Calificaciones y Reseñas.
 
-![ Una imagen de prueba](asset/DB4.png )
+![ Una imagen de prueba](assets/asset/DB4.png )
 
 <br> 
 <br> 
@@ -1613,13 +1605,13 @@ Incluye persistencia del historial de servicios y posible integración con siste
 
 Incluye persistencia del historial de servicios y posible integración con sistemas de notificación.
 
-![ Una imagen de prueba](asset/DDD5.png )
+![ Una imagen de prueba](assets/asset/DDD5.png )
 
 #### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
 
 Se representa la interacción entre componentes como gestor de servicios, API y base de datos.
 
-![ Una imagen de prueba](asset/C4-BOUNDED5.png )
+![ Una imagen de prueba](assets/asset/C4-BOUNDED5.png )
 
 #### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -1629,93 +1621,14 @@ Se detalla la implementación de la lógica de estados y transiciones.
 
 Incluye clases que modelan el ciclo de vida del servicio.
 
-![ Una imagen de prueba](asset/ClassDiagram5.png )
+![ Una imagen de prueba](assets/asset/ClassDiagram5.png )
 
 ##### 2.6.5.6.2. Bounded Context Database Design Diagram
 
 Define tablas como Servicios y HistorialServicios con relaciones y constraints.
 
-![ Una imagen de prueba](asset/DB5.png )
+![ Una imagen de prueba](assets/asset/DB5.png )
 
-## Capítulo III: Solution UI/UX Design
-
-### 3.1. Product design
-
-### 3.1.1. Style Guidelines
-
-#### 3.1.1.1. General Style Guidelines
-
-### 3.1.2. Information Architecture
-
-#### 3.1.2.1. Organization Systems
-
-#### 3.1.2.2. Labelling Systems
-
-3.1.2.3. SEO Tags and Meta Tags
-
-3.1.2.4. Searching Systems
-
-3.1.2.5. Navigation Systems
-
-3.1.3. Landing Page UI Design
-
-3.1.3.1. Landing Page Wireframe
-
-3.1.3.2. Landing Page Mock-up
-
-3.1.4. Mobile Applications UX/UI Design
-
-3.1.4.1. Mobile Applications Wireframes
-
-3.1.4.2. Mobile Applications Wireflow Diagrams
-
-3.1.4.3. Mobile Applications Mock-ups
-
-3.1.4.4. Mobile Applications User Flow Diagrams
-
-3.1.4.5. Mobile Applications Prototyping
-
-## Capítulo IV: Product Implementation & Validation
-
-### 4. Product Implementation & Validation
-
-4.1. Software Configuration Management
-
-4.1.1. Software Development Environment Configuration
-
-4.1.2. Source Code Management
-
-4.1.3. Source Code Style Guide & Conventions
-
-4.1.4. Software Deployment Configuration
-
-4.2. Landing Page & Mobile Application Implementation
-
-4.2.1. Sprint n
-
-4.2.1.1. Sprint Planning n
-
-4.2.1.2. Sprint Backlog n
-
-4.2.1.3. Development Evidence for Sprint Review
-
-4.2.1.4. Testing Suite Evidence for Sprint Review
-
-4.2.1.5. Execution Evidence for Sprint Review
-
-4.2.1.6. Services Documentation Evidence for Sprint Review
-
-4.2.1.7. Software Deployment Evidence for Sprint Review
-
-4.2.1.8. Team Collaboration Insights during Sprint
-
-#### 4.3. Validation Interviews
-
-4.3.1. Diseño de Entrevistas
-
-4.3.2. Registro de Entrevistas
-
-4.3.3. Evaluaciones según heurísticas
 
 # Conclusiones
 
