@@ -335,7 +335,10 @@ Creemos que incrementaremos el valor de vida del cliente (LTV) si los conductore
 
 Creemos que nos posicionaremos como la herramienta de auxilio líder si los usuarios en situaciones de emergencia logran encontrar ayuda inmediata mediante el botón de "Mecánico más cercano" con rastreo en tiempo real.
  
-1.2.2.4. Lean UX Canvas
+#### 1.2.2.4. Lean UX Canvas
+
+![ Una imagen de prueba](asset/LeanUXcanvas.png )
+
 
 ## 1.3. Segmentos objetivo
 
