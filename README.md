@@ -159,6 +159,7 @@
         - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
 
     - [5.4. Video About-the-Product](#54-video-about-the-product)
+- [Conclusiones](#conclusiones)
 
 ---
 
@@ -1141,21 +1142,11 @@ En conclusión, el mecánico típico de este segmento es un profesional que valo
 
 4.3.3. Evaluaciones según heurísticas
 
-Conclusiones
+# Conclusiones
 
-Conclusiones y recomendaciones
+* Desarrollar esta propuesta de aplicación permitió abordar la problemática del mercado automotriz caracterizada por la falta de transparencia, confianza y centralización en los servicios mecánicos, la cual fue validada mediante entrevistas a usuarios y trabajadores mecánicos. Asimismo, la integración de metodologías como Lean UX, levantamiento de requerimientos y modelado de dominio facilitó estructurar una solución alineada con necesidades reales, estableciendo una base sólida para su desarrollo como producto digital.  
+* Podemos concluir que la construcción de soluciones en ingeniería de software requiere un aprendizaje continuo y adaptativo el cual nos permite incorporar herramientas como event storming, diseño centrado en el usuario y gestión ágil que contribuyen a mejorar la calidad del producto y fortalecen la capacidad para afrontar entornos complejos y dinámicos propios del desarrollo tecnológico actual.
 
-Video App Validation
-
-Video About the product
-
-Video About
- 
-the team
-
-Glosario
-
-Bibliografía
 
 # Anexos
 
