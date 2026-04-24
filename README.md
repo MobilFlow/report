@@ -221,9 +221,10 @@ Soy un estudiante de 7mo ciclo de la carrera de Ingenieria de Software. Tengo in
 <div style="max-width:100px">
   <img src="assets/entrevistas/DDD/braulio.png" alt="imagen perfil sanchez gabriel">
 </div>
-1.2. Solution Profile
 
-1.2.1. Antecedentes y problemática
+## 1.2. Solution Profile
+
+### 1.2.1. Antecedentes y problemática
 
 En la actualidad, el parque automotor de vehículos particulares ha crecido de manera exponencial, convirtiéndose en el principal medio de transporte para millones de personas. Sin embargo, el sector de servicios de mantenimiento y reparación no ha evolucionado al mismo ritmo tecnológico. El mercado se encuentra dividido entre concesionarios oficiales, con costos excesivamente elevados, y talleres independientes, que operan mayoritariamente en la informalidad o sin visibilidad digital.  
 
@@ -253,13 +254,13 @@ A través de un ecosistema móvil intuitivo que permita geolocalizar talleres, c
 #### How much?
 La problemática genera pérdidas económicas por reparaciones mal ejecutadas. La solución requiere una inversión en desarrollo de software, recolección de datos y estrategias de validación de proveedores.
 
-1.2.2. Lean UX Process
+### 1.2.2. Lean UX Process
 
-1.2.2.1. Lean UX Problem Statements
+#### 1.2.2.1. Lean UX Problem Statements
 
-1.2.2.2. Lean UX Assumptions
+#### 1.2.2.2. Lean UX Assumptions
 
-#### 1. Business Assumptions
+##### 1. Business Assumptions
 
 - **Creemos que nuestros clientes tienen la necesidad de:**  
   Encontrar mecánicos de confianza sin tener que depender exclusivamente de recomendaciones informales o visitas físicas inciertas.
@@ -281,7 +282,7 @@ La problemática genera pérdidas económicas por reparaciones mal ejecutadas. L
 
 ---
 
-#### 2. User Assumptions
+###### 2. User Assumptions
 
 - **¿Quién es el usuario?**  
   Personas que usan su auto para trabajar o movilizar a su familia y que ven el mantenimiento como un gasto estresante y opaco.
@@ -297,6 +298,28 @@ La problemática genera pérdidas económicas por reparaciones mal ejecutadas. L
 
 - **¿Qué miedo tienen los usuarios sobre nuestra app?**  
   Que los mecánicos listados no sean realmente evaluados o que la aplicación sea difícil de usar en un momento de estrés.
+
+#### 1.2.2.3. Lean UX Hypothesis Statements
+
+##### 1. Hipótesis de Confianza y Validación
+
+Creemos que aumentaremos la tasa de conversión de solicitudes de servicio si los propietarios de autos particulares logran sentirse seguros al elegir un taller mediante la visualización de perfiles de mecánicos con reseñas verificadas y certificaciones.
+
+##### 2. Hipótesis de Comparación de Precios
+
+Creemos que reduciremos el abandono de la aplicación si los usuarios logran evitar la tediosa búsqueda manual con una funcionalidad de solicitud de presupuestos múltiples (multi-quote) que les permita comparar costos en tiempo real.
+
+##### 3. Hipótesis de Adopción para el Mecánico
+
+Creemos que garantizaremos una oferta de servicios estable si los mecánicos independientes logran reducir sus tiempos muertos y organizar su flujo de caja mediante un panel de gestión de citas y pagos anticipados.
+
+##### 4. Hipótesis de Retención
+
+Creemos que incrementaremos el valor de vida del cliente (LTV) si los conductores logran mantener su auto en óptimas condiciones con un sistema de alertas inteligentes de mantenimiento preventivo basado en el kilometraje y modelo del auto.
+
+##### 5. Hipótesis de Geolocalización
+
+Creemos que nos posicionaremos como la herramienta de auxilio líder si los usuarios en situaciones de emergencia logran encontrar ayuda inmediata mediante el botón de "Mecánico más cercano" con rastreo en tiempo real.
 
 ## 1.3. Segmentos objetivo
 
