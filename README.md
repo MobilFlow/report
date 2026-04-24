@@ -1160,4 +1160,11 @@ Glosario
 
 Bibliografía
 
-Anexos
+# Anexos
+
+# Anexo A: Links
+
+Event Storming: [https://lucid.app/lucidspark/273a3243-b31d-4c41-8b85-4a83e4895612/edit?view\_items=5IFPfxgRGcXX\&page=0\_0\&invitationId=inv\_9b6303f2-c7be-4e63-a883-b7ab6a8081e3](https://lucid.app/lucidspark/273a3243-b31d-4c41-8b85-4a83e4895612/edit?view_items=5IFPfxgRGcXX&page=0_0&invitationId=inv_9b6303f2-c7be-4e63-a883-b7ab6a8081e3)
+
+Entrevista:  
+[Entrevista App Moviles.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310609_upc_edu_pe/IQB6eMiOs_9NRJwg7FY-8HVuAd6emf_2sFNGlHnXcElmBYM?e=edmal0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) 
