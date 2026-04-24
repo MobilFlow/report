@@ -1237,23 +1237,244 @@ Durante el EventStorming se aplicó la técnica look-for-pivotal-events para ide
 ![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/Software%20Architecture%20Deployment%20Diagrams.png)
 
 #### 2.6. Tactical-Level Domain-Driven Design
-2.6.x. Bounded Context: <Bounded Context Name>
 
-2.6.x.1. Domain Layer
+2.6.1. Bounded Context: ServiceCatalogContext 
 
-2.6.x.2. Interface Layer
+En esta sección se describe el contexto encargado de la gestión del catálogo de servicios mecánicos, incluyendo su publicación, actualización y desactivación. Se detallan las clases identificadas como parte del modelo de dominio, documentando su propósito, atributos, métodos y relaciones, con el fin de estructurar un diccionario claro del dominio.
 
-2.6.x.3. Application Layer
+Miró en donde se desarrolló:
 
-2.6.x.4 Infrastructure Layer
+https://miro.com/app/board/uXjVHd8mZPo=/?share_link_id=996378247083
 
-2.6.x.5. Bounded Context Software Architecture Component Level Diagrams
+2.6.1.1. Domain Layer
 
-2.6.x.6. Bounded Context Software Architecture Code Level Diagrams
+Aquí se modela el núcleo del catálogo de servicios. Se incluyen entidades como Servicio, junto con Value Objects relacionados (por ejemplo, categoría o ubicación). Se definen agregados que aseguran la consistencia del estado del servicio, así como interfaces de repositorios para su persistencia.
 
-2.6.x.6.1. Bounded Context Domain Layer Class Diagrams
+2.6.1.2. Interface Layer
 
-2.6.x.6.2. Bounded Context Database Design Diagram
+Se presentan los controladores encargados de exponer funcionalidades como publicación, edición y filtrado de servicios. Estos componentes permiten la interacción con clientes externos, como aplicaciones web o móviles.
+
+2.6.1.3. Application Layer
+
+Se gestionan los flujos de negocio mediante Command Handlers (por ejemplo, PublicarServicio o ActualizarServicio) y Event Handlers asociados a eventos como ServicioPublicado o ServicioActualizado.
+
+2.6.1.4 Infrastructure Layer
+Se implementan repositorios concretos para persistencia en base de datos, además de integraciones con servicios externos si aplica (por ejemplo, indexación para búsqueda).
+
+En este punto se muestran los layers juntos:
+
+![ Una imagen de prueba](asset/DDD1.png )
+
+
+2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
+
+Se presentan diagramas C4 que muestran cómo el contenedor del catálogo se descompone en componentes como API, servicios de aplicación y repositorios.
+
+![ Una imagen de prueba](asset/C4-BOUNDED1.png )
+
+2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
+
+Se incluyen diagramas detallados que reflejan la implementación interna, incluyendo clases de dominio y estructura de persistencia.
+
+  2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
+  
+   Se modelan las clases principales del dominio, sus atributos, métodos y relaciones, incluyendo multiplicidades y tipos de asociación.
+   
+   ![ Una imagen de prueba](asset/ClassDiagram1.png )
+   
+  2.6.1.6.2. Bounded Context Database Design Diagram
+   Se define la estructura de tablas como Servicios, incluyendo claves primarias, foráneas y   restricciones necesarias para garantizar integridad.
+   
+   ![ Una imagen de prueba](asset/DB1.png )
+
+
+<br> 
+<br> 
+
+2.6.2. Bounded Context: UserIdentityContext (IAM)
+
+Este contexto gestiona la identidad de los usuarios, abarcando registro, autenticación y administración de perfiles. Se documentan las clases clave del dominio junto con sus responsabilidades y relaciones.
+
+2.6.2.1. Domain Layer
+
+Incluye entidades como Usuario y Perfil, además de Value Objects como credenciales. Se modelan reglas de negocio relacionadas con autenticación y gestión de identidad.
+
+2.6.2.2. Interface Layer
+
+Se presentan controladores para registro, login y actualización de perfiles, actuando como punto de entrada para clientes.
+
+2.6.2.3. Application Layer
+
+Se definen casos de uso como RegistrarUsuario o AutenticarUsuario mediante handlers que coordinan la lógica de negocio.
+
+2.6.2.4 Infrastructure Layer
+
+Incluye implementación de repositorios, servicios de autenticación (como JWT) y conexión a bases de datos.
+
+![ Una imagen de prueba](asset/DDD2.png )
+
+2.6.2.5. Bounded Context Software Architecture Component Level Diagrams 
+
+Se muestra la separación entre componentes como API de autenticación, servicio de usuarios y almacenamiento.
+
+![ Una imagen de prueba](asset/C4-BOUNDED2.png )
+
+2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
+
+Se detallan clases e implementación del dominio y persistencia.
+
+2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
+
+Se representan clases como Usuario, sus atributos y relaciones con otros objetos.
+
+![ Una imagen de prueba](asset/ClassDiagram2.png )
+
+2.6.2.6.2. Bounded Context Database Design Diagram
+
+Incluye tablas como Usuarios y Perfiles con sus respectivas relaciones.
+
+![ Una imagen de prueba](asset/DB2.png )
+
+<br> 
+<br> 
+
+2.6.3. Bounded Context: DiagnosisContext
+
+Este contexto se encarga de gestionar solicitudes de servicio, análisis de síntomas y generación de diagnósticos o cotizaciones.
+
+2.6.3.1. Domain Layer
+
+Se modelan entidades como PedidoServicio y Diagnóstico, incluyendo lógica para interpretar síntomas y generar resultados.
+
+2.6.3.2. Interface Layer
+
+Incluye controladores que permiten registrar solicitudes y consultar diagnósticos.
+
+2.6.3.3. Application Layer
+
+Se implementan flujos como RegistrarPedido o GenerarDiagnostico, así como eventos como DiagnosticoGenerado.
+
+2.6.3.4 Infrastructure Layer
+
+Se integran servicios externos, como motores de análisis o APIs de inteligencia artificial si corresponde.
+
+![ Una imagen de prueba](asset/DDD3.png )
+
+2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
+
+Se visualiza la interacción entre componentes como API, motor de diagnóstico y repositorios.
+
+![ Una imagen de prueba](asset/C4-BOUNDED3.png )
+
+2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
+
+Se detalla la implementación interna del procesamiento de diagnósticos.
+
+2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
+
+Incluyen clases y relaciones para modelar síntomas, pedidos y resultados.
+
+![ Una imagen de prueba](asset/Diagram_Class3.png )
+
+2.6.3.6.2. Bounded Context Database Design Diagram
+
+Define tablas como Pedidos y Diagnosticos con sus relaciones.
+
+![ Una imagen de prueba](asset/DB3.png )
+
+<br> 
+<br> 
+
+2.6.4. Bounded Context: ReputationContext
+
+Este contexto gestiona la reputación mediante calificaciones y reseñas verificadas de servicios completados.
+
+2.6.4.1. Domain Layer
+
+Incluye entidades como Calificación y Reseña, con reglas que aseguran que solo servicios completados puedan ser evaluados.
+
+2.6.4.2. Interface Layer
+
+Se presentan endpoints para enviar, editar y visualizar reseñas.
+
+2.6.4.3. Application Layer
+
+Se gestionan procesos como EnviarCalificacion y PublicarReseña mediante handlers.
+
+2.6.4.4 Infrastructure Layer
+
+Incluye persistencia de reseñas y posibles integraciones con sistemas de moderación.
+
+![ Una imagen de prueba](asset/DDD4.png )
+
+2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
+
+Muestra componentes como API de reputación y repositorios.
+
+![ Una imagen de prueba](asset/C4-BOUNDED4.png )
+
+2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
+
+Expone la implementación detallada de la lógica de reputación.
+
+2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
+
+Modela las clases de evaluación y sus relaciones con servicios.
+
+![ Una imagen de prueba](asset/ClassDiagram4.png )
+
+2.6.4.6.2. Bounded Context Database Design Diagram
+
+Define tablas como Calificaciones y Reseñas.
+
+![ Una imagen de prueba](asset/DB4.png )
+
+<br> 
+<br> 
+
+2.6.5. Bounded Context: ServiceManagementContext
+
+Este contexto controla el ciclo de vida completo del servicio, desde la solicitud hasta su finalización o cancelación.
+
+2.6.5.1. Domain Layer
+
+Incluye entidades como ServicioEnProceso, con estados y reglas de transición (solicitado, confirmado, finalizado, cancelado).
+
+2.6.5.2. Interface Layer
+
+Se presentan controladores para gestionar el estado del servicio y registrar acciones de los usuarios.
+
+2.6.5.3. Application Layer
+
+Incluye persistencia del historial de servicios y posible integración con sistemas de notificación.
+
+2.6.5.4 Infrastructure Layer
+
+Incluye persistencia del historial de servicios y posible integración con sistemas de notificación.
+
+![ Una imagen de prueba](asset/DDD5.png )
+
+2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
+
+Se representa la interacción entre componentes como gestor de servicios, API y base de datos.
+
+![ Una imagen de prueba](asset/C4-BOUNDED5.png )
+
+2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
+
+Se detalla la implementación de la lógica de estados y transiciones.
+
+2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
+
+Incluye clases que modelan el ciclo de vida del servicio.
+
+![ Una imagen de prueba](asset/ClassDiagram5.png )
+
+2.6.5.6.2. Bounded Context Database Design Diagram
+
+Define tablas como Servicios y HistorialServicios con relaciones y constraints.
+
+![ Una imagen de prueba](asset/DB5.png )
 
 ## Capítulo III: Solution UI/UX Design
 
