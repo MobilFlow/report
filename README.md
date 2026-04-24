@@ -689,7 +689,7 @@ En esta sección se identifican y analizan las necesidades de los usuarios a par
 | **Historial de servicios** | Registro de todos los servicios realizados por un usuario o mecánico dentro de la plataforma. |
 | **Precio estimado** | Costo aproximado del servicio mostrado antes de su ejecución. |
 
-#### 2.4. Requirements specification
+### 2.3.5. Ubiquitous Language
 
 | Epics |  |
 | :---- | ----- |
@@ -1135,7 +1135,7 @@ En esta sección se identifican y analizan las necesidades de los usuarios a par
 | **Acceptance Criteria** |  |  |  |
 | **Escenario 1: Revisión de documentación de Google Maps API <br><br>Dado** que el equipo necesita entender las capacidades de Google Maps <br><br>**Cuando** el desarrollador revisa la documentación oficial de la API <br><br>**Entonces** identifica los endpoints relevantes para geolocalización y visualización de mecánicos en el mapa.  **Escenario 2: Evaluación de Integración Backend<br><br>Dado que** la plataforma usa un backend para lógica de negocio <br><br>**Cuando** el desarrollador analiza cómo consumir la API desde el backend <br><br>**Entonces** se definen los endpoints necesarios para enviar coordenadas y recibir resultados.   **Escenario 3: Prototipo mínimo de integración <br><br>Dado que** se requiere validar la viabilidad técnica <br><br>**Cuando** el desarrollador construye un proof-of-concept con un mapa y marcadores de mecánicos <br><br>**Entonces** se visualizan correctamente las ubicaciones en el mapa.   **Escenario 4: Evaluación de costos y licenciamiento <br><br>Dado que** se manejarán datos de usuarios<br><br>**Cuando** el desarrollador analiza la integración<br><br>**Entonces** se identifican riesgos y medidas de protección **Escenario 5: Evaluación de Costos<br><br>Dado que** Google Maps API tiene costos por uso <br><br>**Cuando** el desarrollador estima el volumen de requests <br><br>**Entonces** se documentan los costos proyectados y las restricciones de licenciamiento   **Escenario 6: Evaluación de Rendimiento<br><br>Dado que** la integración debe ser rápida y usable <br><br>**Cuando** se mide el tiempo de respuesta y carga del mapa <br><br>**Entonces** se valida que la experiencia sea fluida (menos de X segundos).   |  |  |  |
 
-2.4.2. Impact Mapping
+#### 2.4. Requirements specification
 
 <div style="max-width:100px">
   <img src="assets/entrevistas/DDD/Impact Mapping Template (1).jpg" alt="imagen perfil sanchez gabriel">
