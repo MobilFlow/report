@@ -542,7 +542,440 @@ En conclusión, el mecánico típico de este segmento es un profesional que valo
 
 ### 2.4.1. User Stories
 
+### **2.4.1.1 User Stories**  
 
+| Story ID  | User | Priority | Epic |
+| ----- | :---: | :---: | :---: |
+| US-01 | Conductor	 | Media | **Epic 04: Calificación y reseñas** |
+| **Title** | Calificaciones y reseñas |  |  |
+| **Description** |  |  |  |
+| Como conductor, quiero leer reseñas y ver calificaciones de mecánicos para tomar una decisión informada. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1:** Consulta de reseñas **Dado** que el conductor abre el perfil de un mecánico **Cuando** revisa las reseñas **Entonces** se muestran comentarios y promedio de calificaciones.	 |  |  |  |
+
+### 
+
+| Story ID  | User | Priority | Epic |
+| ----- | :---: | :---: | :---: |
+| US-02 | Conductor	 | Alta | **Epic 02: Manejo de Servicios** |
+| **Title** | Cotización transparente |  |  |
+| **Description** |  |  |  |
+| Como conductor, quiero recibir una cotización previa antes de aceptar el servicio para evitar cobros excesivos. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1:** Cotización previa **Given** que el conductor solicita un servicio **When** se procesan la información los síntomas del vehículo **Then** la app muestra el precio estimado antes de confirmar.	 |  |  |  |
+
+### 
+
+### 
+
+| Story ID  | User | Priority | Epic |
+| ----- | :---: | :---: | :---: |
+| US-03 | Conductor	 | Media | **Epic 02: Manejo de Servicios** |
+| **Title** | Historial de servicios |  |  |
+| **Description** |  |  |  |
+| Como conductor, quiero ver mi historial de servicios para recordar qué trabajos se hicieron y con quién. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1:** Consulta de historial **Given** que el conductor accede a su historial **When** revisa servicios previos **Then** se muestran fecha, mecánico y costo de cada servicio.	 |  |  |  |
+
+### 
+
+| Story ID | User | Priority | Epic |
+| ----- | :---: | :---: | :---: |
+| US-04 | Conductores | Alta | **Epic 01: Manejo de Usuarios** |
+| **Title** | Registro de usuario |  |  |
+| **Description** |  |  |  |
+| Como usuario quiero registrarme en la plataforma para acceder como conductor o mecánico. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Registrar usuario con email nuevo Dado que** no tengo una cuenta **Cuando** completo mis datos de registro **Entonces** se crea mi usuario con estado activo.  **Escenario 2: Registrar usuario con email usado Dado que** intento registrarme con un correo ya existente **Cuando** envío el formulario **Entonces** el sistema rechaza el registro y me informa el conflicto.  |  |  |  |
+
+### 
+
+| Story ID | User | Priority | Epic |
+| ----- | :---: | :---: | :---: |
+| US-05 | Conductores | Alta | **Epic 01: Manejo de Usuarios** |
+| **Title** | Completar perfil de conductor |  |  |
+| **Description** |  |  |  |
+| **Como** conductor **Quiero** completar mi perfil personal y de vehículo **Para** recibir mejores recomendaciones y solicitudes más precisas.  |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Agregar datos de vehiculo**<br><br> Dado que mi cuenta está creada<br><br> Cuando agrego los datos de mi vehículo<br><br> Entonces mi perfil de conductor queda disponible para búsquedas y matching. **Escenario 2: Actualizar datos de vehiculo**<br><br> Dado que ya tengo un vehículo registrado<br><br> Cuando actualizo su información<br><br> Entonces el perfil guarda la versión más reciente.  |  |  |  |
+
+### 
+
+| Story ID | User | Priority | Epic |
+| ----- | :---: | :---: | :---: |
+| US-06 | Mecanico | Alta | **Epic 01: Manejo de Usuarios** |
+| **Title** | Completar perfil de mecánico |  |  |
+| **Description** |  |  |  |
+| **Como** mecánico **Quiero** completar mi perfil profesional **Para** mostrar mis capacidades y ser encontrado por conductores.  |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Completar datos de mecánico<br><br> Dado que** ya estoy registrado<br><br> **Cuando** completo mis datos profesionales<br><br> **Entonces** mi perfil público queda habilitado. **Escenario 2: Actualizar datos de mecánico<br><br> Dado que** actualizo mis datos de contacto o presentación<br><br> **Cuando** guardo los cambios<br><br> **Entonces** el perfil público refleja la nueva información. |  |  |  |
+
+### 
+
+| Story ID | User | Priority | Epic |
+| ----- | :---: | :---: | :---: |
+| US-07 | Mecanico | Alta | **Epic 01: Manejo de Usuarios** |
+| **Title** | Definir especialidades del mecánico  |  |  |
+| **Description** |  |  |  |
+| **Como** mecánico **Quiero** definir mis especialidades **Para** aparecer en búsquedas relacionadas con mis conocimientos.  |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Ingresar Especialidades**<br><br> Dado que estoy editando mi perfil<br><br> Cuando selecciono especialidades como frenos, motor o electricidad<br><br> Entonces el sistema las asocia a mi perfil. **Escenario 2: Eliminar Especialidades**<br><br> Dado que una especialidad ya no aplica a mi servicio<br><br> Cuando la elimino del perfil<br><br> Entonces deja de usarse en el matching. |  |  |  |
+
+### 
+
+| Story ID | User | Priority | Epic |
+| ----- | :---: | :---: | :---: |
+| US-12 | Mecanico | Media | **Epic 01: Manejo de Usuarios** |
+| **Title** | Definir especialidades del mecánico  |  |  |
+| **Description** |  |  |  |
+| **Como** mecánico **Quiero** definir mis especialidades **Para** aparecer en búsquedas relacionadas con mis conocimientos.  |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Ingresar Especialidades**<br><br> Dado que estoy editando mi perfil<br><br> Cuando selecciono especialidades como frenos, motor o electricidad<br><br> Entonces el sistema las asocia a mi perfil. **Escenario 2: Eliminar Especialidades**<br><br> Dado que una especialidad ya no aplica a mi servicio<br><br> Cuando la elimino del perfil<br><br> Entonces deja de usarse en el matching. **Escenario 3: Seleccionar Especialidad de Tipo de vehículo**<br><br> Dado que atiendo un tipo de vehiculo especifico (Carros, SUV, motos, etc)<br><br> Cuando selecciono esos tipos de vehículo<br><br> Entonces solo seré sugerido para esos segmentos. **Escenario 4: Eliminar Especialidad de Tipo de vehículo**<br><br> Dado que ya no atiendo un tipo de vehículo<br><br> Cuando lo retiro de mi perfil<br><br> Entonces el sistema lo excluye de futuras recomendaciones. |  |  |  |
+
+### 
+
+| Story ID | User | Priority | Epic |
+| ----- | :---: | :---: | :---: |
+| US-08 | Mecanico | Alta | **Epic 02: Manejo de Servicios** |
+| **Title** | Publicar servicio  |  |  |
+| **Description** |  |  |  |
+| Como mecánico Quiero publicar mis servicios Para ofrecerlo en el catálogo y recibir solicitudes. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Publicar Servicio Completo<br><br> Dado que** completé la información del servicio<br><br> **Cuando** lo publico<br><br> **Entonces** el servicio aparece en el catálogo. **Escenario 2: Publicar Servicio Incompleto<br><br><br><br> Dado que** faltan datos obligatorios del servicio<br><br> **Cuando** intento publicarlo<br><br> **Entonces** el sistema bloquea la publicación y muestra los campos faltantes.  |  |  |  |
+
+### 
+
+| Story ID | User | Priority | Epic |
+| ----- | :---: | :---: | :---: |
+| US-09 | Mecanico | Media | **Epic 02: Manejo de Servicios** |
+| **Title** | Editar, activar o desactivar una publicación |  |  |
+| **Description** |  |  |  |
+| **Como** mecánico **Quiero** editar o pausar mis servicios publicados **Para** mantener actualizado mi catálogo.  |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Actualizar Servicio<br><br> Dado que** un servicio sigue vigente<br><br> **Cuando** actualizo su descripción o condiciones<br><br> **Entonces** la publicación se actualiza sin perder su identidad. **Escenario 2: Eliminar Servicio<br><br> Dado que** no estoy disponible temporalmente<br><br> **Cuando** desactivo un servicio<br><br> **Entonces** deja de aparecer en las búsquedas. |  |  |  |
+
+### 
+
+| Story ID | User | Priority | Epic |
+| ----- | :---: | :---: | :---: |
+| US-10 | Conductor | Alta | **Epic 02: Manejo de Servicios** |
+| **Title** | Buscar mecánicos con filtros |  |  |
+| **Description** |  |  |  |
+| **Como conductor Quiero buscar mecánicos usando filtros Para encontrar opciones compatibles con mi problema y mi vehículo.**  |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Busqueda de mecanicos con filtros<br><br> Dado que** tengo síntomas y tipo de vehículo definidos<br><br> **Cuando** aplico filtros de búsqueda<br><br> **Entonces** el sistema me muestra mecánicos compatibles. **Escenario 2: Búsqueda con filtro sin exito<br><br> Dado** que no existen resultados exactos<br><br> **Cuando** ejecuto la búsqueda<br><br> **Entonces** el sistema devuelve opciones cercanas o relacionadas. |  |  |  |
+
+### 
+
+| Story ID | User | Priority | Epic |
+| ----- | :---: | :---: | :---: |
+| US-11 | Conductor | Alta | **Epic 02: Manejo de Servicios** |
+| **Title** | Ver lista de mecánicos disponibles |  |  |
+| **Description** |  |  |  |
+| **Como conductor Quiero ver una lista de mecánicos disponibles Para comparar opciones antes de crear una solicitud.**   |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Visualización de mecánicos disponibles**<br><br> Dado que hay mecánicos con disponibilidad vigente<br><br> Cuando consulto la lista<br><br> Entonces veo únicamente los que pueden atender. **Escenario 2: Sin disponibilidad en la búsqueda**<br><br> Dado que no hay disponibilidad en mi zona o horario<br><br> Cuando consulto la lista<br><br> Entonces el sistema me indica que no hay opciones disponibles. |  |  |  |
+
+### 
+
+| Story ID | User | Priority | Epic |
+| ----- | :---: | :---: | :---: |
+| US-12 | Conductor | Media | **Epic 02: Manejo de Servicios** |
+| **Title** | Consultar perfil público del mecánico |  |  |
+| **Description** |  |  |  |
+| **Como conductor Quiero ver el perfil público del mecánico Para evaluar si es adecuado para mi caso.**  |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Acceso a perfil público disponible**<br><br> Dado que selecciono un mecánico en la búsqueda<br><br> Cuando abro su perfil público<br><br> Entonces veo sus especialidades, ubicación y reputación. **Escenario 2: Perfil no disponible públicamente**<br><br> Dado que el mecánico desactivó su publicación<br><br> Cuando intento ver su perfil<br><br> Entonces el sistema muestra que no está disponible públicamente. |  |  |  |
+
+### 
+
+| Story ID | User | Priority | Epic |
+| ----- | :---: | :---: | :---: |
+| US-13 | Mecanico | Media | **Epic 02: Manejo de Servicios** |
+| **Title** | Gestionar disponibilidad y horarios |  |  |
+| **Description** |  |  |  |
+| **Como mecánico Quiero administrar mis horarios de atención Para recibir solicitudes solo cuando realmente pueda atender.**  |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Definición de horarios disponibles**<br><br> Dado que tengo una jornada definida<br><br> Cuando agrego mis franjas horarias<br><br> Entonces el sistema las usa para mostrar mi disponibilidad. **Escenario 2: Bloqueo de horario no disponible**<br><br> Dado que tengo un bloqueo de agenda<br><br> Cuando marco un horario como no disponible<br><br> Entonces ese horario deja de poder seleccionarse. |  |  |  |
+
+### 
+
+| Story ID | User | Priority | Epic |
+| ----- | :---: | :---: | :---: |
+| US-14 | Conductor | Alta | **Epic 02: Manejo de Servicios** |
+| **Title** | Registrar síntomas y contexto |  |  |
+| **Description** |  |  |  |
+| **Como conductor Quiero registrar síntomas, problema e información contextual del vehículo Para recibir una recomendación más precisa.**  |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Registro de síntomas básicos**<br><br> Dado que mi vehículo presenta un ruido extraño<br><br> Cuando describo el síntoma y el contexto<br><br> Entonces el sistema guarda la información para el diagnóstico. **Escenario 2: Registro de contexto adicional**<br><br> Dado que el problema ocurre solo en ciertas condiciones<br><br> Cuando agrego ese contexto<br><br> Entonces el diagnóstico preliminar considera esa información. |  |  |  |
+
+### 
+
+| Story ID | User | Priority | Epic |
+| ----- | :---: | :---: | :---: |
+| US-15 | Sistema | Alta | **Epic 02: Manejo de Servicios** |
+| **Title** | Generar diagnóstico preliminar |  |  |
+| **Description** |  |  |  |
+| **Como sistema Quiero generar un diagnóstico preliminar a partir de los síntomas Para orientar el matching y la cotización referencial.**  |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Diagnóstico generado con información suficiente**<br><br> Dado que los síntomas registrados son suficientes<br><br> Cuando se procesa la información<br><br> Entonces se genera un diagnóstico preliminar. **Escenario 2: Diagnóstico no generado por falta de información**<br><br> Dado que los síntomas son ambiguos o incompletos<br><br> Cuando el sistema evalúa el caso<br><br> Entonces no genera un diagnóstico confiable y mantiene el caso como pendiente de enriquecimiento. |  |  |  |
+
+### 
+
+| Story ID | User | Priority | Epic |
+| ----- | :---: | :---: | :---: |
+| US-16 | Sistema | Alta | **Epic 03: Matching** |
+| **Title** | Sugerir Match |  |  |
+| **Description** |  |  |  |
+| **Como sistema Quiero encontrar un match entre conductor y mecánico Para maximizar la compatibilidad entre problema, vehículo y servicio.**  |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Generación de match exacto**<br><br> Dado que existe un mecánico compatible con diagnóstico, vehículo y ubicación<br><br> Cuando se ejecuta el matching<br><br> Entonces se genera un match exacto. **Escenario 2: Ausencia de match exacto**<br><br> Dado que no hay un mecánico exacto disponible Cuando el sistema busca alternativas Entonces me sugiere un mecánico similar. |  |  |  |
+
+### 
+
+| Story ID | User | Priority | Epic |
+| ----- | :---: | :---: | :---: |
+| US-17 | Sistema | Alta | **Epic 02: Manejo de Servicios** |
+| **Title** | Generar cotización referencial |  |  |
+| **Description** |  |  |  |
+| **Como sistema Quiero generar una cotización referencial Para reducir el riesgo de sobreprecio antes de crear la solicitud.**  |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Generación de cotización estimada**<br><br> Dado que existe suficiente información del problema<br><br> Cuando el sistema calcula la referencia<br><br> Entonces se genera un rango de cotización estimado. |  |  |  |
+
+### 
+
+| Story ID | User | Priority | Epic |
+| ----- | :---: | :---: | :---: |
+| US-18 | Conductor | Alta | **Epic 02: Manejo de Servicios** |
+| **Title** | Crear solicitud de servicio |  |  |
+| **Description** |  |  |  |
+| **Como conductor Quiero crear una solicitud de servicio Para formalizar mi necesidad y activar el proceso operativo.**  |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Creación exitosa de solicitud**<br><br> Dado que ya elegí un mecánico o una recomendación<br><br> Cuando confirmo la solicitud<br><br> Entonces se crea una solicitud de servicio. **Escenario 2: Bloqueo por información incompleta**<br><br> Dado que no he completado los datos mínimos<br><br> Cuando intento crear la solicitud<br><br> Entonces el sistema no la registra y me pide completar la información faltante. |  |  |  |
+
+### 
+
+| Story ID | User | Priority | Epic |
+| ----- | :---: | :---: | :---: |
+| US-19 | Conductor/Mecanico | Media | **Epic 02: Manejo de Servicios** |
+| **Title** | Cancelar solicitud de servicio |  |  |
+| **Description** |  |  |  |
+| **Como conductor o mecánico Quiero cancelar una solicitud de servicio Para detener el proceso cuando lo desee** |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Cancelación de Servicio**  Dado que el servicio todavía no se ha ejecutado<br><br> Cuando una de las partes cancela la solicitud<br><br> Entonces el servicio pasa a estado cancelado. |  |  |  |
+
+### 
+
+| Story ID | User | Priority | Epic |
+| ----- | :---: | :---: | :---: |
+| US-20 | Conductor/Mecanico | Alta | **Epic 02: Manejo de Servicios** |
+| **Title** | Marcar servicio |  |  |
+| **Description** |  |  |  |
+| **Como mecánico y conductor Quiero marcar el servicio como completado Para finalizar mi servicio** |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Marcado exitoso de servicio completado**<br><br> Dado que el conductor culmina la atención<br><br> Cuando el conductor marca la finalización del servicio  Entonces el estado cambia a “pendiente de confirmación del conductor”. **Escenario 2: Bloqueo por servicio no finalizado**<br><br>Dado que el mecánico ya marcó el servicio como completado Cuando confirma el mecanico marca la finalización del servicio Entonces se registra mi confirmación.  |  |  |  |
+
+### 
+
+| Story ID | User | Priority | Epic |
+| ----- | :---: | :---: | :---: |
+| US-21 | Conductor/Mecanico | Media | **Epic 02: Manejo de Servicios** |
+| **Title** | Consultar estado de servicio y servicios activos |  |  |
+| **Description** |  |  |  |
+| **Como conductor o mecánico Quiero consultar el estado de un servicio y mis servicios activos Para entender en qué etapa se encuentra cada atención.**  |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Consulta de servicio en curso**<br><br> Dado que tengo una solicitud en curso<br><br> Cuando reviso el panel de servicios<br><br> Entonces veo su estado actual. **Escenario 2: Exclusión de servicios finalizados en activos**<br><br> Dado que un servicio ya fue finalizado<br><br> Cuando consulto mis servicios activos<br><br> Entonces ese servicio ya no aparece en la lista activa. |  |  |  |
+
+### 
+
+| Story ID | User | Priority | Epic |
+| ----- | :---: | :---: | :---: |
+| US-22 | Conductor | Media | **Epic 02: Manejo de Servicios** |
+| **Title** | Calificar servicio finalizado |  |  |
+| **Description** |  |  |  |
+| **Como conductor Quiero calificar un servicio finalizado Para expresar mi nivel de satisfacción con la atención recibida.**  |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Envío de calificación válido**<br><br> Dado que el servicio fue finalizado<br><br> Cuando envío una calificación<br><br> Entonces la plataforma la registra. |  |  |  |
+
+### 
+
+| Story ID | User | Priority | Epic |
+| ----- | :---: | :---: | :---: |
+| US-23 | Conductor | Media | **Epic 04: Calificación y reseñas** |
+| **Title** | Publicar reseña |  |  |
+| **Description** |  |  |  |
+| **Como conductor Quiero publicar una reseña sobre el servicio finalizado Para aportar contexto cualitativo y afectar la reputación del mecánico.**  |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Publicación de reseña válida**<br><br> Dado que ya completé la calificación de un servicio finalizado<br><br> Cuando envío mi reseña<br><br> Entonces la reseña se publica y actualiza la reputación del mecánico. **Escenario 2: Bloqueo por reseña duplicada**<br><br> Dado que ya existe una reseña para ese mismo servicio<br><br> Cuando intento publicar otra<br><br> Entonces el sistema la rechaza para evitar duplicidad. |  |  |  |
+
+### 
+
+| Story ID | User | Priority | Epic |
+| ----- | :---: | :---: | :---: |
+| US-24 | Conductor | Baja | **No aplica** |
+| **Title** | Landing Page |  |  |
+| **Description** |  |  |  |
+| **Como conductor o mecánico Quiero ver las funcionalidades de la aplicación Para saber si me conviene usarla** |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Ver funcionalidades**<br><br> Dado que estoy en la landing page  Cuando navego por la landing page Entonces puedo visualizar las funcionalidades de la misma |  |  |  |
+
+### 
+
+### **2.4.1.2 Technical Stories \- Todos**
+
+| Story ID  | User | Priority | Epic |
+| ----- | :---: | :---: | :---: |
+| TS-01 | Developers	 | Media | No aplica |
+| **Title** | Sistema de notificaciones |  |  |
+| **Description** |  |  |  |
+| Como desarrollador, quiero implementar un sistema de notificaciones externo para alertar de eventos importantes a los usuarios . |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1:** Notificación de solicitud **Given** qué ocurre una nueva solicitud **When** el evento es generado **Then** el sistema envía una notificación al mecánico	 |  |  |  |
+
+### 
+
+| Story ID  | User | Priority | Epic |
+| ----- | :---: | :---: | :---: |
+| TS-02 | Developers	 | Alta | No aplica |
+| **Title** | Conectar con API Externa de geolocalización |  |  |
+| **Description** |  |  |  |
+| Como desarrollador, quiero implementar servicios de geolocalización para calcular distancias entre usuarios y mecánicos. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1:** Consulta de ubicación **Given**  que se reciben coordenadas **When** el sistema procesa la solicitud **Then** devuelve resultados ordenados por cercanía |  |  |  |
+
+### 
+
+| Story ID | User | Priority | Epic |
+| ----- | :---: | :---: | :---: |
+| TS-03 | Developers | Alta | No Aplica |
+| **Title** | Registro de usuario |  |  |
+| **Description** |  |  |  |
+| Como desarrollador, quiero registrar usuarios (conductores y mecánicos) a través de diferentes formularios para permitir el acceso a la plataforma.  |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Consulta de ubicación Dado que** el usuario es un mecánico **Y** envía sus datos **Cuando** el sistema valida la información **Entonces** se crea el usuario con rol “Mecánico” en la base de datos  **Escenario 1: Consulta de ubicación Dado que** el usuario es un conductor **Y** envía sus datos **Cuando** el sistema valida la información **Entonces** se crea el usuario con rol “Conductor” en la base de datos  |  |  |  |
+
+### 
+
+| Story ID | User | Priority | Epic |
+| ----- | :---: | :---: | :---: |
+| TS-04 | Developers | Alta | No Aplica |
+| **Title** | Login de usuario |  |  |
+| **Description** |  |  |  |
+| Como desarrollador, quiero autenticar a los usuarios para permitir acceso seguro.  |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Inicio de sesión con credenciales correctas Dado que** el usuario ingresa credenciales correctas **Cuando** el usuario presiona el botón para iniciar sesión **Entonces** el sistema devuelve un token JWT con el que podrá hacer querys **Escenario 2: Inicio de sesión con credenciales incorrectas Dado que** el usuario ingresa credenciales incorrectas **Cuando** el usuario presiona el botón para iniciar sesión **Entonces** el sistema devuelve un error y no brinda el token **Escenario 3:Diferenciación de roles en Base de Datos. Dado** que existen distintos tipos de usuarios (mecanicos y conductores) **Cuando** el usuario intente acceder a queries **Entonces** el sistema verificará si su rol tiene acceso a estas |  |  |  |
+
+### 
+
+| Story ID | User | Priority | Epic |
+| ----- | :---: | :---: | :---: |
+| TS-05 | Developers | Alta | No Aplica |
+| **Title** | Diseñar API CRUD de usuarios |  |  |
+| **Description** |  |  |  |
+| Como desarrollador, quiero crear endpoints para manejar a los usuarios de mi aplicación |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Actualización de Usuario Dado que** existe un usuario registrado **Cuando** se actualizan los datos del usuario **Entonces** se modifican los datos del usuario en la Base de Datos  **Escenario 2: Eliminación de Usuario Dado que** existe un usuario registrado **Cuando** se solicita la eliminación del usuario **Entonces** el usuario es marcado como inactivo en la Base de Datos |  |  |  |
+
+### 
+
+| Story ID | User | Priority | Epic |
+| ----- | :---: | :---: | :---: |
+| TS-06 | Developers | Alta | No Aplica |
+| **Title** | Diseñar queries de usuarios |  |  |
+| **Description** |  |  |  |
+| Como desarrollador, quiero filtrar usuarios por diferentes campos para mejorar la búsqueda.  |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Filtro aplicado Dado que** se han ingresado parámetros de filtro **Cuando** se ejecuta la consulta **Entonces** retorna usuarios que cumplan condiciones   **Escenario 2: Filtro no Aplicado Dado que** no se han ingresado parámetros de filtro **Cuando** se ejecuta la consulta **Entonces** retorna a todos los usuarios |  |  |  |
+
+### 
+
+| Story ID | User | Priority | Epic |
+| ----- | :---: | :---: | :---: |
+| TS-07 | Developers | Alta | No Aplica |
+| **Title** | Diseñar CRUD API de servicios |  |  |
+| **Description** |  |  |  |
+| Como desarrollador, quiero diseñar una API de servicios para poder registrar o modificar los servicios dados por los mecanicos  |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Registro de Servicio  Dado que** se han ingresado los parámetros del servicio **Cuand**o se registra el servicio **Entonces** se guarda el servicio en la Base de Datos **Escenario 2: Actualización de Servicio Dado que** existe un servicio registrado **Cuando** se actualizan los datos del servicio **Entonces** se modifican los datos del servicio en la Base de Datos  **Escenario 3: Eliminación de Servicio Dado que** existe un servicio registrado **Cuando** se solicita la eliminación del servicio **Entonces** el servicio es marcado como desestimado en la Base de Datos  |  |  |  |
+
+### 
+
+| Story ID | User | Priority | Epic |
+| ----- | :---: | :---: | :---: |
+| TS-08 | Developers | Alta | No Aplica |
+| **Title** | Diseñar queries de servicios |  |  |
+| **Description** |  |  |  |
+| Como desarrollador, quiero filtrar servicios por diferentes campos para mejorar la búsqueda.  |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Filtro aplicado Dado que** se han ingresado parámetros de filtro **Cuando** se ejecuta la consulta **Entonces** retorna servicios que cumplan condiciones   **Escenario 2: Filtro no Aplicado Dado que** no se han ingresado parámetros de filtro **Cuando** se ejecuta la consulta **Entonces** retorna a todos los servicios   |  |  |  |
+
+### 
+
+| Story ID | User | Priority | Epic |
+| ----- | :---: | :---: | :---: |
+| TS-09 | Developers | Alta | No Aplica |
+| **Title** | Diseñar queries de servicios |  |  |
+| **Description** |  |  |  |
+| Como desarrollador, quiero filtrar servicios por diferentes campos para mejorar la búsqueda.   |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Filtro aplicado Dado que** se han ingresado parámetros de filtro **Cuando** se ejecuta la consulta **Entonces** retorna servicios que cumplan condiciones   **Escenario 2: Filtro no Aplicado Dado que** no se han ingresado parámetros de filtro **Cuando** se ejecuta la consulta **Entonces** retorna a todos los servicios   |  |  |  |
+
+### 
+
+| Story ID | User | Priority | Epic |
+| ----- | :---: | :---: | :---: |
+| TS-10 | Developers | Alta | No Aplica |
+| **Title** | Integración con IA de recomendación inteligente de mecánicos  |  |  |
+| **Description** |  |  |  |
+| Como desarrollador, quiero utilizar un modelo de IA para recomendar el mejor mecánico al usuario en base a parámetros como ubicación, tipo de problema, rating y disponibilidad, para mejorar la experiencia y precisión en la elección.  |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Recomendación exitosa Dado que** el usuario ingresa los parámetros del servicio (ubicación, tipo de problema, etc.) **Cuando el** sistema procesa la información con el modelo de IA **Entonces** se retorna una lista de mecánicos recomendados ordenados por relevancia  **Escenario 2: Sin coincidencias exactas Dado que** no existen mecánicos que cumplan todos los parámetros o cumplan parcialmente **Cuando** el sistema ejecuta la búsqueda **Entonces** se retornan mecánicos cercanos o similares como recomendación alternativa |  |  |  |
+
+### 
+
+### **2.4.1.3 Spike Stories \- Gabriel**
+
+| Story ID  | User | Priority | Epic |
+| ----- | :---: | :---: | :---: |
+| SS-01 | Developer | Alta | EP-03 Plataformas |
+| **Title** | Investigación de geolocalización |  |  |
+| **Description** |  |  |  |
+| Investigar tecnologías para implementar geolocalización en tiempo real en la plataforma. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1:** Evaluación de tecnologías **Given**  que se requiere implementar geolocalización **When** se analizan diferentes herramientas **Then** se documenta la mejor alternativa técnica |  |  |  |
+
+### 
+
+| Story ID | User | Priority | Epic |
+| ----- | :---: | :---: | :---: |
+| SS-02 | Developers | Media | No Aplica |
+| **Title** | Investigar la Integración de OpenAI para Recomendación Inteligente de Mecánicos |  |  |
+| **Description** |  |  |  |
+| Como desarrollador,  quiero evaluar la integración de OpenAI como motor de recomendación para mejorar la precisión en la asignación de mecánicos y optimizar la experiencia del usuario. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Revisión de la API de OpenAI Dado que** el equipo necesita entender las capacidades de OpenAI<br><br>**Cuando** el desarrollador revisa la documentación de la API<br><br>**Entonces** identifica los endpoints y modelos adecuados para recomendaciones **Escenario 2: Evaluación de Integración Backend Dado que** el sistema usa backend para lógica de negocio<br><br>**Cuando** el desarrollador evalúa el consumo de la API de OpenAI<br><br>**Entonces** se definen los endpoints necesarios para enviar parámetros y recibir recomendaciones  **Escenario 3: Evalúa la Compatibilidad Móvil Dado** la arquitectura Kotlin Multiplatform Mobile (KMM) para Android e iOS, **Cuando** el desarrollador evalúa la compatibilidad con los Apps SDKs de OpenAI **Entonces** el desarrollador documenta los requisitos de integración móvil **Escenario 4: Evaluación de Seguridad Dado que** se manejarán datos de usuarios<br><br>**Cuando** el desarrollador analiza la integración<br><br>**Entonces** se identifican riesgos y medidas de protección (API keys, validación, etc.) **Escenario 5: Evaluación de Costos Dado** que OpenAI tiene costos por uso<br><br>**Cuando** el desarrollador analiza el consumo esperado<br><br>**Entonces** se estiman costos según el volumen de requests proyectado **Escenario 6: Evaluación de Rendimiento Dado que** las recomendaciones deben ser rápidas (menos de 5 segundos)<br><br>**Cuando** el desarrollador mide el tiempo de respuesta<br><br>**Entonces** se identifican posibles latencias **Escenario 7: Identificación de Dependencias Dado que** se requiere integración externa<br><br>**Cuando** el desarrollador revisa la implementación<br><br>**Entonces** se listan librerías, configuraciones y servicios necesarios **Escenario 8: Prototipa la Integración de Stripe Dado que** se necesita validar la viabilidad de OpenAI<br><br>**Cuando** el desarrollador construye un proof-of-concept mínimo <br><br>**Entonces** se obtiene una recomendación de mecánicos funcional **Escenario 9: Estimación de Esfuerzo Dado que** el equipo necesita una estimación de esfuerzo para la implementación de OpenAi **Cuando** el desarrollador desglosa la integración en tareas de móvil (KMM), y backend basadas en los hallazgos del Spike **Entonces** el desarrollador proporciona una estimación aproximada de puntos de historia para la funcionalidad completa en el informe.  **Escenario 10: Documentación Final Dado que** el Spike está completo, **Cuando** el desarrollador compila todos los hallazgos en un informe compartido, **Entonces** el informe incluye pros/contras, enfoque recomendado y es revisado en una reunión de equipo o sesión de refinamiento |  |  |  |
+
+### 
+
+| Story ID | User | Priority | Epic |
+| ----- | :---: | :---: | :---: |
+| SS-02 | Developers | Media | No Aplica |
+| **Title** | Investigar la Integración de FAISS para Recomendación Inteligente de Mecánicos |  |  |
+| **Description** |  |  |  |
+| Como desarrollador,  quiero evaluar la integración de FAISS como motor de recomendación para mejorar la precisión en la asignación de mecánicos y optimizar la experiencia del usuario. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Revisión de FAISS<br><br>Dado** que el equipo necesita entender las capacidades de FAISS<br><br>**Cuando** el desarrollador revisa la documentación de FAISS<br><br>**Entonces** identifica cómo funciona la búsqueda por similitud mediante vectores **Escenario 2: Evaluación de Integración Backend<br><br>Dado que** el sistema usa backend para lógica de negocio<br><br>**Cuando** el desarrollador evalúa la integración de FAISS<br><br>**Entonces** se definen los endpoints necesarios para indexar y consultar mecánicos  **Escenario 3: Modelado de Datos Vectoriales<br><br>Dado que** FAISS trabaja con vectores<br><br>**Cuando** el desarrollador define la estructura de datos<br><br>**Entonces** se representan los mecánicos como vectores (ej: ubicación, rating, especialidad) **Escenario 4: Evaluación de Seguridad<br><br>Dado que** se manejarán datos de usuarios<br><br>**Cuando** el desarrollador analiza la integración<br><br>**Entonces** se identifican riesgos y medidas de protección **Escenario 5: Evaluación de Costos<br><br>Dado que** FAISS es open source<br><br>**Cuando** el desarrollador analiza su implementación<br><br>**Entonces** se identifican costos asociados a infraestructura (servidor, memoria) **Escenario 6: Evaluación de Rendimiento<br><br>Dado que** las recomendaciones deben ser rápidas (menos de 3 segundos)<br><br>**Cuando** el desarrollador prueba consultas de similitud<br><br>**Entonces** se valida que FAISS responde eficientemente incluso con grandes volúmenes de datos **Escenario 7: Identificación de Dependencias<br><br>Dado que** se requiere integración técnica<br><br>**Cuando** el desarrollador revisa la implementación<br><br>**Entonces** se listan librerías necesarias  **Escenario 8: Prototipa la Integración de FAISS<br><br>Dado que** se necesita validar la viabilidad<br><br>**Cuando** el desarrollador construye un proof-of-concept mínimo<br><br>**Entonces** se obtiene una lista de mecánicos recomendados por similitud **Escenario 9: Estimación de Esfuerzo<br><br> Dado que** el equipo necesita una estimación de esfuerzo<br><br> **Cuando** el desarrollador desglosa tareas (vectorización, indexación, queries backend)<br><br> **Entonces** se proporciona una estimación aproximada de implementación  **Escenario 10: Documentación Final<br><br>Dado que** el Spike está completo<br><br>**Cuando** el desarrollador compila los hallazgos<br><br>**Entonces** el informe incluye ventajas, limitaciones y posibles usos dentro del sistema |  |  |  |
+
+### 
+
+| Story ID | User | Priority | Epic |
+| ----- | :---: | :---: | :---: |
+| SS-03 | Developers | Media | No Aplica |
+| **Title** | Investigar la Integración de Google Maps API para localizar mecánicos en el mapa |  |  |
+| **Description** |  |  |  |
+| Como desarrollador, quiero evaluar la integración de Google Maps API como motor de mapas para mejorar la experiencia del usuario al encontrar mecánicos cercanos. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Revisión de documentación de Google Maps API <br><br>Dado** que el equipo necesita entender las capacidades de Google Maps <br><br>**Cuando** el desarrollador revisa la documentación oficial de la API <br><br>**Entonces** identifica los endpoints relevantes para geolocalización y visualización de mecánicos en el mapa.  **Escenario 2: Evaluación de Integración Backend<br><br>Dado que** la plataforma usa un backend para lógica de negocio <br><br>**Cuando** el desarrollador analiza cómo consumir la API desde el backend <br><br>**Entonces** se definen los endpoints necesarios para enviar coordenadas y recibir resultados.   **Escenario 3: Prototipo mínimo de integración <br><br>Dado que** se requiere validar la viabilidad técnica <br><br>**Cuando** el desarrollador construye un proof-of-concept con un mapa y marcadores de mecánicos <br><br>**Entonces** se visualizan correctamente las ubicaciones en el mapa.   **Escenario 4: Evaluación de costos y licenciamiento <br><br>Dado que** se manejarán datos de usuarios<br><br>**Cuando** el desarrollador analiza la integración<br><br>**Entonces** se identifican riesgos y medidas de protección **Escenario 5: Evaluación de Costos<br><br>Dado que** Google Maps API tiene costos por uso <br><br>**Cuando** el desarrollador estima el volumen de requests <br><br>**Entonces** se documentan los costos proyectados y las restricciones de licenciamiento   **Escenario 6: Evaluación de Rendimiento<br><br>Dado que** la integración debe ser rápida y usable <br><br>**Cuando** se mide el tiempo de respuesta y carga del mapa <br><br>**Entonces** se valida que la experiencia sea fluida (menos de X segundos).   |  |  |  |
 
 2.4.2. Impact Mapping
 
