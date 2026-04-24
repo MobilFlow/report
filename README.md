@@ -1029,9 +1029,32 @@ En conclusión, el mecánico típico de este segmento es un profesional que valo
 
 2.5.1.1. Candidate Context Discovery
 
+Durante el EventStorming se aplicó la técnica look-for-pivotal-events para identificar los eventos que marcan cambios de estado en el negocio. Estos eventos actuaron como splitters de la narrativa principal, permitiendo separar responsabilidades y definir los contextos candidatos. A partir de este análisis se establecieron los siguientes bounded contexts:
+
+| Bounded Context          | Descripción                                                                 | Eventos clave                                                                 |
+|--------------------------|------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| ServiceCatalogContext    | Gestiona la publicación, actualización y filtrado de servicios mecánicos.   | Servicio Publicado, Servicio Actualizado, Servicio Desactivado                |
+| UserIdentityContext (IAM)| Maneja el registro, autenticación y perfiles de usuarios y mecánicos.        | Usuario Registrado, Usuario Actualizado, Perfil Completado                    |
+| DiagnosisContext         | Administra pedidos de servicio, síntomas y generación de diagnósticos/cotizaciones. | Pedido de Servicio Registrado, Diagnóstico Generado, Match Encontrado         |
+| ReputationContext        | Gestiona calificaciones y reseñas verificadas de los servicios completados. | Calificación Enviada, Reseña Publicada, Calificación Editada, Reseña Editada  |
+| ServiceManagementContext | Controla el ciclo de vida del servicio, desde la solicitud hasta la finalización y registro en el historial. | Servicio Solicitado, Confirmación Dual Alcanzada, Servicio Finalizado, Servicio Cancelado |
+
+
 2.5.1.2. Domain Message Flows Modeling
 
+![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/Scenario1.png)
+![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/Escenario2.png)
+![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/Escenario3.png)
+![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/Escenario4.png)
+![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/Escenario5.png)
+![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/Escenario6.png)
+
 2.5.1.3. Bounded Context Canvases
+
+![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/UserIdentityContext.png)
+![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/ServiceCatalog.png)
+![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/UserIdentityContext.png)
+
 
 2.5.2. Context Mapping
 
@@ -1039,9 +1062,15 @@ En conclusión, el mecánico típico de este segmento es un profesional que valo
 
 2.5.3.1. Software Architecture Context Level Diagrams
 
+![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/Software%20Architecture%20Context%20Level.png)
+
 2.5.3.2. Software Architecture Container Level Diagrams
 
+![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/Software%20Architecture%20Container%20Level%20Diagrams.png)
+
 2.5.3.3. Software Architecture Deployment Diagrams
+
+![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/Software%20Architecture%20Deployment%20Diagrams.png)
 
 #### 2.6. Tactical-Level Domain-Driven Design
 2.6.x. Bounded Context: <Bounded Context Name>
