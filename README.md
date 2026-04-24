@@ -26,8 +26,8 @@
 | Apellidos y Nombres                  |   Código    |
 |:------------------------------------:|:-----------:|
 |                                      |             |
-|                                      |             |
-| Taquiri Calderon, Jhunior Giussepe     | U20221C576 |
+| Villugas Jeronimo, Liam Anderson     | U202211634  |
+| Taquiri Calderon, Jhunior Giussepe   | U20221C576 |
 | Sanchez Gonzales, Gabriel            | U202310609  |
 | Tuesta Marin, Romina Alejandra       | U202211706  |
 | Torrejon Navarro, Braulio Rodrigo    | U201711828  |
@@ -225,15 +225,64 @@ Soy un estudiante de 7mo ciclo de la carrera de Ingenieria de Software. Tengo in
 
 1.2.1. Antecedentes y problemática
 
+En la actualidad, el parque automotor de vehículos particulares ha crecido de manera exponencial, convirtiéndose en el principal medio de transporte para millones de personas. Sin embargo, el sector de servicios de mantenimiento y reparación no ha evolucionado al mismo ritmo tecnológico. El mercado se encuentra dividido entre concesionarios oficiales, con costos excesivamente elevados, y talleres independientes, que operan mayoritariamente en la informalidad o sin visibilidad digital.  
+
+Esta situación genera un escenario de incertidumbre para el conductor, quien al enfrentar una avería o requerir un mantenimiento preventivo, se ve obligado a navegar en un sistema basado en el "ensayo y error". La falta de información centralizada sobre la calidad de los repuestos, la experiencia real de los técnicos y la competitividad de los precios crea una barrera de desconfianza que afecta tanto al usuario como a los buenos proveedores que no tienen cómo destacar su trabajo. Automatch nace para resolver esta fragmentación, profesionalizando el encuentro entre la oferta y la demanda mediante la tecnología.
+
+---
+
+#### What?
+La desconexión digital entre conductores de autos particulares y servicios mecánicos confiables, lo que deriva en una falta de transparencia en precios, calidad y tiempos de entrega.
+
+#### When?
+Se manifiesta ante emergencias mecánicas o necesidades de mantenimiento preventivo, momentos en los que el usuario requiere una solución rápida y validada.
+
+#### Where?
+El proyecto se enfoca en centros urbanos con alta congestión vehicular donde la demanda de reparaciones es constante y la oferta es dispersa.
+
+#### Who?
+**Usuarios:** Propietarios de autos que valoran su tiempo y seguridad.  
+**Proveedores:** Mecánicos y talleres que buscan formalizar su captación de clientes y optimizar sus ingresos.
+
+#### Why?
+Debido a la informalidad del sector y la ausencia de una plataforma que centralice reputación, especialidades y presupuestos, dejando al usuario vulnerable a servicios deficientes o cobros injustos.
+
+#### How?
+A través de un ecosistema móvil intuitivo que permita geolocalizar talleres, comparar presupuestos en tiempo real y visualizar reseñas de otros usuarios.
+
+#### How much?
+La problemática genera pérdidas económicas por reparaciones mal ejecutadas. La solución requiere una inversión en desarrollo de software, recolección de datos y estrategias de validación de proveedores.
+
 1.2.2. Lean UX Process
 
 1.2.2.1. Lean UX Problem Statements
 
 1.2.2.2. Lean UX Assumptions
 
-1.2.2.3. Lean UX Hypothesis Statements
+#### 1. Business Assumptions
 
-1.2.2.4. Lean UX Canvas
+- **Creemos que nuestros clientes tienen la necesidad de:**  
+  Encontrar mecánicos de confianza sin tener que depender exclusivamente de recomendaciones informales o visitas físicas inciertas.
+
+- **El valor principal que el cliente obtiene de AutoMatch es:**  
+  La transparencia en precios, la seguridad de contratar a alguien verificado y el ahorro de tiempo en la búsqueda.
+
+- **Nuestros clientes actuales (o futuros) son:**  
+  Propietarios de vehículos particulares, de entre 20 y 55 años, con poco conocimiento técnico automotriz y alta dependencia de su auto para el día a día.
+
+- **Nuestra principal competencia son:**  
+  Los concesionarios oficiales (por estatus/garantía) y los talleres informales de barrio (por cercanía/costo).
+
+- **Nuestra mayor ventaja competitiva será:**  
+  El sistema de reputación (reviews) y la facilidad de geolocalización de servicios especializados.
+
+- **Ganaremos dinero mediante:**  
+  Comisiones por cada servicio concretado, suscripciones premium para talleres o espacios publicitarios de proveedores de repuestos.
+
+---
+
+#### 2. User Assumptions
+
 
 ## 1.3. Segmentos objetivo
 
