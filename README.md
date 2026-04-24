@@ -258,6 +258,9 @@ La problemática genera pérdidas económicas por reparaciones mal ejecutadas. L
 
 #### 1.2.2.1. Lean UX Problem Statements
 
+El estado actual de la industria de servicios mecánicos para usuarios de autos particulares está fragmentado y carece de transparencia. A pesar de la alta demanda de mantenimientos y reparaciones, no existe un estándar digital que permita a los conductores validar la confianza, calidad y precio de los proveedores de forma rápida.
+Observamos que la falta de una plataforma centralizada genera una asimetría de información: los usuarios pierden tiempo y dinero en servicios deficientes, mientras que los mecánicos calificados pierden oportunidades de negocio por falta de visibilidad. Esto ha creado una brecha de desconfianza en el ecosistema automotriz que afecta la seguridad vial y la economía de los conductores.
+
 #### 1.2.2.2. Lean UX Assumptions
 
 ##### 1. Business Assumptions
