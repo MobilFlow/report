@@ -185,8 +185,12 @@ tecnologías de ingeniería de software
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 | :---- | :---- | :---- |
-| **Criterio 1:** Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de ingeniería de software | **Gabriel Sanchez** <br><br> **AV1:** Descripción del startup; entrevistas a usuarios; diseño de user personas; elaboración de empathy mapping; definición de ubiquitous language; creación del product backlog; desarrollo de event storming; gestión del proyecto en una rama de GitHub  | **Gabriel Sanchez** <br><br> **AV1:** Durante este avance desarrollé la descripción completa del startup, realicé entrevistas a usuarios, diseñé user personas y empathy maps, construí el ubiquitous language, elaboré el product backlog y llevé a cabo el event storming, gestionando todo el proceso en una rama de GitHub. |
-| **Criterio 2:** Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de tecnologías de ingeniería de software | **Gabriel Sanchez** <br><br> **AV1:** Descripción del startup; entrevistas a usuarios; diseño de user personas; elaboración de empathy mapping; definición de ubiquitous language; creación del product backlog; desarrollo de event storming; gestión del proyecto en una rama de GitHub  | **Gabriel Sanchez** <br><br> **AV1:** Este proceso evidenció que el desarrollo de soluciones de software exige aprendizaje constante. Comprendí que debo seguir actualizándome y explorando nuevas metodologías y tecnologías para mejorar la calidad y efectividad de mis proyectos.  |
+| **Criterio 1:** Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de ingeniería de software | **Gabriel Sanchez** <br><br> **AV1:** Descripción del startup; entrevistas a usuarios; diseño de user personas; elaboración de empathy mapping; definición de ubiquitous language; creación del product backlog; desarrollo de event storming; gestión del proyecto en una rama de GitHub <br><br> **Giussepe Taquiri** <br><br> **AV1:** Análisis competitivo; definición de estrategias y tácticas frente a competidores; elaboración de User Task Matrix; desarrollo de User Journey Mapping; gestión del proyecto en una rama de GitHub | **Gabriel Sanchez** <br><br> **AV1:** Durante este avance desarrollé la descripción completa del startup, realicé entrevistas a usuarios, diseñé user personas y empathy maps, construí el ubiquitous language, elaboré el product backlog y llevé a cabo el event storming, gestionando todo el proceso en una rama de GitHub. <br><br> **Giussepe Taquiri** <br><br> **AV1:** Durante este avance desarrollé el análisis competitivo y definí estrategias y tácticas frente a los competidores. Asimismo, elaboré el User Task Matrix y los User Journey Maps, aplicando herramientas de análisis UX para comprender mejor las necesidades del usuario y contribuir a la solución del proyecto. |
+| **Criterio 2:** Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de tecnologías de ingeniería de software | **Gabriel Sanchez** <br><br> **AV1:** Descripción del startup; entrevistas a usuarios; diseño de user personas; elaboración de empathy mapping; definición de ubiquitous language; creación del product backlog; desarrollo de event storming; gestión del proyecto en una rama de GitHub <br><br> **Giussepe Taquiri** <br><br> **AV1:** Análisis competitivo; estrategias y tácticas frente a competidores; User Task Matrix; User Journey Mapping; uso de herramientas de análisis y gestión en GitHub | **Gabriel Sanchez** <br><br> **AV1:** Este proceso evidenció que el desarrollo de soluciones de software exige aprendizaje constante. Comprendí que debo seguir actualizándome y explorando nuevas metodologías y tecnologías para mejorar la calidad y efectividad de mis proyectos. <br><br> **Giussepe Taquiri** <br><br> **AV1:** Este avance me permitió reconocer la importancia del aprendizaje continuo en el desarrollo de soluciones tecnológicas. A través del análisis competitivo y herramientas UX, comprendí la necesidad de actualizar constantemente mis conocimientos para adaptarme a nuevas tecnologías y metodologías en ingeniería de software. |
+
+
+
+
 
 
 # Capítulo I: Presentación
@@ -207,11 +211,19 @@ Nuestra startup “MobilFlow” ofrece una aplicación innovadora que conecta a 
 #### 1.1.2.1 Gabriel Sánchez
 
 Soy estudiante en la Universidad Peruana de Ciencias Aplicadas (UPC) cursando el 7mo ciclo de la carrera de Ingeniería de Software. Soy una persona comprometida con mi desarrollo académico y profesional. Con esa responsabilidad, aspiro a proveer soluciones tecnológicas a aquellos que las requieran para facilitar su área de trabajo. Junto con mi equipo de trabajo tendré la oportunidad de poner mis conocimientos y habilidades en uso con el proyecto “AutoMatch” con el fin de disminuir la problemática identificada. 
-Jhunior GiussepeTaquiri Calderon
-Soy estudiante en la Universidad Peruana de Ciencias Aplicadas (UPC) cursando el séptimo ciclo de la carrera de Ingeniería de Software.
+
 <div style="max-width:100px">
   <img src="assets/images/sanchez gonzales.png" alt="imagen perfil sanchez gabriel">
 </div>
+
+#### 1.1.2.2. Giussepe Taquiri
+
+Soy estudiante de la Universidad Peruana de Ciencias Aplicadas (UPC), cursando el séptimo ciclo de la carrera de Ingeniería de Software. Me caracterizo por ser responsable, proactivo y orientado al aprendizaje continuo. Busco aplicar mis conocimientos en análisis, diseño y desarrollo de software, trabajando de manera colaborativa con mi equipo para proponer soluciones eficientes e innovadoras. Asimismo, contribuyo activamente en la toma de decisiones y en la construcción de soluciones tecnológicas que mejoren la experiencia de los usuarios, como en el desarrollo de **AutoMatch**, una plataforma digital que conecta conductores con servicios mecánicos confiables mediante geolocalización, verificación de proveedores y comparación de precios. 
+
+<div style="max-width:100px">
+  <img src="assets/images/giussepe.png" alt="imagen perfil giussepe">
+</div>
+
 1.2. Solution Profile
 
 1.2.1. Antecedentes y problemática
