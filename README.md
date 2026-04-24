@@ -23,13 +23,14 @@
 
 ### Relación de Integrantes
 
-| Apellidos y Nombres |   Código    |
-|:-------------------------------:|:---------:|
-|    |  |
-|    |  |
-|    |  |
-|  Sanchez Gonzales, Gabriel  |    U202310609  |
-|  Tuesta Marin, Romina Alejandra  |    U202211706   |
+| Apellidos y Nombres                  |   Código    |
+|:------------------------------------:|:-----------:|
+|                                      |             |
+|                                      |             |
+|                                      |             |
+| Sanchez Gonzales, Gabriel            | U202310609  |
+| Tuesta Marin, Romina Alejandra       | U202211706  |
+| Torrejon Navarro, Braulio Rodrigo    | U201711828  |
 
 <strong> Julio, 2026</strong><br>
 </div>
@@ -44,6 +45,7 @@
 |---------|------------|--------------|-----------------------------------------------|
 | 1.0     | 6/09/2025 | Romina Tuesta | Creación de la estructura inicial del reporte, cargó archivos y actualizó una rama|
 | 1.0     | 23/04/2026 | Gabriel Sánchez Gonzales | Cargó archivos, Descripción de la Startup, diseño de entrevistas, entrevistas, user personas, empathy mapping, Ubiquitous language, product backlog, event storming y actualizó una rama|
+| 1.0     | 23/04/2026 | Braulio Rodrigo Torrejon Navarro | Cargo archivos, entrevistas, user stories, candidate context discovery, domain message flow modeling, bounded context canvases, software architecture y impact mapping |
 
 ---
 
