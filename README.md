@@ -283,6 +283,20 @@ La problemática genera pérdidas económicas por reparaciones mal ejecutadas. L
 
 #### 2. User Assumptions
 
+- **¿Quién es el usuario?**  
+  Personas que usan su auto para trabajar o movilizar a su familia y que ven el mantenimiento como un gasto estresante y opaco.
+
+- **¿Dónde encaja nuestro producto en su vida?**  
+  Como la herramienta de consulta inmediata ante un testigo prendido en el tablero o el vencimiento de un mantenimiento preventivo.
+
+- **¿Qué problemas resuelve nuestro producto?**  
+  El miedo a ser estafado, la incertidumbre del costo y la dificultad de encontrar un taller con disponibilidad inmediata.
+
+- **¿Cuándo y cómo se utiliza el producto?**  
+  Principalmente en situaciones de emergencia (averías en ruta) o en la planificación semanal de mantenimientos.
+
+- **¿Qué miedo tienen los usuarios sobre nuestra app?**  
+  Que los mecánicos listados no sean realmente evaluados o que la aplicación sea difícil de usar en un momento de estrés.
 
 ## 1.3. Segmentos objetivo
 
