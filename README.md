@@ -27,9 +27,10 @@
 |:-------------------------------:|:---------:|
 |    |  |
 |    |  |
-| aquiri Calderon, Jhunior Giussepe    | U20221C576  |
-|  Sanchez Gonzales, Gabriel  |    U202310609  |
+|    |  |
+| Sanchez Gonzales, Gabriel              | U202310609 |
 |  Tuesta Marin, Romina Alejandra  |    U202211706   |
+| Taquiri Calderon, Jhunior Giussepe     | U20221C576 |
 
 <strong> Julio, 2026</strong><br>
 </div>
@@ -239,10 +240,130 @@ Soy estudiante en la Universidad Peruana de Ciencias Aplicadas (UPC) cursando el
 # Capítulo II: Requirements Development and Software Solution Design
 
 ## 2.1. Competidores
+### ¿Por qué llevar a cabo este análisis?
 
-2.1.1. Análisis competitivo
+El análisis de competidores se realiza con el propósito de identificar y evaluar a los principales actores del mercado de servicios automotrices. Esto permite comprender sus fortalezas, debilidades, estrategias y propuestas de valor, así como las oportunidades existentes dentro del entorno competitivo.
 
-2.1.2. Estrategias y tácticas frente a competidores
+A través de este análisis, AutoMatch puede definir una estrategia diferenciada, orientada a satisfacer de manera más eficiente las necesidades de los usuarios. Asimismo, permite reconocer vacíos en el mercado, como la falta de plataformas especializadas, la limitada transparencia en precios y la escasa validación de la calidad del servicio.
+
+En el contexto peruano, donde el sector automotriz presenta altos niveles de informalidad y desconfianza, este análisis resulta clave para diseñar una solución que genere valor, confianza y accesibilidad para los usuarios, posicionando a AutoMatch como una alternativa innovadora frente a los competidores existentes.
+### 2.1.1. Análisis competitivo
+
+#### Competitive Analysis Landscape
+
+**¿Por qué llevar a cabo este análisis?**  
+Identificar y comparar a los principales competidores del mercado automotriz para entender sus fortalezas, debilidades y estrategias, con el fin de definir la propuesta de valor y ventaja competitiva de AutoMatch en el contexto peruano.
+
+---
+
+### Comparativa general
+
+| Categoría | AutoMatch | Google Maps / Reseñas | Autingo (LatAm) | Maquinarias.pe | Cadenas formales (Bosch / Derco) |
+|----------|-----------|------------------------|-----------------|----------------|----------------------------------|
+| **Overview** | App que conecta conductores con mecánicos | Plataforma de búsqueda con reseñas | Plataforma digital de servicios mecánicos | Plataforma peruana de servicios postventa | Talleres formales con respaldo de marca |
+| **Ventaja competitiva** | Geolocalización + verificación + comparación de precios | Gran volumen de información | Servicio estructurado digital | Respaldo empresarial | Garantía y respaldo técnico |
+| **Mercado objetivo** | Conductores urbanos en Perú | Usuarios globales | Mercado latinoamericano | Usuarios en Perú | Segmento medio-alto |
+| **Estrategias de marketing** | Redes sociales, referidos | SEO | Marketing digital | Publicidad digital | Publicidad corporativa |
+| **Servicios** | Búsqueda, cotización, chat, historial | Reseñas y ubicación | Diagnóstico, reservas | Mantenimiento y postventa | Servicios especializados |
+| **Precios** | Gratis | Gratis | Pago por servicio | Precios definidos | Alto costo |
+| **Canales** | App y web | Web y app | Web y app | Web | Presencial + digital |
+
+---
+
+### Análisis FODA comparativo
+
+| Plataforma | Fortalezas | Debilidades | Oportunidades | Amenazas |
+|------------|-----------|-------------|---------------|----------|
+| **AutoMatch** | Especialización, geolocalización, verificación, comparación de precios | Marca nueva | Liderar mercado peruano, integrar pagos digitales | Nuevos competidores, desconfianza inicial |
+| **Google Maps** | Gran base de usuarios, visibilidad | No especializado, información no validada | Crecimiento continuo | Plataformas especializadas |
+| **Autingo** | Plataforma estructurada | No adaptado a Perú | Expansión LATAM | Competidores locales |
+| **Maquinarias.pe** | Respaldo empresarial | No es marketplace | Crecimiento digital en Perú | Apps más completas |
+| **Cadenas formales** | Alta confianza y calidad | Costos elevados | Expansión | Alternativas más económicas |
+
+
+### 2.1.2. Estrategias y tácticas frente a competidores
+
+Para competir eficazmente en el mercado peruano de servicios automotrices, AutoMatch implementa un conjunto de estrategias orientadas a diferenciarse de plataformas generalistas, servicios formales tradicionales y soluciones digitales existentes.
+
+---
+
+#### Diferenciación por especialización
+
+A diferencia de Google Maps, que solo ofrece información general, AutoMatch se enfoca exclusivamente en servicios mecánicos, permitiendo una experiencia más precisa y útil para el usuario.
+
+Esta especialización permite ofrecer funcionalidades específicas como filtrado por tipo de servicio, diagnóstico y comparación de opciones.
+
+---
+
+#### Estrategia de confianza y verificación
+
+Frente a la desconfianza presente en el mercado, AutoMatch implementa:
+
+- Verificación de identidad y experiencia de mecánicos  
+- Sistema de calificaciones y reseñas reales  
+
+En comparación con competidores como Google Maps o plataformas informales, donde la información puede no estar validada, AutoMatch garantiza mayor confiabilidad en la elección del servicio.
+
+---
+
+#### Transparencia y comparación de precios
+
+A diferencia de Maquinarias.pe o cadenas formales, donde los precios suelen ser fijos o poco visibles, AutoMatch ofrece:
+
+- Cotizaciones previas al servicio  
+- Comparación entre múltiples mecánicos  
+
+Esto reduce la incertidumbre del usuario y mejora la toma de decisiones.
+
+---
+
+#### Geolocalización en tiempo real
+
+AutoMatch incorpora funcionalidades de ubicación avanzada, permitiendo localizar mecánicos cercanos en tiempo real.
+
+Esta estrategia permite competir directamente con la facilidad de uso de Google Maps.
+
+---
+
+#### Adaptación al contexto peruano
+
+A diferencia de plataformas internacionales como Autingo, AutoMatch está diseñada específicamente para el mercado peruano:
+
+- Considera distritos, tráfico y comportamiento urbano  
+- Se adapta a las necesidades locales del usuario  
+
+Esto genera una mayor cercanía con el usuario y mejora la adopción.
+
+---
+
+#### Estrategia de crecimiento y adquisición
+
+Para posicionarse en el mercado, AutoMatch aplicará:
+
+- Marketing digital en redes sociales  
+- Programas de referidos  
+- Alianzas con talleres y comunidades automotrices  
+
+Esto permite competir con el posicionamiento orgánico de Google Maps y la estructura corporativa de cadenas formales.
+
+---
+
+#### Integración de pasarela de pago
+
+AutoMatch incorporará una pasarela de pago segura dentro de la plataforma, permitiendo a los usuarios realizar pagos digitales de manera rápida y confiable.
+
+Esto permitirá:
+
+- Reducir el uso de efectivo  
+- Aumentar la seguridad en las transacciones  
+- Generar confianza entre usuarios y mecánicos  
+- Facilitar la trazabilidad de los pagos  
+
+Además, esta funcionalidad mejora la experiencia del usuario al centralizar todo el proceso (búsqueda, contratación y pago) en una sola plataforma.
+
+
+
+
 
 ## 2.2. Entrevistas
 
@@ -499,7 +620,8 @@ Otro hallazgo relevante es que el valor esperado de una solución digital no se 
 
 En conclusión, el mecánico típico de este segmento es un profesional que valora no solo captar nuevos clientes, sino hacerlo mediante canales que fortalezcan su visibilidad, reputación y acceso a oportunidades acordes con su especialidad. Sus principales necesidades se centran en recibir clientes de forma confiable, generar confianza a través de referencias y reseñas, mejorar su exposición frente a potenciales usuarios y acceder a una solución que facilite conexiones relevantes con conductores que realmente necesiten sus servicios. Estas características serán clave para construir los arquetipos del segmento y definir una propuesta de valor alineada a sus principales necesidades. 
 
-#### 2.3. Needfinding
+## 2.3. Needfinding
+En esta sección se identifican y analizan las necesidades de los usuarios a partir de la información recolectada en entrevistas y herramientas de investigación UX. El objetivo es comprender los problemas, motivaciones y comportamientos de los usuarios para definir soluciones alineadas a sus expectativas.
 
 ### 2.3.1. User Personas
 
@@ -508,7 +630,36 @@ En conclusión, el mecánico típico de este segmento es un profesional que valo
 
 2.3.2. User Task Matrix
 
+| Task | Luciana (Conductora) |  | Ricardo (Mecánico) |  |
+|------|----------------------|--|--------------------|--|
+|      | Frecuencia | Importancia | Frecuencia | Importancia |
+| Buscar mecánico | Always | High | Rarely | Medium |
+| Comparar opciones y precios | Often | High | Rarely | Medium |
+| Evaluar confianza (reseñas/recomendaciones) | Always | High | Sometimes | High |
+| Contactar mecánico / cliente | Often | High | Always | High |
+| Coordinar servicio (tiempo y lugar) | Often | High | Always | High |
+| Solicitar servicio | Sometimes | High | Rarely | Medium |
+| Ejecutar servicio mecánico | Rarely | Medium | Always | High |
+| Gestionar pagos | Often | High | Often | High |
+| Conseguir nuevos clientes | Rarely | Low | Always | High |
+| Mantener reputación | Rarely | Medium | Often | High |
 2.3.3. User Journey Mapping
+
+
+
+#### User Journey Map – Conductora (Luciana)
+
+![User Journey Map Conductora](assets/images/User%20Journey%20Map%20-%20User%20Journey%20Map%20–%20Conductora%20(Luciana)%20(1).jpg)
+
+---
+
+#### User Journey Map – Mecánico (Ricardo)
+
+![User Journey Map Mecánico](assets/images/User%20Journey%20Map%20-%20User%20Journey%20Map%20–%20Mecánico%20(Ricardo)%20(1).jpg)
+
+
+
+
 
 ### 2.3.4. Empathy Mapping
 
