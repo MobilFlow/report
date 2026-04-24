@@ -540,11 +540,55 @@ En conclusión, el mecánico típico de este segmento es un profesional que valo
 | Epic 03: Matching |  |
 | Epic 04: Calificación y reseñas  |  |
 
-2.4.1. User Stories
+### 2.4.1. User Stories
+
+
 
 2.4.2. Impact Mapping
 
-2.4.3. Product Backlog
+### 2.4.3. Product Backlog
+
+| # Orden | User Story Id | Título | Story Points (1 / 2 / 3 / 5 / 8) |
+|--------|--------------|--------|----------------------------------|
+| 1 | US-01 | Calificaciones y reseñas | 3 |
+| 2 | US-02 | Cotización transparente | 5 |
+| 3 | US-03 | Historial de servicios | 3 |
+| 4 | US-04 | Registro de usuario | 5 |
+| 5 | US-05 | Completar perfil de conductor | 3 |
+| 6 | US-06 | Completar perfil de mecánico | 3 |
+| 7 | US-07 | Definir especialidades del mecánico | 3 |
+| 8 | US-12 | Definir especialidades del mecánico | 5 |
+| 9 | US-08 | Publicar servicio | 5 |
+| 10 | US-09 | Editar, activar o desactivar una publicación | 3 |
+| 11 | US-10 | Buscar mecánicos con filtros | 5 |
+| 12 | US-11 | Ver lista de mecánicos disponibles | 3 |
+| 13 | US-12 | Consultar perfil público del mecánico | 2 |
+| 14 | US-13 | Gestionar disponibilidad y horarios | 5 |
+| 15 | US-14 | Registrar síntomas y contexto | 3 |
+| 16 | US-15 | Generar diagnóstico preliminar | 5 |
+| 17 | US-16 | Sugerir Match | 8 |
+| 18 | US-17 | Generar cotización referencial | 5 |
+| 19 | US-18 | Crear solicitud de servicio | 5 |
+| 20 | US-19 | Cancelar solicitud de servicio | 2 |
+| 21 | US-20 | Marcar servicio | 3 |
+| 22 | US-21 | Consultar estado de servicio y servicios activos | 3 |
+| 23 | US-22 | Calificar servicio finalizado | 2 |
+| 24 | US-23 | Publicar reseña | 3 |
+| 25 | US-24 | Landing Page | 3 |
+| 26 | TS-01 | Sistema de notificaciones | 5 |
+| 27 | TS-02 | Conectar con API Externa de geolocalización | 8 |
+| 28 | TS-03 | Registro de usuario | 5 |
+| 29 | TS-04 | Login de usuario | 5 |
+| 30 | TS-05 | Diseñar API CRUD de usuarios | 5 |
+| 31 | TS-06 | Diseñar queries de usuarios | 3 |
+| 32 | TS-07 | Diseñar CRUD API de servicios | 5 |
+| 33 | TS-08 | Diseñar queries de servicios | 3 |
+| 34 | TS-09 | Diseñar queries de servicios | 3 |
+| 35 | TS-10 | Integración con IA de recomendación inteligente de mecánicos | 8 |
+| 36 | SS-01 | Investigación de geolocalización | 5 |
+| 37 | SS-02 | Integración de OpenAI para recomendación | 8 |
+| 38 | SS-02 | Integración de FAISS para recomendación | 8 |
+| 39 | SS-03 | Integración de Google Maps API | 8 |
 
 #### 2.5. Strategic-Level Domain-Driven Design
 
