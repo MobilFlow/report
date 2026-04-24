@@ -43,7 +43,7 @@
 | Versión | Fecha      | Autor        | Descripción de modificación                   |
 |---------|------------|--------------|-----------------------------------------------|
 | 1.0     | 6/09/2025 | Romina Tuesta | Creación de la estructura inicial del reporte, cargó archivos y actualizó una rama|
-| 1.0     | 23/04/2026 | Gabriel Sánchez Gonzales | Cargó archivos, Descripción de la Startup, diseño de entrevistas, user personas, empathy mapping, Ubiquitous language, product backlog, event storming y actualizó una rama|
+| 1.0     | 23/04/2026 | Gabriel Sánchez Gonzales | Cargó archivos, Descripción de la Startup, diseño de entrevistas, entrevistas, user personas, empathy mapping, Ubiquitous language, product backlog, event storming y actualizó una rama|
 
 ---
 
@@ -166,28 +166,25 @@
 
 El curso contribuye al cumplimiento del Student Outcome ABET:
 
-**ABET – EAC - Student Outcome 5**  
-**Criterio:** *Capacidad de comunicarse efectivamente con un rango de audiencias.*
+**ABET – EAC - Student Outcome**  
 
-En el siguiente cuadro se describen las acciones realizadas y las conclusiones del grupo, que sustentan el logro del ABET – EAC - Student Outcome 5.
+**Criterio 1:** Actualiza conceptos y
+conocimientos necesarios para su
+desarrollo profesional y en especial para
+su proyecto en soluciones de ingeniería
+de software
 
----
+**Criterio 2:** Reconoce la necesidad del
+aprendizaje permanente para el
+desempeño profesional y el desarrollo
+de proyectos en soluciones de
+tecnologías de ingeniería de software
 
-# 1. Comunicación oral efectiva
-
-| Criterio específico | Acciones realizadas | Conclusiones |
-|---|---|---|
-|   |   |   |
-
----
-
-# 2. Comunicación escrita efectiva
 
 | Criterio específico | Acciones realizadas | Conclusiones |
-|---|---|---|
-|   |   |   |
-
----
+| :---- | :---- | :---- |
+| **Criterio 1:** Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de ingeniería de software | **Gabriel Sanchez** <br><br> **AV1:** Descripción del startup; entrevistas a usuarios; diseño de user personas; elaboración de empathy mapping; definición de ubiquitous language; creación del product backlog; desarrollo de event storming; gestión del proyecto en una rama de GitHub  | **Gabriel Sanchez** <br><br> **AV1:** Durante este avance desarrollé la descripción completa del startup, realicé entrevistas a usuarios, diseñé user personas y empathy maps, construí el ubiquitous language, elaboré el product backlog y llevé a cabo el event storming, gestionando todo el proceso en una rama de GitHub. |
+| **Criterio 2:** Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de tecnologías de ingeniería de software | **Gabriel Sanchez** <br><br> **AV1:** Descripción del startup; entrevistas a usuarios; diseño de user personas; elaboración de empathy mapping; definición de ubiquitous language; creación del product backlog; desarrollo de event storming; gestión del proyecto en una rama de GitHub  | **Gabriel Sanchez** <br><br> **AV1:** Este proceso evidenció que el desarrollo de soluciones de software exige aprendizaje constante. Comprendí que debo seguir actualizándome y explorando nuevas metodologías y tecnologías para mejorar la calidad y efectividad de mis proyectos.  |
 
 
 # Capítulo I: Presentación
