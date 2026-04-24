@@ -210,8 +210,7 @@ Nuestra startup “MobilFlow” ofrece una aplicación innovadora que conecta a 
 #### 1.1.2.1 Gabriel Sánchez
 
 Soy estudiante en la Universidad Peruana de Ciencias Aplicadas (UPC) cursando el 7mo ciclo de la carrera de Ingeniería de Software. Soy una persona comprometida con mi desarrollo académico y profesional. Con esa responsabilidad, aspiro a proveer soluciones tecnológicas a aquellos que las requieran para facilitar su área de trabajo. Junto con mi equipo de trabajo tendré la oportunidad de poner mis conocimientos y habilidades en uso con el proyecto “AutoMatch” con el fin de disminuir la problemática identificada. 
-Jhunior GiussepeTaquiri Calderon
-Soy estudiante en la Universidad Peruana de Ciencias Aplicadas (UPC) cursando el séptimo ciclo de la carrera de Ingeniería de Software.
+
 <div style="max-width:100px">
   <img src="assets/images/sanchez gonzales.png" alt="imagen perfil sanchez gabriel">
 </div>
@@ -221,6 +220,15 @@ Soy un estudiante de 7mo ciclo de la carrera de Ingenieria de Software. Tengo in
 <div style="max-width:100px">
   <img src="assets/entrevistas/DDD/braulio.png" alt="imagen perfil sanchez gabriel">
 </div>
+
+#### 1.1.2.5  Giussepe Taquiri
+
+Soy estudiante de la Universidad Peruana de Ciencias Aplicadas (UPC), cursando el séptimo ciclo de la carrera de Ingeniería de Software. Me caracterizo por ser responsable, proactivo y orientado al aprendizaje continuo. Busco aplicar mis conocimientos en análisis, diseño y desarrollo de software, trabajando de manera colaborativa con mi equipo para proponer soluciones eficientes e innovadoras. Asimismo, contribuyo activamente en la toma de decisiones y en la construcción de soluciones tecnológicas que mejoren la experiencia de los usuarios, como en el desarrollo de **AutoMatch**, una plataforma digital que conecta conductores con servicios mecánicos confiables mediante geolocalización, verificación de proveedores y comparación de precios. 
+
+<div style="max-width:100px">
+  <img src="assets/images/giussepe.png" alt="imagen perfil giussepe">
+</div>
+
 1.2. Solution Profile
 
 1.2.1. Antecedentes y problemática
