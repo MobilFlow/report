@@ -1325,7 +1325,9 @@ Durante el EventStorming se aplicó la técnica look-for-pivotal-events para ide
 ![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/UserIdentityContext.png)
 
 
-2.5.2. Context Mapping
+#### 2.5.2. Context Mapping
+
+![ Una imagen de prueba](asset/ContextMapping.png )
 
 2.5.3. Software Architecture
 
