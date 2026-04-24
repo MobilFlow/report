@@ -1156,3 +1156,6 @@ Event Storming: [https://lucid.app/lucidspark/273a3243-b31d-4c41-8b85-4a83e48956
 
 Entrevista:  
 [Entrevista App Moviles.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310609_upc_edu_pe/IQB6eMiOs_9NRJwg7FY-8HVuAd6emf_2sFNGlHnXcElmBYM?e=edmal0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) 
+
+Github Reporte:
+[Link a repositorio de reporte en github](https://github.com/MobilFlow)
