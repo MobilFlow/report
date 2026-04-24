@@ -1023,9 +1023,11 @@ En conclusión, el mecánico típico de este segmento es un profesional que valo
 | 38 | SS-02 | Integración de FAISS para recomendación | 8 |
 | 39 | SS-03 | Integración de Google Maps API | 8 |
 
-#### 2.5. Strategic-Level Domain-Driven Design
+## 2.5. Strategic-Level Domain-Driven Design
 
-2.5.1. EventStorming
+### 2.5.1. EventStorming
+
+![event storming](assets/event-storming.svg)
 
 2.5.1.1. Candidate Context Discovery
 
