@@ -231,9 +231,37 @@ Soy estudiante de la Universidad Peruana de Ciencias Aplicadas (UPC), cursando e
   <img src="assets/images/giussepe.png" alt="imagen perfil giussepe">
 </div>
 
-1.2. Solution Profile
+## 1.2. Solution Profile
 
-1.2.1. Antecedentes y problemática
+### 1.2.1. Antecedentes y problemática
+
+En la actualidad, el parque automotor de vehículos particulares ha crecido de manera exponencial, convirtiéndose en el principal medio de transporte para millones de personas. Sin embargo, el sector de servicios de mantenimiento y reparación no ha evolucionado al mismo ritmo tecnológico. El mercado se encuentra dividido entre concesionarios oficiales, con costos excesivamente elevados, y talleres independientes, que operan mayoritariamente en la informalidad o sin visibilidad digital.  
+
+Esta situación genera un escenario de incertidumbre para el conductor, quien al enfrentar una avería o requerir un mantenimiento preventivo, se ve obligado a navegar en un sistema basado en el "ensayo y error". La falta de información centralizada sobre la calidad de los repuestos, la experiencia real de los técnicos y la competitividad de los precios crea una barrera de desconfianza que afecta tanto al usuario como a los buenos proveedores que no tienen cómo destacar su trabajo. Automatch nace para resolver esta fragmentación, profesionalizando el encuentro entre la oferta y la demanda mediante la tecnología.
+
+---
+
+#### What?
+La desconexión digital entre conductores de autos particulares y servicios mecánicos confiables, lo que deriva en una falta de transparencia en precios, calidad y tiempos de entrega.
+
+#### When?
+Se manifiesta ante emergencias mecánicas o necesidades de mantenimiento preventivo, momentos en los que el usuario requiere una solución rápida y validada.
+
+#### Where?
+El proyecto se enfoca en centros urbanos con alta congestión vehicular donde la demanda de reparaciones es constante y la oferta es dispersa.
+
+#### Who?
+**Usuarios:** Propietarios de autos que valoran su tiempo y seguridad.  
+**Proveedores:** Mecánicos y talleres que buscan formalizar su captación de clientes y optimizar sus ingresos.
+
+#### Why?
+Debido a la informalidad del sector y la ausencia de una plataforma que centralice reputación, especialidades y presupuestos, dejando al usuario vulnerable a servicios deficientes o cobros injustos.
+
+#### How?
+A través de un ecosistema móvil intuitivo que permita geolocalizar talleres, comparar presupuestos en tiempo real y visualizar reseñas de otros usuarios.
+
+#### How much?
+La problemática genera pérdidas económicas por reparaciones mal ejecutadas. La solución requiere una inversión en desarrollo de software, recolección de datos y estrategias de validación de proveedores.
 
 1.2.2. Lean UX Process
 
