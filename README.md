@@ -23,14 +23,14 @@
 
 ### Relación de Integrantes
 
-| Apellidos y Nombres |   Código    |
-|:-------------------------------:|:---------:|
-|    |  |
-|    |  |
-|    |  |
-| Sanchez Gonzales, Gabriel              | U202310609 |
-|  Tuesta Marin, Romina Alejandra  |    U202211706   |
+| Apellidos y Nombres                  |   Código    |
+|:------------------------------------:|:-----------:|
+|                                      |             |
+|                                      |             |
 | Taquiri Calderon, Jhunior Giussepe     | U20221C576 |
+| Sanchez Gonzales, Gabriel            | U202310609  |
+| Tuesta Marin, Romina Alejandra       | U202211706  |
+| Torrejon Navarro, Braulio Rodrigo    | U201711828  |
 
 <strong> Julio, 2026</strong><br>
 </div>
@@ -45,6 +45,7 @@
 |---------|------------|--------------|-----------------------------------------------|
 | 1.0     | 6/09/2025 | Romina Tuesta | Creación de la estructura inicial del reporte, cargó archivos y actualizó una rama|
 | 1.0     | 23/04/2026 | Gabriel Sánchez Gonzales | Cargó archivos, Descripción de la Startup, diseño de entrevistas, entrevistas, user personas, empathy mapping, Ubiquitous language, product backlog, event storming y actualizó una rama|
+| 1.0     | 23/04/2026 | Braulio Rodrigo Torrejon Navarro | Cargo archivos, entrevistas, user stories, candidate context discovery, domain message flow modeling, bounded context canvases, software architecture y impact mapping |
 | 1.0     | 23/04/2026 | Giussepe Taquiri             | Análisis competitivo, estrategias y tácticas frente a competidores, User Task Matrix y User Journey Mapping |
 
 ---
@@ -186,8 +187,9 @@ tecnologías de ingeniería de software
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 | :---- | :---- | :---- |
-| **Criterio 1:** Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de ingeniería de software | **Gabriel Sanchez** <br><br> **AV1:** Descripción del startup; entrevistas a usuarios; diseño de user personas; elaboración de empathy mapping; definición de ubiquitous language; creación del product backlog; desarrollo de event storming; gestión del proyecto en una rama de GitHub  | **Gabriel Sanchez** <br><br> **AV1:** Durante este avance desarrollé la descripción completa del startup, realicé entrevistas a usuarios, diseñé user personas y empathy maps, construí el ubiquitous language, elaboré el product backlog y llevé a cabo el event storming, gestionando todo el proceso en una rama de GitHub. |
-| **Criterio 2:** Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de tecnologías de ingeniería de software | **Gabriel Sanchez** <br><br> **AV1:** Descripción del startup; entrevistas a usuarios; diseño de user personas; elaboración de empathy mapping; definición de ubiquitous language; creación del product backlog; desarrollo de event storming; gestión del proyecto en una rama de GitHub  | **Gabriel Sanchez** <br><br> **AV1:** Este proceso evidenció que el desarrollo de soluciones de software exige aprendizaje constante. Comprendí que debo seguir actualizándome y explorando nuevas metodologías y tecnologías para mejorar la calidad y efectividad de mis proyectos.  |
+| **Criterio 1:** Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de ingeniería de software | **Gabriel Sanchez** <br><br> **AV1:** Descripción del startup; entrevistas a usuarios; diseño de user personas; elaboración de empathy mapping; definición de ubiquitous language; creación del product backlog; desarrollo de event storming; gestión del proyecto en una rama de GitHub <br><br> **Braulio Torrejon** <br><br> **AV1:** Cargo archivos; entrevistas a usuarios; elaboración de user stories; candidate context discovery; domain message flow modeling; bounded context canvases; definición de software architecture; desarrollo de impact mapping | **Gabriel Sanchez** <br><br> **AV1:** Durante este avance desarrollé la descripción completa del startup, realicé entrevistas a usuarios, diseñé user personas y empathy maps, construí el ubiquitous language, elaboré el product backlog y llevé a cabo el event storming, gestionando todo el proceso en una rama de GitHub. <br><br> **Braulio Torrejon** <br><br> **AV1:** En este avance consolidé la arquitectura del proyecto mediante entrevistas, user stories y modelado de contextos. Implementé diagramas de flujo de mensajes y bounded contexts, definiendo la arquitectura de software y el impact mapping, lo que permitió dar claridad técnica y trazabilidad al proyecto. |
+| **Criterio 2:** Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de tecnologías de ingeniería de software | **Gabriel Sanchez** <br><br> **AV1:** Descripción del startup; entrevistas a usuarios; diseño de user personas; elaboración de empathy mapping; definición de ubiquitous language; creación del product backlog; desarrollo de event storming; gestión del proyecto en una rama de GitHub <br><br> **Braulio Torrejon** <br><br> **AV1:** Cargo archivos; entrevistas a usuarios; elaboración de user stories; candidate context discovery; domain message flow modeling; bounded context canvases; definición de software architecture; desarrollo de impact mapping | **Gabriel Sanchez** <br><br> **AV1:** Este proceso evidenció que el desarrollo de soluciones de software exige aprendizaje constante. Comprendí que debo seguir actualizándome y explorando nuevas metodologías y tecnologías para mejorar la calidad y efectividad de mis proyectos. <br><br> **Braulio Torrejon** <br><br> **AV1:** Este proceso me permitió reconocer que la construcción de arquitecturas sólidas requiere aprendizaje continuo. La integración de técnicas como EventStorming, DMFM y bounded contexts evidenció la necesidad de seguir perfeccionando metodologías y herramientas para lograr soluciones escalables y auditables. |
+
 
 
 # Capítulo I: Presentación
@@ -212,6 +214,12 @@ Jhunior GiussepeTaquiri Calderon
 Soy estudiante en la Universidad Peruana de Ciencias Aplicadas (UPC) cursando el séptimo ciclo de la carrera de Ingeniería de Software.
 <div style="max-width:100px">
   <img src="assets/images/sanchez gonzales.png" alt="imagen perfil sanchez gabriel">
+</div>
+
+#### 1.1.2.4 Braulio Torrejon
+Soy un estudiante de 7mo ciclo de la carrera de Ingenieria de Software. Tengo interes en lo que es aprender nuevas herramientas para proyectos personales. Estoy trabajando como QA y comprometido a la responsabilidad del equipo. Poseo conocimiento en los lenguajes de: C++, Python, C#, Genexus y estuve 1 año en practicas pre profesionales siendo QA, soy una persona que estoy listo a trabajar bajo presión y con mucho compañerismo.
+<div style="max-width:100px">
+  <img src="assets/entrevistas/DDD/braulio.png" alt="imagen perfil sanchez gabriel">
 </div>
 1.2. Solution Profile
 
@@ -1129,6 +1137,10 @@ En esta sección se identifican y analizan las necesidades de los usuarios a par
 
 2.4.2. Impact Mapping
 
+<div style="max-width:100px">
+  <img src="assets/entrevistas/DDD/Impact Mapping Template (1).jpg" alt="imagen perfil sanchez gabriel">
+</div>
+
 ### 2.4.3. Product Backlog
 
 | # Orden | User Story Id | Título | Story Points (1 / 2 / 3 / 5 / 8) |
@@ -1181,9 +1193,32 @@ En esta sección se identifican y analizan las necesidades de los usuarios a par
 
 2.5.1.1. Candidate Context Discovery
 
+Durante el EventStorming se aplicó la técnica look-for-pivotal-events para identificar los eventos que marcan cambios de estado en el negocio. Estos eventos actuaron como splitters de la narrativa principal, permitiendo separar responsabilidades y definir los contextos candidatos. A partir de este análisis se establecieron los siguientes bounded contexts:
+
+| Bounded Context          | Descripción                                                                 | Eventos clave                                                                 |
+|--------------------------|------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| ServiceCatalogContext    | Gestiona la publicación, actualización y filtrado de servicios mecánicos.   | Servicio Publicado, Servicio Actualizado, Servicio Desactivado                |
+| UserIdentityContext (IAM)| Maneja el registro, autenticación y perfiles de usuarios y mecánicos.        | Usuario Registrado, Usuario Actualizado, Perfil Completado                    |
+| DiagnosisContext         | Administra pedidos de servicio, síntomas y generación de diagnósticos/cotizaciones. | Pedido de Servicio Registrado, Diagnóstico Generado, Match Encontrado         |
+| ReputationContext        | Gestiona calificaciones y reseñas verificadas de los servicios completados. | Calificación Enviada, Reseña Publicada, Calificación Editada, Reseña Editada  |
+| ServiceManagementContext | Controla el ciclo de vida del servicio, desde la solicitud hasta la finalización y registro en el historial. | Servicio Solicitado, Confirmación Dual Alcanzada, Servicio Finalizado, Servicio Cancelado |
+
+
 2.5.1.2. Domain Message Flows Modeling
 
+![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/Scenario1.png)
+![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/Escenario2.png)
+![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/Escenario3.png)
+![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/Escenario4.png)
+![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/Escenario5.png)
+![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/Escenario6.png)
+
 2.5.1.3. Bounded Context Canvases
+
+![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/UserIdentityContext.png)
+![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/ServiceCatalog.png)
+![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/UserIdentityContext.png)
+
 
 2.5.2. Context Mapping
 
@@ -1191,9 +1226,15 @@ En esta sección se identifican y analizan las necesidades de los usuarios a par
 
 2.5.3.1. Software Architecture Context Level Diagrams
 
+![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/Software%20Architecture%20Context%20Level.png)
+
 2.5.3.2. Software Architecture Container Level Diagrams
 
+![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/Software%20Architecture%20Container%20Level%20Diagrams.png)
+
 2.5.3.3. Software Architecture Deployment Diagrams
+
+![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/Software%20Architecture%20Deployment%20Diagrams.png)
 
 #### 2.6. Tactical-Level Domain-Driven Design
 2.6.x. Bounded Context: <Bounded Context Name>
