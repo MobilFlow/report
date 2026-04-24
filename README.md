@@ -23,13 +23,14 @@
 
 ### Relación de Integrantes
 
-| Apellidos y Nombres |   Código    |
-|:-------------------------------:|:---------:|
-|    |  |
-|    |  |
-|    |  |
-|  Sanchez Gonzales, Gabriel  |    U202310609  |
-|  Tuesta Marin, Romina Alejandra  |    U202211706   |
+| Apellidos y Nombres                  |   Código    |
+|:------------------------------------:|:-----------:|
+|                                      |             |
+| Villugas Jeronimo, Liam Anderson     | U202211634  |
+| Taquiri Calderon, Jhunior Giussepe     | U20221C576 |
+| Sanchez Gonzales, Gabriel            | U202310609  |
+| Tuesta Marin, Romina Alejandra       | U202211706  |
+| Torrejon Navarro, Braulio Rodrigo    | U201711828  |
 
 <strong> Julio, 2026</strong><br>
 </div>
@@ -44,6 +45,10 @@
 |---------|------------|--------------|-----------------------------------------------|
 | 1.0     | 6/09/2025 | Romina Tuesta | Creación de la estructura inicial del reporte, cargó archivos y actualizó una rama|
 | 1.0     | 23/04/2026 | Gabriel Sánchez Gonzales | Cargó archivos, Descripción de la Startup, diseño de entrevistas, entrevistas, user personas, empathy mapping, Ubiquitous language, product backlog, event storming y actualizó una rama|
+| 1.0     | 23/04/2026 | Braulio Rodrigo Torrejon Navarro | Cargo archivos, entrevistas, user stories, candidate context discovery, domain message flow modeling, bounded context canvases, software architecture y impact mapping |
+| 1.0     | 23/04/2026 | Giussepe Taquiri             | Análisis competitivo, estrategias y tácticas frente a competidores, User Task Matrix y User Journey Mapping |
+
+| 1.0     | 23/04/2026 | Liam Villugas          | Antecedentes y problematica, Lean UX Canvas, Lean UX Hypothesis Statements, Lean UX Assumptions, Lean UX Problem Statements y Context mapping |
 
 ---
 
@@ -184,8 +189,9 @@ tecnologías de ingeniería de software
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 | :---- | :---- | :---- |
-| **Criterio 1:** Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de ingeniería de software | **Gabriel Sanchez** <br><br> **AV1:** Descripción del startup; entrevistas a usuarios; diseño de user personas; elaboración de empathy mapping; definición de ubiquitous language; creación del product backlog; desarrollo de event storming; gestión del proyecto en una rama de GitHub  | **Gabriel Sanchez** <br><br> **AV1:** Durante este avance desarrollé la descripción completa del startup, realicé entrevistas a usuarios, diseñé user personas y empathy maps, construí el ubiquitous language, elaboré el product backlog y llevé a cabo el event storming, gestionando todo el proceso en una rama de GitHub. |
-| **Criterio 2:** Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de tecnologías de ingeniería de software | **Gabriel Sanchez** <br><br> **AV1:** Descripción del startup; entrevistas a usuarios; diseño de user personas; elaboración de empathy mapping; definición de ubiquitous language; creación del product backlog; desarrollo de event storming; gestión del proyecto en una rama de GitHub  | **Gabriel Sanchez** <br><br> **AV1:** Este proceso evidenció que el desarrollo de soluciones de software exige aprendizaje constante. Comprendí que debo seguir actualizándome y explorando nuevas metodologías y tecnologías para mejorar la calidad y efectividad de mis proyectos.  |
+| **Criterio 1:** Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de ingeniería de software | **Gabriel Sanchez** <br><br> **AV1:** Descripción del startup; entrevistas a usuarios; diseño de user personas; elaboración de empathy mapping; definición de ubiquitous language; creación del product backlog; desarrollo de event storming <br><br> **Braulio Torrejon** <br><br> **AV1:** Cargo archivos; entrevistas a usuarios; elaboración de user stories; candidate context discovery; domain message flow modeling; bounded context canvases; definición de software architecture; desarrollo de impact mapping <br><br> **Romina Tuesta** <br><br> **AV1:** Realicé todo el punto 2.6 diagrama de clase, base de datos y contenedores C4 y la estructuración de layers. <br><br> **Giussepe Taquiri** <br><br> **AV1:** Análisis competitivo; definición de estrategias y tácticas frente a competidores; elaboración de User Task Matrix; desarrollo de User Journey Mapping <br><br> **Liam Villugas** <br><br> **AV1:**  entrevistas a mecanicos; Elaboracion de Antecedentes y problematica; Lean UX Problem Statements; Lean UX Assumptions; Lean UX Hypothesis Statements; Lean UX Canvas; desarrollo de Context mapping| **Gabriel Sanchez** <br><br> **AV1:** Durante este avance desarrollé la descripción completa del startup, realicé entrevistas a usuarios, diseñé user personas y empathy maps, construí el ubiquitous language, elaboré el product backlog y llevé a cabo el event storming. <br><br> **Braulio Torrejon** <br><br> **AV1:** En este avance consolidé la arquitectura del proyecto mediante entrevistas, user stories y modelado de contextos. Implementé diagramas de flujo de mensajes y bounded contexts, definiendo la arquitectura de software y el impact mapping, lo que permitió dar claridad técnica y trazabilidad al proyecto. <br><br> **Romina Tuesta** <br><br> **AV1:** En este avance pude conocer más acerca de la estructura de los bounded context, realizando los layers como domain, interface, etc., además de adentrarme más a los contenedores de cada bounded. <br><br> **Giussepe Taquiri** <br><br> **AV1:** Durante este avance desarrollé el análisis competitivo y definí estrategias y tácticas frente a los competidores. Asimismo, elaboré el User Task Matrix y los User Journey Maps, aplicando herramientas de análisis UX para comprender mejor las necesidades del usuario y contribuir a la solución del proyecto.<br><br> **Liam Villugas**  <br><br> **AV1:** En este avance consolidé la visión estratégica y técnica de AutoMatch mediante el uso de Lean UX y Domain-Driven Design (DDD). Al integrar las entrevistas a mecánicos con el modelado de Bounded Contexts, logré alinear los objetivos de negocio de MobilFlow con una arquitectura de software escalable. Este proceso me permitió aplicar conocimientos avanzados en ingeniería de software para garantizar la trazabilidad y la correcta delimitación de dominios en la solución. |
+| **Criterio 2:** Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de tecnologías de ingeniería de software | **Gabriel Sanchez** <br><br> **AV1:** Descripción del startup; entrevistas a usuarios; diseño de user personas; elaboración de empathy mapping; definición de ubiquitous language; creación del product backlog; desarrollo de event storming <br><br> **Braulio Torrejon** <br><br> **AV1:** Cargo archivos; entrevistas a usuarios; elaboración de user stories; candidate context discovery; domain message flow modeling; bounded context canvases; definición de software architecture; desarrollo de impact mapping <br><br> **Romina Tuesta** <br><br> **AV1:** En este avance pude conocer más acerca de la estructura de los bounded context, realizando los layers como domain, interface, etc., además de adentrarme más a los contenedores de cada bounded. <br><br> **Giussepe Taquiri** <br><br> **AV1:** Análisis competitivo; estrategias y tácticas frente a competidores; User Task Matrix; User Journey Mapping; uso de herramientas de análisis y gestión <br><br> **Liam Villugas** <br><br> **AV1:**  entrevistas a mecanicos; Elaboracion de Antecedentes y problematica; Lean UX Problem Statements; Lean UX Assumptions; Lean UX Hypothesis Statements; Lean UX Canvas; desarrollo de Context mapping  | **Gabriel Sanchez** <br><br> **AV1:** Este proceso evidenció que el desarrollo de soluciones de software exige aprendizaje constante. Comprendí que debo seguir actualizándome y explorando nuevas metodologías y tecnologías para mejorar la calidad y efectividad de mis proyectos. <br><br> **Braulio Torrejon** <br><br> **AV1:** Este proceso me permitió reconocer que la construcción de arquitecturas sólidas requiere aprendizaje continuo. La integración de técnicas como EventStorming, DMFM y bounded contexts evidenció la necesidad de seguir perfeccionando metodologías y herramientas para lograr soluciones escalables y auditables. <br><br> **Romina Tuesta** <br><br> **AV1:** Lo realizado en esta entrega refuerza la necesidad de obtener más conocimiento para llegar a la vida profesional preparados y listos para aplicar lo aprendido. <br><br> **Giussepe Taquiri** <br><br> **AV1:** Este avance me permitió reconocer la importancia del aprendizaje continuo en el desarrollo de soluciones tecnológicas. A través del análisis competitivo y herramientas UX, comprendí la necesidad de actualizar constantemente mis conocimientos para adaptarme a nuevas tecnologías y metodologías en ingeniería de software. <br><br> **Liam Villugas** <br><br> **AV1:** El desarrollo de AutoMatch evidencia que la ingeniería de software exige un aprendizaje permanente para dominar marcos como Lean UX y DDD. La complejidad del ecosistema de MobilFlow reafirma que la actualización constante en metodologías y arquitecturas es indispensable para resolver problemas reales y mantener la competitividad profesional en el diseño de soluciones tecnológicas. |
+
 
 
 # Capítulo I: Presentación
@@ -206,24 +212,133 @@ Nuestra startup “MobilFlow” ofrece una aplicación innovadora que conecta a 
 #### 1.1.2.1 Gabriel Sánchez
 
 Soy estudiante en la Universidad Peruana de Ciencias Aplicadas (UPC) cursando el 7mo ciclo de la carrera de Ingeniería de Software. Soy una persona comprometida con mi desarrollo académico y profesional. Con esa responsabilidad, aspiro a proveer soluciones tecnológicas a aquellos que las requieran para facilitar su área de trabajo. Junto con mi equipo de trabajo tendré la oportunidad de poner mis conocimientos y habilidades en uso con el proyecto “AutoMatch” con el fin de disminuir la problemática identificada. 
-Jhunior GiussepeTaquiri Calderon
-Soy estudiante en la Universidad Peruana de Ciencias Aplicadas (UPC) cursando el séptimo ciclo de la carrera de Ingeniería de Software.
+
 <div style="max-width:100px">
   <img src="assets/images/sanchez gonzales.png" alt="imagen perfil sanchez gabriel">
 </div>
-1.2. Solution Profile
 
-1.2.1. Antecedentes y problemática
+#### 1.1.2.4 Braulio Torrejon
+Soy un estudiante de 7mo ciclo de la carrera de Ingenieria de Software. Tengo interes en lo que es aprender nuevas herramientas para proyectos personales. Estoy trabajando como QA y comprometido a la responsabilidad del equipo. Poseo conocimiento en los lenguajes de: C++, Python, C#, Genexus y estuve 1 año en practicas pre profesionales siendo QA, soy una persona que estoy listo a trabajar bajo presión y con mucho compañerismo.
+<div style="max-width:100px">
+  <img src="assets/entrevistas/DDD/braulio.png" alt="imagen perfil sanchez gabriel">
+</div>
 
-1.2.2. Lean UX Process
+#### 1.1.2.5  Giussepe Taquiri
 
-1.2.2.1. Lean UX Problem Statements
+Soy estudiante de la Universidad Peruana de Ciencias Aplicadas (UPC), cursando el séptimo ciclo de la carrera de Ingeniería de Software. Me caracterizo por ser responsable, proactivo y orientado al aprendizaje continuo. Busco aplicar mis conocimientos en análisis, diseño y desarrollo de software, trabajando de manera colaborativa con mi equipo para proponer soluciones eficientes e innovadoras. Asimismo, contribuyo activamente en la toma de decisiones y en la construcción de soluciones tecnológicas que mejoren la experiencia de los usuarios, como en el desarrollo de **AutoMatch**, una plataforma digital que conecta conductores con servicios mecánicos confiables mediante geolocalización, verificación de proveedores y comparación de precios. 
+
+<div style="max-width:100px">
+  <img src="assets/images/giussepe.png" alt="imagen perfil giussepe">
+</div>
+
+## 1.2. Solution Profile
+
+### 1.2.1. Antecedentes y problemática
+
+En la actualidad, el parque automotor de vehículos particulares ha crecido de manera exponencial, convirtiéndose en el principal medio de transporte para millones de personas. Sin embargo, el sector de servicios de mantenimiento y reparación no ha evolucionado al mismo ritmo tecnológico. El mercado se encuentra dividido entre concesionarios oficiales, con costos excesivamente elevados, y talleres independientes, que operan mayoritariamente en la informalidad o sin visibilidad digital.  
+
+Esta situación genera un escenario de incertidumbre para el conductor, quien al enfrentar una avería o requerir un mantenimiento preventivo, se ve obligado a navegar en un sistema basado en el "ensayo y error". La falta de información centralizada sobre la calidad de los repuestos, la experiencia real de los técnicos y la competitividad de los precios crea una barrera de desconfianza que afecta tanto al usuario como a los buenos proveedores que no tienen cómo destacar su trabajo. Automatch nace para resolver esta fragmentación, profesionalizando el encuentro entre la oferta y la demanda mediante la tecnología.
+
+---
+
+#### What?
+La desconexión digital entre conductores de autos particulares y servicios mecánicos confiables, lo que deriva en una falta de transparencia en precios, calidad y tiempos de entrega.
+
+#### When?
+Se manifiesta ante emergencias mecánicas o necesidades de mantenimiento preventivo, momentos en los que el usuario requiere una solución rápida y validada.
+
+#### Where?
+El proyecto se enfoca en centros urbanos con alta congestión vehicular donde la demanda de reparaciones es constante y la oferta es dispersa.
+
+#### Who?
+**Usuarios:** Propietarios de autos que valoran su tiempo y seguridad.  
+**Proveedores:** Mecánicos y talleres que buscan formalizar su captación de clientes y optimizar sus ingresos.
+
+#### Why?
+Debido a la informalidad del sector y la ausencia de una plataforma que centralice reputación, especialidades y presupuestos, dejando al usuario vulnerable a servicios deficientes o cobros injustos.
+
+#### How?
+A través de un ecosistema móvil intuitivo que permita geolocalizar talleres, comparar presupuestos en tiempo real y visualizar reseñas de otros usuarios.
+
+#### How much?
+La problemática genera pérdidas económicas por reparaciones mal ejecutadas. La solución requiere una inversión en desarrollo de software, recolección de datos y estrategias de validación de proveedores.
+
+### 1.2.2. Lean UX Process
+
+#### 1.2.2.1. Lean UX Problem Statements
+
+El estado actual de la industria de servicios mecánicos para usuarios de autos particulares está fragmentado y carece de transparencia. A pesar de la alta demanda de mantenimientos y reparaciones, no existe un estándar digital que permita a los conductores validar la confianza, calidad y precio de los proveedores de forma rápida.
+Observamos que la falta de una plataforma centralizada genera una asimetría de información: los usuarios pierden tiempo y dinero en servicios deficientes, mientras que los mecánicos calificados pierden oportunidades de negocio por falta de visibilidad. Esto ha creado una brecha de desconfianza en el ecosistema automotriz que afecta la seguridad vial y la economía de los conductores.
 
 1.2.2.2. Lean UX Assumptions
 
-1.2.2.3. Lean UX Hypothesis Statements
+#### 1.2.2.2. Lean UX Assumptions
 
-1.2.2.4. Lean UX Canvas
+##### 1. Business Assumptions
+
+- **Creemos que nuestros clientes tienen la necesidad de:**  
+  Encontrar mecánicos de confianza sin tener que depender exclusivamente de recomendaciones informales o visitas físicas inciertas.
+
+- **El valor principal que el cliente obtiene de AutoMatch es:**  
+  La transparencia en precios, la seguridad de contratar a alguien verificado y el ahorro de tiempo en la búsqueda.
+
+- **Nuestros clientes actuales (o futuros) son:**  
+  Propietarios de vehículos particulares, de entre 20 y 55 años, con poco conocimiento técnico automotriz y alta dependencia de su auto para el día a día.
+
+- **Nuestra principal competencia son:**  
+  Los concesionarios oficiales (por estatus/garantía) y los talleres informales de barrio (por cercanía/costo).
+
+- **Nuestra mayor ventaja competitiva será:**  
+  El sistema de reputación (reviews) y la facilidad de geolocalización de servicios especializados.
+
+- **Ganaremos dinero mediante:**  
+  Comisiones por cada servicio concretado, suscripciones premium para talleres o espacios publicitarios de proveedores de repuestos.
+
+---
+
+###### 2. User Assumptions
+
+- **¿Quién es el usuario?**  
+  Personas que usan su auto para trabajar o movilizar a su familia y que ven el mantenimiento como un gasto estresante y opaco.
+
+- **¿Dónde encaja nuestro producto en su vida?**  
+  Como la herramienta de consulta inmediata ante un testigo prendido en el tablero o el vencimiento de un mantenimiento preventivo.
+
+- **¿Qué problemas resuelve nuestro producto?**  
+  El miedo a ser estafado, la incertidumbre del costo y la dificultad de encontrar un taller con disponibilidad inmediata.
+
+- **¿Cuándo y cómo se utiliza el producto?**  
+  Principalmente en situaciones de emergencia (averías en ruta) o en la planificación semanal de mantenimientos.
+
+- **¿Qué miedo tienen los usuarios sobre nuestra app?**  
+  Que los mecánicos listados no sean realmente evaluados o que la aplicación sea difícil de usar en un momento de estrés.
+
+#### 1.2.2.3. Lean UX Hypothesis Statements
+
+##### 1. Hipótesis de Confianza y Validación
+
+Creemos que aumentaremos la tasa de conversión de solicitudes de servicio si los propietarios de autos particulares logran sentirse seguros al elegir un taller mediante la visualización de perfiles de mecánicos con reseñas verificadas y certificaciones.
+
+##### 2. Hipótesis de Comparación de Precios
+
+Creemos que reduciremos el abandono de la aplicación si los usuarios logran evitar la tediosa búsqueda manual con una funcionalidad de solicitud de presupuestos múltiples (multi-quote) que les permita comparar costos en tiempo real.
+
+##### 3. Hipótesis de Adopción para el Mecánico
+
+Creemos que garantizaremos una oferta de servicios estable si los mecánicos independientes logran reducir sus tiempos muertos y organizar su flujo de caja mediante un panel de gestión de citas y pagos anticipados.
+
+##### 4. Hipótesis de Retención
+
+Creemos que incrementaremos el valor de vida del cliente (LTV) si los conductores logran mantener su auto en óptimas condiciones con un sistema de alertas inteligentes de mantenimiento preventivo basado en el kilometraje y modelo del auto.
+
+##### 5. Hipótesis de Geolocalización
+
+Creemos que nos posicionaremos como la herramienta de auxilio líder si los usuarios en situaciones de emergencia logran encontrar ayuda inmediata mediante el botón de "Mecánico más cercano" con rastreo en tiempo real.
+ 
+#### 1.2.2.4. Lean UX Canvas
+
+![ Una imagen de prueba](asset/LeanUXcanvas.png )
+
 
 ## 1.3. Segmentos objetivo
 
@@ -238,10 +353,130 @@ Soy estudiante en la Universidad Peruana de Ciencias Aplicadas (UPC) cursando el
 # Capítulo II: Requirements Development and Software Solution Design
 
 ## 2.1. Competidores
+### ¿Por qué llevar a cabo este análisis?
 
-2.1.1. Análisis competitivo
+El análisis de competidores se realiza con el propósito de identificar y evaluar a los principales actores del mercado de servicios automotrices. Esto permite comprender sus fortalezas, debilidades, estrategias y propuestas de valor, así como las oportunidades existentes dentro del entorno competitivo.
 
-2.1.2. Estrategias y tácticas frente a competidores
+A través de este análisis, AutoMatch puede definir una estrategia diferenciada, orientada a satisfacer de manera más eficiente las necesidades de los usuarios. Asimismo, permite reconocer vacíos en el mercado, como la falta de plataformas especializadas, la limitada transparencia en precios y la escasa validación de la calidad del servicio.
+
+En el contexto peruano, donde el sector automotriz presenta altos niveles de informalidad y desconfianza, este análisis resulta clave para diseñar una solución que genere valor, confianza y accesibilidad para los usuarios, posicionando a AutoMatch como una alternativa innovadora frente a los competidores existentes.
+### 2.1.1. Análisis competitivo
+
+#### Competitive Analysis Landscape
+
+**¿Por qué llevar a cabo este análisis?**  
+Identificar y comparar a los principales competidores del mercado automotriz para entender sus fortalezas, debilidades y estrategias, con el fin de definir la propuesta de valor y ventaja competitiva de AutoMatch en el contexto peruano.
+
+---
+
+### Comparativa general
+
+| Categoría | AutoMatch | Google Maps / Reseñas | Autingo (LatAm) | Maquinarias.pe | Cadenas formales (Bosch / Derco) |
+|----------|-----------|------------------------|-----------------|----------------|----------------------------------|
+| **Overview** | App que conecta conductores con mecánicos | Plataforma de búsqueda con reseñas | Plataforma digital de servicios mecánicos | Plataforma peruana de servicios postventa | Talleres formales con respaldo de marca |
+| **Ventaja competitiva** | Geolocalización + verificación + comparación de precios | Gran volumen de información | Servicio estructurado digital | Respaldo empresarial | Garantía y respaldo técnico |
+| **Mercado objetivo** | Conductores urbanos en Perú | Usuarios globales | Mercado latinoamericano | Usuarios en Perú | Segmento medio-alto |
+| **Estrategias de marketing** | Redes sociales, referidos | SEO | Marketing digital | Publicidad digital | Publicidad corporativa |
+| **Servicios** | Búsqueda, cotización, chat, historial | Reseñas y ubicación | Diagnóstico, reservas | Mantenimiento y postventa | Servicios especializados |
+| **Precios** | Gratis | Gratis | Pago por servicio | Precios definidos | Alto costo |
+| **Canales** | App y web | Web y app | Web y app | Web | Presencial + digital |
+
+---
+
+### Análisis FODA comparativo
+
+| Plataforma | Fortalezas | Debilidades | Oportunidades | Amenazas |
+|------------|-----------|-------------|---------------|----------|
+| **AutoMatch** | Especialización, geolocalización, verificación, comparación de precios | Marca nueva | Liderar mercado peruano, integrar pagos digitales | Nuevos competidores, desconfianza inicial |
+| **Google Maps** | Gran base de usuarios, visibilidad | No especializado, información no validada | Crecimiento continuo | Plataformas especializadas |
+| **Autingo** | Plataforma estructurada | No adaptado a Perú | Expansión LATAM | Competidores locales |
+| **Maquinarias.pe** | Respaldo empresarial | No es marketplace | Crecimiento digital en Perú | Apps más completas |
+| **Cadenas formales** | Alta confianza y calidad | Costos elevados | Expansión | Alternativas más económicas |
+
+
+### 2.1.2. Estrategias y tácticas frente a competidores
+
+Para competir eficazmente en el mercado peruano de servicios automotrices, AutoMatch implementa un conjunto de estrategias orientadas a diferenciarse de plataformas generalistas, servicios formales tradicionales y soluciones digitales existentes.
+
+---
+
+#### Diferenciación por especialización
+
+A diferencia de Google Maps, que solo ofrece información general, AutoMatch se enfoca exclusivamente en servicios mecánicos, permitiendo una experiencia más precisa y útil para el usuario.
+
+Esta especialización permite ofrecer funcionalidades específicas como filtrado por tipo de servicio, diagnóstico y comparación de opciones.
+
+---
+
+#### Estrategia de confianza y verificación
+
+Frente a la desconfianza presente en el mercado, AutoMatch implementa:
+
+- Verificación de identidad y experiencia de mecánicos  
+- Sistema de calificaciones y reseñas reales  
+
+En comparación con competidores como Google Maps o plataformas informales, donde la información puede no estar validada, AutoMatch garantiza mayor confiabilidad en la elección del servicio.
+
+---
+
+#### Transparencia y comparación de precios
+
+A diferencia de Maquinarias.pe o cadenas formales, donde los precios suelen ser fijos o poco visibles, AutoMatch ofrece:
+
+- Cotizaciones previas al servicio  
+- Comparación entre múltiples mecánicos  
+
+Esto reduce la incertidumbre del usuario y mejora la toma de decisiones.
+
+---
+
+#### Geolocalización en tiempo real
+
+AutoMatch incorpora funcionalidades de ubicación avanzada, permitiendo localizar mecánicos cercanos en tiempo real.
+
+Esta estrategia permite competir directamente con la facilidad de uso de Google Maps.
+
+---
+
+#### Adaptación al contexto peruano
+
+A diferencia de plataformas internacionales como Autingo, AutoMatch está diseñada específicamente para el mercado peruano:
+
+- Considera distritos, tráfico y comportamiento urbano  
+- Se adapta a las necesidades locales del usuario  
+
+Esto genera una mayor cercanía con el usuario y mejora la adopción.
+
+---
+
+#### Estrategia de crecimiento y adquisición
+
+Para posicionarse en el mercado, AutoMatch aplicará:
+
+- Marketing digital en redes sociales  
+- Programas de referidos  
+- Alianzas con talleres y comunidades automotrices  
+
+Esto permite competir con el posicionamiento orgánico de Google Maps y la estructura corporativa de cadenas formales.
+
+---
+
+#### Integración de pasarela de pago
+
+AutoMatch incorporará una pasarela de pago segura dentro de la plataforma, permitiendo a los usuarios realizar pagos digitales de manera rápida y confiable.
+
+Esto permitirá:
+
+- Reducir el uso de efectivo  
+- Aumentar la seguridad en las transacciones  
+- Generar confianza entre usuarios y mecánicos  
+- Facilitar la trazabilidad de los pagos  
+
+Además, esta funcionalidad mejora la experiencia del usuario al centralizar todo el proceso (búsqueda, contratación y pago) en una sola plataforma.
+
+
+
+
 
 ## 2.2. Entrevistas
 
@@ -498,7 +733,8 @@ Otro hallazgo relevante es que el valor esperado de una solución digital no se 
 
 En conclusión, el mecánico típico de este segmento es un profesional que valora no solo captar nuevos clientes, sino hacerlo mediante canales que fortalezcan su visibilidad, reputación y acceso a oportunidades acordes con su especialidad. Sus principales necesidades se centran en recibir clientes de forma confiable, generar confianza a través de referencias y reseñas, mejorar su exposición frente a potenciales usuarios y acceder a una solución que facilite conexiones relevantes con conductores que realmente necesiten sus servicios. Estas características serán clave para construir los arquetipos del segmento y definir una propuesta de valor alineada a sus principales necesidades. 
 
-#### 2.3. Needfinding
+## 2.3. Needfinding
+En esta sección se identifican y analizan las necesidades de los usuarios a partir de la información recolectada en entrevistas y herramientas de investigación UX. El objetivo es comprender los problemas, motivaciones y comportamientos de los usuarios para definir soluciones alineadas a sus expectativas.
 
 ### 2.3.1. User Personas
 
@@ -507,7 +743,36 @@ En conclusión, el mecánico típico de este segmento es un profesional que valo
 
 2.3.2. User Task Matrix
 
+| Task | Luciana (Conductora) |  | Ricardo (Mecánico) |  |
+|------|----------------------|--|--------------------|--|
+|      | Frecuencia | Importancia | Frecuencia | Importancia |
+| Buscar mecánico | Always | High | Rarely | Medium |
+| Comparar opciones y precios | Often | High | Rarely | Medium |
+| Evaluar confianza (reseñas/recomendaciones) | Always | High | Sometimes | High |
+| Contactar mecánico / cliente | Often | High | Always | High |
+| Coordinar servicio (tiempo y lugar) | Often | High | Always | High |
+| Solicitar servicio | Sometimes | High | Rarely | Medium |
+| Ejecutar servicio mecánico | Rarely | Medium | Always | High |
+| Gestionar pagos | Often | High | Often | High |
+| Conseguir nuevos clientes | Rarely | Low | Always | High |
+| Mantener reputación | Rarely | Medium | Often | High |
 2.3.3. User Journey Mapping
+
+
+
+#### User Journey Map – Conductora (Luciana)
+
+![User Journey Map Conductora](assets/images/User%20Journey%20Map%20-%20User%20Journey%20Map%20–%20Conductora%20(Luciana)%20(1).jpg)
+
+---
+
+#### User Journey Map – Mecánico (Ricardo)
+
+![User Journey Map Mecánico](assets/images/User%20Journey%20Map%20-%20User%20Journey%20Map%20–%20Mecánico%20(Ricardo)%20(1).jpg)
+
+
+
+
 
 ### 2.3.4. Empathy Mapping
 
@@ -977,6 +1242,10 @@ En conclusión, el mecánico típico de este segmento es un profesional que valo
 
 2.4.2. Impact Mapping
 
+<div style="max-width:100px">
+  <img src="assets/entrevistas/DDD/Impact Mapping Template (1).jpg" alt="imagen perfil sanchez gabriel">
+</div>
+
 ### 2.4.3. Product Backlog
 
 | # Orden | User Story Id | Título | Story Points (1 / 2 / 3 / 5 / 8) |
@@ -1029,38 +1298,290 @@ En conclusión, el mecánico típico de este segmento es un profesional que valo
 
 2.5.1.1. Candidate Context Discovery
 
+Durante el EventStorming se aplicó la técnica look-for-pivotal-events para identificar los eventos que marcan cambios de estado en el negocio. Estos eventos actuaron como splitters de la narrativa principal, permitiendo separar responsabilidades y definir los contextos candidatos. A partir de este análisis se establecieron los siguientes bounded contexts:
+
+| Bounded Context          | Descripción                                                                 | Eventos clave                                                                 |
+|--------------------------|------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| ServiceCatalogContext    | Gestiona la publicación, actualización y filtrado de servicios mecánicos.   | Servicio Publicado, Servicio Actualizado, Servicio Desactivado                |
+| UserIdentityContext (IAM)| Maneja el registro, autenticación y perfiles de usuarios y mecánicos.        | Usuario Registrado, Usuario Actualizado, Perfil Completado                    |
+| DiagnosisContext         | Administra pedidos de servicio, síntomas y generación de diagnósticos/cotizaciones. | Pedido de Servicio Registrado, Diagnóstico Generado, Match Encontrado         |
+| ReputationContext        | Gestiona calificaciones y reseñas verificadas de los servicios completados. | Calificación Enviada, Reseña Publicada, Calificación Editada, Reseña Editada  |
+| ServiceManagementContext | Controla el ciclo de vida del servicio, desde la solicitud hasta la finalización y registro en el historial. | Servicio Solicitado, Confirmación Dual Alcanzada, Servicio Finalizado, Servicio Cancelado |
+
+
 2.5.1.2. Domain Message Flows Modeling
+
+![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/Scenario1.png)
+![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/Escenario2.png)
+![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/Escenario3.png)
+![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/Escenario4.png)
+![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/Escenario5.png)
+![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/Escenario6.png)
 
 2.5.1.3. Bounded Context Canvases
 
-2.5.2. Context Mapping
+![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/UserIdentityContext.png)
+![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/ServiceCatalog.png)
+![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/UserIdentityContext.png)
+
+
+#### 2.5.2. Context Mapping
+
+![ Una imagen de prueba](asset/ContextMapping.png )
 
 2.5.3. Software Architecture
 
 2.5.3.1. Software Architecture Context Level Diagrams
 
+![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/Software%20Architecture%20Context%20Level.png)
+
 2.5.3.2. Software Architecture Container Level Diagrams
+
+![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/Software%20Architecture%20Container%20Level%20Diagrams.png)
 
 2.5.3.3. Software Architecture Deployment Diagrams
 
+![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/Software%20Architecture%20Deployment%20Diagrams.png)
+
 #### 2.6. Tactical-Level Domain-Driven Design
-2.6.x. Bounded Context: <Bounded Context Name>
 
-2.6.x.1. Domain Layer
+2.6.1. Bounded Context: ServiceCatalogContext 
 
-2.6.x.2. Interface Layer
+En esta sección se describe el contexto encargado de la gestión del catálogo de servicios mecánicos, incluyendo su publicación, actualización y desactivación. Se detallan las clases identificadas como parte del modelo de dominio, documentando su propósito, atributos, métodos y relaciones, con el fin de estructurar un diccionario claro del dominio.
 
-2.6.x.3. Application Layer
+Miró en donde se desarrolló:
 
-2.6.x.4 Infrastructure Layer
+https://miro.com/app/board/uXjVHd8mZPo=/?share_link_id=996378247083
 
-2.6.x.5. Bounded Context Software Architecture Component Level Diagrams
+2.6.1.1. Domain Layer
 
-2.6.x.6. Bounded Context Software Architecture Code Level Diagrams
+Aquí se modela el núcleo del catálogo de servicios. Se incluyen entidades como Servicio, junto con Value Objects relacionados (por ejemplo, categoría o ubicación). Se definen agregados que aseguran la consistencia del estado del servicio, así como interfaces de repositorios para su persistencia.
 
-2.6.x.6.1. Bounded Context Domain Layer Class Diagrams
+2.6.1.2. Interface Layer
 
-2.6.x.6.2. Bounded Context Database Design Diagram
+Se presentan los controladores encargados de exponer funcionalidades como publicación, edición y filtrado de servicios. Estos componentes permiten la interacción con clientes externos, como aplicaciones web o móviles.
+
+2.6.1.3. Application Layer
+
+Se gestionan los flujos de negocio mediante Command Handlers (por ejemplo, PublicarServicio o ActualizarServicio) y Event Handlers asociados a eventos como ServicioPublicado o ServicioActualizado.
+
+2.6.1.4 Infrastructure Layer
+Se implementan repositorios concretos para persistencia en base de datos, además de integraciones con servicios externos si aplica (por ejemplo, indexación para búsqueda).
+
+En este punto se muestran los layers juntos:
+
+![ Una imagen de prueba](asset/DDD1.png )
+
+
+2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
+
+Se presentan diagramas C4 que muestran cómo el contenedor del catálogo se descompone en componentes como API, servicios de aplicación y repositorios.
+
+![ Una imagen de prueba](asset/C4-BOUNDED1.png )
+
+2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
+
+Se incluyen diagramas detallados que reflejan la implementación interna, incluyendo clases de dominio y estructura de persistencia.
+
+  2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
+  
+   Se modelan las clases principales del dominio, sus atributos, métodos y relaciones, incluyendo multiplicidades y tipos de asociación.
+   
+   ![ Una imagen de prueba](asset/ClassDiagram1.png )
+   
+  2.6.1.6.2. Bounded Context Database Design Diagram
+   Se define la estructura de tablas como Servicios, incluyendo claves primarias, foráneas y   restricciones necesarias para garantizar integridad.
+   
+   ![ Una imagen de prueba](asset/DB1.png )
+
+
+<br> 
+<br> 
+
+2.6.2. Bounded Context: UserIdentityContext (IAM)
+
+Este contexto gestiona la identidad de los usuarios, abarcando registro, autenticación y administración de perfiles. Se documentan las clases clave del dominio junto con sus responsabilidades y relaciones.
+
+2.6.2.1. Domain Layer
+
+Incluye entidades como Usuario y Perfil, además de Value Objects como credenciales. Se modelan reglas de negocio relacionadas con autenticación y gestión de identidad.
+
+2.6.2.2. Interface Layer
+
+Se presentan controladores para registro, login y actualización de perfiles, actuando como punto de entrada para clientes.
+
+2.6.2.3. Application Layer
+
+Se definen casos de uso como RegistrarUsuario o AutenticarUsuario mediante handlers que coordinan la lógica de negocio.
+
+2.6.2.4 Infrastructure Layer
+
+Incluye implementación de repositorios, servicios de autenticación (como JWT) y conexión a bases de datos.
+
+![ Una imagen de prueba](asset/DDD2.png )
+
+2.6.2.5. Bounded Context Software Architecture Component Level Diagrams 
+
+Se muestra la separación entre componentes como API de autenticación, servicio de usuarios y almacenamiento.
+
+![ Una imagen de prueba](asset/C4-BOUNDED2.png )
+
+2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
+
+Se detallan clases e implementación del dominio y persistencia.
+
+2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
+
+Se representan clases como Usuario, sus atributos y relaciones con otros objetos.
+
+![ Una imagen de prueba](asset/ClassDiagram2.png )
+
+2.6.2.6.2. Bounded Context Database Design Diagram
+
+Incluye tablas como Usuarios y Perfiles con sus respectivas relaciones.
+
+![ Una imagen de prueba](asset/DB2.png )
+
+<br> 
+<br> 
+
+2.6.3. Bounded Context: DiagnosisContext
+
+Este contexto se encarga de gestionar solicitudes de servicio, análisis de síntomas y generación de diagnósticos o cotizaciones.
+
+2.6.3.1. Domain Layer
+
+Se modelan entidades como PedidoServicio y Diagnóstico, incluyendo lógica para interpretar síntomas y generar resultados.
+
+2.6.3.2. Interface Layer
+
+Incluye controladores que permiten registrar solicitudes y consultar diagnósticos.
+
+2.6.3.3. Application Layer
+
+Se implementan flujos como RegistrarPedido o GenerarDiagnostico, así como eventos como DiagnosticoGenerado.
+
+2.6.3.4 Infrastructure Layer
+
+Se integran servicios externos, como motores de análisis o APIs de inteligencia artificial si corresponde.
+
+![ Una imagen de prueba](asset/DDD3.png )
+
+2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
+
+Se visualiza la interacción entre componentes como API, motor de diagnóstico y repositorios.
+
+![ Una imagen de prueba](asset/C4-BOUNDED3.png )
+
+2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
+
+Se detalla la implementación interna del procesamiento de diagnósticos.
+
+2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
+
+Incluyen clases y relaciones para modelar síntomas, pedidos y resultados.
+
+![ Una imagen de prueba](asset/Diagram_Class3.png )
+
+2.6.3.6.2. Bounded Context Database Design Diagram
+
+Define tablas como Pedidos y Diagnosticos con sus relaciones.
+
+![ Una imagen de prueba](asset/DB3.png )
+
+<br> 
+<br> 
+
+2.6.4. Bounded Context: ReputationContext
+
+Este contexto gestiona la reputación mediante calificaciones y reseñas verificadas de servicios completados.
+
+2.6.4.1. Domain Layer
+
+Incluye entidades como Calificación y Reseña, con reglas que aseguran que solo servicios completados puedan ser evaluados.
+
+2.6.4.2. Interface Layer
+
+Se presentan endpoints para enviar, editar y visualizar reseñas.
+
+2.6.4.3. Application Layer
+
+Se gestionan procesos como EnviarCalificacion y PublicarReseña mediante handlers.
+
+2.6.4.4 Infrastructure Layer
+
+Incluye persistencia de reseñas y posibles integraciones con sistemas de moderación.
+
+![ Una imagen de prueba](asset/DDD4.png )
+
+2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
+
+Muestra componentes como API de reputación y repositorios.
+
+![ Una imagen de prueba](asset/C4-BOUNDED4.png )
+
+2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
+
+Expone la implementación detallada de la lógica de reputación.
+
+2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
+
+Modela las clases de evaluación y sus relaciones con servicios.
+
+![ Una imagen de prueba](asset/ClassDiagram4.png )
+
+2.6.4.6.2. Bounded Context Database Design Diagram
+
+Define tablas como Calificaciones y Reseñas.
+
+![ Una imagen de prueba](asset/DB4.png )
+
+<br> 
+<br> 
+
+2.6.5. Bounded Context: ServiceManagementContext
+
+Este contexto controla el ciclo de vida completo del servicio, desde la solicitud hasta su finalización o cancelación.
+
+2.6.5.1. Domain Layer
+
+Incluye entidades como ServicioEnProceso, con estados y reglas de transición (solicitado, confirmado, finalizado, cancelado).
+
+2.6.5.2. Interface Layer
+
+Se presentan controladores para gestionar el estado del servicio y registrar acciones de los usuarios.
+
+2.6.5.3. Application Layer
+
+Incluye persistencia del historial de servicios y posible integración con sistemas de notificación.
+
+2.6.5.4 Infrastructure Layer
+
+Incluye persistencia del historial de servicios y posible integración con sistemas de notificación.
+
+![ Una imagen de prueba](asset/DDD5.png )
+
+2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
+
+Se representa la interacción entre componentes como gestor de servicios, API y base de datos.
+
+![ Una imagen de prueba](asset/C4-BOUNDED5.png )
+
+2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
+
+Se detalla la implementación de la lógica de estados y transiciones.
+
+2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
+
+Incluye clases que modelan el ciclo de vida del servicio.
+
+![ Una imagen de prueba](asset/ClassDiagram5.png )
+
+2.6.5.6.2. Bounded Context Database Design Diagram
+
+Define tablas como Servicios y HistorialServicios con relaciones y constraints.
+
+![ Una imagen de prueba](asset/DB5.png )
 
 ## Capítulo III: Solution UI/UX Design
 
