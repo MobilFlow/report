@@ -26,7 +26,7 @@
 | Apellidos y Nombres                  |   Código    |
 |:------------------------------------:|:-----------:|
 |                                      |             |
-|                                      |             |
+| Villugas Jeronimo, Liam Anderson     | U202211634  |
 | Taquiri Calderon, Jhunior Giussepe     | U20221C576 |
 | Sanchez Gonzales, Gabriel            | U202310609  |
 | Tuesta Marin, Romina Alejandra       | U202211706  |
@@ -47,6 +47,8 @@
 | 1.0     | 23/04/2026 | Gabriel Sánchez Gonzales | Cargó archivos, Descripción de la Startup, diseño de entrevistas, entrevistas, user personas, empathy mapping, Ubiquitous language, product backlog, event storming y actualizó una rama|
 | 1.0     | 23/04/2026 | Braulio Rodrigo Torrejon Navarro | Cargo archivos, entrevistas, user stories, candidate context discovery, domain message flow modeling, bounded context canvases, software architecture y impact mapping |
 | 1.0     | 23/04/2026 | Giussepe Taquiri             | Análisis competitivo, estrategias y tácticas frente a competidores, User Task Matrix y User Journey Mapping |
+
+| 1.0     | 23/04/2026 | Liam Villugas          | Antecedentes y problematica, Lean UX Canvas, Lean UX Hypothesis Statements, Lean UX Assumptions, Lean UX Problem Statements y Context mapping |
 
 ---
 
