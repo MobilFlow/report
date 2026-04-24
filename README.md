@@ -27,7 +27,7 @@
 |:-------------------------------:|:---------:|
 |    |  |
 |    |  |
-|    |  |
+| aquiri Calderon, Jhunior Giussepe    | U20221C576  |
 |  Sanchez Gonzales, Gabriel  |    U202310609  |
 |  Tuesta Marin, Romina Alejandra  |    U202211706   |
 
@@ -44,6 +44,7 @@
 |---------|------------|--------------|-----------------------------------------------|
 | 1.0     | 6/09/2025 | Romina Tuesta | Creación de la estructura inicial del reporte, cargó archivos y actualizó una rama|
 | 1.0     | 23/04/2026 | Gabriel Sánchez Gonzales | Cargó archivos, Descripción de la Startup, diseño de entrevistas, entrevistas, user personas, empathy mapping, Ubiquitous language, product backlog, event storming y actualizó una rama|
+| 1.0     | 23/04/2026 | Giussepe Taquiri             | Análisis competitivo, estrategias y tácticas frente a competidores, User Task Matrix y User Journey Mapping |
 
 ---
 
