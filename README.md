@@ -1625,15 +1625,579 @@ Define tablas como Servicios y HistorialServicios con relaciones y constraints.
 
 ### 4. Product Implementation & Validation
 
-4.1. Software Configuration Management
+#### 4.1. Software Configuration Management
 
-4.1.1. Software Development Environment Configuration
+#### 4.1.1. Software Development Environment Configuration
 
-4.1.2. Source Code Management
+Para asegurar una colaboración eficiente y mantener la calidad en el desarrollo de **AutoMatch**, se definió un entorno de desarrollo común para todos los integrantes del equipo. A continuación, se presentan las herramientas y tecnologías utilizadas durante las distintas etapas del ciclo de vida del producto digital, indicando su propósito dentro del proyecto.
 
+---
+
+# Product UX/UI Design
+
+Para el diseño de experiencia de usuario y prototipado de la aplicación móvil AutoMatch se utilizaron las siguientes herramientas:
+
+## Figma
+Herramienta utilizada para la creación de wireframes, mockups y prototipos interactivos de la aplicación móvil y landing page.  
+
+https://www.figma.com/
+
+## UXPressia
+Utilizada para la elaboración de User Personas, Empathy Maps y User Journey Maps.  
+
+https://uxpressia.com/
+
+## Miro
+Herramienta colaborativa utilizada para la creación de Lean UX Canvas, Event Storming y modelado de procesos del sistema.  
+
+https://miro.com/
+
+---
+
+# Software Development
+
+Para el desarrollo de la aplicación móvil, backend y landing page se utilizaron las siguientes tecnologías y herramientas:
+
+## Android Studio (Instalación local)
+IDE principal utilizado para el desarrollo de la aplicación móvil AutoMatch utilizando Kotlin y Jetpack Compose.  
+
+https://developer.android.com/studio
+
+## Kotlin
+Lenguaje principal utilizado para el desarrollo de la aplicación móvil y parte de la lógica del backend.  
+
+https://kotlinlang.org/
+
+## Jetpack Compose
+Framework moderno de Android utilizado para construir interfaces declarativas y responsivas.  
+
+https://developer.android.com/jetpack/compose
+
+## IntelliJ IDEA (Instalación local)
+Utilizado para soporte de desarrollo backend, pruebas y administración del proyecto.  
+
+https://www.jetbrains.com/idea/
+
+## Git (Instalación local)
+Herramienta utilizada para gestionar cambios de código mediante commits y ramas locales.  
+
+https://git-scm.com/
+
+## GitHub
+Plataforma utilizada para el almacenamiento remoto del código fuente y colaboración entre integrantes del equipo.  
+
+https://github.com/
+
+## Postman
+Herramienta utilizada para realizar pruebas y validaciones de endpoints REST del backend.  
+
+https://www.postman.com/
+
+## MySQL
+Sistema gestor de base de datos relacional utilizado para almacenar la información del sistema.  
+
+https://www.mysql.com/
+
+---
+
+# Project Management and Collaboration
+
+Para la gestión del proyecto y coordinación del equipo se utilizaron las siguientes herramientas:
+
+## Trello
+Utilizado para la planificación y seguimiento de tareas mediante tableros Kanban.  
+
+https://trello.com/
+
+## WhatsApp
+Herramienta de comunicación instantánea utilizada para coordinación rápida entre integrantes.  
+
+https://web.whatsapp.com/
+
+## Google Meet
+Utilizado para reuniones virtuales, presentaciones y seguimiento del proyecto.  
+
+https://meet.google.com/
+
+---
+
+# Software Documentation
+
+Para la documentación y modelado del sistema se utilizaron las siguientes herramientas:
+
+## Lucidchart
+Utilizado para la creación de diagramas UML, wireflows y user flows.  
+
+https://www.lucidchart.com/
+
+## Visual Paradigm
+Herramienta utilizada para modelado arquitectónico y diagramas C4 del sistema.  
+
+https://online.visual-paradigm.com/
+
+---
+
+Estas herramientas permitieron mantener una adecuada organización del proyecto, facilitar la colaboración entre los integrantes y asegurar una implementación alineada con buenas prácticas de ingeniería de software.
+
+
+
+### 4.1.2. Source Code Management
+
+La gestión del código fuente es una parte fundamental en el desarrollo colaborativo de software, ya que permite un control eficiente sobre las modificaciones realizadas en el proyecto a lo largo de su ciclo de vida. En esta sección del informe, se describe el sistema de control de versiones implementado en el proyecto **AutoMatch**, utilizando GitHub como plataforma principal.
+
+Además, se detallan las convenciones de trabajo adoptadas por el equipo, como el modelo GitFlow, el versionado semántico (Semantic Versioning) y las convenciones de commits mediante Conventional Commits. Estas prácticas aseguran un desarrollo ordenado y una integración continua efectiva entre los miembros del equipo.
+
+
+# URL de los Repositorios
+
+
+
+# URL de los Repositorios
+
+| Repository | Description | URL |
+|:------------|:--------------------------------------------------|:------------------------------------------------|
+| **Organization** | Main GitHub organization of the project | [MobilFlow](https://github.com/MobilFlow) |
+| **Report** | Repository containing the project documentation | [report.git](https://github.com/MobilFlow/report.git) |
+| **Landing Page** | Frontend repository for the Landing Page | [front-end.git](https://github.com/MobilFlow/front-end.git) |
+| **Backend** | Backend services and REST API repository | [back-end.git](https://github.com/MobilFlow/back-end.git) |
+| **Mobile Application** | Mobile application repository developed in Android | [front-end.git](https://github.com/MobilFlow/front-end.git) |
+
+
+
+
+
+
+# Estructura de Ramas
+
+Para mantener un flujo organizado en el desarrollo y facilitar la colaboración, se implementó el modelo GitFlow, creando las siguientes ramas:
+
+## Main Branch
+Rama principal (`main`) que contiene las versiones estables y funcionales del proyecto. Todas las demás ramas derivan de esta.
+
+## Develop Branch
+Rama secundaria (`develop`) donde se integran todas las nuevas funcionalidades antes de fusionarse con la rama principal.
+
+## Feature Branches
+Estas ramas se crean a partir de `develop` y son utilizadas para desarrollar funcionalidades específicas del proyecto. Una vez finalizado el desarrollo, se realiza un merge hacia la rama `develop`.
+
+### Ejemplos
+
+```bash
+feature/login
+feature/geolocation
+feature/payment-system
+feature/mechanic-matching
+```
+
+---
+
+## Release Branches
+Utilizadas para preparar nuevas versiones estables antes de ser publicadas en producción.
+
+### Ejemplo
+
+```bash
+release/v1.0.0
+```
+
+---
+
+## Hotfix Branches
+Ramas utilizadas para solucionar errores críticos detectados en producción.
+
+### Ejemplo
+
+```bash
+hotfix/authentication-error
+```
+
+---
+
+# Semantic Versioning
+
+El proyecto AutoMatch utiliza Semantic Versioning para identificar las versiones del sistema siguiendo la estructura:
+
+```bash
+MAJOR.MINOR.PATCH
+```
+
+### Ejemplo
+
+```bash
+v1.0.0
+```
+
+Donde:
+
+- **MAJOR**: cambios incompatibles o grandes modificaciones.
+- **MINOR**: nuevas funcionalidades compatibles.
+- **PATCH**: corrección de errores menores.
+
+---
+
+# Convenciones de Commits
+
+Para la escritura de commits en el proyecto AutoMatch, se sigue la convención Conventional Commits, la cual cuenta con un formato estándar que facilita la lectura y entendimiento del historial de cambios dentro del proyecto.
+
+---
+
+# Formato
+
+```bash
+<type>[optional scope]: <description>
+```
+
+---
+
+# Types
+
+| Tipo | Descripción |
+|------|-------------|
+| feat | Añadir una nueva característica |
+| fix | Corrección de errores |
+| docs | Modificaciones en documentación |
+| style | Cambios visuales o formato |
+| refactor | Mejoras internas del código |
+| test | Adición o modificación de pruebas |
+| chore | Configuración y mantenimiento |
+
+---
+
+# Scope
+
+El scope brinda información adicional acerca del área del código afectada.
+
+### Ejemplo
+
+```bash
+feat(auth): add login functionality
+```
+
+---
+
+# Ejemplos básicos de commits
+
+```bash
+feat(location): add real-time geolocation system
+
+fix(payment): resolve payment validation issue
+
+docs(readme): update installation guide
+
+refactor(api): improve backend architecture
+
+test(auth): add login unit tests
+
+chore(config): update environment variables
+```
+
+Estas convenciones permitieron mantener un historial de cambios organizado, mejorar la colaboración entre los integrantes del equipo y facilitar el mantenimiento continuo del proyecto AutoMatch.
 4.1.3. Source Code Style Guide & Conventions
+## 4.1.3. Source Code Style Guide & Conventions
 
-4.1.4. Software Deployment Configuration
+# Nomenclatura General
+
+Para el desarrollo de la aplicación móvil **AutoMatch** en Android Studio utilizando Kotlin y Jetpack Compose bajo el patrón Clean Architecture, se aplicarán convenciones de nomenclatura basadas en Google Kotlin Style Guide y Jetpack Compose Guidelines.
+
+Los nombres utilizados dentro del proyecto deben ser claros, descriptivos y escritos en inglés. Se utilizará `camelCase` para variables y funciones, `PascalCase` para clases y componentes de interfaz, y `snake_case` únicamente para recursos XML.
+
+---
+
+# Ejemplos
+
+## Variables y funciones (camelCase)
+
+```kotlin
+val userName: String
+
+fun getNearbyMechanics()
+```
+
+---
+
+## Clases y componentes (PascalCase)
+
+```kotlin
+class LoginViewModel
+
+@Composable
+fun HomeScreen()
+```
+
+---
+
+## Recursos XML (snake_case)
+
+```xml
+activity_main.xml
+ic_mechanic_avatar.xml
+```
+
+---
+
+# Sangría
+
+En Kotlin, la sangría utilizada será de 4 espacios por bloque. No se recomienda el uso de tabulaciones, siguiendo las convenciones oficiales de Android Developers.
+
+---
+
+# Kotlin
+
+Kotlin es el lenguaje principal utilizado en el proyecto AutoMatch. Las siguientes pautas aseguran consistencia y legibilidad en el código fuente.
+
+---
+
+# Uso de val y var
+
+Siempre que sea posible, se utilizará `val` en lugar de `var` para definir variables inmutables.
+
+```kotlin
+val mechanicName = "Carlos"
+
+var servicePrice = 150.0
+```
+
+---
+
+# Formato de funciones
+
+Las llaves de apertura deben ir en la misma línea que la declaración y la llave de cierre en su propia línea.
+
+```kotlin
+fun calculateDistance(origin: Location, destination: Location): Float {
+
+    val result = FloatArray(1)
+
+    Location.distanceBetween(
+        origin.latitude,
+        origin.longitude,
+        destination.latitude,
+        destination.longitude,
+        result
+    )
+
+    return result[0]
+}
+```
+
+---
+
+# Formato de clases
+
+```kotlin
+class MechanicRepository {
+
+    fun getMechanicById(id: String): Mechanic {
+        return mechanicDao.getMechanic(id)
+    }
+}
+```
+
+---
+
+# Espaciado
+
+Se incluirá un espacio después de los dos puntos en las declaraciones de tipos y entre operadores.
+
+```kotlin
+val distance: Float = 25.5f
+
+val total = x + y
+```
+
+---
+
+# Imports
+
+No se utilizarán imports comodín (`*`). Se importarán únicamente las clases necesarias.
+
+```kotlin
+import androidx.compose.material3.Text
+import androidx.lifecycle.ViewModel
+```
+
+---
+
+# Jetpack Compose
+
+Jetpack Compose se utiliza para el desarrollo de interfaces modernas y responsivas dentro de AutoMatch.
+
+---
+
+# Nomenclatura de Composables
+
+Los nombres de funciones composables deben utilizar PascalCase y terminar con la palabra `Screen` o `Component`, dependiendo de su funcionalidad.
+
+```kotlin
+@Composable
+fun LoginScreen()
+
+@Composable
+fun MechanicCardComponent()
+```
+
+---
+
+# Estructura y legibilidad
+
+Cada Composable debe mantener una estructura clara y organizada para mejorar la legibilidad del código.
+
+```kotlin
+@Composable
+fun HomeScreen() {
+
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(16.dp)
+    ) {
+
+        Text(
+            text = "Welcome to AutoMatch"
+        )
+    }
+}
+```
+
+---
+
+# Uso de colores y temas
+
+Los colores y estilos utilizados deben provenir de los archivos de tema definidos en la carpeta `ui/theme`, respetando las convenciones de Material Design 3.
+
+```kotlin
+Button(
+    onClick = { },
+    colors = ButtonDefaults.buttonColors(
+        containerColor = PrimaryColor
+    )
+) {
+
+    Text(
+        "Register",
+        color = Color.White
+    )
+}
+```
+
+
+
+### 4.1.4. Software Deployment Configuration
+
+
+
+
+# Landing Page
+
+Para el despliegue de la Landing Page de **AutoMatch**, se utilizó GitHub Pages, la funcionalidad integrada de GitHub que permite publicar sitios web estáticos de manera sencilla y gratuita.
+
+---
+
+# Proceso de implementación
+
+## Creación del repositorio
+
+Desde la organización del proyecto en GitHub, se creó un repositorio destinado al despliegue de la Landing Page de AutoMatch.
+
+### Repositorio utilizado
+
+```text
+https://github.com/Aplicaciones-Moviles-Grupo/landing-page-original
+```
+
+---
+
+# Configuración del repositorio
+
+El repositorio fue configurado con visibilidad pública para permitir el despliegue mediante GitHub Pages.
+
+Además, se organizó el proyecto utilizando ramas de trabajo bajo el modelo GitFlow.
+
+---
+
+# Configuración del despliegue con GitHub Pages
+
+Para mantener separados los cambios relacionados con deployment, se creó una rama específica denominada:
+
+```bash
+feature/chapter-IV-deployment
+```
+
+Posteriormente, se verificaron las ramas activas mediante el siguiente comando:
+
+```bash
+git branch
+```
+
+---
+
+# Instalación de gh-pages
+
+Se instaló el paquete `gh-pages` para automatizar el proceso de publicación.
+
+```bash
+npm install gh-pages --save-dev
+```
+
+Después, se configuró el script correspondiente dentro del archivo `package.json`.
+
+---
+
+# Ejecución del despliegue
+
+Una vez finalizada la configuración, se ejecutó el siguiente comando:
+
+```bash
+npm run deploy
+```
+
+Este proceso generó automáticamente la rama `gh-pages`, donde se almacenan los archivos estáticos generados por el build del proyecto.
+
+---
+
+# Configuración de GitHub Pages
+
+Luego del despliegue, se accedió a:
+
+```text
+Settings → Pages
+```
+
+Dentro del repositorio GitHub.
+
+---
+
+# Detalles de configuración
+
+## Fuente de despliegue (Source)
+
+Se seleccionó la opción:
+
+```text
+Deploy from a branch
+```
+
+---
+
+## Rama de publicación (Branch)
+
+Se configuró la rama:
+
+```text
+gh-pages
+```
+
+Como fuente principal del sitio web utilizando el directorio raíz `/ (root)`.
+
+---
+
+# URL del sitio
+
+GitHub Pages generó automáticamente la URL pública del proyecto:
+
+```text
+https://aplicaciones-moviles-grupo.github.io/landing-page-original/
+```
 
 4.2. Landing Page & Mobile Application Implementation
 
