@@ -1824,7 +1824,16 @@ Implementada mediante una Bottom Navigation Bar visible en las pantallas princip
 
 3.1.3.1. Landing Page Wireframe
 
+
+<img src="assets/Mockups/wireframelandig1.png" width="40%">
+<img src="assets/Mockups/wireframelandig2.png" width="40%">
+<img src="assets/Mockups/wireframelandig3.png" width="40%">
+
 3.1.3.2. Landing Page Mock-up
+
+<img src="assets/Mockups/mockuplanding1.png" width="40%">
+<img src="assets/Mockups/mockuplanding2.png" width="40%">
+<img src="assets/Mockups/mockuplanding3.png" width="40%">
 
 3.1.4. Mobile Applications UX/UI Design
 
