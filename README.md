@@ -1587,21 +1587,238 @@ Define tablas como Servicios y HistorialServicios con relaciones y constraints.
 
 ### 3.1. Product design
 
-3.1.1. Style Guidelines
 
-3.1.1.1. General Style Guidelines
+### 3.1.1. Style Guidelines
 
-3.1.2. Information Architecture
+En esta sección, el equipo define un sistema de diseño centralizado y organizado que reúne los principales elementos visuales utilizados en AutoMatch, tales como paleta de colores, tipografía, iconografía, componentes gráficos y lineamientos de interfaz. El propósito de estas guías es mantener una experiencia visual consistente y coherente tanto en la Landing Page como en la aplicación móvil desarrollada en Android con Jetpack Compose.
 
-3.1.2.1. Organization Systems
+#### 3.1.1.1. General Style Guidelines
 
-3.1.2.2. Labelling Systems
+##### Branding
 
-3.1.2.3. SEO Tags and Meta Tags
+Identidad visual moderna y tecnológica que transmite confianza, seguridad y eficiencia en la búsqueda y comparación de servicios mecánicos automotrices.
 
-3.1.2.4. Searching Systems
+##### Iconografía
 
-3.1.2.5. Navigation Systems
+Iconografía clara e intuitiva, basada en íconos simples y reconocibles para acciones principales como inicio, búsqueda de mecánicos, servicios, historial y perfil de usuario, manteniendo una experiencia visual limpia, moderna y fácil de navegar.
+
+<p align="">
+  <img src="assets/sprint2/Branding.jpeg" alt="Branding" width="300"/>
+</p>
+
+#### Typography
+
+Tipografías sans-serif modernas y de alta legibilidad optimizadas para dispositivos móviles y plataformas web.
+
+**Sistema de jerarquía tipográfica:**
+
+- **Títulos principales:** Bold y tamaño destacado para encabezados y pantallas principales.  
+- **Subtítulos:** Semi-bold para secciones, tarjetas y categorías.  
+- **Texto general:** Regular para contenido informativo y descripciones.  
+- **Labels y botones:** Medium para formularios, campos interactivos y acciones principales.  
+
+
+
+#### Colors
+
+Paleta de colores moderna y tecnológica basada en tonos morados y azules que reflejan innovación, confianza y seguridad dentro del sector automotriz y asegurador. La combinación cromática fue diseñada para ofrecer una experiencia visual atractiva, profesional y consistente en toda la plataforma AutoMatch.
+
+**Sistema de colores:**
+
+- **Color primario:** Morado vibrante `#312070` utilizado en botones, íconos, navegación y elementos destacados de la interfaz.  
+- **Color secundario:** Azul y morado claro `#8465F5` y `#C663E6` aplicados en componentes interactivos, enlaces y elementos de apoyo visual.  
+- **Fondos:** Tonos claros y neutros `#FDF7FF` para mantener interfaces limpias, organizadas y fáciles de visualizar.  
+- **Texto:** Escala de grises oscuros y negros `#1D1B20` para garantizar legibilidad, jerarquía visual y contraste adecuado.  
+- **Colores complementarios:**  
+  - `#0A0629` → Fondo oscuro principal.  
+  - `#4D3ED6` → Variación de color primario.  
+  - `#6750A4` → Morado Material Design utilizado en componentes secundarios.  
+
+<p align="center">
+  <img src="assets/sprint2/colores.png" alt="Color Palette" width="700"/>
+</p>
+
+#### Spacing
+
+Sistema de espaciado moderno y consistente diseñado para mejorar la organización visual, la legibilidad y la experiencia de navegación dentro de la plataforma AutoMatch.
+
+- **Padding interno de tarjetas, formularios y componentes:** 16px – 24px para mantener interfaces limpias y equilibradas.  
+- **Separación entre elementos interactivos, textos e íconos:** 12px – 16px para facilitar la lectura y evitar saturación visual.  
+- **Márgenes laterales y contenedores principales:** 16px – 20px para asegurar alineación y consistencia entre pantallas.  
+- **Espaciados amplios y uniformes** que transmiten orden, claridad visual y una experiencia moderna tanto en dispositivos móviles.  
+
+#### Communication Tone
+
+Tono de comunicación diseñado para transmitir confianza, seguridad y cercanía dentro de la plataforma AutoMatch.
+
+- Claro y directo en instrucciones, procesos de cotización y comparación de seguros.  
+- Profesional y amigable en mensajes, notificaciones y atención al usuario.  
+- Conciso en labels, botones y descripciones para facilitar la navegación.  
+- Uso de lenguaje accesible y fácil de comprender para todo tipo de usuarios.  
+
+---
+
+#### Dimension Guidelines
+
+Componentes de UI diseñados con dimensiones estándar para garantizar comodidad visual, accesibilidad y una mejor experiencia de usuario dentro de la plataforma AutoMatch.
+
+- **Botones principales:** Altura de 48px – 56px para facilitar la interacción táctil en dispositivos móviles.  
+- **Íconos:** Tamaños entre 24px – 32px para mantener claridad visual y consistencia en la interfaz.  
+- **Inputs y campos de texto:** Altura de 48px – 56px para mejorar la legibilidad y usabilidad.  
+- **Tarjetas de información y cotizaciones:** Ancho adaptable a pantalla completa con padding lateral uniforme.  
+- **Bottom Navigation Bar:** Altura de 56px – 64px para una navegación cómoda, moderna y accesible.  
+
+
+#### Communication Tone
+
+Tono de comunicación diseñado para transmitir confianza, seguridad y cercanía dentro de la plataforma AutoMatch.
+
+- Claro y directo en instrucciones, procesos de cotización y comparación de seguros.  
+- Profesional y amigable en mensajes, notificaciones y atención al usuario.  
+- Conciso en labels, botones y descripciones para facilitar la navegación.  
+- Uso de lenguaje accesible y fácil de comprender para todo tipo de usuarios.  
+
+---
+
+#### Dimension Guidelines
+
+Componentes de UI diseñados con dimensiones estándar para garantizar comodidad visual, accesibilidad y una mejor experiencia de usuario dentro de la plataforma AutoMatch.
+
+- **Botones principales:** Altura de 48px – 56px para facilitar la interacción táctil en dispositivos móviles.  
+- **Íconos:** Tamaños entre 24px – 32px para mantener claridad visual y consistencia en la interfaz.  
+- **Inputs y campos de texto:** Altura de 48px – 56px para mejorar la legibilidad y usabilidad.  
+- **Tarjetas de información y cotizaciones:** Ancho adaptable a pantalla completa con padding lateral uniforme.  
+- **Bottom Navigation Bar:** Altura de 56px – 64px para una navegación cómoda, moderna y accesible.  
+
+  <p align="center">
+  <img src="assets/sprint2/Guidelines.png" alt="Guidelines" width="200"/>
+</p>
+
+
+
+
+### 3.1.2. Information Architecture
+
+#### 3.1.2.1. Organization Systems
+
+#### Jerárquico (Visual Hierarchy)
+
+Se utiliza para destacar información clave como cotizaciones disponibles, seguros recomendados, historial y detalles de pólizas vehiculares. Las pantallas principales muestran primero la información más relevante para facilitar la toma de decisiones del usuario.
+
+#### Secuencial (Step-by-Step)
+
+Implementado en:
+
+- Proceso de registro e inicio de sesión de usuarios.  
+- Flujo de cotización y comparación de seguros.  
+- Registro y edición de información vehicular.  
+- Selección y confirmación de seguros.  
+- Gestión y actualización del perfil de usuario.  
+
+#### Por Tópicos
+
+La información se organiza en secciones claras:
+
+- **Home:** Información principal y recomendaciones.  
+- **Search:** Búsqueda y comparación de seguros.  
+- **Services:** Gestión de servicios y cotizaciones.  
+- **Profile:** Configuración y datos del usuario.  
+
+#### Según Audiencia
+
+- **Usuarios propietarios de vehículos:** Acceso a cotizaciones, comparación y gestión de seguros vehiculares.  
+- **Usuarios nuevos:** Acceso guiado al registro, información y exploración de servicios disponibles.  
+
+
+
+
+### 3.1.2.2. Labelling Systems
+
+Etiquetas diseñadas para ser claras, intuitivas y fáciles de comprender, permitiendo que los usuarios naveguen de manera rápida y eficiente dentro de la plataforma AutoMatch.
+
+#### Ejemplos de Etiquetas
+
+- “Welcome Back” / “Create your account” (pantallas de autenticación).  
+- “Compare Insurance” / “View Quote” (acciones principales).  
+- “Insurance Card” / “Service Card” (componentes visuales).  
+- “Full Name” / “Email” / “Password” / “Vehicle Plate” (campos de formulario).  
+- “Home” / “Search” / “Services” / “Profile” (navegación principal).  
+
+#### Asociaciones
+
+- “Search” vinculado con comparación y búsqueda de seguros.  
+- “Services” asociado con cotizaciones, historial y gestión de pólizas.  
+- “Profile” relacionado con configuración de usuario y datos personales.  
+- “Vehicles” asociado con información vehicular y seguros registrados.  
+
+
+#### 3.1.2.3. SEO Tags and Meta Tags
+
+#### Landing Page
+
+- **Title:** “AutoMatch - Encuentra y compara seguros vehiculares fácilmente”  
+- **Meta Description:** “AutoMatch te permite comparar seguros vehiculares, visualizar cotizaciones y encontrar la mejor opción de manera rápida, segura y confiable.”  
+- **Keywords:** seguros vehiculares, comparación de seguros, cotización de seguros, AutoMatch, pólizas vehiculares, seguros online, servicios automotrices  
+- **Author:** Equipo AutoMatch  
+
+#### Aplicación Móvil
+
+- **Title (Home):** “Home | AutoMatch”  
+- **Meta Description:** “Gestiona tus servicios, compara seguros y accede a información vehicular desde AutoMatch.”  
+
+
+
+#### 3.1.2.4. Searching Systems
+
+Sistema de búsqueda implementado para facilitar la comparación y exploración de seguros vehiculares dentro de AutoMatch.
+
+#### Búsqueda por Filtros
+
+- Tipo de seguro vehicular.  
+- Cobertura y beneficios incluidos.  
+- Precio y rango de cotización.  
+- Compañías aseguradoras disponibles.  
+- Servicios y categorías relacionadas.  
+
+#### Resultados de Búsqueda
+
+Mostrados en tarjetas con información clave:
+
+- Nombre del seguro o servicio.  
+- Precio estimado y cobertura.  
+- Beneficios principales.  
+- Calificación y recomendaciones.  
+- Disponibilidad y estado del servicio.  
+
+#### Navegación y Visualización
+
+- Visualización organizada mediante tarjetas interactivas y secciones categorizadas.  
+- Navegación rápida entre resultados, servicios y detalles de cotización.  
+- Diseño optimizado para dispositivos móviles, priorizando claridad visual y facilidad de uso.  
+
+
+#### 3.1.2.5. Navigation Systems
+
+El sistema de navegación de AutoMatch fue diseñado para brindar una experiencia intuitiva, rápida y organizada, permitiendo que los usuarios accedan fácilmente a las principales funcionalidades de la plataforma.
+
+#### Navegación Principal
+
+Implementada mediante una Bottom Navigation Bar visible en las pantallas principales de la aplicación.
+
+#### Secciones principales
+
+- **Home:** Visualización de información principal y recomendaciones.  
+- **Search:** Búsqueda y comparación de seguros vehiculares.  
+- **Services:** Gestión de servicios, cotizaciones e historial.  
+- **Profile:** Configuración y administración de datos del usuario.  
+
+#### Características de Navegación
+
+- Navegación rápida entre pantallas principales mediante íconos intuitivos.  
+- Indicadores visuales para mostrar la sección activa.  
+- Flujo de navegación simple y consistente en toda la aplicación.  
+- Organización jerárquica que prioriza las funciones más utilizadas por el usuario.  
+- Diseño optimizado para interacción táctil en dispositivos móviles.  
 
 3.1.3. Landing Page UI Design
 
@@ -1748,9 +1965,6 @@ La gestión del código fuente es una parte fundamental en el desarrollo colabor
 Además, se detallan las convenciones de trabajo adoptadas por el equipo, como el modelo GitFlow, el versionado semántico (Semantic Versioning) y las convenciones de commits mediante Conventional Commits. Estas prácticas aseguran un desarrollo ordenado y una integración continua efectiva entre los miembros del equipo.
 
 
-# URL de los Repositorios
-
-
 
 # URL de los Repositorios
 
@@ -1758,10 +1972,9 @@ Además, se detallan las convenciones de trabajo adoptadas por el equipo, como e
 |:------------|:--------------------------------------------------|:------------------------------------------------|
 | **Organization** | Main GitHub organization of the project | [MobilFlow](https://github.com/MobilFlow) |
 | **Report** | Repository containing the project documentation | [report.git](https://github.com/MobilFlow/report.git) |
-| **Landing Page** | Frontend repository for the Landing Page | [front-end.git](https://github.com/MobilFlow/front-end.git) |
+| **Landing Page** | Frontend repository for the Landing Page | [Landing_Page.git](https://github.com/MobilFlow/Landing_Page.git) |
 | **Backend** | Backend services and REST API repository | [back-end.git](https://github.com/MobilFlow/back-end.git) |
 | **Mobile Application** | Mobile application repository developed in Android | [front-end.git](https://github.com/MobilFlow/front-end.git) |
-
 
 
 
