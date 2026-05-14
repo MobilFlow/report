@@ -1843,6 +1843,43 @@ Implementada mediante una Bottom Navigation Bar visible en las pantallas princip
 
 3.1.4.3. Mobile Applications Mock-ups
 
+Login:
+
+<img src="assets/Mockups/login1.png" width="20%">
+
+<img src="assets/Mockups/login2.png" width="20%">
+
+User:
+
+<img src="assets/Mockups/Conductor1.png" width="20%">
+
+<img src="assets/Mockups/Conductor2.png" width="20%">
+
+<img src="assets/Mockups/Conductor3.png" width="20%">
+
+<img src="assets/Mockups/Conductor4.png" width="20%">
+
+<img src="assets/Mockups/Conductor5.png" width="20%">
+
+<img src="assets/Mockups/Conductor6.png" width="20%">
+
+<img src="assets/Mockups/Conductor7.png" width="20%">
+
+Mechanic:
+
+<img src="assets/Mockups/mecanico2.png" width="20%">
+
+<img src="assets/Mockups/mecanico3.png" width="20%">
+
+<img src="assets/Mockups/mecanico4.png" width="20%">
+
+<img src="assets/Mockups/mecanico5.png" width="20%">
+
+<img src="assets/Mockups/mecanico6.png" width="20%">
+
+<img src="assets/Mockups/mecanico1.png" width="20%">
+
+
 3.1.4.4. Mobile Applications User Flow Diagrams
 
 3.1.4.5. Mobile Applications Prototyping
