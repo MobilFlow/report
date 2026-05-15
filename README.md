@@ -2520,6 +2520,21 @@ https://mobilflow.github.io/Landing_Page/
 
 #### 4.2.1.1. Sprint Planning 1
 
+| Sprint \# | Sprint 1 |
+| :---- | :---- |
+| **Sprint Planning Background** |  |
+| Date | 2026-05-12 |
+| Time | 07:30 PM |
+| Location | Google Meets |
+| Prepared By | Gabriel Sanchez |
+| Attendees (to planning meeting) | Gabriel Sanchez, Romina Tuesta, Braulio, Liam, Giuseppe |
+| Sprint 0 Review Summary | No Aplica |
+| Sprint 0 Retrospective Summary | No Aplica |
+| **Sprint Goal & User Stories** |  |
+| Sprint 1 Goal | Nuestro enfoque está en implementar las funcionalidades de la plataforma mediante autenticación, administración de usuarios, publicación de servicios y navegación inicial del frontend. Creemos que esto brinda una experiencia confiable de registro e interacción inicial para conductores y mecánicos que utilizarán la plataforma. Esto se confirmará cuando los usuarios puedan registrarse e iniciar sesión correctamente mediante autenticación basada en JWT en el backend, navegar por las interfaces principales de la aplicación y utilizar endpoints funcionales para crear, consultar, actualizar, publicar y desactivar servicios desde la API. |
+| Sprint n Velocity | 45 Story Points |
+| Sum of Story Points | 45 Story Points |
+
 #### 4.2.1.2. Sprint Backlog 1
 
 #### 4.2.1.3. Development Evidence for Sprint Review
