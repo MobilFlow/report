@@ -63,14 +63,19 @@
 - [Objetivos SMART](#objetivos-smart)
   - [S - Specific (Específico)](#s---specific-específico)
     - [Gabriel Sanchez](#gabriel-sanchez)
+    - [Giussepe Taquiri](#giussepe-taquiri)
   - [M - Measurable (Medible)](#m---measurable-medible)
     - [Gabriel Sanchez](#gabriel-sanchez-1)
+    - [Giussepe Taquiri](#giussepe-taquiri-1)
   - [A - Achievable (Alcanzable)](#a---achievable-alcanzable)
     - [Gabriel Sanchez](#gabriel-sanchez-2)
+    - [Giussepe Taquiri](#giussepe-taquiri-2)
   - [R - Relevant (Relevante)](#r---relevant-relevante)
     - [Gabriel Sanchez](#gabriel-sanchez-3)
+    - [Giussepe Taquiri](#giussepe-taquiri-3)
   - [T - Time-bound (Con límite de tiempo)](#t---time-bound-con-límite-de-tiempo)
     - [Gabriel Sanchez](#gabriel-sanchez-4)
+    - [Giussepe Taquiri](#giussepe-taquiri-4)
 - [Capítulo I: Presentación](#capítulo-i-presentación)
   - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
@@ -78,6 +83,7 @@
       - [1.1.2.1 Gabriel Sánchez](#1121-gabriel-sánchez)
       - [1.1.2.4 Braulio Torrejon](#1124-braulio-torrejon)
       - [1.1.2.5  Giussepe Taquiri](#1125--giussepe-taquiri)
+      - [1.1.2.6  Liam Villugas](#1126--liam-villugas)
   - [1.2. Solution Profile](#12-solution-profile)
     - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
       - [What?](#what)
@@ -140,7 +146,6 @@
   - [2.5. Strategic-Level Domain-Driven Design](#25-strategic-level-domain-driven-design)
     - [2.5.1. EventStorming](#251-eventstorming)
       - [2.5.1.2. Domain Message Flows Modeling](#2512-domain-message-flows-modeling)
-      - [2.5.1.3. Bounded Context Canvases](#2513-bounded-context-canvases)
       - [2.5.2. Context Mapping](#252-context-mapping)
     - [2.5.3. Software Architecture](#253-software-architecture)
       - [2.5.3.1. Software Architecture Context Level Diagrams](#2531-software-architecture-context-level-diagrams)
@@ -312,6 +317,7 @@
     - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
     - [4.3.3. Evaluaciones según heurísticas](#433-evaluaciones-según-heurísticas)
 - [Conclusiones](#conclusiones)
+- [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
   - [Anexo A: Links](#anexo-a-links)
 
@@ -349,30 +355,49 @@ tecnologías de ingeniería de software
 ### Gabriel Sanchez
 Voy a desarrollar la aplicación “Automatch” para conectar conductores con mecánicos de forma segura, confiable y eficiente, permitiendo mejorar la experiencia de búsqueda y selección de servicios mecánicos.
 
+### Giussepe Taquiri
+Voy a desarrollar la aplicación “Automatch” implementando funcionalidades móviles e integraciones entre frontend y backend para optimizar la experiencia de los usuarios al buscar mecánicos cercanos.
+
+
 ## M - Measurable (Medible)
 
 ### Gabriel Sanchez
 Voy a medir el éxito del proyecto completando el 100% de las user stories, spike stories e incremental stories, además de implementar correctamente todas las funcionalidades principales definidas en el backlog.
+
+### Giussepe Taquiri
+Voy a medir el avance del proyecto completando las funcionalidades asignadas en cada sprint, verificando la correcta integración de APIs y el funcionamiento de las pantallas móviles de Automatch.
+
 
 ## A - Achievable (Alcanzable)
 
 ### Gabriel Sanchez
 Voy a desarrollar Automatch utilizando tecnologías como Kotlin, Spring Boot, HTML, CSS, Java y herramientas de inteligencia artificial, dentro de un plazo estimado de 3 meses.
 
+### Giussepe Taquiri
+Voy a desarrollar Automatch utilizando Kotlin, Jetpack Compose, Android Studio y GitHub, aplicando los conocimientos adquiridos durante mi formación académica en un plazo estimado de 3 meses.
+
+
 ## R - Relevant (Relevante)
 
 ### Gabriel Sanchez
 Voy a enfocar el desarrollo de Automatch en mejorar la seguridad, confianza y eficiencia de los usuarios al momento de encontrar y seleccionar mecánicos mediante una plataforma digital.
+
+### Giussepe Taquiri
+Voy a contribuir al desarrollo de una plataforma digital que facilite la búsqueda de mecánicos confiables, mejorando la experiencia del usuario mediante tecnologías móviles y servicios integrados.
 
 ## T - Time-bound (Con límite de tiempo)
 
 ### Gabriel Sanchez
 Voy a completar el desarrollo de la aplicación “Automatch” en un periodo de 3 meses, cumpliendo con los entregables del curso y el trabajo académico final del equipo.
 
+### Giussepe Taquiri
+Voy a completar las funcionalidades móviles y de integración de Automatch dentro del cronograma académico establecido, cumpliendo los objetivos definidos para cada sprint del proyecto.
+
 <div style="page-break-after: always;"></div>
 
-
 # Capítulo I: Presentación
+
+En este capítulo se presenta la propuesta del proyecto AutoMatch, incluyendo el perfil de la startup, la problemática identificada, los segmentos objetivo y el proceso de diseño centrado en el usuario. Asimismo, se describen los antecedentes y las necesidades detectadas en el sector automotriz que motivaron el desarrollo de la solución.
 
 ## 1.1. Startup Profile
 
@@ -409,13 +434,28 @@ Soy estudiante de la Universidad Peruana de Ciencias Aplicadas (UPC), cursando e
   <img src="assets/images/giussepe.png" alt="imagen perfil giussepe">
 </div>
 
+#### 1.1.2.6  Liam Villugas
+
+Soy Estudiante de Ingienieria de Software en la Universidad Peruana de Ciencias Aplicadas (UPC), Estoy cursando actualmente el 7mo ciclo de la carrera.Me atrae mucho el desarrollo de aplicaciones y el uso de las bases de datos. Me considero una persona en Aprendizaje constante e intento mantener la tranquilidad bajo prension al trabajar.
+
+<div style="max-width:100px">
+  <img src="assets/images/FotoLiam.png" alt="imagen perfil giussepe">
+</div>
+
+
 ## 1.2. Solution Profile
 
 ### 1.2.1. Antecedentes y problemática
 
-En la actualidad, el parque automotor de vehículos particulares ha crecido de manera exponencial, convirtiéndose en el principal medio de transporte para millones de personas. Sin embargo, el sector de servicios de mantenimiento y reparación no ha evolucionado al mismo ritmo tecnológico. El mercado se encuentra dividido entre concesionarios oficiales, con costos excesivamente elevados, y talleres independientes, que operan mayoritariamente en la informalidad o sin visibilidad digital.  
+En el Perú, muchos conductores presentan dificultades para encontrar mecánicos confiables debido a la informalidad y falta de centralización en los servicios automotrices. Según el Instituto Nacional de Estadística e Informática (INEI, 2023), una gran parte de los servicios técnicos en el país aún opera de manera informal, generando desconfianza e inseguridad en los consumidores.
 
-Esta situación genera un escenario de incertidumbre para el conductor, quien al enfrentar una avería o requerir un mantenimiento preventivo, se ve obligado a navegar en un sistema basado en el "ensayo y error". La falta de información centralizada sobre la calidad de los repuestos, la experiencia real de los técnicos y la competitividad de los precios crea una barrera de desconfianza que afecta tanto al usuario como a los buenos proveedores que no tienen cómo destacar su trabajo. Automatch nace para resolver esta fragmentación, profesionalizando el encuentro entre la oferta y la demanda mediante la tecnología.
+Asimismo, el crecimiento del parque automotor en Latinoamérica ha incrementado la demanda de servicios mecánicos rápidos y accesibles. De acuerdo con la Asociación Automotriz del Perú (AAP, 2023), el número de vehículos registrados ha aumentado significativamente durante los últimos años, ocasionando una mayor necesidad de soluciones digitales para la gestión y búsqueda de servicios automotrices.
+
+Actualmente, muchos usuarios utilizan redes sociales o recomendaciones informales para encontrar talleres mecánicos, lo cual dificulta verificar la reputación, experiencia y calidad del servicio ofrecido. En este contexto, las aplicaciones móviles con geolocalización y sistemas de reputación representan una alternativa eficiente para mejorar la experiencia de búsqueda y selección de mecánicos confiables.
+
+Además, el uso de aplicaciones móviles continúa creciendo a nivel mundial. Según Statista (2024), más del 70% de usuarios utilizan aplicaciones móviles para acceder a servicios bajo demanda, lo que demuestra la importancia de desarrollar plataformas digitales accesibles y optimizadas para dispositivos móviles.
+
+Por ello, AutoMatch propone una solución tecnológica que integra geolocalización, reputación de mecánicos y recomendaciones inteligentes para facilitar la conexión entre conductores y profesionales mecánicos de manera rápida, segura y eficiente.
 
 ---
 
@@ -528,6 +568,7 @@ Creemos que nos posicionaremos como la herramienta de auxilio líder si los usua
 
 # Capítulo II: Requirements Development and Software Solution Design
 
+En este capítulo se desarrolla el proceso de levantamiento de requerimientos y diseño de la solución de software para AutoMatch. Se presentan técnicas de análisis, identificación de necesidades, modelado del dominio, bounded contexts y decisiones arquitectónicas orientadas a construir una solución escalable y alineada con los principios de ingeniería de software.
 ## 2.1. Competidores
 ### ¿Por qué llevar a cabo este análisis?
 
@@ -1723,6 +1764,8 @@ Define tablas como Servicios y HistorialServicios con relaciones y constraints.
 
 # Capítulo III: Solution UI/UX Design
 
+En este capítulo se presenta el diseño de experiencia e interfaz de usuario de AutoMatch. Se incluyen wireframes, mockups, user flows y prototipos desarrollados para garantizar una interacción intuitiva, accesible y eficiente para los usuarios de la aplicación móvil.
+
 ## 3.1. Product Design
 
 ### 3.1.1. Style Guidelines
@@ -2019,11 +2062,67 @@ Mechanic:
 
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
 
+**Login:**
+Este flujo ilustra el proceso de autenticación y creación de cuentas dentro de la aplicación móvil AutoMatch. Los usuarios pueden iniciar sesión en la plataforma o registrarse seleccionando su rol como conductor o mecánico antes de acceder al sistema.
+
+<img src="assets/Mockups/UserFlow1.png" width="40%">
+
+**User Flow:**
+
+Pedir un servicio
+
+Este diagrama representa el proceso que siguen los conductores para solicitar un servicio mecánico. El flujo incluye el acceso a la pantalla principal, la visualización de perfiles de mecánicos, la descripción del problema del vehículo, la selección de una categoría y el envío de la solicitud de servicio mediante la plataforma AutoMatch.
+
+<img src="assets/Mockups/UserFlow2.png" width="40%">
+
+Editar un perfil
+
+Este flujo describe cómo los conductores pueden gestionar y editar la información de su perfil dentro de la aplicación. Los usuarios pueden actualizar la información de sus vehículos, modificar datos personales y administrar la configuración de su cuenta.
+
+<img src="assets/Mockups/UserFlow3.png" width="40%">
+
+Servicio
+
+Este diagrama ilustra el proceso de gestión de servicios desde la perspectiva del conductor. Los usuarios pueden visualizar el historial de servicios, hacer seguimiento de servicios completados y publicar reseñas y calificaciones una vez finalizado el servicio.
+
+<img src="assets/Mockups/UserFlow4.png" width="40%">
+
+Busqueda
+
+Este flujo representa el proceso de búsqueda y descubrimiento de mecánicos dentro de la aplicación AutoMatch. Los conductores pueden explorar mecánicos disponibles, acceder a perfiles, revisar calificaciones y especialidades, y evaluar opciones de servicio antes de solicitar asistencia.
+
+<img src="assets/Mockups/UserFlow5.png" width="40%">
+
+**Mechanic Flow:**
+
+Editar Perfil
+
+Este flujo ilustra cómo los mecánicos pueden administrar y editar sus perfiles profesionales. Los mecánicos pueden actualizar información de presentación, especialidades, detalles de servicio y visibilidad dentro de la plataforma AutoMatch.
+
+<img src="assets/Mockups/MechanicFlow1.png" width="40%">
+
+Servicios del mecanico
+
+Este diagrama representa el flujo de trabajo utilizado por los mecánicos para administrar solicitudes de servicio, cotizaciones, servicios en progreso y trabajos completados dentro de la aplicación AutoMatch.
+
+<img src="assets/Mockups/MechanicFlow2.png" width="40%">
+
+Visitar perfil del usuario
+
+Este flujo describe cómo los mecánicos pueden acceder y revisar la información de los conductores durante un proceso de servicio activo. Los mecánicos pueden verificar información del vehículo, historial de servicios y detalles del cliente antes de completar el servicio.
+
+<img src="assets/Mockups/MechanicFlow3.png" width="40%">
+
+
 #### 3.1.4.5. Mobile Applications Prototyping
+
+https://www.figma.com/proto/ZX2IFwBkBBCBVVkt5pc7L0/MockUps---Wireframes?node-id=1-2&t=wyaKRP8yncQcKFk4-1
 
 <div style="page-break-after: always;"></div>
 
 # Capítulo IV: Product Implementation & Validation
+
+
 
 ## 4.1. Software Configuration Management
 
@@ -2627,6 +2726,15 @@ Para este Sprint no se contemplaron pruebas unitarias
 
 * Desarrollar esta propuesta de aplicación permitió abordar la problemática del mercado automotriz caracterizada por la falta de transparencia, confianza y centralización en los servicios mecánicos, la cual fue validada mediante entrevistas a usuarios y trabajadores mecánicos. Asimismo, la integración de metodologías como Lean UX, levantamiento de requerimientos y modelado de dominio facilitó estructurar una solución alineada con necesidades reales, estableciendo una base sólida para su desarrollo como producto digital.  
 * Podemos concluir que la construcción de soluciones en ingeniería de software requiere un aprendizaje continuo y adaptativo el cual nos permite incorporar herramientas como event storming, diseño centrado en el usuario y gestión ágil que contribuyen a mejorar la calidad del producto y fortalecen la capacidad para afrontar entornos complejos y dinámicos propios del desarrollo tecnológico actual.
+
+# Bibliografía
+
+Asociación Automotriz del Perú. (2023). *Parque automotor peruano y tendencias del sector*. https://aap.org.pe/
+
+Instituto Nacional de Estadística e Informática. (2023). *Estadísticas de servicios y actividades económicas en el Perú*. https://www.inei.gob.pe/
+
+
+
 
 
 # Anexos
