@@ -2537,6 +2537,42 @@ https://mobilflow.github.io/Landing_Page/
 
 #### 4.2.1.2. Sprint Backlog 1
 
+Durante este Sprint se trabajó en la implementación de las funcionalidades base de autenticación, gestión de usuarios y servicios de la plataforma. El equipo desarrolló las pantallas principales de acceso, navegación inicial del frontend, endpoints CRUD de usuarios y servicios, así como la integración de autenticación mediante JWT desde el backend.
+
+Link a Trello: [https://trello.com/invite/b/6a068841acbe1487bd955d97/ATTI93e02f577752f14ff38f789bc8fc666eCFE5AB80/automathc](https://trello.com/invite/b/6a068841acbe1487bd955d97/ATTI93e02f577752f14ff38f789bc8fc666eCFE5AB80/automathc)
+
+| Sprint \# | Sprint 1 |
+| :---- | :---- |
+
+| User Story Id | User Story Title | Work-Item / Task Id | Work-Item / Task Title | Description | Estimation (Hours) | Assigned To | Status |
+| :---- | :---- | :---- | :---- | :---- | ----- | :---- | :---- |
+| US-04 | Registro de usuario | TK-01 | Diseñar pantalla Sign Up | Diseño e implementación de interfaz de registro de usuario | 5 | Gabriel Sanchez | Done |
+| TS-04 | Registro de usuario | TK-02 | Implementar autenticación JWT | Desarrollo de autenticación y generación de token JWT | 6 | Gabriel Sanchez | Done |
+| TS-03 | Login de usuario | TK-02 | Implementar autenticación JWT | Desarrollo de autenticación y generación de token JWT | 6 | Gabriel Sanchez | Done |
+| TS-03 | Login de usuario | TK-04 | Implementar Login de usuario | Desarrollo y validación de autenticación desde Swagger | 5 | Gabriel Sanchez | Done |
+| TS-04 | Diseñar API CRUD de usuarios | TK-05 | Implementar CRUD de usuarios | Creación de endpoints CRUD y queries de usuarios | 8 | Gabriel Sanchez | Done |
+| US-24 | Landing Page | TK-06 | Diseñar Landing Page | Desarrollo visual e interfaz principal de la plataforma | 5 | Romina Tuesta | Done |
+| US-05 | Completar perfil de conductor | TK-07 | Implementar perfil de conductor | Desarrollo de formulario y almacenamiento de datos | 4 | Gabriel Sanchez | Done |
+| TS-05 | Diseñar CRUD API de servicios | TK-08 | Implementar CRUD de servicios | Desarrollo de endpoints para publicar, actualizar, listar, obtener y desactivar servicios | 10 | Braulio | Done |
+| US-08 | Publicar servicio | TK-09 | Integrar publicación de servicios | Conexión lógica para publicación desde backend | 5 | Braulio | Done |
+| US-23 | Publicar reseña | TK-11 | Diseñar pantalla de reseñas | Desarrollo de la interfaz de reseñas en frontend | 4 | Giuseppe | Done |
+| US-11 | Ver lista de mecánicos disponibles | TK-12 | Implementar pantalla principal del mecánico | Desarrollo de la vista principal del mecánico en frontend | 5 | Braulio | Done |
+| US-12 | Consultar perfil público del mecánico | TK-13 | Implementar información del mecánico | Desarrollo de la vista con información del mecánico en frontend | 4 | Braulio | Done |
+| US-05 | Completar perfil de conductor | TK-14 | Implementar Driver Profile View | Desarrollo de la vista del perfil del conductor en frontend | 4 | Romina Tuesta | Done |
+| US-03 | Historial de servicios | TK-15 | Implementar Mechanic History Screen | Desarrollo de la pantalla de historial del mecánico en frontend | 5 | Romina Tuesta | Done |
+| US-18 | Crear solicitud de servicio | TK-16 | Implementar Mechanic Request Screen | Desarrollo de la pantalla de solicitudes del mecánico en frontend | 4 | Romina Tuesta | Done |
+| US-18 | Crear solicitud de servicio | TK-17 | Implementar Request Service Driver Screen | Desarrollo de la pantalla para solicitar servicio desde el conductor en frontend | 4 | Romina Tuesta | Done |
+| US-13 | Gestionar disponibilidad y horarios | TK-18 | Implementar Schedule Screen | Desarrollo de la pantalla de horarios y disponibilidad en frontend | 3 | Romina Tuesta | Done |
+| US-10 | Buscar mecánicos con filtros | TK-19 | Implementar Search Driver Screen | Desarrollo de la pantalla de búsqueda con navegación actualizada en frontend | 4 | Romina Tuesta | Done |
+| US-11 | Ver lista de mecánicos disponibles | TK-20 | Implementar perfil del mecánico | Desarrollo de las vistas relacionadas al perfil del mecánico en frontend | 5 | Liam | Done |
+| US-05 | Completar perfil de conductor | TK-21 | Implementar vista del perfil del conductor | Desarrollo de la vista del perfil del conductor en frontend | 4 | Liam | Done |
+| US-01 | Calificaciones y reseñas | TK-22 | Implementar reseñas | Desarrollo de las pantallas relacionadas a reseñas en frontend | 4 | Liam | Done |
+| US-20 | Marcar servicio | TK-23 | Implementar inicio de pantalla del conductor | Desarrollo de la pantalla inicial del conductor en frontend | 3 | Liam | Done |
+| TS-05 | Diseñar API CRUD de servicios | TK-25 | Implementar endpoints del ciclo de vida de servicios | Desarrollo de endpoints para creación, actualización, consulta y estados de servicios | 5 | Liam | Done |
+| TS-08 | Diseñar API CRUD de Catálogo de Servicios | TK-26 | Implementar API del catálogo de servicios | Desarrollo del backend del catálogo de servicios con estructura de endpoints principales | 5 | Braulio | Done |
+| TS-08 | Diseñar API CRUD de Catálogo de Servicios | TK-27 | Implementar search del catálogo | Desarrollo de endpoints para búsqueda, filtrado y consulta de servicios disponibles | 3 | Braulio | Done |
+| TS-09 | Diseñar API CRUD de Calificación y Reputación | TK-29 | Implementar comandos de reputación y agregación de reseñas | Lógica de agregación de ratings y cálculo de score de reputación | 3 | Giuseppe | Done |
+
 #### 4.2.1.3. Development Evidence for Sprint Review
 
 #### 4.2.1.4. Testing Suite Evidence for Sprint Review
