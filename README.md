@@ -403,6 +403,15 @@ Soy estudiante de la Universidad Peruana de Ciencias Aplicadas (UPC), cursando e
   <img src="assets/images/giussepe.png" alt="imagen perfil giussepe">
 </div>
 
+#### 1.1.2.6  Liam Villugas
+
+Soy Estudiante de Ingienieria de Software en la Universidad Peruana de Ciencias Aplicadas (UPC), Estoy cursando actualmente el 7mo ciclo de la carrera.Me atrae mucho el desarrollo de aplicaciones y el uso de las bases de datos. Me considero una persona en Aprendizaje constante e intento mantener la tranquilidad bajo prension al trabajar.
+
+<div style="max-width:100px">
+  <img src="assets/images/FotoLiam.png" alt="imagen perfil giussepe">
+</div>
+
+
 ## 1.2. Solution Profile
 
 ### 1.2.1. Antecedentes y problemática
