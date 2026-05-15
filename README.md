@@ -1575,7 +1575,7 @@ En este punto se muestran los layers juntos:
 
 Se presentan diagramas C4 que muestran cómo el contenedor del catálogo se descompone en componentes como API, servicios de aplicación y repositorios.
 
-<img src="assets/asset/C4-BOUNDED1.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
+<img src="assets/asset/Container-001.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 
