@@ -2575,13 +2575,39 @@ Link a Trello: [https://trello.com/invite/b/6a068841acbe1487bd955d97/ATTI93e02f5
 
 #### 4.2.1.3. Development Evidence for Sprint Review
 
-
+| Repository | Branch | Commit Id | Commit Message | Author | Committed on |
+|---|---|---|---|---|---|
+| [MobilFlow/front-end](https://github.com/MobilFlow/front-end) | `main` | 575f92e | feat: changes main | Romimi1 | 2026-05-14 |
+| [MobilFlow/front-end](https://github.com/MobilFlow/front-end) | `main` | 9b116b7 | feat: update for presentation | Romimi1 | 2026-05-14 |
+| [MobilFlow/front-end](https://github.com/MobilFlow/front-end) | `main` | a4036ee | feat: modify main | Romimi1 | 2026-05-14 |
+| [MobilFlow/front-end](https://github.com/MobilFlow/front-end) | `main` | 96eede6 | docs: Refactor navigation to use AutoMatchNavigation | Romimi1 | 2026-05-14 |
+| [MobilFlow/front-end](https://github.com/MobilFlow/front-end) | `main` | 0a3f5c2 | feat: add driver views | Liamvillugas | 2026-05-13 |
+| [MobilFlow/back-end](https://github.com/MobilFlow/back-end) | `main` | 0ab2a34 | feat: implementation bounded context service management | Liamvillugas | 2026-05-12 |
+| [MobilFlow/back-end](https://github.com/MobilFlow/back-end) | `main` | 5ede791 | docs: config settings | Liamvillugas | 2026-05-12 |
+| [MobilFlow/back-end](https://github.com/MobilFlow/back-end) | `main` | fb180ea | feat: implement service management bounded context | Liamvillugas | 2026-05-12 |
+| [MobilFlow/back-end](https://github.com/MobilFlow/back-end) | `main` | 9794610 | feat: implement reputation bounded context | GiussepeTC0410 | 2026-05-11 |
+| [MobilFlow/back-end](https://github.com/MobilFlow/back-end) | `main` | f39ddc9 | feat: add IAM Facade Implementation | yigabriel | 2026-05-10 |
+| [MobilFlow/back-end](https://github.com/MobilFlow/back-end) | `main` | c77de9d | feat: add mechanic geolocalization bc | yigabriel | 2026-05-10 |
+| [MobilFlow/back-end](https://github.com/MobilFlow/back-end) | `main` | e6c39e2 | feat: add mechanic specialities and cars for roles | yigabriel | 2026-05-10 |
+| [MobilFlow/back-end](https://github.com/MobilFlow/back-end) | `main` | 6c0ddd0 | feat: add entities nad valueObject for profile management | yigabriel | 2026-05-10 |
+| [MobilFlow/back-end](https://github.com/MobilFlow/back-end) | `main` | 13235aa | feat: add IAM bounded context with JWT | yigabriel | 2026-05-10 |
+| [MobilFlow/front-end](https://github.com/MobilFlow/front-end) | `main` | b7af756 | feat: add preview for main | yigabriel | 2026-05-11 |
+| [MobilFlow/front-end](https://github.com/MobilFlow/front-end) | `main` | 6afd175 | feat: add navigation | yigabriel | 2026-05-11 |
+| [MobilFlow/back-end](https://github.com/MobilFlow/back-end) | `main` | fa61c50 | chore: add service catalog domain and services | BraulioTN | 2026-05-11 |
+| [MobilFlow/back-end](https://github.com/MobilFlow/back-end) | `main` | f4d0d45 | chore: add initial service-catalog module scaffold | BraulioTN | 2026-05-11 |
+| [MobilFlow/front-end](https://github.com/MobilFlow/front-end) | `main` | f36bd81 | feat: wire up navigation for mechanic screens | BraulioTN | 2026-05-13 |
+| [MobilFlow/front-end](https://github.com/MobilFlow/front-end) | `main` | 23f5736 | chore: update generated build artifacts and add Kotlin error log | BraulioTN | 2026-05-13 |
+| [MobilFlow/front-end](https://github.com/MobilFlow/front-end) | `main` | 4b27d32 | chore: add IDE configs and generated build files | BraulioTN | 2026-05-12 |
 
 #### 4.2.1.4. Testing Suite Evidence for Sprint Review
+
+Para este Sprint no se contemplaron pruebas unitarias
 
 #### 4.2.1.5. Execution Evidence for Sprint Review
 
 <img src="assets/images/capture-backend.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
+
+
 
 #### 4.2.1.6. Services Documentation Evidence for Sprint Review
 
