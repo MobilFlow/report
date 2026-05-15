@@ -52,9 +52,10 @@
 |---------|------------|--------------|-----------------------------------------------|
 | 1.0     | 23/04/2026 | Gabriel Sánchez Gonzales | Cargó archivos, Descripción de la Startup, diseño de entrevistas, entrevistas, user personas, empathy mapping, Ubiquitous language, product backlog, event storming y actualizó una rama|
 | 1.0     | 23/04/2026 | Braulio Rodrigo Torrejon Navarro | Cargo archivos, entrevistas, user stories, candidate context discovery, domain message flow modeling, bounded context canvases, software architecture y impact mapping |
-| 1.0     | 23/04/2026 | Giussepe Taquiri             | Análisis competitivo, estrategias y tácticas frente a competidores, User Task Matrix y User Journey Mapping |
+| 1.0     | 23/04/2026 | Giussepe Taquiri             | Cargó archivos, correcciones del AV1, desarrollo de la API de Reputation CRUD, Product Design, Style Guidelines, Information Architecture, Organization Systems, Labelling Systems, SEO Tags and Meta Tags, Searching Systems, Navigation Systems, Software Configuration Management, Software Development Environment Configuration, Source Code Management, Source Code Style Guide & Conventions y Software Deployment Configuration. |
 | 1.0     | 23/04/2026 | Liam Villugas          | Antecedentes y problematica, Lean UX Canvas, Lean UX Hypothesis Statements, Lean UX Assumptions, Lean UX Problem Statements y Context mapping |
 | 2.0     | 14/04/2026 | Gabriel Sanchez          | Correcciones del AV1, desarrollo de la API de geolocalización CRUD, desarrollo de la API de IAM CRUD, desarrollo del sprint planning 1, desarrollo del sprint backlog 1, desarrollo del development evidence for sprint review, desarrollo del testing suite evidence for sprint review, desarrollo de execution evidence for sprint review, desarrollo de servicios, services documentation evidence for sprint review, preguntas para validation interviews, registro de 3 validation interviews, desarrollo de evaluación según heuristicas |
+
 
 <div style="page-break-after: always;"></div>
 
@@ -67,18 +68,33 @@
   - [S - Specific (Específico)](#s---specific-específico)
     - [Gabriel Sanchez](#gabriel-sanchez)
     - [Giussepe Taquiri](#giussepe-taquiri)
+    - [Braulio Torrejon](#braulio-torrejon)
+    - [Romina Tuesta](#romina-tuesta)
+    - [Liam Villugas](#liam-villugas)
   - [M - Measurable (Medible)](#m---measurable-medible)
     - [Gabriel Sanchez](#gabriel-sanchez-1)
     - [Giussepe Taquiri](#giussepe-taquiri-1)
+    - [Braulio Torrejon](#braulio-torrejon-1)
+    - [Romina Tuesta](#romina-tuesta-1)
+    - [Liam Villugas](#liam-villugas-1)
   - [A - Achievable (Alcanzable)](#a---achievable-alcanzable)
     - [Gabriel Sanchez](#gabriel-sanchez-2)
     - [Giussepe Taquiri](#giussepe-taquiri-2)
+    - [Braulio Torrejon](#braulio-torrejon-2)
+    - [Romina Tuesta](#romina-tuesta-2)
+    - [Liam Villugas](#liam-villugas-2)
   - [R - Relevant (Relevante)](#r---relevant-relevante)
     - [Gabriel Sanchez](#gabriel-sanchez-3)
     - [Giussepe Taquiri](#giussepe-taquiri-3)
+    - [Braulio Torrejon](#braulio-torrejon-3)
+    - [Romina Tuesta](#romina-tuesta-3)
+    - [Liam Villugas](#liam-villugas-3)
   - [T - Time-bound (Con límite de tiempo)](#t---time-bound-con-límite-de-tiempo)
     - [Gabriel Sanchez](#gabriel-sanchez-4)
     - [Giussepe Taquiri](#giussepe-taquiri-4)
+    - [Braulio Torrejon](#braulio-torrejon-4)
+    - [Romina Tuesta](#romina-tuesta-4)
+    - [Liam Villugas](#liam-villugas-4)
 - [Capítulo I: Presentación](#capítulo-i-presentación)
   - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
@@ -87,6 +103,7 @@
       - [1.1.2.4 Braulio Torrejon](#1124-braulio-torrejon)
       - [1.1.2.5  Giussepe Taquiri](#1125--giussepe-taquiri)
       - [1.1.2.6  Liam Villugas](#1126--liam-villugas)
+      - [1.1.2.7  Romina Tuesta](#1127--romina-tuesta)
   - [1.2. Solution Profile](#12-solution-profile)
     - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
       - [What?](#what)
@@ -360,10 +377,12 @@ de proyectos en soluciones de
 tecnologías de ingeniería de software
 
 
-| Criterio específico | Acciones realizadas | Conclusiones |
+| **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
 | :---- | :---- | :---- |
-| **Criterio 1:** Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de ingeniería de software | **Gabriel Sanchez** <br><br> **AV1:** Descripción del startup; entrevistas a usuarios; diseño de user personas; elaboración de empathy mapping; definición de ubiquitous language; creación del product backlog; desarrollo de event storming <br><br> **TB1:**  Apliqué la actualización de mis conocimientos mediante la corrección del AV1 y el desarrollo de APIs CRUD como IAM y geolocalización, fortaleciendo mis habilidades en backend y arquitectura de servicios. También reforcé mi aprendizaje con la planificación del sprint, evidencias de desarrollo y testing, validaciones mediante entrevistas y evaluación de heurísticas dentro del proyecto de ingeniería de software. <br><br> **Braulio Torrejon** <br><br> **AV1:** Cargo archivos; entrevistas a usuarios; elaboración de user stories; candidate context discovery; domain message flow modeling; bounded context canvases; definición de software architecture; desarrollo de impact mapping <br><br> **Romina Tuesta** <br><br> **AV1:** Realicé todo el punto 2.6 diagrama de clase, base de datos y contenedores C4 y la estructuración de layers. **TP:** He podido ampliar mis conocimientos en desarrollo movil, con el desarollo de diferentes vistas, pantallas, navegación, etc. <br><br> **Giussepe Taquiri** <br><br> **AV1:** Análisis competitivo; definición de estrategias y tácticas frente a competidores; elaboración de User Task Matrix; desarrollo de User Journey Mapping <br><br> **Liam Villugas** <br><br> **AV1:**  entrevistas a mecanicos; Elaboracion de Antecedentes y problematica; Lean UX Problem Statements; Lean UX Assumptions; Lean UX Hypothesis Statements; Lean UX Canvas; desarrollo de Context mapping| **Gabriel Sanchez** <br><br> **AV1:** Durante este avance desarrollé la descripción completa del startup, realicé entrevistas a usuarios, diseñé user personas y empathy maps, construí el ubiquitous language, elaboré el product backlog y llevé a cabo el event storming.<br><br> **TB1:** En este avance desarrolle orrecciones del AV1, desarrollo de la API de geolocalización CRUD, desarrollo de la API de IAM CRUD, desarrollo del sprint planning 1, desarrollo del sprint backlog 1, desarrollo del development evidence for sprint review, desarrollo del testing suite evidence for sprint review, desarrollo de execution evidence for sprint review, desarrollo de servicios, services documentation evidence for sprint review, preguntas para validation interviews, registro de 3 validation interviews, desarrollo de evaluación según heuristicas <br><br> **Braulio Torrejon** <br><br> **AV1:** En este avance consolidé la arquitectura del proyecto mediante entrevistas, user stories y modelado de contextos. Implementé diagramas de flujo de mensajes y bounded contexts, definiendo la arquitectura de software y el impact mapping, lo que permitió dar claridad técnica y trazabilidad al proyecto. <br><br> **Romina Tuesta** <br><br> **AV1:** En este avance pude conocer más acerca de la estructura de los bounded context, realizando los layers como domain, interface, etc., además de adentrarme más a los contenedores de cada bounded. <br><br> **Giussepe Taquiri** <br><br> **AV1:** Durante este avance desarrollé el análisis competitivo y definí estrategias y tácticas frente a los competidores. Asimismo, elaboré el User Task Matrix y los User Journey Maps, aplicando herramientas de análisis UX para comprender mejor las necesidades del usuario y contribuir a la solución del proyecto.<br><br> **Liam Villugas**  <br><br> **AV1:** En este avance consolidé la visión estratégica y técnica de AutoMatch mediante el uso de Lean UX y Domain-Driven Design (DDD). Al integrar las entrevistas a mecánicos con el modelado de Bounded Contexts, logré alinear los objetivos de negocio de MobilFlow con una arquitectura de software escalable. Este proceso me permitió aplicar conocimientos avanzados en ingeniería de software para garantizar la trazabilidad y la correcta delimitación de dominios en la solución. |
-| **Criterio 2:** Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de tecnologías de ingeniería de software | **Gabriel Sanchez** <br><br> **AV1:** Descripción del startup; entrevistas a usuarios; diseño de user personas; elaboración de empathy mapping; definición de ubiquitous language; creación del product backlog; desarrollo de event storming **TB1:** Correcciones del AV1, desarrollo de la API de geolocalización CRUD, desarrollo de la API de IAM CRUD, desarrollo del sprint planning 1, desarrollo del sprint backlog 1, desarrollo del development evidence for sprint review, desarrollo del testing suite evidence for sprint review, desarrollo de execution evidence for sprint review, desarrollo de servicios, services documentation evidence for sprint review, preguntas para validation interviews, registro de 3 validation interviews, desarrollo de evaluación según heuristicas <br><br> **Braulio Torrejon** <br><br> **AV1:** Cargo archivos; entrevistas a usuarios; elaboración de user stories; candidate context discovery; domain message flow modeling; bounded context canvases; definición de software architecture; desarrollo de impact mapping <br><br> **Romina Tuesta** <br><br> **AV1:** En este avance pude conocer más acerca de la estructura de los bounded context, realizando los layers como domain, interface, etc., además de adentrarme más a los contenedores de cada bounded. **TP:** He podido ampliar mis conocimientos en desarrollo movil, con el desarollo de diferentes vistas, pantallas, navegación, etc.  <br><br> **Giussepe Taquiri** <br><br> **AV1:** Análisis competitivo; estrategias y tácticas frente a competidores; User Task Matrix; User Journey Mapping; uso de herramientas de análisis y gestión <br><br> **Liam Villugas** <br><br> **AV1:**  entrevistas a mecanicos; Elaboracion de Antecedentes y problematica; Lean UX Problem Statements; Lean UX Assumptions; Lean UX Hypothesis Statements; Lean UX Canvas; desarrollo de Context mapping  | **Gabriel Sanchez** <br><br> **AV1:** Este proceso evidenció que el desarrollo de soluciones de software exige aprendizaje constante. Comprendí que debo seguir actualizándome y explorando nuevas metodologías y tecnologías para mejorar la calidad y efectividad de mis proyectos. <br> **TB1:** Apliqué el aprendizaje permanente al reforzar continuamente mis conocimientos durante el desarrollo del proyecto, investigando y mejorando mis habilidades en APIs, arquitectura de microservicios y pruebas. Esto me permitió adaptarme a nuevas necesidades del sistema y mejorar la calidad de las soluciones implementadas en cada entrega del proyecto de ingeniería de software.<br><br> **Braulio Torrejon** <br><br> **AV1:** Este proceso me permitió reconocer que la construcción de arquitecturas sólidas requiere aprendizaje continuo. La integración de técnicas como EventStorming, DMFM y bounded contexts evidenció la necesidad de seguir perfeccionando metodologías y herramientas para lograr soluciones escalables y auditables. <br><br> **Romina Tuesta** <br><br> **AV1:** Lo realizado en esta entrega refuerza la necesidad de obtener más conocimiento para llegar a la vida profesional preparados y listos para aplicar lo aprendido. <br><br> **Giussepe Taquiri** <br><br> **AV1:** Este avance me permitió reconocer la importancia del aprendizaje continuo en el desarrollo de soluciones tecnológicas. A través del análisis competitivo y herramientas UX, comprendí la necesidad de actualizar constantemente mis conocimientos para adaptarme a nuevas tecnologías y metodologías en ingeniería de software. <br><br> **Liam Villugas** <br><br> **AV1:** El desarrollo de AutoMatch evidencia que la ingeniería de software exige un aprendizaje permanente para dominar marcos como Lean UX y DDD. La complejidad del ecosistema de MobilFlow reafirma que la actualización constante en metodologías y arquitecturas es indispensable para resolver problemas reales y mantener la competitividad profesional en el diseño de soluciones tecnológicas. |
+| **Criterio 1:** Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de ingeniería de software | **Gabriel Sanchez** <br><br> **AV1:** Descripción del startup; entrevistas a usuarios; diseño de user personas; elaboración de empathy mapping; definición de ubiquitous language; creación del product backlog; desarrollo de event storming <br><br> **TB1:**  Apliqué la actualización de mis conocimientos mediante la corrección del AV1 y el desarrollo de APIs CRUD como IAM y geolocalización, fortaleciendo mis habilidades en backend y arquitectura de servicios. También reforcé mi aprendizaje con la planificación del sprint, evidencias de desarrollo y testing, validaciones mediante entrevistas y evaluación de heurísticas dentro del proyecto de ingeniería de software. <br><br> **Braulio Torrejon** <br><br> **AV1:** Cargo archivos; entrevistas a usuarios; elaboración de user stories; candidate context discovery; domain message flow modeling; bounded context canvases; definición de software architecture; desarrollo de impact mapping <br><br> **Romina Tuesta** <br><br> **AV1:** Realicé todo el punto 2.6 diagrama de clase, base de datos y contenedores C4 y la estructuración de layers. **TP:** He podido ampliar mis conocimientos en desarrollo movil, con el desarollo de diferentes vistas, pantallas, navegación, etc. <br><br> **Giussepe Taquiri** <br><br> **AV1:** Análisis competitivo; definición de estrategias y tácticas frente a competidores; elaboración de User Task Matrix; desarrollo de User Journey Mapping <br><br> **TB1:** Desarrollo de Product Design, Style Guidelines, Information Architecture, Organization Systems, Labelling Systems, SEO Tags and Meta Tags, Searching Systems, Navigation Systems, Software Configuration Management, Software Development Environment Configuration, Source Code Management, Source Code Style Guide & Conventions y Software Deployment Configuration. <br><br> **Liam Villugas** <br><br> **AV1:** entrevistas a mecanicos; Elaboracion de Antecedentes y problematica; Lean UX Problem Statements; Lean UX Assumptions; Lean UX Hypothesis Statements; Lean UX Canvas; desarrollo de Context mapping <br><br> **TB1:** Realicé entrevistas a mecánicos para análisis de requerimientos, desarrollo de servicios backend enfocados en service request (CRUD y lógica de solicitudes), desarrollo de vistas frontend para conductores, implementación de pantallas de solicitud de servicio y seguimiento, validación de flujos de usuario conductor, registro de hallazgos en entrevistas, y documentación técnica de los servicios implementados. <br>| **Gabriel Sanchez** <br><br> **AV1:** Durante este avance desarrollé la descripción completa del startup, realicé entrevistas a usuarios, diseñé user personas y empathy maps, construí el ubiquitous language, elaboré el product backlog y llevé a cabo el event storming.<br><br> **TB1:** En este avance desarrolle correcciones del AV1, desarrollo de la API de geolocalización CRUD, desarrollo de la API de IAM CRUD, desarrollo del sprint planning 1, desarrollo del sprint backlog 1, desarrollo del development evidence for sprint review, desarrollo del testing suite evidence for sprint review, desarrollo de execution evidence for sprint review, desarrollo de servicios, services documentation evidence for sprint review, preguntas para validation interviews, registro de 3 validation interviews, desarrollo de evaluación según heuristicas <br><br> **Braulio Torrejon** <br><br> **AV1:** En este avance consolidé la arquitectura del proyecto mediante entrevistas, user stories y modelado de contextos. Implementé diagramas de flujo de mensajes y bounded contexts, definiendo la arquitectura de software y el impact mapping, lo que permitió dar claridad técnica y trazabilidad al proyecto. <br><br> **Romina Tuesta** <br><br> **AV1:** En este avance pude conocer más acerca de la estructura de los bounded context, realizando los layers como domain, interface, etc., además de adentrarme más a los contenedores de cada bounded. <br><br> **Giussepe Taquiri** <br><br> **AV1:** Durante este avance desarrollé el análisis competitivo y definí estrategias y tácticas frente a los competidores. Asimismo, elaboré el User Task Matrix y los User Journey Maps, aplicando herramientas de análisis UX para comprender mejor las necesidades del usuario y contribuir a la solución del proyecto.<br><br> **TB1:** En este avance fortalecí mis conocimientos en diseño UI/UX, organización de información y configuración de proyectos de software mediante el desarrollo de arquitecturas de navegación, sistemas de etiquetado, gestión de código fuente y configuración de despliegue. Esto me permitió mejorar mis habilidades en documentación técnica y organización de soluciones móviles. <br><br> **Liam Villugas**  <br><br> **AV1:** En este avance consolidé la visión estratégica y técnica de AutoMatch mediante el uso de Lean UX y Domain-Driven Design (DDD). Al integrar las entrevistas a mecánicos con el modelado de Bounded Contexts, logré alinear los objetivos de negocio de MobilFlow con una arquitectura de software escalable. Este proceso me permitió aplicar conocimientos avanzados en ingeniería de software para garantizar la trazabilidad y la correcta delimitación de dominios en la solución.<br><br> **TB1:** Apliqué la actualización de mis conocimientos mediante la realización de entrevistas a mecánicos para el análisis de requerimientos, el desarrollo de servicios backend enfocados en service request (solicitudes de servicio), y la implementación de vistas frontend para conductores en la aplicación móvil. Fortalecí mis habilidades en  diseño de interfaces centradas en el usuario conductor dentro de la app movil Automatch.  |
+| **Criterio 2:** Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de tecnologías de ingeniería de software | **Gabriel Sanchez** <br><br>**Gabriel Sanchez** <br><br> **AV1:** Descripción del startup; entrevistas a usuarios; diseño de user personas; elaboración de empathy mapping; definición de ubiquitous language; creación del product backlog; desarrollo de event storming **TB1:** Correcciones del AV1, desarrollo de la API de geolocalización CRUD, desarrollo de la API de IAM CRUD, desarrollo del sprint planning 1, desarrollo del sprint backlog 1, desarrollo del development evidence for sprint review, desarrollo del testing suite evidence for sprint review, desarrollo de execution evidence for sprint review, desarrollo de servicios, services documentation evidence for sprint review, preguntas para validation interviews, registro de 3 validation interviews, desarrollo de evaluación según heuristicas<br><br> **Braulio Torrejon** <br><br> **AV1:** Cargo archivos; entrevistas a usuarios; elaboración de user stories; candidate context discovery; domain message flow modeling; bounded context canvases; definición de software architecture; desarrollo de impact mapping <br><br> **Romina Tuesta** <br><br> **AV1:** En este avance pude conocer más acerca de la estructura de los bounded context, realizando los layers como domain, interface, etc., además de adentrarme más a los contenedores de cada bounded. <br><br> **Giussepe Taquiri** <br><br> **AV1:** Análisis competitivo; estrategias y tácticas frente a competidores; User Task Matrix; User Journey Mapping; uso de herramientas de análisis y gestión <br><br> **Liam Villugas** <br><br> **AV1:**  entrevistas a mecanicos; Elaboracion de Antecedentes y problematica; Lean UX Problem Statements; Lean UX Assumptions; Lean UX Hypothesis Statements; Lean UX Canvas; desarrollo de Context mapping <br><br> **TB1:** Realicé entrevistas a mecánicos para análisis de requerimientos, desarrollo de servicios backend enfocados en service request (CRUD y lógica de solicitudes), desarrollo de vistas frontend para conductores, implementación de pantallas de solicitud de servicio y seguimiento, validación de flujos de usuario conductor, registro de hallazgos en entrevistas, y documentación técnica de los servicios implementados. | **Gabriel Sanchez** <br><br> **AV1:** Este proceso evidenció que el desarrollo de soluciones de software exige aprendizaje constante. Comprendí que debo seguir actualizándome y explorando nuevas metodologías y tecnologías para mejorar la calidad y efectividad de mis proyectos. <br> **TB1:**Apliqué el aprendizaje permanente al reforzar continuamente mis conocimientos durante el desarrollo del proyecto, investigando y mejorando mis habilidades en APIs, arquitectura de microservicios y pruebas. Esto me permitió adaptarme a nuevas necesidades del sistema y mejorar la calidad de las soluciones implementadas en cada entrega del proyecto de ingeniería de software. <br><br> **Braulio Torrejon** <br><br> **AV1:** Este proceso me permitió reconocer que la construcción de arquitecturas sólidas requiere aprendizaje continuo. La integración de técnicas como EventStorming, DMFM y bounded contexts evidenció la necesidad de seguir perfeccionando metodologías y herramientas para lograr soluciones escalables y auditables. <br><br> **Romina Tuesta** <br><br> **AV1:** Lo realizado en esta entrega refuerza la necesidad de obtener más conocimiento para llegar a la vida profesional preparados y listos para aplicar lo aprendido. <br><br> **Giussepe Taquiri** <br><br> **AV1:** Este avance me permitió reconocer la importancia del aprendizaje continuo en el desarrollo de soluciones tecnológicas. A través del análisis competitivo y herramientas UX, comprendí la necesidad de actualizar constantemente mis conocimientos para adaptarme a nuevas tecnologías y metodologías en ingeniería de software. <br><br> **Liam Villugas** <br><br> **AV1:** El desarrollo de AutoMatch evidencia que la ingeniería de software exige un aprendizaje permanente para dominar marcos como Lean UX y DDD. La complejidad del ecosistema de MobilFlow reafirma que la actualización constante en metodologías y arquitecturas es indispensable para resolver problemas reales y mantener la competitividad profesional en el diseño de soluciones tecnológicas.<br><br> **TB1:**  Apliqué el aprendizaje permanente al investigar continuamente sobre buenas prácticas en desarrollo de servicios REST, manejo eficiente de solicitudes (service request), y diseño de interfaces móviles para conductores. Durante el desarrollo del proyecto, reforcé mis competencias en tecnologías backend y frontend, adaptándome a nuevos requerimientos surgidos de las entrevistas con mecánicos y mejorando la calidad de las vistas del conductor en cada iteración de la app movil. |
+
+
 <div style="page-break-after: always;"></div>
 
 # Objetivos SMART
@@ -376,6 +395,14 @@ Voy a desarrollar la aplicación “Automatch” para conectar conductores con m
 ### Giussepe Taquiri
 Voy a desarrollar la aplicación “Automatch” implementando funcionalidades móviles e integraciones entre frontend y backend para optimizar la experiencia de los usuarios al buscar mecánicos cercanos.
 
+### Braulio Torrejon
+Voy a desarrollar la arquitectura y funcionalidades backend de “Automatch”, implementando servicios, APIs e integraciones que permitan conectar conductores y mecánicos de manera eficiente, escalable y segura.
+
+### Romina Tuesta
+voy a desarrollar funcionalidades específicas dentro del proyecto Automatch, enfocándome en mi área de responsabilidad dentro del equipo, contribuyendo al diseño, desarrollo o validación de la plataforma
+
+### Liam Villugas
+voy a desarrollar funcionalidades específicas dentro del proyecto Automatch, enfocándome en mi área de responsabilidad dentro del equipo, contribuyendo al diseño, desarrollo o validación de la plataforma
 
 ## M - Measurable (Medible)
 
@@ -384,6 +411,16 @@ Voy a medir el éxito del proyecto completando el 100% de las user stories, spik
 
 ### Giussepe Taquiri
 Voy a medir el avance del proyecto completando las funcionalidades asignadas en cada sprint, verificando la correcta integración de APIs y el funcionamiento de las pantallas móviles de Automatch.
+
+### Braulio Torrejon
+Voy a medir el avance del proyecto completando los bounded contexts, endpoints, diagramas de arquitectura y funcionalidades backend asignadas en cada sprint, asegurando su correcto funcionamiento mediante pruebas e integración con la aplicación móvil.
+
+### Romina Tuesta
+Voy a medir mi avance a través del cumplimiento de las tareas asignadas en cada sprint, asegurando la entrega oportuna de los componentes bajo mi responsabilidad dentro del proyecto.
+
+### Liam Villugas
+Voy a medir el avance del proyecto completando los endpoints asignados, las integraciones backend-frontend, y los componentes de interfaz de usuario que me correspondan, verificando su correcto funcionamiento en cada sprint.
+
 
 
 ## A - Achievable (Alcanzable)
@@ -394,6 +431,15 @@ Voy a desarrollar Automatch utilizando tecnologías como Kotlin, Spring Boot, HT
 ### Giussepe Taquiri
 Voy a desarrollar Automatch utilizando Kotlin, Jetpack Compose, Android Studio y GitHub, aplicando los conocimientos adquiridos durante mi formación académica en un plazo estimado de 3 meses.
 
+### Braulio Torrejon
+Voy a desarrollar Automatch utilizando tecnologías como Spring Boot, Kotlin, MySQL, Docker y herramientas de arquitectura de software, aplicando los conocimientos adquiridos en Ingeniería de Software dentro de un periodo estimado de 3 meses.
+
+
+### Romina Tuesta
+Voy a contribuir al desarrollo de Automatch utilizando las herramientas y tecnologías aprendidas durante mi formación académica, dentro de un plazo estimado de 3 meses.
+
+### Liam Villugas
+Voy a desarrollar Automatch utilizando tecnologías como Spring Boot y Kotlin aplicando mis conocimientos en backend y desarrollo mobile dentro de un plazo estimado de 3 meses.
 
 ## R - Relevant (Relevante)
 
@@ -403,6 +449,16 @@ Voy a enfocar el desarrollo de Automatch en mejorar la seguridad, confianza y ef
 ### Giussepe Taquiri
 Voy a contribuir al desarrollo de una plataforma digital que facilite la búsqueda de mecánicos confiables, mejorando la experiencia del usuario mediante tecnologías móviles y servicios integrados.
 
+### Braulio Torrejon
+Voy a contribuir al desarrollo de una plataforma digital confiable que permita mejorar la conexión entre conductores y mecánicos, enfocándome en la construcción de una arquitectura backend escalable, mantenible y alineada a las necesidades del proyecto.
+
+### Romina Tuesta
+Voy a aportar al desarrollo de una plataforma digital que conecte a usuarios con mecánicos confiables, mejorando la experiencia y accesibilidad del servicio automotriz.
+
+### Liam Villugas
+Voy a contribuir al desarrollo de una plataforma digital confiable que permita mejorar la conexión entre conductores y mecánicos, enfocándome tanto en la solidez del backend como en una experiencia de frontend funcional y clara.
+
+
 ## T - Time-bound (Con límite de tiempo)
 
 ### Gabriel Sanchez
@@ -410,6 +466,15 @@ Voy a completar el desarrollo de la aplicación “Automatch” en un periodo de
 
 ### Giussepe Taquiri
 Voy a completar las funcionalidades móviles y de integración de Automatch dentro del cronograma académico establecido, cumpliendo los objetivos definidos para cada sprint del proyecto.
+
+### Braulio Torrejon
+Voy a completar la implementación de las funcionalidades backend, arquitectura de software y documentación técnica de Automatch dentro del cronograma académico establecido, cumpliendo los objetivos definidos para cada sprint del proyecto.
+
+### Romina Tuesta
+Voy a completar mis responsabilidades dentro del proyecto Automatch cumpliendo con los entregables académicos establecidos para cada sprint del cronograma del curso.
+
+### Liam Villugas
+Voy a completar las funcionalidades backend y de frontend asignadas de Automatch dentro del cronograma académico establecido, cumpliendo los objetivos definidos para cada sprint del proyecto.
 
 <div style="page-break-after: always;"></div>
 
@@ -458,6 +523,14 @@ Soy Estudiante de Ingienieria de Software en la Universidad Peruana de Ciencias 
 
 <div style="max-width:100px">
   <img src="assets/images/FotoLiam.png" alt="imagen perfil giussepe">
+</div>
+
+#### 1.1.2.7  Romina Tuesta
+
+Soy estudiante de la Universidad Peruana de Ciencias Aplicadas (UPC), me encuentro en séptimo ciclo, cursando la carrera de Ingeniería de Software. Actualmente desarrollo proyectos orientados a soluciones digitales, aplicando metodologías ágiles y arquitecturas modernas de software.
+
+<div style="max-width:100px">
+  <img src="assets/images/Romina.png" alt="imagen perfil Romina">
 </div>
 
 
@@ -2931,6 +3004,28 @@ Juan considera que la aceptación de la plataforma dependerá en gran medida de 
 Expresa que la negociación de tarifas sigue siendo un punto sensible en el sector, y valora que la plataforma pueda ayudar a transparentar y agilizar ese proceso. También destaca como positivo el registro digital previo, ya que permite describir el problema del vehículo y facilita un diagnóstico más rápido por parte del mecánico.
 
 Como mejora fundamental, Juan sugiere incorporar funciones de comunicación directa como un chat, ya que considera que fortalecer la relación cliente-mecánico más allá de la mera conexión inicial sería un diferencial clave para generar confianza y fidelización. En términos generales, considera que la plataforma está bien pensada y solo requiere ajustes para mejorar la interacción directa.
+
+
+Entrevista N°5 - Rommer (Mecanico)
+
+<img src="assets/entrevistas/validation/rommer.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
+
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211706_upc_edu_pe/IQCc6hQ_DGGCRqE7SCMFNbuPAWYvS-xJZ2N91EedGt33-zo?e=xcOHBv&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211706_upc_edu_pe/IQCc6hQ_DGGCRqE7SCMFNbuPAWYvS-xJZ2N91EedGt33-zo?e=xcOHBv&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+<br>
+Datos del entrevistado:
+<br>
+Nombre: Rommer
+<br>
+Género: Hombre
+<br>
+Ocupación: Ingeniero automotriz
+<br>
+Resumen de la entrevista:
+
+Rommer menciona que es interesante ya que puede llegar a más clientes, es atractiva la plataforma ya que si es automática y pueda alarmar acerca de estos posibles nuevos clientes y disminuir el tiempo que normalmente invierte en marketing sería una plataforma que desearía utilizar.
+<br>
+Le causa desconfianza que hayan posibles clientes que puedan no ser serias con respecto a tomar el servicio y gaste tiempo en este tipo de clientes por la facilidad de acceso. La razón que podría frenar la decisión de unirse a la plataforma es que no tendría la oportunidad de ver en persona el vehículo antes de dar una estimación del costo y/o diagnóstico del automóvil. 
+<br>
 
 ### 4.3.3. Evaluaciones según heurísticas
 
