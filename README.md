@@ -2971,6 +2971,28 @@ Expresa que la negociación de tarifas sigue siendo un punto sensible en el sect
 
 Como mejora fundamental, Juan sugiere incorporar funciones de comunicación directa como un chat, ya que considera que fortalecer la relación cliente-mecánico más allá de la mera conexión inicial sería un diferencial clave para generar confianza y fidelización. En términos generales, considera que la plataforma está bien pensada y solo requiere ajustes para mejorar la interacción directa.
 
+
+Entrevista N°5 - Rommer (Mecanico)
+
+<img src="assets/entrevistas/validation/rommer.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
+
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211706_upc_edu_pe/IQCc6hQ_DGGCRqE7SCMFNbuPAWYvS-xJZ2N91EedGt33-zo?e=xcOHBv&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211706_upc_edu_pe/IQCc6hQ_DGGCRqE7SCMFNbuPAWYvS-xJZ2N91EedGt33-zo?e=xcOHBv&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+<br>
+Datos del entrevistado:
+<br>
+Nombre: Rommer
+<br>
+Género: Hombre
+<br>
+Ocupación: Ingeniero automotriz
+<br>
+Resumen de la entrevista:
+
+Rommer menciona que es interesante ya que puede llegar a más clientes, es atractiva la plataforma ya que si es automática y pueda alarmar acerca de estos posibles nuevos clientes y disminuir el tiempo que normalmente invierte en marketing sería una plataforma que desearía utilizar.
+<br>
+Le causa desconfianza que hayan posibles clientes que puedan no ser serias con respecto a tomar el servicio y gaste tiempo en este tipo de clientes por la facilidad de acceso. La razón que podría frenar la decisión de unirse a la plataforma es que no tendría la oportunidad de ver en persona el vehículo antes de dar una estimación del costo y/o diagnóstico del automóvil. 
+<br>
+
 ### 4.3.3. Evaluaciones según heurísticas
 
 **UX Heuristics & Principles Evaluation**  
