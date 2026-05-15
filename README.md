@@ -139,7 +139,13 @@
     - [2.4.3. Product Backlog](#243-product-backlog)
   - [2.5. Strategic-Level Domain-Driven Design](#25-strategic-level-domain-driven-design)
     - [2.5.1. EventStorming](#251-eventstorming)
+      - [2.5.1.2. Domain Message Flows Modeling](#2512-domain-message-flows-modeling)
+      - [2.5.1.3. Bounded Context Canvases](#2513-bounded-context-canvases)
       - [2.5.2. Context Mapping](#252-context-mapping)
+    - [2.5.3. Software Architecture](#253-software-architecture)
+      - [2.5.3.1. Software Architecture Context Level Diagrams](#2531-software-architecture-context-level-diagrams)
+      - [2.5.3.2. Software Architecture Container Level Diagrams](#2532-software-architecture-container-level-diagrams)
+      - [2.5.3.3. Software Architecture Deployment Diagrams](#2533-software-architecture-deployment-diagrams)
       - [2.6. Tactical-Level Domain-Driven Design](#26-tactical-level-domain-driven-design)
     - [2.6.1. Bounded Context: ServiceCatalogContext](#261-bounded-context-servicecatalogcontext)
       - [2.6.1.1. Domain Layer](#2611-domain-layer)
@@ -292,9 +298,9 @@
         - [Fuente de despliegue (Source)](#fuente-de-despliegue-source)
         - [URL del sitio](#url-del-sitio)
   - [4.2. Landing Page \& Mobile Application Implementation](#42-landing-page--mobile-application-implementation)
-    - [4.2.1. Sprint n](#421-sprint-n)
-      - [4.2.1.1. Sprint Planning n](#4211-sprint-planning-n)
-      - [4.2.1.2. Sprint Backlog n](#4212-sprint-backlog-n)
+    - [4.2.1. Sprint 1](#421-sprint-1)
+      - [4.2.1.1. Sprint Planning 1](#4211-sprint-planning-1)
+      - [4.2.1.2. Sprint Backlog 1](#4212-sprint-backlog-1)
       - [4.2.1.3. Development Evidence for Sprint Review](#4213-development-evidence-for-sprint-review)
       - [4.2.1.4. Testing Suite Evidence for Sprint Review](#4214-testing-suite-evidence-for-sprint-review)
       - [4.2.1.5. Execution Evidence for Sprint Review](#4215-execution-evidence-for-sprint-review)
@@ -762,6 +768,33 @@ Respecto a soluciones digitales, José estaría dispuesto a usar una aplicación
 
 Con esto, percibe que reduciría la incertidumbre, evitaría sobrecostos y tendría mayor seguridad en el mantenimiento de su vehículo.
 
+**Entrevista N°3**
+
+![entrevista foto](assets/entrevistas/luciana.png)
+
+**Datos del entrevistado**  
+
+- Nombre: Luciana
+- Apellidos: Ochoa
+- Edad: 23
+- Genero: Mujer
+- Lugar de Residencia: San Borja
+- Ocupación: Estudiante
+- Tipo de vehículo: Camioneta automática
+
+**Información de la entrevista**  
+
+- Fecha de la entrevista: 14/04  
+- Duración: 4:08  
+- Minuto de inicio en el video consolidado: 0:00  
+
+**Resumen de la entrevista:**
+
+Las respuestas de Luciana muestran que su vehículo es importante en su día a día, principalmente para trasladarse a la universidad y para recoger materiales. Actualmente está enfrentando un problema con su camioneta, específicamente con la luz intermitente que no enciende, lo cual la ha llevado a buscar distintas soluciones mecánicas.
+Para resolver el problema, ha acudido a varios mecánicos, aunque no ha logrado una solución definitiva, ya que el problema ha vuelto a presentarse después de ser reparado. Su forma de búsqueda de mecánicos se basó inicialmente en recomendaciones de familiares, debido a que no tenía conocimiento previo ni experiencia en el tema. Esta falta de información le dificultó el proceso de selección.
+El proceso de encontrar una solución le tomó aproximadamente dos semanas, y reconoce que en un inicio no comparaba opciones, aunque después de una mala experiencia comenzó a intentar evaluar alternativas antes de elegir un mecánico.
+Respecto a una posible aplicación para encontrar mecánicos cercanos, Luciana indica que sí la utilizaría, principalmente por su experiencia negativa previa. Para confiar en una solución de este tipo, menciona que sería importante contar con reseñas de otros usuarios, información sobre la calidad del trabajo realizado y orientación sobre los precios y la experiencia de los mecánicos.
+
 
 #### 2.2.2.1 Segmento Objetivo: Mecanicos
 
@@ -905,8 +938,9 @@ En esta sección se identifican y analizan las necesidades de los usuarios a par
 
 ### 2.3.1. User Personas
 
-![](assets/user_persona/Luciana-Solis.png)
-![](assets/user_persona/Ricardo-Sánchez.png)
+<img src="assets/user_persona/Luciana-Solis.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
+
+<img src="assets/user_persona/Ricardo-Sánchez.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
 2.3.2. User Task Matrix
 
@@ -929,13 +963,13 @@ En esta sección se identifican y analizan las necesidades de los usuarios a par
 
 #### User Journey Map – Conductora (Luciana)
 
-![User Journey Map Conductora](assets/images/User%20Journey%20Map%20-%20User%20Journey%20Map%20–%20Conductora%20(Luciana)%20(1).jpg)
+<img src="assets/images/User%20Journey%20Map%20-%20User%20Journey%20Map%20–%20Conductora%20(Luciana)%20(1).jpg" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
 ---
 
 #### User Journey Map – Mecánico (Ricardo)
 
-![User Journey Map Mecánico](assets/images/User%20Journey%20Map%20-%20User%20Journey%20Map%20–%20Mecánico%20(Ricardo)%20(1).jpg)
+<img src="assets/images/User%20Journey%20Map%20-%20User%20Journey%20Map%20–%20Mecánico%20(Ricardo)%20(1).jpg" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
 
 
@@ -943,8 +977,10 @@ En esta sección se identifican y analizan las necesidades de los usuarios a par
 
 ### 2.3.4. Empathy Mapping
 
-![](assets/empathy-mapping/empathymap.jpg)
-![](assets/empathy-mapping/empathymap1.jpg)
+
+<img src="assets/empathy-mapping/empathymap.jpg" style="max-width:700px; max-height:800px; width:auto; height:auto;">
+
+<img src="assets/empathy-mapping/empathymap1.jpg" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
 ### 2.3.5. Ubiquitous Language
 
@@ -1409,39 +1445,39 @@ Durante el EventStorming se aplicó la técnica look-for-pivotal-events para ide
 | ServiceManagementContext | Controla el ciclo de vida del servicio, desde la solicitud hasta la finalización y registro en el historial. | Servicio Solicitado, Confirmación Dual Alcanzada, Servicio Finalizado, Servicio Cancelado |
 
 
-2.5.1.2. Domain Message Flows Modeling
+#### 2.5.1.2. Domain Message Flows Modeling
 
-![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/Scenario1.png)
-![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/Escenario2.png)
-![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/Escenario3.png)
-![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/Escenario4.png)
-![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/Escenario5.png)
-![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/Escenario6.png)
+<img src="assets/entrevistas/DDD/Scenario1.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
+<img src="assets/entrevistas/DDD/Escenario2.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
+<img src="assets/entrevistas/DDD/Escenario3.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
+<img src="assets/entrevistas/DDD/Escenario4.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
+<img src="assets/entrevistas/DDD/Escenario5.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
+<img src="assets/entrevistas/DDD/Escenario6.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
-2.5.1.3. Bounded Context Canvases
+#### 2.5.1.3. Bounded Context Canvases
 
-![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/UserIdentityContext.png)
-![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/ServiceCatalog.png)
-![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/UserIdentityContext.png)
+<img src="assets/entrevistas/DDD/UserIdentityContext.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
+<img src="assets/entrevistas/DDD/ServiceCatalog.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
+<img src="assets/entrevistas/DDD/UserIdentityContext.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
 
 #### 2.5.2. Context Mapping
 
-![ Una imagen de prueba](assets/asset/ContextMapping.png )
+<img src="assets/asset/ContextMapping.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
-2.5.3. Software Architecture
+### 2.5.3. Software Architecture
 
-2.5.3.1. Software Architecture Context Level Diagrams
+#### 2.5.3.1. Software Architecture Context Level Diagrams
 
-![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/Software%20Architecture%20Context%20Level.png)
+<img src="assets/entrevistas/DDD/Software%20Architecture%20Context%20Level.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
-2.5.3.2. Software Architecture Container Level Diagrams
+#### 2.5.3.2. Software Architecture Container Level Diagrams
 
-![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/Software%20Architecture%20Container%20Level%20Diagrams.png)
+<img src="assets/entrevistas/DDD/Software%20Architecture%20Container%20Level%20Diagrams.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
-2.5.3.3. Software Architecture Deployment Diagrams
+#### 2.5.3.3. Software Architecture Deployment Diagrams
 
-![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/Software%20Architecture%20Deployment%20Diagrams.png)
+<img src="assets/entrevistas/DDD/Software%20Architecture%20Deployment%20Diagrams.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
 #### 2.6. Tactical-Level Domain-Driven Design
 
@@ -1470,14 +1506,14 @@ Se implementan repositorios concretos para persistencia en base de datos, ademá
 
 En este punto se muestran los layers juntos:
 
-![ Una imagen de prueba](assets/asset/DDD1.png )
+<img src="assets/asset/DDD1.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
 
 #### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
 
 Se presentan diagramas C4 que muestran cómo el contenedor del catálogo se descompone en componentes como API, servicios de aplicación y repositorios.
 
-![ Una imagen de prueba](assets/asset/C4-BOUNDED1.png )
+<img src="assets/asset/C4-BOUNDED1.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -1486,13 +1522,13 @@ Se incluyen diagramas detallados que reflejan la implementación interna, incluy
 ##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
   
    Se modelan las clases principales del dominio, sus atributos, métodos y relaciones, incluyendo multiplicidades y tipos de asociación.
-   
-   ![ Una imagen de prueba](assets/asset/ClassDiagram1.png )
+
+   <img src="assets/asset/ClassDiagram1.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
    
 ##### 2.6.1.6.2. Bounded Context Database Design Diagram
    Se define la estructura de tablas como Servicios, incluyendo claves primarias, foráneas y   restricciones necesarias para garantizar integridad.
-   
-   ![ Una imagen de prueba](assets/asset/DB1.png )
+
+   <img src="assets/asset/DB1.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
 
 <br> 
@@ -1518,13 +1554,13 @@ Se definen casos de uso como RegistrarUsuario o AutenticarUsuario mediante handl
 
 Incluye implementación de repositorios, servicios de autenticación (como JWT) y conexión a bases de datos.
 
-![ Una imagen de prueba](assets/asset/DDD2.png )
+<img src="assets/asset/DDD2.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
 #### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams 
 
 Se muestra la separación entre componentes como API de autenticación, servicio de usuarios y almacenamiento.
 
-![ Una imagen de prueba](assets/asset/C4-BOUNDED2.png )
+<img src="assets/asset/C4-BOUNDED2.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
 #### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -1534,13 +1570,13 @@ Se detallan clases e implementación del dominio y persistencia.
 
 Se representan clases como Usuario, sus atributos y relaciones con otros objetos.
 
-![ Una imagen de prueba](assets/asset/ClassDiagram2.png )
+<img src="assets/asset/ClassDiagram2.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
 ##### 2.6.2.6.2. Bounded Context Database Design Diagram
 
 Incluye tablas como Usuarios y Perfiles con sus respectivas relaciones.
 
-![ Una imagen de prueba](assets/asset/DB2.png )
+<img src="assets/asset/DB2.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
 <br> 
 <br> 
@@ -1565,13 +1601,13 @@ Se implementan flujos como RegistrarPedido o GenerarDiagnostico, así como event
 
 Se integran servicios externos, como motores de análisis o APIs de inteligencia artificial si corresponde.
 
-![ Una imagen de prueba](assets/asset/DDD3.png )
+<img src="assets/asset/DDD3.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
 #### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
 
 Se visualiza la interacción entre componentes como API, motor de diagnóstico y repositorios.
 
-![ Una imagen de prueba](assets/asset/C4-BOUNDED3.png )
+<img src="assets/asset/C4-BOUNDED3.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
 #### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -1581,13 +1617,13 @@ Se detalla la implementación interna del procesamiento de diagnósticos.
 
 Incluyen clases y relaciones para modelar síntomas, pedidos y resultados.
 
-![ Una imagen de prueba](assets/asset/Diagram_Class3.png )
+<img src="assets/asset/Diagram_Class3.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
 ##### 2.6.3.6.2. Bounded Context Database Design Diagram
 
 Define tablas como Pedidos y Diagnosticos con sus relaciones.
 
-![ Una imagen de prueba](assets/asset/DB3.png )
+<img src="assets/asset/DB3.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
 <br> 
 <br> 
@@ -1612,13 +1648,13 @@ Se gestionan procesos como EnviarCalificacion y PublicarReseña mediante handler
 
 Incluye persistencia de reseñas y posibles integraciones con sistemas de moderación.
 
-![ Una imagen de prueba](assets/asset/DDD4.png )
+<img src="assets/asset/DDD4.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
 #### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
 
 Muestra componentes como API de reputación y repositorios.
 
-![ Una imagen de prueba](assets/asset/C4-BOUNDED4.png )
+<img src="assets/asset/C4-BOUNDED4.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
 #### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -1628,13 +1664,13 @@ Expone la implementación detallada de la lógica de reputación.
 
 Modela las clases de evaluación y sus relaciones con servicios.
 
-![ Una imagen de prueba](assets/asset/ClassDiagram4.png )
+<img src="assets/asset/ClassDiagram4.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
 ##### 2.6.4.6.2. Bounded Context Database Design Diagram
 
 Define tablas como Calificaciones y Reseñas.
 
-![ Una imagen de prueba](assets/asset/DB4.png )
+<img src="assets/asset/DB4.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
 <br> 
 <br> 
@@ -1659,13 +1695,13 @@ Incluye persistencia del historial de servicios y posible integración con siste
 
 Incluye persistencia del historial de servicios y posible integración con sistemas de notificación.
 
-![ Una imagen de prueba](assets/asset/DDD5.png )
+<img src="assets/asset/DDD5.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
 #### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
 
 Se representa la interacción entre componentes como gestor de servicios, API y base de datos.
 
-![ Una imagen de prueba](assets/asset/C4-BOUNDED5.png )
+<img src="assets/asset/C4-BOUNDED5.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
 #### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -1675,19 +1711,19 @@ Se detalla la implementación de la lógica de estados y transiciones.
 
 Incluye clases que modelan el ciclo de vida del servicio.
 
-![ Una imagen de prueba](assets/asset/ClassDiagram5.png )
+<img src="assets/asset/ClassDiagram5.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
 ##### 2.6.5.6.2. Bounded Context Database Design Diagram
 
 Define tablas como Servicios y HistorialServicios con relaciones y constraints.
 
-![ Una imagen de prueba](asset/DB5.png )
+<img src="asset/DB5.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
+<div style="page-break-after: always;"></div>
 
 # Capítulo III: Solution UI/UX Design
 
 ## 3.1. Product Design
-
 
 ### 3.1.1. Style Guidelines
 
@@ -2411,8 +2447,6 @@ Button(
 ### 4.1.4. Software Deployment Configuration
 
 
-
-
 #### Landing Page
 
 Para el despliegue de la Landing Page de **AutoMatch**, se utilizó GitHub Pages, la funcionalidad integrada de GitHub que permite publicar sitios web estáticos de manera sencilla y gratuita.
@@ -2482,11 +2516,11 @@ https://mobilflow.github.io/Landing_Page/
 
 ## 4.2. Landing Page & Mobile Application Implementation
 
-### 4.2.1. Sprint n
+### 4.2.1. Sprint 1
 
-#### 4.2.1.1. Sprint Planning n
+#### 4.2.1.1. Sprint Planning 1
 
-#### 4.2.1.2. Sprint Backlog n
+#### 4.2.1.2. Sprint Backlog 1
 
 #### 4.2.1.3. Development Evidence for Sprint Review
 
