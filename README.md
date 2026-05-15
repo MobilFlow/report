@@ -306,6 +306,7 @@
     - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
     - [4.3.3. Evaluaciones según heurísticas](#433-evaluaciones-según-heurísticas)
 - [Conclusiones](#conclusiones)
+- [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
   - [Anexo A: Links](#anexo-a-links)
 
@@ -343,30 +344,49 @@ tecnologías de ingeniería de software
 ### Gabriel Sanchez
 Voy a desarrollar la aplicación “Automatch” para conectar conductores con mecánicos de forma segura, confiable y eficiente, permitiendo mejorar la experiencia de búsqueda y selección de servicios mecánicos.
 
+### Giussepe Taquiri
+Voy a desarrollar la aplicación “Automatch” implementando funcionalidades móviles e integraciones entre frontend y backend para optimizar la experiencia de los usuarios al buscar mecánicos cercanos.
+
+
 ## M - Measurable (Medible)
 
 ### Gabriel Sanchez
 Voy a medir el éxito del proyecto completando el 100% de las user stories, spike stories e incremental stories, además de implementar correctamente todas las funcionalidades principales definidas en el backlog.
+
+### Giussepe Taquiri
+Voy a medir el avance del proyecto completando las funcionalidades asignadas en cada sprint, verificando la correcta integración de APIs y el funcionamiento de las pantallas móviles de Automatch.
+
 
 ## A - Achievable (Alcanzable)
 
 ### Gabriel Sanchez
 Voy a desarrollar Automatch utilizando tecnologías como Kotlin, Spring Boot, HTML, CSS, Java y herramientas de inteligencia artificial, dentro de un plazo estimado de 3 meses.
 
+### Giussepe Taquiri
+Voy a desarrollar Automatch utilizando Kotlin, Jetpack Compose, Android Studio y GitHub, aplicando los conocimientos adquiridos durante mi formación académica en un plazo estimado de 3 meses.
+
+
 ## R - Relevant (Relevante)
 
 ### Gabriel Sanchez
 Voy a enfocar el desarrollo de Automatch en mejorar la seguridad, confianza y eficiencia de los usuarios al momento de encontrar y seleccionar mecánicos mediante una plataforma digital.
+
+### Giussepe Taquiri
+Voy a contribuir al desarrollo de una plataforma digital que facilite la búsqueda de mecánicos confiables, mejorando la experiencia del usuario mediante tecnologías móviles y servicios integrados.
 
 ## T - Time-bound (Con límite de tiempo)
 
 ### Gabriel Sanchez
 Voy a completar el desarrollo de la aplicación “Automatch” en un periodo de 3 meses, cumpliendo con los entregables del curso y el trabajo académico final del equipo.
 
+### Giussepe Taquiri
+Voy a completar las funcionalidades móviles y de integración de Automatch dentro del cronograma académico establecido, cumpliendo los objetivos definidos para cada sprint del proyecto.
+
 <div style="page-break-after: always;"></div>
 
-
 # Capítulo I: Presentación
+
+En este capítulo se presenta la propuesta del proyecto AutoMatch, incluyendo el perfil de la startup, la problemática identificada, los segmentos objetivo y el proceso de diseño centrado en el usuario. Asimismo, se describen los antecedentes y las necesidades detectadas en el sector automotriz que motivaron el desarrollo de la solución.
 
 ## 1.1. Startup Profile
 
@@ -416,9 +436,15 @@ Soy Estudiante de Ingienieria de Software en la Universidad Peruana de Ciencias 
 
 ### 1.2.1. Antecedentes y problemática
 
-En la actualidad, el parque automotor de vehículos particulares ha crecido de manera exponencial, convirtiéndose en el principal medio de transporte para millones de personas. Sin embargo, el sector de servicios de mantenimiento y reparación no ha evolucionado al mismo ritmo tecnológico. El mercado se encuentra dividido entre concesionarios oficiales, con costos excesivamente elevados, y talleres independientes, que operan mayoritariamente en la informalidad o sin visibilidad digital.  
+En el Perú, muchos conductores presentan dificultades para encontrar mecánicos confiables debido a la informalidad y falta de centralización en los servicios automotrices. Según el Instituto Nacional de Estadística e Informática (INEI, 2023), una gran parte de los servicios técnicos en el país aún opera de manera informal, generando desconfianza e inseguridad en los consumidores.
 
-Esta situación genera un escenario de incertidumbre para el conductor, quien al enfrentar una avería o requerir un mantenimiento preventivo, se ve obligado a navegar en un sistema basado en el "ensayo y error". La falta de información centralizada sobre la calidad de los repuestos, la experiencia real de los técnicos y la competitividad de los precios crea una barrera de desconfianza que afecta tanto al usuario como a los buenos proveedores que no tienen cómo destacar su trabajo. Automatch nace para resolver esta fragmentación, profesionalizando el encuentro entre la oferta y la demanda mediante la tecnología.
+Asimismo, el crecimiento del parque automotor en Latinoamérica ha incrementado la demanda de servicios mecánicos rápidos y accesibles. De acuerdo con la Asociación Automotriz del Perú (AAP, 2023), el número de vehículos registrados ha aumentado significativamente durante los últimos años, ocasionando una mayor necesidad de soluciones digitales para la gestión y búsqueda de servicios automotrices.
+
+Actualmente, muchos usuarios utilizan redes sociales o recomendaciones informales para encontrar talleres mecánicos, lo cual dificulta verificar la reputación, experiencia y calidad del servicio ofrecido. En este contexto, las aplicaciones móviles con geolocalización y sistemas de reputación representan una alternativa eficiente para mejorar la experiencia de búsqueda y selección de mecánicos confiables.
+
+Además, el uso de aplicaciones móviles continúa creciendo a nivel mundial. Según Statista (2024), más del 70% de usuarios utilizan aplicaciones móviles para acceder a servicios bajo demanda, lo que demuestra la importancia de desarrollar plataformas digitales accesibles y optimizadas para dispositivos móviles.
+
+Por ello, AutoMatch propone una solución tecnológica que integra geolocalización, reputación de mecánicos y recomendaciones inteligentes para facilitar la conexión entre conductores y profesionales mecánicos de manera rápida, segura y eficiente.
 
 ---
 
@@ -531,6 +557,7 @@ Creemos que nos posicionaremos como la herramienta de auxilio líder si los usua
 
 # Capítulo II: Requirements Development and Software Solution Design
 
+En este capítulo se desarrolla el proceso de levantamiento de requerimientos y diseño de la solución de software para AutoMatch. Se presentan técnicas de análisis, identificación de necesidades, modelado del dominio, bounded contexts y decisiones arquitectónicas orientadas a construir una solución escalable y alineada con los principios de ingeniería de software.
 ## 2.1. Competidores
 ### ¿Por qué llevar a cabo este análisis?
 
@@ -1695,8 +1722,9 @@ Define tablas como Servicios y HistorialServicios con relaciones y constraints.
 
 # Capítulo III: Solution UI/UX Design
 
-## 3.1. Product Design
+En este capítulo se presenta el diseño de experiencia e interfaz de usuario de AutoMatch. Se incluyen wireframes, mockups, user flows y prototipos desarrollados para garantizar una interacción intuitiva, accesible y eficiente para los usuarios de la aplicación móvil.
 
+## 3.1. Product Design
 
 ### 3.1.1. Style Guidelines
 
@@ -1997,6 +2025,8 @@ Mechanic:
 <div style="page-break-after: always;"></div>
 
 # Capítulo IV: Product Implementation & Validation
+
+
 
 ## 4.1. Software Configuration Management
 
@@ -2521,6 +2551,15 @@ https://mobilflow.github.io/Landing_Page/
 
 * Desarrollar esta propuesta de aplicación permitió abordar la problemática del mercado automotriz caracterizada por la falta de transparencia, confianza y centralización en los servicios mecánicos, la cual fue validada mediante entrevistas a usuarios y trabajadores mecánicos. Asimismo, la integración de metodologías como Lean UX, levantamiento de requerimientos y modelado de dominio facilitó estructurar una solución alineada con necesidades reales, estableciendo una base sólida para su desarrollo como producto digital.  
 * Podemos concluir que la construcción de soluciones en ingeniería de software requiere un aprendizaje continuo y adaptativo el cual nos permite incorporar herramientas como event storming, diseño centrado en el usuario y gestión ágil que contribuyen a mejorar la calidad del producto y fortalecen la capacidad para afrontar entornos complejos y dinámicos propios del desarrollo tecnológico actual.
+
+# Bibliografía
+
+Asociación Automotriz del Perú. (2023). *Parque automotor peruano y tendencias del sector*. https://aap.org.pe/
+
+Instituto Nacional de Estadística e Informática. (2023). *Estadísticas de servicios y actividades económicas en el Perú*. https://www.inei.gob.pe/
+
+
+
 
 
 # Anexos
