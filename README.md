@@ -389,7 +389,7 @@ Voy a desarrollar la aplicación “Automatch” implementando funcionalidades m
 Voy a desarrollar la arquitectura y funcionalidades backend de “Automatch”, implementando servicios, APIs e integraciones que permitan conectar conductores y mecánicos de manera eficiente, escalable y segura.
 
 ### Romina Tuesta
-oy a desarrollar funcionalidades específicas dentro del proyecto Automatch, enfocándome en mi área de responsabilidad dentro del equipo, contribuyendo al diseño, desarrollo o validación de la plataforma
+voy a desarrollar funcionalidades específicas dentro del proyecto Automatch, enfocándome en mi área de responsabilidad dentro del equipo, contribuyendo al diseño, desarrollo o validación de la plataforma
 
 ## M - Measurable (Medible)
 
