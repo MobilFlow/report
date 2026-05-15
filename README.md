@@ -333,13 +333,6 @@
     - [**Entrevista N°4 - Juan (Mecanico)**](#entrevista-n4---juan-mecanico)
       - [**Resumen de la entrevista:**](#resumen-de-la-entrevista-3)
     - [4.3.3. Evaluaciones según heurísticas](#433-evaluaciones-según-heurísticas)
-      - [**TAREAS A EVALUAR**](#tareas-a-evaluar)
-      - [**ESCALA DE SEVERIDAD**](#escala-de-severidad)
-      - [**TABLA RESUMEN**](#tabla-resumen)
-      - [**DESCRIPCIÓN DE PROBLEMAS**](#descripción-de-problemas)
-        - [**PROBLEMA #1: No se muestran perfiles detallados de mecánicos que permitan evaluar experiencia, especialidad o trabajos previos**](#problema-1-no-se-muestran-perfiles-detallados-de-mecánicos-que-permitan-evaluar-experiencia-especialidad-o-trabajos-previos)
-        - [**PROBLEMA #2: Las calificaciones y testimonios generan interés, pero no explican cómo se validan o qué significan exactamente**](#problema-2-las-calificaciones-y-testimonios-generan-interés-pero-no-explican-cómo-se-validan-o-qué-significan-exactamente)
-      - [**PROBLEMA #3: La landing page no guía con suficiente claridad hacia el siguiente paso principal del usuario**](#problema-3-la-landing-page-no-guía-con-suficiente-claridad-hacia-el-siguiente-paso-principal-del-usuario)
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
@@ -1578,7 +1571,7 @@ En este punto se muestran los layers juntos:
 
 Se presentan diagramas C4 que muestran cómo el contenedor del catálogo se descompone en componentes como API, servicios de aplicación y repositorios.
 
-<img src="assets/asset/Container-001.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
+<img src="assets/asset/C4-BOUNDED1.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -2946,7 +2939,7 @@ Como mejora fundamental, Juan sugiere incorporar funciones de comunicación dire
 
 **SITE o APP A EVALUAR:** AutoMatch
 
-#### **TAREAS A EVALUAR**
+**TAREAS A EVALUAR**
 
 El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
 
@@ -2964,7 +2957,7 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 4. Compartir servicios entre usuarios.  
 5. Funciones no visibles en la landing page revisada.
 
-#### **ESCALA DE SEVERIDAD**
+**ESCALA DE SEVERIDAD**
 
 Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
@@ -2973,7 +2966,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
  **3** Problema mayor: Ocurre frecuentemente o los usuarios no son capaces de resolverlo.  
  **4** Problema muy grave: Un error de gran impacto que impide continuar con el uso de la herramienta.
 
-#### **TABLA RESUMEN**
+**TABLA RESUMEN**
 
 | \# | Problema | Escala de severidad | Heurística/Principio violado(a) |
 | ----- | ----- | ----- | ----- |
@@ -2981,9 +2974,9 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 | 2 | Las calificaciones y testimonios generan interés, pero no explican cómo se validan o qué significan exactamente | 2 | Usability: Visibility of system status |
 | 3 | La landing page no guía con suficiente claridad hacia el siguiente paso principal del usuario | 2 | Information Architecture: Is it usable? |
 
-#### **DESCRIPCIÓN DE PROBLEMAS**
+**DESCRIPCIÓN DE PROBLEMAS**
 
-##### **PROBLEMA \#1: No se muestran perfiles detallados de mecánicos que permitan evaluar experiencia, especialidad o trabajos previos**
+**PROBLEMA \#1: No se muestran perfiles detallados de mecánicos que permitan evaluar experiencia, especialidad o trabajos previos**
 
 **Severidad:** 3  
  **Heurística violada:** Usability \- Match between system and the real world
@@ -2995,7 +2988,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 Agregar tarjetas o secciones de perfil con foto del mecánico, especialidad, años de experiencia, trabajos previos, calificación y verificación. Esto ayudaría a que el usuario compare opciones de forma más parecida a cómo elige un servicio en la vida real.
 
 
-##### **PROBLEMA \#2: Las calificaciones y testimonios generan interés, pero no explican cómo se validan o qué significan exactamente**
+**PROBLEMA \#2: Las calificaciones y testimonios generan interés, pero no explican cómo se validan o qué significan exactamente**
 
 **Severidad:** 2  
 **Heurística violada:** Usability \- Visibility of system status
@@ -3006,7 +2999,7 @@ Agregar tarjetas o secciones de perfil con foto del mecánico, especialidad, añ
 **Recomendación:**  
 Explicar de forma breve qué significa cada métrica, cómo se calculan los ratings y cuál es el criterio de validación de los testimonios. También sería útil mostrar el número de reseñas o una etiqueta de verificación visible.
 
-#### **PROBLEMA \#3: La landing page no guía con suficiente claridad hacia el siguiente paso principal del usuario**
+**PROBLEMA \#3: La landing page no guía con suficiente claridad hacia el siguiente paso principal del usuario**
 
 **Severidad:** 2  
  **Heurística violada:** Information Architecture \- Is it usable?
@@ -3029,6 +3022,10 @@ Asociación Automotriz del Perú. (2023). *Parque automotor peruano y tendencias
 
 Instituto Nacional de Estadística e Informática. (2023). *Estadísticas de servicios y actividades económicas en el Perú*. https://www.inei.gob.pe/
 
+
+
+
+
 # Anexos
 
 ## Anexo A: Links
@@ -3037,6 +3034,8 @@ Event Storming: [https://lucid.app/lucidspark/273a3243-b31d-4c41-8b85-4a83e48956
 
 Entrevista:  
 [Entrevista App Moviles.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310609_upc_edu_pe/IQCiDe1DPL8sSrLgZHVSbiiNASFOLEMg63PK2nBlIJpFs6E?e=NNQS9v&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) 
+
+
 
 Github Reporte:
 [Link a repositorio de reporte en github](https://github.com/MobilFlow)
