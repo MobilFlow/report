@@ -407,7 +407,7 @@ Soy estudiante de la Universidad Peruana de Ciencias Aplicadas (UPC), cursando e
 Soy estudiante de la Universidad Peruana de Ciencias Aplicadas (UPC), me encuentro en séptimo ciclo, cursando la carrera de Ingeniería de Software. Actualmente desarrollo proyectos orientados a soluciones digitales, aplicando metodologías ágiles y arquitecturas modernas de software.
 
 <div style="max-width:100px">
-  <img src="assets/images/romina.png" alt="imagen perfil romina">
+  <img src="assets/images/Romina.png" alt="imagen perfil romina">
 </div>
 
 
