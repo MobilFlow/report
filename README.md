@@ -34,6 +34,8 @@
 <strong> Mayo, 2026</strong><br>
 </div>
 
+<div style="page-break-after: always;"></div>
+
 # Project Report Collaboration Insights
 
 **AV1:**
@@ -173,8 +175,8 @@
       - [2.6.5.6. Bounded Context Software Architecture Code Level Diagrams](#2656-bounded-context-software-architecture-code-level-diagrams)
         - [2.6.5.6.1. Bounded Context Domain Layer Class Diagrams](#26561-bounded-context-domain-layer-class-diagrams)
         - [2.6.5.6.2. Bounded Context Database Design Diagram](#26562-bounded-context-database-design-diagram)
-  - [Capítulo III: Solution UI/UX Design](#capítulo-iii-solution-uiux-design)
-    - [3.1. Product design](#31-product-design)
+- [Capítulo III: Solution UI/UX Design](#capítulo-iii-solution-uiux-design)
+  - [3.1. Product Design](#31-product-design)
     - [3.1.1. Style Guidelines](#311-style-guidelines)
       - [3.1.1.1. General Style Guidelines](#3111-general-style-guidelines)
         - [Branding](#branding)
@@ -206,81 +208,92 @@
       - [Navegación Principal](#navegación-principal)
       - [Secciones principales](#secciones-principales)
       - [Características de Navegación](#características-de-navegación)
-  - [Capítulo IV: Product Implementation \& Validation](#capítulo-iv-product-implementation--validation)
-    - [4. Product Implementation \& Validation](#4-product-implementation--validation)
-      - [4.1. Software Configuration Management](#41-software-configuration-management)
-      - [4.1.1. Software Development Environment Configuration](#411-software-development-environment-configuration)
-- [Product UX/UI Design](#product-uxui-design)
-  - [Figma](#figma)
-  - [UXPressia](#uxpressia)
-  - [Miro](#miro)
-- [Software Development](#software-development)
-  - [Android Studio (Instalación local)](#android-studio-instalación-local)
-  - [Kotlin](#kotlin)
-  - [Jetpack Compose](#jetpack-compose)
-  - [IntelliJ IDEA (Instalación local)](#intellij-idea-instalación-local)
-  - [Git (Instalación local)](#git-instalación-local)
-  - [GitHub](#github)
-  - [Postman](#postman)
-  - [MySQL](#mysql)
-- [Project Management and Collaboration](#project-management-and-collaboration)
-  - [Trello](#trello)
-  - [WhatsApp](#whatsapp)
-  - [Google Meet](#google-meet)
-- [Software Documentation](#software-documentation)
-  - [Lucidchart](#lucidchart)
-  - [Visual Paradigm](#visual-paradigm)
+      - [3.1.4.4. Mobile Applications User Flow Diagrams](#3144-mobile-applications-user-flow-diagrams)
+      - [3.1.4.5. Mobile Applications Prototyping](#3145-mobile-applications-prototyping)
+- [Capítulo IV: Product Implementation \& Validation](#capítulo-iv-product-implementation--validation)
+  - [4.1. Software Configuration Management](#41-software-configuration-management)
+    - [4.1.1. Software Development Environment Configuration](#411-software-development-environment-configuration)
+      - [Product UX/UI Design](#product-uxui-design)
+        - [Figma](#figma)
+        - [UXPressia](#uxpressia)
+        - [Miro](#miro)
+      - [Software Development](#software-development)
+        - [Android Studio (Instalación local)](#android-studio-instalación-local)
+        - [Kotlin](#kotlin)
+        - [Jetpack Compose](#jetpack-compose)
+        - [IntelliJ IDEA (Instalación local)](#intellij-idea-instalación-local)
+        - [Git (Instalación local)](#git-instalación-local)
+        - [GitHub](#github)
+        - [Postman](#postman)
+        - [MySQL](#mysql)
+      - [Project Management and Collaboration](#project-management-and-collaboration)
+        - [Trello](#trello)
+        - [WhatsApp](#whatsapp)
+        - [Google Meet](#google-meet)
+      - [Software Documentation](#software-documentation)
+        - [Lucidchart](#lucidchart)
+        - [Visual Paradigm](#visual-paradigm)
     - [4.1.2. Source Code Management](#412-source-code-management)
-- [URL de los Repositorios](#url-de-los-repositorios)
-- [Estructura de Ramas](#estructura-de-ramas)
-  - [Main Branch](#main-branch)
-  - [Develop Branch](#develop-branch)
-  - [Feature Branches](#feature-branches)
-    - [Ejemplos](#ejemplos)
-  - [Release Branches](#release-branches)
-    - [Ejemplo](#ejemplo)
-  - [Hotfix Branches](#hotfix-branches)
-    - [Ejemplo](#ejemplo-1)
-- [Semantic Versioning](#semantic-versioning)
-    - [Ejemplo](#ejemplo-2)
-- [Convenciones de Commits](#convenciones-de-commits)
-- [Formato](#formato)
-- [Types](#types)
-- [Scope](#scope)
-    - [Ejemplo](#ejemplo-3)
-- [Ejemplos básicos de commits](#ejemplos-básicos-de-commits)
+      - [URL de los Repositorios](#url-de-los-repositorios)
+        - [Estructura de Ramas](#estructura-de-ramas)
+        - [Main Branch](#main-branch)
+        - [Develop Branch](#develop-branch)
+        - [Feature Branches](#feature-branches)
+        - [Ejemplos](#ejemplos)
+        - [Release Branches](#release-branches)
+        - [Ejemplo](#ejemplo)
+        - [Hotfix Branches](#hotfix-branches)
+        - [Ejemplo](#ejemplo-1)
+        - [Semantic Versioning](#semantic-versioning)
+        - [Ejemplo](#ejemplo-2)
+        - [Convenciones de Commits](#convenciones-de-commits)
+        - [Formato](#formato)
+        - [Types](#types)
+        - [Scope](#scope)
+        - [Ejemplo](#ejemplo-3)
+        - [Ejemplos básicos de commits](#ejemplos-básicos-de-commits)
   - [4.1.3. Source Code Style Guide \& Conventions](#413-source-code-style-guide--conventions)
-- [Nomenclatura General](#nomenclatura-general)
-- [Ejemplos](#ejemplos-1)
-  - [Variables y funciones (camelCase)](#variables-y-funciones-camelcase)
-  - [Clases y componentes (PascalCase)](#clases-y-componentes-pascalcase)
-  - [Recursos XML (snake\_case)](#recursos-xml-snake_case)
-- [Sangría](#sangría)
-- [Kotlin](#kotlin-1)
-- [Uso de val y var](#uso-de-val-y-var)
-- [Formato de funciones](#formato-de-funciones)
-- [Formato de clases](#formato-de-clases)
-- [Espaciado](#espaciado)
-- [Imports](#imports)
-- [Jetpack Compose](#jetpack-compose-1)
-- [Nomenclatura de Composables](#nomenclatura-de-composables)
-- [Estructura y legibilidad](#estructura-y-legibilidad)
-- [Uso de colores y temas](#uso-de-colores-y-temas)
+        - [Nomenclatura General](#nomenclatura-general)
+      - [Ejemplos](#ejemplos-1)
+        - [Variables y funciones (camelCase)](#variables-y-funciones-camelcase)
+        - [Clases y componentes (PascalCase)](#clases-y-componentes-pascalcase)
+        - [Recursos XML (snake\_case)](#recursos-xml-snake_case)
+        - [Sangría](#sangría)
+        - [Kotlin](#kotlin-1)
+        - [Uso de val y var](#uso-de-val-y-var)
+        - [Formato de funciones](#formato-de-funciones)
+        - [Formato de clases](#formato-de-clases)
+        - [Espaciado](#espaciado)
+        - [Imports](#imports)
+        - [Jetpack Compose](#jetpack-compose-1)
+        - [Nomenclatura de Composables](#nomenclatura-de-composables)
+        - [Estructura y legibilidad](#estructura-y-legibilidad)
+        - [Uso de colores y temas](#uso-de-colores-y-temas)
     - [4.1.4. Software Deployment Configuration](#414-software-deployment-configuration)
-- [Landing Page](#landing-page-1)
-- [Proceso de implementación](#proceso-de-implementación)
-  - [Creación del repositorio](#creación-del-repositorio)
-    - [Repositorio utilizado](#repositorio-utilizado)
-- [Configuración del repositorio](#configuración-del-repositorio)
-- [Configuración del despliegue con GitHub Pages](#configuración-del-despliegue-con-github-pages)
-- [Instalación de gh-pages](#instalación-de-gh-pages)
-- [Ejecución del despliegue](#ejecución-del-despliegue)
-- [Configuración de GitHub Pages](#configuración-de-github-pages)
-- [Detalles de configuración](#detalles-de-configuración)
-  - [Fuente de despliegue (Source)](#fuente-de-despliegue-source)
-  - [Rama de publicación (Branch)](#rama-de-publicación-branch)
-- [URL del sitio](#url-del-sitio)
-      - [4.3. Validation Interviews](#43-validation-interviews)
+      - [Landing Page](#landing-page-1)
+      - [Proceso de implementación](#proceso-de-implementación)
+        - [Creación del repositorio](#creación-del-repositorio)
+        - [Repositorio utilizado](#repositorio-utilizado)
+        - [Configuración del repositorio](#configuración-del-repositorio)
+        - [Ejecución del despliegue](#ejecución-del-despliegue)
+        - [Configuración de GitHub Pages](#configuración-de-github-pages)
+      - [Detalles de configuración](#detalles-de-configuración)
+        - [Fuente de despliegue (Source)](#fuente-de-despliegue-source)
+        - [URL del sitio](#url-del-sitio)
+  - [4.2. Landing Page \& Mobile Application Implementation](#42-landing-page--mobile-application-implementation)
+    - [4.2.1. Sprint n](#421-sprint-n)
+      - [4.2.1.1. Sprint Planning n](#4211-sprint-planning-n)
+      - [4.2.1.2. Sprint Backlog n](#4212-sprint-backlog-n)
+      - [4.2.1.3. Development Evidence for Sprint Review](#4213-development-evidence-for-sprint-review)
+      - [4.2.1.4. Testing Suite Evidence for Sprint Review](#4214-testing-suite-evidence-for-sprint-review)
+      - [4.2.1.5. Execution Evidence for Sprint Review](#4215-execution-evidence-for-sprint-review)
+      - [4.2.1.6. Services Documentation Evidence for Sprint Review](#4216-services-documentation-evidence-for-sprint-review)
+      - [4.2.1.7. Software Deployment Evidence for Sprint Review](#4217-software-deployment-evidence-for-sprint-review)
+      - [4.2.1.8. Team Collaboration Insights during Sprint](#4218-team-collaboration-insights-during-sprint)
+  - [4.3. Validation Interviews](#43-validation-interviews)
+    - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
+    - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
+    - [4.3.3. Evaluaciones según heurísticas](#433-evaluaciones-según-heurísticas)
 - [Conclusiones](#conclusiones)
 - [Anexos](#anexos)
   - [Anexo A: Links](#anexo-a-links)
@@ -1633,9 +1646,10 @@ Define tablas como Servicios y HistorialServicios con relaciones y constraints.
 
 ![ Una imagen de prueba](asset/DB5.png )
 
-## Capítulo III: Solution UI/UX Design
 
-### 3.1. Product design
+# Capítulo III: Solution UI/UX Design
+
+## 3.1. Product Design
 
 
 ### 3.1.1. Style Guidelines
@@ -1930,125 +1944,120 @@ Mechanic:
 <img src="assets/Mockups/mecanico1.png" width="20%">
 
 
-3.1.4.4. Mobile Applications User Flow Diagrams
+#### 3.1.4.4. Mobile Applications User Flow Diagrams
 
-3.1.4.5. Mobile Applications Prototyping
+#### 3.1.4.5. Mobile Applications Prototyping
 
-## Capítulo IV: Product Implementation & Validation
+<div style="page-break-after: always;"></div>
 
-### 4. Product Implementation & Validation
+# Capítulo IV: Product Implementation & Validation
 
-#### 4.1. Software Configuration Management
+## 4.1. Software Configuration Management
 
-#### 4.1.1. Software Development Environment Configuration
+### 4.1.1. Software Development Environment Configuration
 
 Para asegurar una colaboración eficiente y mantener la calidad en el desarrollo de **AutoMatch**, se definió un entorno de desarrollo común para todos los integrantes del equipo. A continuación, se presentan las herramientas y tecnologías utilizadas durante las distintas etapas del ciclo de vida del producto digital, indicando su propósito dentro del proyecto.
 
----
 
-# Product UX/UI Design
+#### Product UX/UI Design
 
 Para el diseño de experiencia de usuario y prototipado de la aplicación móvil AutoMatch se utilizaron las siguientes herramientas:
 
-## Figma
+##### Figma
 Herramienta utilizada para la creación de wireframes, mockups y prototipos interactivos de la aplicación móvil y landing page.  
 
 https://www.figma.com/
 
-## UXPressia
+##### UXPressia
 Utilizada para la elaboración de User Personas, Empathy Maps y User Journey Maps.  
 
 https://uxpressia.com/
 
-## Miro
+##### Miro
 Herramienta colaborativa utilizada para la creación de Lean UX Canvas, Event Storming y modelado de procesos del sistema.  
 
 https://miro.com/
 
----
 
-# Software Development
+#### Software Development
 
 Para el desarrollo de la aplicación móvil, backend y landing page se utilizaron las siguientes tecnologías y herramientas:
 
-## Android Studio (Instalación local)
+##### Android Studio (Instalación local)
 IDE principal utilizado para el desarrollo de la aplicación móvil AutoMatch utilizando Kotlin y Jetpack Compose.  
 
 https://developer.android.com/studio
 
-## Kotlin
+##### Kotlin
 Lenguaje principal utilizado para el desarrollo de la aplicación móvil y parte de la lógica del backend.  
 
 https://kotlinlang.org/
 
-## Jetpack Compose
+##### Jetpack Compose
 Framework moderno de Android utilizado para construir interfaces declarativas y responsivas.  
 
 https://developer.android.com/jetpack/compose
 
-## IntelliJ IDEA (Instalación local)
+##### IntelliJ IDEA (Instalación local)
 Utilizado para soporte de desarrollo backend, pruebas y administración del proyecto.  
 
 https://www.jetbrains.com/idea/
 
-## Git (Instalación local)
+##### Git (Instalación local)
 Herramienta utilizada para gestionar cambios de código mediante commits y ramas locales.  
 
 https://git-scm.com/
 
-## GitHub
+##### GitHub
 Plataforma utilizada para el almacenamiento remoto del código fuente y colaboración entre integrantes del equipo.  
 
 https://github.com/
 
-## Postman
+##### Postman
 Herramienta utilizada para realizar pruebas y validaciones de endpoints REST del backend.  
 
 https://www.postman.com/
 
-## MySQL
+##### MySQL
 Sistema gestor de base de datos relacional utilizado para almacenar la información del sistema.  
 
 https://www.mysql.com/
 
----
 
-# Project Management and Collaboration
+#### Project Management and Collaboration
 
 Para la gestión del proyecto y coordinación del equipo se utilizaron las siguientes herramientas:
 
-## Trello
+##### Trello
 Utilizado para la planificación y seguimiento de tareas mediante tableros Kanban.  
 
 https://trello.com/
 
-## WhatsApp
+##### WhatsApp
 Herramienta de comunicación instantánea utilizada para coordinación rápida entre integrantes.  
 
 https://web.whatsapp.com/
 
-## Google Meet
+##### Google Meet
 Utilizado para reuniones virtuales, presentaciones y seguimiento del proyecto.  
 
 https://meet.google.com/
 
----
 
-# Software Documentation
+#### Software Documentation
 
 Para la documentación y modelado del sistema se utilizaron las siguientes herramientas:
 
-## Lucidchart
+##### Lucidchart
 Utilizado para la creación de diagramas UML, wireflows y user flows.  
 
 https://www.lucidchart.com/
 
-## Visual Paradigm
+##### Visual Paradigm
 Herramienta utilizada para modelado arquitectónico y diagramas C4 del sistema.  
 
 https://online.visual-paradigm.com/
 
----
 
 Estas herramientas permitieron mantener una adecuada organización del proyecto, facilitar la colaboración entre los integrantes y asegurar una implementación alineada con buenas prácticas de ingeniería de software.
 
@@ -2062,7 +2071,7 @@ Además, se detallan las convenciones de trabajo adoptadas por el equipo, como e
 
 
 
-# URL de los Repositorios
+#### URL de los Repositorios
 
 | Repository | Description | URL |
 |:------------|:--------------------------------------------------|:------------------------------------------------|
@@ -2076,20 +2085,20 @@ Además, se detallan las convenciones de trabajo adoptadas por el equipo, como e
 
 
 
-# Estructura de Ramas
+##### Estructura de Ramas
 
 Para mantener un flujo organizado en el desarrollo y facilitar la colaboración, se implementó el modelo GitFlow, creando las siguientes ramas:
 
-## Main Branch
+##### Main Branch
 Rama principal (`main`) que contiene las versiones estables y funcionales del proyecto. Todas las demás ramas derivan de esta.
 
-## Develop Branch
+##### Develop Branch
 Rama secundaria (`develop`) donde se integran todas las nuevas funcionalidades antes de fusionarse con la rama principal.
 
-## Feature Branches
+##### Feature Branches
 Estas ramas se crean a partir de `develop` y son utilizadas para desarrollar funcionalidades específicas del proyecto. Una vez finalizado el desarrollo, se realiza un merge hacia la rama `develop`.
 
-### Ejemplos
+##### Ejemplos
 
 ```bash
 feature/login
@@ -2100,10 +2109,10 @@ feature/mechanic-matching
 
 ---
 
-## Release Branches
+##### Release Branches
 Utilizadas para preparar nuevas versiones estables antes de ser publicadas en producción.
 
-### Ejemplo
+##### Ejemplo
 
 ```bash
 release/v1.0.0
@@ -2111,10 +2120,10 @@ release/v1.0.0
 
 ---
 
-## Hotfix Branches
+##### Hotfix Branches
 Ramas utilizadas para solucionar errores críticos detectados en producción.
 
-### Ejemplo
+##### Ejemplo
 
 ```bash
 hotfix/authentication-error
@@ -2122,7 +2131,7 @@ hotfix/authentication-error
 
 ---
 
-# Semantic Versioning
+##### Semantic Versioning
 
 El proyecto AutoMatch utiliza Semantic Versioning para identificar las versiones del sistema siguiendo la estructura:
 
@@ -2130,7 +2139,7 @@ El proyecto AutoMatch utiliza Semantic Versioning para identificar las versiones
 MAJOR.MINOR.PATCH
 ```
 
-### Ejemplo
+##### Ejemplo
 
 ```bash
 v1.0.0
@@ -2142,23 +2151,18 @@ Donde:
 - **MINOR**: nuevas funcionalidades compatibles.
 - **PATCH**: corrección de errores menores.
 
----
 
-# Convenciones de Commits
+##### Convenciones de Commits
 
 Para la escritura de commits en el proyecto AutoMatch, se sigue la convención Conventional Commits, la cual cuenta con un formato estándar que facilita la lectura y entendimiento del historial de cambios dentro del proyecto.
 
----
-
-# Formato
+##### Formato
 
 ```bash
 <type>[optional scope]: <description>
 ```
 
----
-
-# Types
+##### Types
 
 | Tipo | Descripción |
 |------|-------------|
@@ -2170,13 +2174,11 @@ Para la escritura de commits en el proyecto AutoMatch, se sigue la convención C
 | test | Adición o modificación de pruebas |
 | chore | Configuración y mantenimiento |
 
----
-
-# Scope
+##### Scope
 
 El scope brinda información adicional acerca del área del código afectada.
 
-### Ejemplo
+##### Ejemplo
 
 ```bash
 feat(auth): add login functionality
@@ -2184,7 +2186,7 @@ feat(auth): add login functionality
 
 ---
 
-# Ejemplos básicos de commits
+##### Ejemplos básicos de commits
 
 ```bash
 feat(location): add real-time geolocation system
@@ -2204,7 +2206,7 @@ Estas convenciones permitieron mantener un historial de cambios organizado, mejo
 4.1.3. Source Code Style Guide & Conventions
 ## 4.1.3. Source Code Style Guide & Conventions
 
-# Nomenclatura General
+##### Nomenclatura General
 
 Para el desarrollo de la aplicación móvil **AutoMatch** en Android Studio utilizando Kotlin y Jetpack Compose bajo el patrón Clean Architecture, se aplicarán convenciones de nomenclatura basadas en Google Kotlin Style Guide y Jetpack Compose Guidelines.
 
@@ -2212,9 +2214,9 @@ Los nombres utilizados dentro del proyecto deben ser claros, descriptivos y escr
 
 ---
 
-# Ejemplos
+#### Ejemplos
 
-## Variables y funciones (camelCase)
+##### Variables y funciones (camelCase)
 
 ```kotlin
 val userName: String
@@ -2224,7 +2226,7 @@ fun getNearbyMechanics()
 
 ---
 
-## Clases y componentes (PascalCase)
+##### Clases y componentes (PascalCase)
 
 ```kotlin
 class LoginViewModel
@@ -2235,28 +2237,22 @@ fun HomeScreen()
 
 ---
 
-## Recursos XML (snake_case)
+##### Recursos XML (snake_case)
 
 ```xml
 activity_main.xml
 ic_mechanic_avatar.xml
 ```
 
----
-
-# Sangría
+##### Sangría
 
 En Kotlin, la sangría utilizada será de 4 espacios por bloque. No se recomienda el uso de tabulaciones, siguiendo las convenciones oficiales de Android Developers.
 
----
-
-# Kotlin
+##### Kotlin
 
 Kotlin es el lenguaje principal utilizado en el proyecto AutoMatch. Las siguientes pautas aseguran consistencia y legibilidad en el código fuente.
 
----
-
-# Uso de val y var
+##### Uso de val y var
 
 Siempre que sea posible, se utilizará `val` en lugar de `var` para definir variables inmutables.
 
@@ -2266,9 +2262,7 @@ val mechanicName = "Carlos"
 var servicePrice = 150.0
 ```
 
----
-
-# Formato de funciones
+##### Formato de funciones
 
 Las llaves de apertura deben ir en la misma línea que la declaración y la llave de cierre en su propia línea.
 
@@ -2289,9 +2283,7 @@ fun calculateDistance(origin: Location, destination: Location): Float {
 }
 ```
 
----
-
-# Formato de clases
+##### Formato de clases
 
 ```kotlin
 class MechanicRepository {
@@ -2302,9 +2294,7 @@ class MechanicRepository {
 }
 ```
 
----
-
-# Espaciado
+##### Espaciado
 
 Se incluirá un espacio después de los dos puntos en las declaraciones de tipos y entre operadores.
 
@@ -2314,9 +2304,7 @@ val distance: Float = 25.5f
 val total = x + y
 ```
 
----
-
-# Imports
+##### Imports
 
 No se utilizarán imports comodín (`*`). Se importarán únicamente las clases necesarias.
 
@@ -2325,15 +2313,11 @@ import androidx.compose.material3.Text
 import androidx.lifecycle.ViewModel
 ```
 
----
-
-# Jetpack Compose
+##### Jetpack Compose
 
 Jetpack Compose se utiliza para el desarrollo de interfaces modernas y responsivas dentro de AutoMatch.
 
----
-
-# Nomenclatura de Composables
+##### Nomenclatura de Composables
 
 Los nombres de funciones composables deben utilizar PascalCase y terminar con la palabra `Screen` o `Component`, dependiendo de su funcionalidad.
 
@@ -2345,9 +2329,7 @@ fun LoginScreen()
 fun MechanicCardComponent()
 ```
 
----
-
-# Estructura y legibilidad
+##### Estructura y legibilidad
 
 Cada Composable debe mantener una estructura clara y organizada para mejorar la legibilidad del código.
 
@@ -2368,9 +2350,7 @@ fun HomeScreen() {
 }
 ```
 
----
-
-# Uso de colores y temas
+##### Uso de colores y temas
 
 Los colores y estilos utilizados deben provenir de los archivos de tema definidos en la carpeta `ui/theme`, respetando las convenciones de Material Design 3.
 
@@ -2396,63 +2376,33 @@ Button(
 
 
 
-# Landing Page
+#### Landing Page
 
 Para el despliegue de la Landing Page de **AutoMatch**, se utilizó GitHub Pages, la funcionalidad integrada de GitHub que permite publicar sitios web estáticos de manera sencilla y gratuita.
 
----
 
-# Proceso de implementación
+#### Proceso de implementación
 
-## Creación del repositorio
+##### Creación del repositorio
 
 Desde la organización del proyecto en GitHub, se creó un repositorio destinado al despliegue de la Landing Page de AutoMatch.
 
-### Repositorio utilizado
+##### Repositorio utilizado
 
 ```text
-https://github.com/Aplicaciones-Moviles-Grupo/landing-page-original
+https://github.com/MobilFlow/Landing_Page
 ```
 
 ---
 
-# Configuración del repositorio
+##### Configuración del repositorio
 
 El repositorio fue configurado con visibilidad pública para permitir el despliegue mediante GitHub Pages.
 
 Además, se organizó el proyecto utilizando ramas de trabajo bajo el modelo GitFlow.
 
----
 
-# Configuración del despliegue con GitHub Pages
-
-Para mantener separados los cambios relacionados con deployment, se creó una rama específica denominada:
-
-```bash
-feature/chapter-IV-deployment
-```
-
-Posteriormente, se verificaron las ramas activas mediante el siguiente comando:
-
-```bash
-git branch
-```
-
----
-
-# Instalación de gh-pages
-
-Se instaló el paquete `gh-pages` para automatizar el proceso de publicación.
-
-```bash
-npm install gh-pages --save-dev
-```
-
-Después, se configuró el script correspondiente dentro del archivo `package.json`.
-
----
-
-# Ejecución del despliegue
+##### Ejecución del despliegue
 
 Una vez finalizada la configuración, se ejecutó el siguiente comando:
 
@@ -2462,9 +2412,8 @@ npm run deploy
 
 Este proceso generó automáticamente la rama `gh-pages`, donde se almacenan los archivos estáticos generados por el build del proyecto.
 
----
 
-# Configuración de GitHub Pages
+##### Configuración de GitHub Pages
 
 Luego del despliegue, se accedió a:
 
@@ -2474,67 +2423,53 @@ Settings → Pages
 
 Dentro del repositorio GitHub.
 
----
 
-# Detalles de configuración
+#### Detalles de configuración
 
-## Fuente de despliegue (Source)
+##### Fuente de despliegue (Source)
 
 Se seleccionó la opción:
 
 ```text
 Deploy from a branch
 ```
+Y se eligió Main
 
----
-
-## Rama de publicación (Branch)
-
-Se configuró la rama:
-
-```text
-gh-pages
-```
-
-Como fuente principal del sitio web utilizando el directorio raíz `/ (root)`.
-
----
-
-# URL del sitio
+##### URL del sitio
 
 GitHub Pages generó automáticamente la URL pública del proyecto:
 
 ```text
-https://aplicaciones-moviles-grupo.github.io/landing-page-original/
+https://mobilflow.github.io/Landing_Page/
 ```
 
-4.2. Landing Page & Mobile Application Implementation
+## 4.2. Landing Page & Mobile Application Implementation
 
-4.2.1. Sprint n
+### 4.2.1. Sprint n
 
-4.2.1.1. Sprint Planning n
+#### 4.2.1.1. Sprint Planning n
 
-4.2.1.2. Sprint Backlog n
+#### 4.2.1.2. Sprint Backlog n
 
-4.2.1.3. Development Evidence for Sprint Review
+#### 4.2.1.3. Development Evidence for Sprint Review
 
-4.2.1.4. Testing Suite Evidence for Sprint Review
+#### 4.2.1.4. Testing Suite Evidence for Sprint Review
 
-4.2.1.5. Execution Evidence for Sprint Review
+#### 4.2.1.5. Execution Evidence for Sprint Review
 
-4.2.1.6. Services Documentation Evidence for Sprint Review
+#### 4.2.1.6. Services Documentation Evidence for Sprint Review
 
-4.2.1.7. Software Deployment Evidence for Sprint Review
+#### 4.2.1.7. Software Deployment Evidence for Sprint Review
 
-4.2.1.8. Team Collaboration Insights during Sprint
+#### 4.2.1.8. Team Collaboration Insights during Sprint
 
-#### 4.3. Validation Interviews
+## 4.3. Validation Interviews
 
-4.3.1. Diseño de Entrevistas
+### 4.3.1. Diseño de Entrevistas
 
-4.3.2. Registro de Entrevistas
+### 4.3.2. Registro de Entrevistas
 
-4.3.3. Evaluaciones según heurísticas
+### 4.3.3. Evaluaciones según heurísticas
 
 # Conclusiones
 
