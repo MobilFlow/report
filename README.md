@@ -385,6 +385,9 @@ Voy a desarrollar la aplicación “Automatch” implementando funcionalidades m
 ### Braulio Torrejon
 Voy a desarrollar la arquitectura y funcionalidades backend de “Automatch”, implementando servicios, APIs e integraciones que permitan conectar conductores y mecánicos de manera eficiente, escalable y segura.
 
+### Romina Tuesta
+oy a desarrollar funcionalidades específicas dentro del proyecto Automatch, enfocándome en mi área de responsabilidad dentro del equipo, contribuyendo al diseño, desarrollo o validación de la plataforma
+
 ## M - Measurable (Medible)
 
 ### Gabriel Sanchez
@@ -395,6 +398,10 @@ Voy a medir el avance del proyecto completando las funcionalidades asignadas en 
 
 ### Braulio Torrejon
 Voy a medir el avance del proyecto completando los bounded contexts, endpoints, diagramas de arquitectura y funcionalidades backend asignadas en cada sprint, asegurando su correcto funcionamiento mediante pruebas e integración con la aplicación móvil.
+
+### Romina Tuesta
+Voy a medir mi avance a través del cumplimiento de las tareas asignadas en cada sprint, asegurando la entrega oportuna de los componentes bajo mi responsabilidad dentro del proyecto.
+
 
 ## A - Achievable (Alcanzable)
 
@@ -407,6 +414,11 @@ Voy a desarrollar Automatch utilizando Kotlin, Jetpack Compose, Android Studio y
 ### Braulio Torrejon
 Voy a desarrollar Automatch utilizando tecnologías como Spring Boot, Kotlin, MySQL, Docker y herramientas de arquitectura de software, aplicando los conocimientos adquiridos en Ingeniería de Software dentro de un periodo estimado de 3 meses.
 
+
+### Romina Tuesta
+Voy a contribuir al desarrollo de Automatch utilizando las herramientas y tecnologías aprendidas durante mi formación académica, dentro de un plazo estimado de 3 meses.
+
+
 ## R - Relevant (Relevante)
 
 ### Gabriel Sanchez
@@ -417,6 +429,9 @@ Voy a contribuir al desarrollo de una plataforma digital que facilite la búsque
 
 ### Braulio Torrejon
 Voy a contribuir al desarrollo de una plataforma digital confiable que permita mejorar la conexión entre conductores y mecánicos, enfocándome en la construcción de una arquitectura backend escalable, mantenible y alineada a las necesidades del proyecto.
+
+### Romina Tuesta
+Voy a aportar al desarrollo de una plataforma digital que conecte a usuarios con mecánicos confiables, mejorando la experiencia y accesibilidad del servicio automotriz.
 
 
 ## T - Time-bound (Con límite de tiempo)
@@ -429,6 +444,9 @@ Voy a completar las funcionalidades móviles y de integración de Automatch dent
 
 ### Braulio Torrejon
 Voy a completar la implementación de las funcionalidades backend, arquitectura de software y documentación técnica de Automatch dentro del cronograma académico establecido, cumpliendo los objetivos definidos para cada sprint del proyecto.
+
+### Romina Tuesta
+Voy a completar mis responsabilidades dentro del proyecto Automatch cumpliendo con los entregables académicos establecidos para cada sprint del cronograma del curso.
 
 <div style="page-break-after: always;"></div>
 
@@ -477,6 +495,14 @@ Soy Estudiante de Ingienieria de Software en la Universidad Peruana de Ciencias 
 
 <div style="max-width:100px">
   <img src="assets/images/FotoLiam.png" alt="imagen perfil giussepe">
+</div>
+
+#### 1.1.2.7  Romina Tuesta
+
+Soy estudiante de la Universidad Peruana de Ciencias Aplicadas (UPC), me encuentro en séptimo ciclo, cursando la carrera de Ingeniería de Software. Actualmente desarrollo proyectos orientados a soluciones digitales, aplicando metodologías ágiles y arquitecturas modernas de software.
+
+<div style="max-width:100px">
+  <img src="assets/images/Romina.png" alt="imagen perfil Romina">
 </div>
 
 
