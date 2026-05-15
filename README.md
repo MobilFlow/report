@@ -1447,18 +1447,19 @@ Durante el EventStorming se aplicó la técnica look-for-pivotal-events para ide
 
 2.5.1.2. Domain Message Flows Modeling
 
-![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/Scenario1.png)
-![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/Escenario2.png)
-![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/Escenario3.png)
-![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/Escenario4.png)
-![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/Escenario5.png)
-![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/Escenario6.png)
+![event storming](assets/entrevistas/DDD/Scenario1.png)
+![event storming](assets/entrevistas/DDD/Escenario2.png)
+![event storming](assets/entrevistas/DDD/Escenario3.png)
+![event storming](assets/entrevistas/DDD/Escenario4.png)
+![event storming](assets/entrevistas/DDD/Escenario5.png)
+![event storming](assets/entrevistas/DDD/Escenario6.png)
+
 
 2.5.1.3. Bounded Context Canvases
 
-![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/UserIdentityContext.png)
-![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/ServiceCatalog.png)
-![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/UserIdentityContext.png)
+![event storming](assets/entrevistas/DDD/UserIdentityContext.png)
+![event storming](assets/entrevistas/DDD/ServiceCatalog.png)
+![event storming](assets/entrevistas/DDD/UserIdentityContext.png)
 
 
 #### 2.5.2. Context Mapping
@@ -1469,15 +1470,15 @@ Durante el EventStorming se aplicó la técnica look-for-pivotal-events para ide
 
 2.5.3.1. Software Architecture Context Level Diagrams
 
-![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/Software%20Architecture%20Context%20Level.png)
+![event storming](assets/entrevistas/DDD/Software%20Architecture%20Context%20Level.png)
 
 2.5.3.2. Software Architecture Container Level Diagrams
 
-![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/Software%20Architecture%20Container%20Level%20Diagrams.png)
+![event storming](assets/entrevistas/DDD/Software%20Architecture%20Container%20Level%20Diagrams.png)
 
 2.5.3.3. Software Architecture Deployment Diagrams
 
-![event storming](https://github.com/MobilFlow/report/blob/feature/braulio-sprint1/assets/entrevistas/DDD/Software%20Architecture%20Deployment%20Diagrams.png)
+![event storming](assets/entrevistas/DDD/Software%20Architecture%20Deployment%20Diagrams.png)
 
 #### 2.6. Tactical-Level Domain-Driven Design
 
