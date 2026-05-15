@@ -403,6 +403,15 @@ Soy estudiante de la Universidad Peruana de Ciencias Aplicadas (UPC), cursando e
   <img src="assets/images/giussepe.png" alt="imagen perfil giussepe">
 </div>
 
+#### 1.1.2.6  Liam Villugas
+
+Soy estudiante de la Universidad Peruana de Ciencias Aplicadas (UPC), cursando el séptimo ciclo de la carrera de Ingeniería de Software. Me caracterizo por ser responsable, proactivo y orientado al aprendizaje continuo. Busco aplicar mis conocimientos en análisis, diseño y desarrollo de software, trabajando de manera colaborativa con mi equipo para proponer soluciones eficientes e innovadoras. Asimismo, contribuyo activamente en la toma de decisiones y en la construcción de soluciones tecnológicas que mejoren la experiencia de los usuarios, como en el desarrollo de **AutoMatch**, una plataforma digital que conecta conductores con servicios mecánicos confiables mediante geolocalización, verificación de proveedores y comparación de precios. 
+
+<div style="max-width:100px">
+  <img src="assets/images/FotoLiam.png" alt="imagen perfil giussepe">
+</div>
+
+
 ## 1.2. Solution Profile
 
 ### 1.2.1. Antecedentes y problemática
