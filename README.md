@@ -41,6 +41,9 @@
 **AV1:**
 ![pcav1](assets/project%20collaboration/av1.png)
 
+**TB1:**
+![pcav1](assets/project%20collaboration/tb1.png)
+
 
 # Registro de Versiones del Informe
 
@@ -1617,7 +1620,7 @@ En este punto se muestran los layers juntos:
 
 Se presentan diagramas C4 que muestran cómo el contenedor del catálogo se descompone en componentes como API, servicios de aplicación y repositorios.
 
-<img src="assets/asset/C4-BOUNDED1.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
+<img src="assets/asset/Container-001.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -3089,10 +3092,6 @@ Explicar de forma breve qué significa cada métrica, cómo se calculan los rati
 Asociación Automotriz del Perú. (2023). *Parque automotor peruano y tendencias del sector*. https://aap.org.pe/
 
 Instituto Nacional de Estadística e Informática. (2023). *Estadísticas de servicios y actividades económicas en el Perú*. https://www.inei.gob.pe/
-
-
-
-
 
 # Anexos
 
