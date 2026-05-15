@@ -391,6 +391,9 @@ Voy a desarrollar la arquitectura y funcionalidades backend de “Automatch”, 
 ### Romina Tuesta
 voy a desarrollar funcionalidades específicas dentro del proyecto Automatch, enfocándome en mi área de responsabilidad dentro del equipo, contribuyendo al diseño, desarrollo o validación de la plataforma
 
+### Liam Villugas
+voy a desarrollar funcionalidades específicas dentro del proyecto Automatch, enfocándome en mi área de responsabilidad dentro del equipo, contribuyendo al diseño, desarrollo o validación de la plataforma
+
 ## M - Measurable (Medible)
 
 ### Gabriel Sanchez
@@ -404,6 +407,10 @@ Voy a medir el avance del proyecto completando los bounded contexts, endpoints, 
 
 ### Romina Tuesta
 Voy a medir mi avance a través del cumplimiento de las tareas asignadas en cada sprint, asegurando la entrega oportuna de los componentes bajo mi responsabilidad dentro del proyecto.
+
+### Liam Villugas
+Voy a medir el avance del proyecto completando los endpoints asignados, las integraciones backend-frontend, y los componentes de interfaz de usuario que me correspondan, verificando su correcto funcionamiento en cada sprint.
+
 
 
 ## A - Achievable (Alcanzable)
@@ -421,6 +428,8 @@ Voy a desarrollar Automatch utilizando tecnologías como Spring Boot, Kotlin, My
 ### Romina Tuesta
 Voy a contribuir al desarrollo de Automatch utilizando las herramientas y tecnologías aprendidas durante mi formación académica, dentro de un plazo estimado de 3 meses.
 
+### Liam Villugas
+Voy a desarrollar Automatch utilizando tecnologías como Spring Boot y Kotlin aplicando mis conocimientos en backend y desarrollo mobile dentro de un plazo estimado de 3 meses.
 
 ## R - Relevant (Relevante)
 
@@ -436,6 +445,9 @@ Voy a contribuir al desarrollo de una plataforma digital confiable que permita m
 ### Romina Tuesta
 Voy a aportar al desarrollo de una plataforma digital que conecte a usuarios con mecánicos confiables, mejorando la experiencia y accesibilidad del servicio automotriz.
 
+### Liam Villugas
+Voy a contribuir al desarrollo de una plataforma digital confiable que permita mejorar la conexión entre conductores y mecánicos, enfocándome tanto en la solidez del backend como en una experiencia de frontend funcional y clara.
+
 
 ## T - Time-bound (Con límite de tiempo)
 
@@ -450,6 +462,9 @@ Voy a completar la implementación de las funcionalidades backend, arquitectura 
 
 ### Romina Tuesta
 Voy a completar mis responsabilidades dentro del proyecto Automatch cumpliendo con los entregables académicos establecidos para cada sprint del cronograma del curso.
+
+### Liam Villugas
+Voy a completar las funcionalidades backend y de frontend asignadas de Automatch dentro del cronograma académico establecido, cumpliendo los objetivos definidos para cada sprint del proyecto.
 
 <div style="page-break-after: always;"></div>
 
