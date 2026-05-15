@@ -2020,7 +2020,61 @@ Mechanic:
 
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
 
+**Login:**
+Este flujo ilustra el proceso de autenticación y creación de cuentas dentro de la aplicación móvil AutoMatch. Los usuarios pueden iniciar sesión en la plataforma o registrarse seleccionando su rol como conductor o mecánico antes de acceder al sistema.
+
+<img src="assets/Mockups/UserFlow1.png" width="40%">
+
+**User Flow:**
+
+Pedir un servicio
+
+Este diagrama representa el proceso que siguen los conductores para solicitar un servicio mecánico. El flujo incluye el acceso a la pantalla principal, la visualización de perfiles de mecánicos, la descripción del problema del vehículo, la selección de una categoría y el envío de la solicitud de servicio mediante la plataforma AutoMatch.
+
+<img src="assets/Mockups/UserFlow2.png" width="40%">
+
+Editar un perfil
+
+Este flujo describe cómo los conductores pueden gestionar y editar la información de su perfil dentro de la aplicación. Los usuarios pueden actualizar la información de sus vehículos, modificar datos personales y administrar la configuración de su cuenta.
+
+<img src="assets/Mockups/UserFlow3.png" width="40%">
+
+Servicio
+
+Este diagrama ilustra el proceso de gestión de servicios desde la perspectiva del conductor. Los usuarios pueden visualizar el historial de servicios, hacer seguimiento de servicios completados y publicar reseñas y calificaciones una vez finalizado el servicio.
+
+<img src="assets/Mockups/UserFlow4.png" width="40%">
+
+Busqueda
+
+Este flujo representa el proceso de búsqueda y descubrimiento de mecánicos dentro de la aplicación AutoMatch. Los conductores pueden explorar mecánicos disponibles, acceder a perfiles, revisar calificaciones y especialidades, y evaluar opciones de servicio antes de solicitar asistencia.
+
+<img src="assets/Mockups/UserFlow5.png" width="40%">
+
+**Mechanic Flow:**
+
+Editar Perfil
+
+Este flujo ilustra cómo los mecánicos pueden administrar y editar sus perfiles profesionales. Los mecánicos pueden actualizar información de presentación, especialidades, detalles de servicio y visibilidad dentro de la plataforma AutoMatch.
+
+<img src="assets/Mockups/MechanicFlow1.png" width="40%">
+
+Servicios del mecanico
+
+Este diagrama representa el flujo de trabajo utilizado por los mecánicos para administrar solicitudes de servicio, cotizaciones, servicios en progreso y trabajos completados dentro de la aplicación AutoMatch.
+
+<img src="assets/Mockups/MechanicFlow2.png" width="40%">
+
+Visitar perfil del usuario
+
+Este flujo describe cómo los mecánicos pueden acceder y revisar la información de los conductores durante un proceso de servicio activo. Los mecánicos pueden verificar información del vehículo, historial de servicios y detalles del cliente antes de completar el servicio.
+
+<img src="assets/Mockups/MechanicFlow3.png" width="40%">
+
+
 #### 3.1.4.5. Mobile Applications Prototyping
+
+https://www.figma.com/proto/ZX2IFwBkBBCBVVkt5pc7L0/MockUps---Wireframes?node-id=1-2&t=wyaKRP8yncQcKFk4-1
 
 <div style="page-break-after: always;"></div>
 
