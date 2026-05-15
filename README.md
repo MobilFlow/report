@@ -53,13 +53,14 @@
 | 1.0     | 23/04/2026 | Liam Villugas          | Antecedentes y problematica, Lean UX Canvas, Lean UX Hypothesis Statements, Lean UX Assumptions, Lean UX Problem Statements y Context mapping |
 | 2.0     | 14/04/2026 | Gabriel Sanchez          | Correcciones del AV1, desarrollo de la API de geolocalización CRUD, desarrollo de la API de IAM CRUD, desarrollo del sprint planning 1, desarrollo del sprint backlog 1, desarrollo del development evidence for sprint review, desarrollo del testing suite evidence for sprint review, desarrollo de execution evidence for sprint review, desarrollo de servicios, services documentation evidence for sprint review, preguntas para validation interviews, registro de 3 validation interviews, desarrollo de evaluación según heuristicas |
 
----
+<div style="page-break-after: always;"></div>
 
 ## Contenido
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
 - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
   - [Contenido](#contenido)
   - [Student Outcome](#student-outcome)
+- [Objetivos Smart](#objetivos-smart)
 - [Capítulo I: Presentación](#capítulo-i-presentación)
   - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
@@ -298,7 +299,7 @@
 - [Anexos](#anexos)
   - [Anexo A: Links](#anexo-a-links)
 
----
+<div style="page-break-after: always;"></div>
 
 ## Student Outcome
 
@@ -324,7 +325,32 @@ tecnologías de ingeniería de software
 | **Criterio 1:** Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de ingeniería de software | **Gabriel Sanchez** <br><br> **AV1:** Descripción del startup; entrevistas a usuarios; diseño de user personas; elaboración de empathy mapping; definición de ubiquitous language; creación del product backlog; desarrollo de event storming <br><br> **Braulio Torrejon** <br><br> **AV1:** Cargo archivos; entrevistas a usuarios; elaboración de user stories; candidate context discovery; domain message flow modeling; bounded context canvases; definición de software architecture; desarrollo de impact mapping <br><br> **Romina Tuesta** <br><br> **AV1:** Realicé todo el punto 2.6 diagrama de clase, base de datos y contenedores C4 y la estructuración de layers. <br><br> **Giussepe Taquiri** <br><br> **AV1:** Análisis competitivo; definición de estrategias y tácticas frente a competidores; elaboración de User Task Matrix; desarrollo de User Journey Mapping <br><br> **Liam Villugas** <br><br> **AV1:**  entrevistas a mecanicos; Elaboracion de Antecedentes y problematica; Lean UX Problem Statements; Lean UX Assumptions; Lean UX Hypothesis Statements; Lean UX Canvas; desarrollo de Context mapping| **Gabriel Sanchez** <br><br> **AV1:** Durante este avance desarrollé la descripción completa del startup, realicé entrevistas a usuarios, diseñé user personas y empathy maps, construí el ubiquitous language, elaboré el product backlog y llevé a cabo el event storming. <br><br> **Braulio Torrejon** <br><br> **AV1:** En este avance consolidé la arquitectura del proyecto mediante entrevistas, user stories y modelado de contextos. Implementé diagramas de flujo de mensajes y bounded contexts, definiendo la arquitectura de software y el impact mapping, lo que permitió dar claridad técnica y trazabilidad al proyecto. <br><br> **Romina Tuesta** <br><br> **AV1:** En este avance pude conocer más acerca de la estructura de los bounded context, realizando los layers como domain, interface, etc., además de adentrarme más a los contenedores de cada bounded. <br><br> **Giussepe Taquiri** <br><br> **AV1:** Durante este avance desarrollé el análisis competitivo y definí estrategias y tácticas frente a los competidores. Asimismo, elaboré el User Task Matrix y los User Journey Maps, aplicando herramientas de análisis UX para comprender mejor las necesidades del usuario y contribuir a la solución del proyecto.<br><br> **Liam Villugas**  <br><br> **AV1:** En este avance consolidé la visión estratégica y técnica de AutoMatch mediante el uso de Lean UX y Domain-Driven Design (DDD). Al integrar las entrevistas a mecánicos con el modelado de Bounded Contexts, logré alinear los objetivos de negocio de MobilFlow con una arquitectura de software escalable. Este proceso me permitió aplicar conocimientos avanzados en ingeniería de software para garantizar la trazabilidad y la correcta delimitación de dominios en la solución. |
 | **Criterio 2:** Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de tecnologías de ingeniería de software | **Gabriel Sanchez** <br><br> **AV1:** Descripción del startup; entrevistas a usuarios; diseño de user personas; elaboración de empathy mapping; definición de ubiquitous language; creación del product backlog; desarrollo de event storming <br><br> **Braulio Torrejon** <br><br> **AV1:** Cargo archivos; entrevistas a usuarios; elaboración de user stories; candidate context discovery; domain message flow modeling; bounded context canvases; definición de software architecture; desarrollo de impact mapping <br><br> **Romina Tuesta** <br><br> **AV1:** En este avance pude conocer más acerca de la estructura de los bounded context, realizando los layers como domain, interface, etc., además de adentrarme más a los contenedores de cada bounded. <br><br> **Giussepe Taquiri** <br><br> **AV1:** Análisis competitivo; estrategias y tácticas frente a competidores; User Task Matrix; User Journey Mapping; uso de herramientas de análisis y gestión <br><br> **Liam Villugas** <br><br> **AV1:**  entrevistas a mecanicos; Elaboracion de Antecedentes y problematica; Lean UX Problem Statements; Lean UX Assumptions; Lean UX Hypothesis Statements; Lean UX Canvas; desarrollo de Context mapping  | **Gabriel Sanchez** <br><br> **AV1:** Este proceso evidenció que el desarrollo de soluciones de software exige aprendizaje constante. Comprendí que debo seguir actualizándome y explorando nuevas metodologías y tecnologías para mejorar la calidad y efectividad de mis proyectos. <br><br> **Braulio Torrejon** <br><br> **AV1:** Este proceso me permitió reconocer que la construcción de arquitecturas sólidas requiere aprendizaje continuo. La integración de técnicas como EventStorming, DMFM y bounded contexts evidenció la necesidad de seguir perfeccionando metodologías y herramientas para lograr soluciones escalables y auditables. <br><br> **Romina Tuesta** <br><br> **AV1:** Lo realizado en esta entrega refuerza la necesidad de obtener más conocimiento para llegar a la vida profesional preparados y listos para aplicar lo aprendido. <br><br> **Giussepe Taquiri** <br><br> **AV1:** Este avance me permitió reconocer la importancia del aprendizaje continuo en el desarrollo de soluciones tecnológicas. A través del análisis competitivo y herramientas UX, comprendí la necesidad de actualizar constantemente mis conocimientos para adaptarme a nuevas tecnologías y metodologías en ingeniería de software. <br><br> **Liam Villugas** <br><br> **AV1:** El desarrollo de AutoMatch evidencia que la ingeniería de software exige un aprendizaje permanente para dominar marcos como Lean UX y DDD. La complejidad del ecosistema de MobilFlow reafirma que la actualización constante en metodologías y arquitecturas es indispensable para resolver problemas reales y mantener la competitividad profesional en el diseño de soluciones tecnológicas. |
 
+# Objetivos SMART
 
+## S - Specific (Específico)
+
+### Gabriel Sanchez
+Voy a desarrollar la aplicación “Automatch” para conectar conductores con mecánicos de forma segura, confiable y eficiente, permitiendo mejorar la experiencia de búsqueda y selección de servicios mecánicos.
+
+## M - Measurable (Medible)
+
+### Gabriel Sanchez
+Voy a medir el éxito del proyecto completando el 100% de las user stories, spike stories e incremental stories, además de implementar correctamente todas las funcionalidades principales definidas en el backlog.
+
+## A - Achievable (Alcanzable)
+
+### Gabriel Sanchez
+Voy a desarrollar Automatch utilizando tecnologías como Kotlin, Spring Boot, HTML, CSS, Java y herramientas de inteligencia artificial, dentro de un plazo estimado de 3 meses.
+
+## R - Relevant (Relevante)
+
+### Gabriel Sanchez
+Voy a enfocar el desarrollo de Automatch en mejorar la seguridad, confianza y eficiencia de los usuarios al momento de encontrar y seleccionar mecánicos mediante una plataforma digital.
+
+## T - Time-bound (Con límite de tiempo)
+
+### Gabriel Sanchez
+Voy a completar el desarrollo de la aplicación “Automatch” en un periodo de 3 meses, cumpliendo con los entregables del curso y el trabajo académico final del equipo.
 
 # Capítulo I: Presentación
 
