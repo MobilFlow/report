@@ -382,6 +382,8 @@ Voy a desarrollar la aplicación “Automatch” para conectar conductores con m
 ### Giussepe Taquiri
 Voy a desarrollar la aplicación “Automatch” implementando funcionalidades móviles e integraciones entre frontend y backend para optimizar la experiencia de los usuarios al buscar mecánicos cercanos.
 
+### Braulio Torrejon
+Voy a desarrollar la arquitectura y funcionalidades backend de “Automatch”, implementando servicios, APIs e integraciones que permitan conectar conductores y mecánicos de manera eficiente, escalable y segura.
 
 ## M - Measurable (Medible)
 
@@ -391,6 +393,8 @@ Voy a medir el éxito del proyecto completando el 100% de las user stories, spik
 ### Giussepe Taquiri
 Voy a medir el avance del proyecto completando las funcionalidades asignadas en cada sprint, verificando la correcta integración de APIs y el funcionamiento de las pantallas móviles de Automatch.
 
+### Braulio Torrejon
+Voy a medir el avance del proyecto completando los bounded contexts, endpoints, diagramas de arquitectura y funcionalidades backend asignadas en cada sprint, asegurando su correcto funcionamiento mediante pruebas e integración con la aplicación móvil.
 
 ## A - Achievable (Alcanzable)
 
@@ -400,6 +404,8 @@ Voy a desarrollar Automatch utilizando tecnologías como Kotlin, Spring Boot, HT
 ### Giussepe Taquiri
 Voy a desarrollar Automatch utilizando Kotlin, Jetpack Compose, Android Studio y GitHub, aplicando los conocimientos adquiridos durante mi formación académica en un plazo estimado de 3 meses.
 
+### Braulio Torrejon
+Voy a desarrollar Automatch utilizando tecnologías como Spring Boot, Kotlin, MySQL, Docker y herramientas de arquitectura de software, aplicando los conocimientos adquiridos en Ingeniería de Software dentro de un periodo estimado de 3 meses.
 
 ## R - Relevant (Relevante)
 
@@ -409,6 +415,10 @@ Voy a enfocar el desarrollo de Automatch en mejorar la seguridad, confianza y ef
 ### Giussepe Taquiri
 Voy a contribuir al desarrollo de una plataforma digital que facilite la búsqueda de mecánicos confiables, mejorando la experiencia del usuario mediante tecnologías móviles y servicios integrados.
 
+### Braulio Torrejon
+Voy a contribuir al desarrollo de una plataforma digital confiable que permita mejorar la conexión entre conductores y mecánicos, enfocándome en la construcción de una arquitectura backend escalable, mantenible y alineada a las necesidades del proyecto.
+
+
 ## T - Time-bound (Con límite de tiempo)
 
 ### Gabriel Sanchez
@@ -416,6 +426,10 @@ Voy a completar el desarrollo de la aplicación “Automatch” en un periodo de
 
 ### Giussepe Taquiri
 Voy a completar las funcionalidades móviles y de integración de Automatch dentro del cronograma académico establecido, cumpliendo los objetivos definidos para cada sprint del proyecto.
+
+### Braulio Torrejon
+Voy a completar la implementación de las funcionalidades backend, arquitectura de software y documentación técnica de Automatch dentro del cronograma académico establecido, cumpliendo los objetivos definidos para cada sprint del proyecto.
+
 
 <div style="page-break-after: always;"></div>
 
