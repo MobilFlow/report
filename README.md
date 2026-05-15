@@ -146,6 +146,7 @@
   - [2.5. Strategic-Level Domain-Driven Design](#25-strategic-level-domain-driven-design)
     - [2.5.1. EventStorming](#251-eventstorming)
       - [2.5.1.2. Domain Message Flows Modeling](#2512-domain-message-flows-modeling)
+      - [2.5.1.3. Bounded Context Canvases](#2513-bounded-context-canvases)
       - [2.5.2. Context Mapping](#252-context-mapping)
     - [2.5.3. Software Architecture](#253-software-architecture)
       - [2.5.3.1. Software Architecture Context Level Diagrams](#2531-software-architecture-context-level-diagrams)
@@ -315,7 +316,28 @@
   - [4.3. Validation Interviews](#43-validation-interviews)
     - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
     - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
+    - [**Entrevista N°1 - Carlo García (Mecanico)**](#entrevista-n1---carlo-garcía-mecanico)
+      - [**Datos del entrevistado**](#datos-del-entrevistado)
+      - [**Resumen de la entrevista:**](#resumen-de-la-entrevista)
+    - [**Entrevista N°2 - Luciana (Conductora)**](#entrevista-n2---luciana-conductora)
+      - [**Datos del entrevistado**](#datos-del-entrevistado-1)
+      - [**Información de la entrevista**](#información-de-la-entrevista)
+      - [Duración: 02:01 Minuto de inicio en el video consolidado: 1:58](#duración-0201-minuto-de-inicio-en-el-video-consolidado-158)
+      - [**Resumen de la entrevista:**](#resumen-de-la-entrevista-1)
+    - [**Entrevista N°3 - Anedyib (conductora)**](#entrevista-n3---anedyib-conductora)
+      - [**Datos del entrevistado**](#datos-del-entrevistado-2)
+      - [**Información de la entrevista**  Duración: 1:15  Minuto de inicio en el video consolidado: 04:00](#información-de-la-entrevista--duración-115--minuto-de-inicio-en-el-video-consolidado-0400)
+      - [**Resumen de la entrevista:**](#resumen-de-la-entrevista-2)
+    - [**Entrevista N°4 - Juan (Mecanico)**](#entrevista-n4---juan-mecanico)
+      - [**Resumen de la entrevista:**](#resumen-de-la-entrevista-3)
     - [4.3.3. Evaluaciones según heurísticas](#433-evaluaciones-según-heurísticas)
+      - [**TAREAS A EVALUAR**](#tareas-a-evaluar)
+      - [**ESCALA DE SEVERIDAD**](#escala-de-severidad)
+      - [**TABLA RESUMEN**](#tabla-resumen)
+      - [**DESCRIPCIÓN DE PROBLEMAS**](#descripción-de-problemas)
+        - [**PROBLEMA #1: No se muestran perfiles detallados de mecánicos que permitan evaluar experiencia, especialidad o trabajos previos**](#problema-1-no-se-muestran-perfiles-detallados-de-mecánicos-que-permitan-evaluar-experiencia-especialidad-o-trabajos-previos)
+        - [**PROBLEMA #2: Las calificaciones y testimonios generan interés, pero no explican cómo se validan o qué significan exactamente**](#problema-2-las-calificaciones-y-testimonios-generan-interés-pero-no-explican-cómo-se-validan-o-qué-significan-exactamente)
+      - [**PROBLEMA #3: La landing page no guía con suficiente claridad hacia el siguiente paso principal del usuario**](#problema-3-la-landing-page-no-guía-con-suficiente-claridad-hacia-el-siguiente-paso-principal-del-usuario)
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
@@ -2706,21 +2728,292 @@ Para este Sprint no se contemplaron pruebas unitarias
 
 <img src="assets/images/capture-backend.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
+Link a Execution Evidende de Back y Landing Page: [Backend y Landing](https://youtu.be/vTRZWOIpazM)
 
+Link a Execution Evidence de Mobile App: [Mobile App](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211706_upc_edu_pe/IQB5bPr7UFn8QLWpUrhgTk_9ARDha-jKPHWjHWX3hwAhPz0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rfuiog)
 
 #### 4.2.1.6. Services Documentation Evidence for Sprint Review
 
+| Endpoint                                                          | HTTP Method | Description                         | Request Body                                                                                                                                                            | Response                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| ----------------------------------------------------------------- | ----------: | ----------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `/api/v1/mechanic-locations/{mechanicId}`                         |         GET | Get mechanic location               | None                                                                                                                                                                    | {  "id": 0,<br>  "mechanicId": 0,<br>  "latitude": 0,<br>  "longitude": 0,<br>  "addressText": "string"<br> },                                                                                                                                                                                                                                                                                                                                       |
+| `/api/v1/mechanic-locations/{mechanicId}`                         |        POST | Register mechanic location          | {  "latitude": 0,<br>  "longitude": 0,<br>  "addressText": "string"<br> },                                                                                       | {  "id": 0,<br>  "mechanicId": 0,<br>  "latitude": 0,<br>  "longitude": 0,<br>  "addressText": "string"<br> },                                                                                                                                                                                                                                                                                                                                       |
+| `/api/v1/mechanic-locations`                                      |         GET | Get all mechanic locations          | None                                                                                                                                                                    | [  {    "id": 0,<br>    "mechanicId": 0,<br>    "latitude": 0,<br>    "longitude": 0,<br>    "addressText": "string"<br> },]                                                                                                                                                                                                                                                                                                                   |
+| `/api/v1/service-requests/{serviceId}/confirm`                    |         PUT | Confirm service completion          | {  "actorProfileId": 0,<br>  "role": "string"<br> },                                                                                                           | {  "id": 0,<br>  "driverProfileId": 0,<br>  "mechanicProfileId": 0,<br>  "carId": 0,<br>  "description": "string",<br>  "scheduledDate": "2026-05-15T04:22:00.781Z",<br>  "status": "SCHEDULED",<br>  "driverConfirmed": true,<br>  "mechanicConfirmed": true,<br>  "completedAt": "2026-05-15T04:22:00.781Z",<br>  "createdAt": "2026-05-15T04:22:00.781Z"<br> },                                                                                               |
+| `/api/v1/service-requests/{serviceId}/cancel`                     |         PUT | Cancel a service                    | {  "actorProfileId": 0,<br>  "role": "string"<br> },                                                                                                           | {  "id": 0,<br>  "driverProfileId": 0,<br>  "mechanicProfileId": 0,<br>  "carId": 0,<br>  "description": "string",<br>  "scheduledDate": "2026-05-15T04:22:00.781Z",<br>  "status": "SCHEDULED",<br>  "driverConfirmed": true,<br>  "mechanicConfirmed": true,<br>  "completedAt": "2026-05-15T04:22:00.781Z",<br>  "createdAt": "2026-05-15T04:22:00.781Z"<br> },                                                                                               |
+| `/api/v1/service-requests`                                        |        POST | Request a new service               | {  "driverProfileId": 1,<br>  "mechanicProfileId": 1,<br>  "carId": 1,<br>  "description": "AYUDA PORFAVOR",<br>  "scheduledDate": "2026-05-15T04:14:06.029Z"<br> }, | {  "id": 0,<br>  "driverProfileId": 0,<br>  "mechanicProfileId": 0,<br>  "carId": 0,<br>  "description": "string",<br>  "scheduledDate": "2026-05-15T04:22:00.785Z",<br>  "status": "SCHEDULED",<br>  "driverConfirmed": true,<br>  "mechanicConfirmed": true,<br>  "completedAt": "2026-05-15T04:22:00.785Z",<br>  "createdAt": "2026-05-15T04:22:00.785Z"<br> },                                                                                               |
+| `/api/v1/service-requests/{serviceId}`                            |         GET | Get service by ID                   | None                                                                                                                                                                    | {  "id": 0,<br>  "driverProfileId": 0,<br>  "mechanicProfileId": 0,<br>  "carId": 0,<br>  "description": "string",<br>  "scheduledDate": "2026-05-15T04:22:00.787Z",<br>  "status": "SCHEDULED",<br>  "driverConfirmed": true,<br>  "mechanicConfirmed": true,<br>  "completedAt": "2026-05-15T04:22:00.787Z",<br>  "createdAt": "2026-05-15T04:22:00.787Z"<br> },                                                                                               |
+| `/api/v1/service-requests/mechanic/{mechanicProfileId}`           |         GET | Get services by mechanic profile ID | None                                                                                                                                                                    | [  {    "id": 0,<br>    "driverProfileId": 0,<br>    "mechanicProfileId": 0,<br>    "carId": 0,<br>    "description": "string",<br>    "scheduledDate": "2026-05-15T04:22:00.790Z",<br>    "status": "SCHEDULED",<br>    "driverConfirmed": true,<br>    "mechanicConfirmed": true,<br>    "completedAt": "2026-05-15T04:22:00.790Z",<br>    "createdAt": "2026-05-15T04:22:00.790Z"<br> },]                                                               |
+| `/api/v1/service-requests/history/{driverProfileId}`              |         GET | Get service history for a driver    | None                                                                                                                                                                    | [  {    "id": 0,<br>    "driverProfileId": 0,<br>    "mechanicProfileId": 0,<br>    "carId": 0,<br>    "description": "string",<br>    "scheduledDate": "2026-05-15T04:22:00.792Z",<br>    "status": "SCHEDULED",<br>    "driverConfirmed": true,<br>    "mechanicConfirmed": true,<br>    "completedAt": "2026-05-15T04:22:00.792Z",<br>    "createdAt": "2026-05-15T04:22:00.792Z"<br> },]                                                               |
+| `/api/v1/service-requests/driver/{driverProfileId}`               |         GET | Get services by driver profile ID   | None                                                                                                                                                                    | [  {    "id": 0,<br>    "driverProfileId": 0,<br>    "mechanicProfileId": 0,<br>    "carId": 0,<br>    "description": "string",<br>    "scheduledDate": "2026-05-15T04:22:00.794Z",<br>    "status": "SCHEDULED",<br>    "driverConfirmed": true,<br>    "mechanicConfirmed": true,<br>    "completedAt": "2026-05-15T04:22:00.794Z",<br>    "createdAt": "2026-05-15T04:22:00.794Z"<br> },]                                                               |
+| `/api/v1/mechanics/{mechanicProfileId}`                           |         PUT | Update mechanic profile             | {  "description": "string",<br>  "workshopName": "string",<br>  "workshopAddress": "string"<br> },                                                               | {  "id": 0,<br>  "userId": 0,<br>  "bio": "string",<br>  "workshopName": "string",<br>  "workshopAddress": "string",<br>  "specialties": [    {      "id": 0,<br>      "name": "string"}  ]}                                                                                                                                                                                                                                           |
+| `/api/v1/mechanics`                                               |         GET | Get all mechanic profiles           | None                                                                                                                                                                    | [  {    "id": 0,<br>    "userId": 0,<br>    "bio": "string",<br>    "workshopName": "string",<br>    "workshopAddress": "string",<br>    "specialties": [      {        "id": 0,<br>        "name": "string"<br>      }    ]  }]                                                                                                                                                                                                           |
+| `/api/v1/mechanics`                                               |        POST | Create mechanic profile             | {  "userId": 0,<br>  "description": "string",<br>  "workshopName": "string",<br>  "workshopAddress": "string"<br> },                                               | {  "id": 0,<br>  "userId": 0,<br>  "bio": "string",<br>  "workshopName": "string",<br>  "workshopAddress": "string",<br>  "specialties": [    {      "id": 0,<br>      "name": "string"}  ]}                                                                                                                                                                                                                                           |
+| `/api/v1/mechanics/{mechanicProfileId}/specialties/{specialtyId}` |        POST | Add specialty to mechanic           | None                                                                                                                                                                    | {  "id": 0,<br>  "userId": 0,<br>  "bio": "string",<br>  "workshopName": "string",<br>  "workshopAddress": "string",<br>  "specialties": [    {      "id": 0,<br>      "name": "string"}  ]}                                                                                                                                                                                                                                           |
+| `/api/v1/mechanics/{mechanicProfileId}/specialties/{specialtyId}` |      DELETE | Remove specialty from mechanic      | None                                                                                                                                                                    | {  "id": 0,<br>  "userId": 0,<br>  "bio": "string",<br>  "workshopName": "string",<br>  "workshopAddress": "string",<br>  "specialties": [    {      "id": 0,<br>      "name": "string"}  ]}                                                                                                                                                                                                                                           |
+| `/api/v1/mechanics/user/{userId}`                                 |         GET | Get mechanic profile by user id     | None                                                                                                                                                                    | {  "id": 0,<br>  "userId": 0,<br>  "bio": "string",<br>  "workshopName": "string",<br>  "workshopAddress": "string",<br>  "specialties": [    {      "id": 0,<br>      "name": "string"}  ]}                                                                                                                                                                                                                                           |
+| `/api/v1/mechanics/specialties`                                   |         GET | Get all specialties                 | None                                                                                                                                                                    | [  {    "id": 0,<br>    "name": "string"<br> },]                                                                                                                                                                                                                                                                                                                                                                                         |
+| `/api/v1/roles`                                                   |         GET | Get all roles                       | None                                                                                                                                                                    | [  {    "id": 0,<br>    "name": "string"<br> },]                                                                                                                                                                                                                                                                                                                                                                                         |
+| `/api/v1/drivers/cars/{carId}`                                    |         PUT | Update car                          | {  "brand": "string",<br>  "model": "string",<br>  "year": 0,<br>  "plate": "string",<br>  "fuelType": "string"<br> },                                               | {  "id": 0,<br>  "ownerId": 0,<br>  "brand": "string",<br>  "model": "string",<br>  "year": 0,<br>  "plate": "string",<br>  "fuelType": "string"<br> },                                                                                                                                                                                                                                                                                                  |
+| `/api/v1/drivers/cars/{carId}`                                    |      DELETE | Delete car                          | None                                                                                                                                                                    | `{}`                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| `/api/v1/drivers`                                                 |        POST | Create driver profile               | {  "userId": 0,<br>  "licenseNumber": "string"<br> },                                                                                                          | {  "id": 0,<br>  "userId": 0,<br>  "cars": [    {}  ]}                                                                                                                                                                                                                                                                                                                                                                                 |
+| `/api/v1/drivers/{driverProfileId}/cars`                          |         GET | Get cars by driver profile id       | None                                                                                                                                                                    | [  {    "id": 0,<br>    "ownerId": 0,<br>    "brand": "string",<br>    "model": "string",<br>    "year": 0,<br>    "plate": "string",<br>    "fuelType": "string"<br> },]                                                                                                                                                                                                                                                                          |
+| `/api/v1/drivers/{driverProfileId}/cars`                          |        POST | Register car                        | {  "brand": "TOYOTA",<br>  "model": "RAPIDO",<br>  "year": 2009,<br>  "plate": "SKU1234",<br>  "fuelType": "GASOLINE"<br> },                                         | {  "id": 0,<br>  "ownerId": 0,<br>  "brand": "string",<br>  "model": "string",<br>  "year": 0,<br>  "plate": "string",<br>  "fuelType": "string"<br> },                                                                                                                                                                                                                                                                                                  |
+| `/api/v1/drivers/user/{userId}`                                   |         GET | Get driver profile by user id       | None                                                                                                                                                                    | {  "id": 0,<br>  "userId": 0,<br>  "cars": [    {}  ]}                                                                                                                                                                                                                                                                                                                                                                                 |
+| `/api/v1/reputation/reviews/{id}`                                 |         PUT | Update mechanic review              | {  "content": "string",<br>  "serviceFinished": true<br> },                                                                                                    | {  "id": 0,<br>  "content": "string",<br>  "mechanicId": 0,<br>  "driverId": 0,<br>  "serviceId": 0,<br>  "createdAt": "2026-05-15T04:22:00.816Z",<br>  "edited": true<br> },                                                                                                                                                                                                                                                                            |
+| `/api/v1/reputation/ratings/{id}`                                 |         PUT | Update mechanic rating              | {  "score": 0,<br>  "serviceFinished": true<br> },                                                                                                             | {  "id": 0,<br>  "score": 0,<br>  "mechanicId": 0,<br>  "driverId": 0,<br>  "serviceId": 0,<br>  "createdAt": "2026-05-15T04:22:00.818Z",<br>  "edited": true<br> },                                                                                                                                                                                                                                                                                     |
+| `/api/v1/reputation/reviews`                                      |        POST | Create mechanic review              | {  "content": "string",<br>  "mechanicId": 0,<br>  "driverId": 0,<br>  "serviceId": 0,<br>  "serviceFinished": true<br> },                                           | {  "id": 0,<br>  "content": "string",<br>  "mechanicId": 0,<br>  "driverId": 0,<br>  "serviceId": 0,<br>  "createdAt": "2026-05-15T04:22:00.819Z",<br>  "edited": true<br> },                                                                                                                                                                                                                                                                            |
+| `/api/v1/reputation/ratings`                                      |        POST | Create mechanic rating              | {  "score": 0,<br>  "mechanicId": 0,<br>  "driverId": 0,<br>  "serviceId": 0,<br>  "serviceFinished": true<br> },                                                    | {  "id": 0,<br>  "score": 0,<br>  "mechanicId": 0,<br>  "driverId": 0,<br>  "serviceId": 0,<br>  "createdAt": "2026-05-15T04:22:00.820Z",<br>  "edited": true<br> },                                                                                                                                                                                                                                                                                     |
+| `/api/v1/services/{serviceId}`                                    |         GET | Get service by id                   | None                                                                                                                                                                    | {  "id": 0,<br>  "mechanicProfileId": 0,<br>  "title": "string",<br>  "description": "string",<br>  "minimumPrice": 0,<br>  "maximumPrice": 0,<br>  "status": "string",<br>  "category": {    "id": 0,<br>    "name": "string"<br> },,<br>  "tags": [    {      "id": 0,<br>      "name": "string"}  ],<br>  "images": [    {      "id": 0,<br>      "imageUrl": "string"}  ]}                                                         |
+| `/api/v1/services/{serviceId}`                                    |         PUT | Update service                      | {  "title": "string",<br>  "description": "string",<br>  "priceMin": 0,<br>  "priceMax": 0,<br>  "categoryId": 0<br> },                                              | {  "id": 0,<br>  "mechanicProfileId": 0,<br>  "title": "string",<br>  "description": "string",<br>  "minimumPrice": 0,<br>  "maximumPrice": 0,<br>  "status": "string",<br>  "category": {    "id": 0,<br>    "name": "string"<br> },,<br>  "tags": [    {      "id": 0,<br>      "name": "string"}  ],<br>  "images": [    {      "id": 0,<br>      "imageUrl": "string"}  ]}                                                         |
+| `/api/v1/services`                                                |         GET | Get all services                    | None                                                                                                                                                                    | [  {    "id": 0,<br>    "mechanicProfileId": 0,<br>    "title": "string",<br>    "description": "string",<br>    "minimumPrice": 0,<br>    "maximumPrice": 0,<br>    "status": "string",<br>    "category": {      "id": 0,<br>      "name": "string"},<br>    "tags": [      {        "id": 0,<br>        "name": "string"<br>      }    ],<br>    "images": [      {        "id": 0,<br>        "imageUrl": "string"<br>      }    ]  }] |
+| `/api/v1/services`                                                |        POST | Publish service                     | {  "mechanicProfileId": 0,<br>  "title": "string",<br>  "description": "string",<br>  "priceMin": 0,<br>  "priceMax": 0,<br>  "categoryId": 0<br> },                   | {  "id": 0,<br>  "mechanicProfileId": 0,<br>  "title": "string",<br>  "description": "string",<br>  "minimumPrice": 0,<br>  "maximumPrice": 0,<br>  "status": "string",<br>  "category": {    "id": 0,<br>    "name": "string"<br> },,<br>  "tags": [    {      "id": 0,<br>      "name": "string"}  ],<br>  "images": [    {      "id": 0,<br>      "imageUrl": "string"}  ]}                                                         |
+| `/api/v1/services/{serviceId}/tags`                               |        POST | Add tag to service                  | {  "tagId": 2<br> },                                                                                                                                         | {  "id": 0,<br>  "mechanicProfileId": 0,<br>  "title": "string",<br>  "description": "string",<br>  "minimumPrice": 0,<br>  "maximumPrice": 0,<br>  "status": "string",<br>  "category": {    "id": 0,<br>    "name": "string"<br> },,<br>  "tags": [    {      "id": 0,<br>      "name": "string"}  ],<br>  "images": [    {      "id": 0,<br>      "imageUrl": "string"}  ]}                                                         |
+| `/api/v1/services/{serviceId}/deactivate`                         |       PATCH | Deactivate service                  | None                                                                                                                                                                    | {  "id": 0,<br>  "mechanicProfileId": 0,<br>  "title": "string",<br>  "description": "string",<br>  "minimumPrice": 0,<br>  "maximumPrice": 0,<br>  "status": "string",<br>  "category": {    "id": 0,<br>    "name": "string"<br> },,<br>  "tags": [    {      "id": 0,<br>      "name": "string"}  ],<br>  "images": [    {      "id": 0,<br>      "imageUrl": "string"}  ]}                                                         |
+| `/api/v1/users/{id}`                                              |         PUT | Update user                         | {  "name": "string",<br>  "email": "string",<br>  "profilePicture": "string"<br> },                                                                              | {  "id": 0,<br>  "email": "string",<br>  "fullName": "string",<br>  "profilePicture": "string",<br>  "role": "string"<br> },                                                                                                                                                                                                                                                                                                                         |
+| `/api/v1/users/{id}/change-password`                              |       PATCH | Change user password                | {  "currentPassword": "string",<br>  "newPassword": "string"<br> },                                                                                            | `{}`                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| `/api/v1/users`                                                   |         GET | Get all users                       | None                                                                                                                                                                    | [  {    "id": 0,<br>    "email": "string",<br>    "fullName": "string",<br>    "profilePicture": "string",<br>    "role": "string"<br> },]                                                                                                                                                                                                                                                                                                     |
+| `/api/v1/users/{userId}`                                          |         GET | Get user by id                      | None                                                                                                                                                                    | {  "id": 0,<br>  "email": "string",<br>  "fullName": "string",<br>  "profilePicture": "string",<br>  "role": "string"<br> },                                                                                                                                                                                                                                                                                                                         |
+| `/api/v1/authentication/sign-up`                                  |        POST | Sign up                             | {  "email": "tri@gmail.com",<br>  "password": "1111",<br>  "fullName": "11111",<br>  "phoneNumber": "string",<br>  "role": "ROLE_DRIVER"<br> },                      | {  "id": 0,<br>  "email": "string",<br>  "fullName": "string",<br>  "profilePicture": "string",<br>  "role": "string"<br> },                                                                                                                                                                                                                                                                                                                         |
+| `/api/v1/authentication/sign-in`                                  |        POST | Sign in                             | {  "email": "tri@gmail.com",<br>  "password": "1111"<br> },                                                                                                    | {  "id": 0,<br>  "email": "string",<br>  "token": "string"<br> },                                                                                                                                                                                                                                                                                                                                                                                |
+| `/api/v1/tags`                                                    |         GET | Get all tags                        | None                                                                                                                                                                    | [  {    "id": 0,<br>    "name": "string"<br> },]                                                                                                                                                                                                                                                                                                                                                                                         |
+| `/api/v1/tags`                                                    |        POST | Create tag                          | {  "id": 3,<br>  "name": "camionetas"<br> },                                                                                                                   | {  "id": 0,<br>  "name": "string"<br> },                                                                                                                                                                                                                                                                                                                                                                                                       |
+| `/api/v1/service-images/{serviceId}`                              |        POST | Upload service image                | {  "imageUrl": "string"<br> },                                                                                                                               | {  "id": 0,<br>  "imageUrl": "string"<br> },                                                                                                                                                                                                                                                                                                                                                                                                   |
+| `/api/v1/categories`                                              |         GET | Get all categories                  | None                                                                                                                                                                    | [  {    "id": 0,<br>    "name": "string"<br> },]                                                                                                                                                                                                                                                                                                                                                                                         |
+| `/api/v1/categories`                                              |        POST | Create category                     | {  "id": 0,<br>  "name": "string"<br> },                                                                                                                       | {  "id": 0,<br>  "name": "string"<br> },                                                                                                                                                                                                                                                                                                                                                                                                       |
+| `/api/v1/search?keyword=...`                                      |         GET | Search services                     | Query param: `keyword`                                                                                                                                                  | [  {    "id": 0,<br>    "mechanicProfileId": 0,<br>    "title": "string",<br>    "description": "string",<br>    "minimumPrice": 0,<br>    "maximumPrice": 0,<br>    "status": "string",<br>    "category": {      "id": 0,<br>      "name": "string"},<br>    "tags": [      {        "id": 0,<br>        "name": "string"<br>      }    ],<br>    "images": [      {        "id": 0,<br>        "imageUrl": "string"<br>      }    ]  }] |
+
+
 #### 4.2.1.7. Software Deployment Evidence for Sprint Review
 
+En esta entega se realizó el despliegue de la Landing Page por medio de Github Pages, a continuación se explica el proceso y lo que se consiguió:
+
+<img src="assets/images/github-landing.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
+
+<img src="assets/images/landing%20image.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
+
+
+Link a Landing Page: [Landing Page](https://mobilflow.github.io/Landing_Page/)
+
 #### 4.2.1.8. Team Collaboration Insights during Sprint
+
+**BACKEND**
+
+<img src="assets/images/backend-collaboration-tb1.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
+
+**FRONTEND**
+
+<img src="assets/images/front-end-collaboration-tb1.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
+
+**LANDING PAGE**
+
+<img src="assets/images/landing-page-collaboration-tb1.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
 ## 4.3. Validation Interviews
 
 ### 4.3.1. Diseño de Entrevistas
 
+**Drivers**
+
+1. Cuando ves este landing page, ¿cómo describirías con tus propias palabras qué servicio ofrece y para qué sirve?  
+2. ¿En qué situaciones de tu vida cotidiana crees que este tipo de servicio te sería realmente útil y por qué?  
+3. ¿Qué partes del mensaje o propuesta de valor te generan más confianza o interés, y cuáles te generan dudas?  
+4. Si tuvieras un problema con tu coche, ¿qué te haría elegir esta plataforma en lugar de buscar un mecánico por tu cuenta?  
+5. ¿Qué te faltaría ver o entender en esta propuesta para sentirte seguro/a de usarla por primera vez?
+
+**Mechanics**
+
+6. Al ver este landing page, ¿cómo interpretas la oportunidad que se te está ofreciendo como mecánico?  
+7. ¿Qué tan relevante o atractiva te resulta la idea de conseguir clientes a través de una plataforma como esta, y por qué?  
+8. ¿Qué preocupaciones o posibles desventajas te vienen a la mente al pensar en registrarte y recibir clientes desde aquí?  
+9. ¿Qué elementos del proceso (registro, visibilidad, reputación, tarifas, etc.) podrían frenar tu decisión de unirte?  
+10. ¿Qué tendría que ofrecerte esta plataforma para que sientas que realmente vale la pena formar parte como profesional?
+
 ### 4.3.2. Registro de Entrevistas
 
+### **Entrevista N°1 \- Carlo García (Mecanico)**
+
+
+<img src="assets/entrevistas/validation/carlo.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
+
+[https://youtu.be/B4hnR9BDWMM?si=AIC3NA5ajjrEQCD-](https://youtu.be/B4hnR9BDWMM?si=zwVkHRp-ZnaLYuio)
+
+#### **Datos del entrevistado**
+
+Nombre: Carlo  
+Apellidos: García  
+Género: Hombre  
+Ocupación: Mecánico / relacionado al rubro automotriz 
+
+**Información de la entrevista**  
+Duración: 1:58  
+Minuto de inicio en el video consolidado: 0:00
+
+#### **Resumen de la entrevista:**
+
+Las respuestas de Carlo reflejan una percepción positiva hacia la propuesta de la plataforma Automatch, especialmente en relación con la facilidad para captar nuevos clientes y mejorar la visibilidad del servicio mecánico. Considera que la plataforma puede ayudar a generar una experiencia más personalizada y a fortalecer la confianza entre mecánicos y clientes, lo cual ve como un valor importante dentro del sector.
+
+También menciona que la idea de un sistema estructurado de reservas y gestión de servicios podría aumentar significativamente la cartera de clientes y optimizar los procesos de trabajo. Sin embargo, enfatiza la importancia de que la plataforma sea clara, amigable y fácil de usar, tanto para mecánicos como para clientes, incluyendo guías o manuales que faciliten la navegación.
+
+Además, señala que su decisión de uso dependería de factores como la reputación dentro de la plataforma (ratings) y posibles mecanismos de asociación o visibilidad que impulsen su presencia. Para él, el principal valor de la herramienta estaría en combinar captación de clientes con confianza, organización y crecimiento profesional dentro de la plataforma.
+
+### **Entrevista N°2 \- Luciana (Conductora)**
+
+<img src="assets/entrevistas/validation/luciana.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
+
+[https://youtu.be/B4hnR9BDWMM?si=AIC3NA5ajjrEQCD-](https://youtu.be/B4hnR9BDWMM?si=zwVkHRp-ZnaLYuio)
+
+#### **Datos del entrevistado**
+
+Nombre: Luciana  
+Apellidos: Ochoa  
+Género: Mujer  
+Ocupación: Estudiante Universitaria
+
+#### **Información de la entrevista**
+
+####  Duración: 02:01 Minuto de inicio en el video consolidado: 1:58
+
+#### **Resumen de la entrevista:**
+
+Las respuestas de Luciana reflejan que el principal valor de la plataforma Automatch para los conductores es la facilidad para encontrar mecánicos cuando no se cuenta con contactos de confianza. Señala que en situaciones cotidianas donde el vehículo presenta fallas, este tipo de servicio sería especialmente útil para personas que no tienen una red establecida de talleres o mecánicos.
+
+Menciona que la landing page le genera una primera impresión positiva, ya que permite entender claramente el propósito del servicio. También valora la inclusión de explicaciones del funcionamiento y testimonios de otros usuarios, lo que le genera mayor confianza. Sin embargo, expresa cierta duda respecto a los sistemas de rating, ya que no le queda completamente claro su confiabilidad.
+
+Asimismo, indica que una funcionalidad importante sería la posibilidad de ubicar mecánicos cercanos, ya que la distancia puede ser un factor limitante en la elección del servicio. En general, considera que la plataforma le resultaría útil porque actúa como un intermediario entre conductores y mecánicos, facilitando el acceso a servicios confiables.
+
+### **Entrevista N°3 \- Anedyib (conductora)**
+
+<img src="assets/entrevistas/validation/ane.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
+
+
+[https://youtu.be/B4hnR9BDWMM?si=AIC3NA5ajjrEQCD-](https://youtu.be/B4hnR9BDWMM?si=zwVkHRp-ZnaLYuio)
+
+#### **Datos del entrevistado**
+
+Nombre: Anedyib   
+Apellidos: Villar  
+Género: Mujer  
+Ocupación: Estudiante Universitaria
+
+#### **Información de la entrevista**  Duración: 1:15  Minuto de inicio en el video consolidado: 04:00
+
+#### **Resumen de la entrevista:**
+
+Las respuestas de la entrevistada reflejan que la plataforma Automatch le resulta útil principalmente por la posibilidad de encontrar mecánicos sin depender únicamente del boca a boca o de concesionarias, las cuales considera costosas. Valora que exista una plataforma que centralice la búsqueda de servicios automotrices y facilite el acceso a opciones más confiables.
+
+Sin embargo, expresa una preocupación importante relacionada con la confianza en la calidad de los mecánicos, ya que le preocupa que la información o evaluación de la plataforma no refleje correctamente la realidad del servicio. Esto representa una barrera para su decisión de uso inicial.
+
+También menciona que para sentirse más segura necesitaría información más detallada de los mecánicos, como su experiencia previa, proyectos realizados o incluso una presentación más visual de su trabajo. En general, considera que la plataforma tiene potencial porque organiza y simplifica la búsqueda de mecánicos, pero requiere reforzar la transparencia y la validación de los profesionales para generar mayor confianza.
+
+### **Entrevista N°4 \- Juan (Mecanico)**
+
+<img src="assets/entrevistas/validation/juan.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
+
+
+[https://youtu.be/GLO42kKzqNI](https://youtu.be/GLO42kKzqNI)
+
+**Datos del entrevistado:**
+
+Nombre: Juan  
+Apellidos: Davila  
+Género: Hombre  
+Ocupación: Trabajador de taller mecanico, area logistica
+
+#### **Resumen de la entrevista:**
+
+Las respuestas de Juan reflejan que el principal valor de la plataforma para los mecánicos es facilitar la conexión con clientes en un contexto donde el público ya está habituado a los servicios tecnológicos. Valora positivamente que la landing page sea clara y esté bien presentada, lo que le genera confianza inicial.
+
+Juan considera que la aceptación de la plataforma dependerá en gran medida de dos factores clave: la disposición de los clientes a compartir su información personal y una buena gestión interna por parte del taller. Señala que la reputación basada en valoraciones de clientes puede ser un incentivo para mejorar la calidad del servicio, aunque deja claro que el éxito final recae en el esfuerzo del propio mecánico, no solo en la plataforma.
+
+Expresa que la negociación de tarifas sigue siendo un punto sensible en el sector, y valora que la plataforma pueda ayudar a transparentar y agilizar ese proceso. También destaca como positivo el registro digital previo, ya que permite describir el problema del vehículo y facilita un diagnóstico más rápido por parte del mecánico.
+
+Como mejora fundamental, Juan sugiere incorporar funciones de comunicación directa como un chat, ya que considera que fortalecer la relación cliente-mecánico más allá de la mera conexión inicial sería un diferencial clave para generar confianza y fidelización. En términos generales, considera que la plataforma está bien pensada y solo requiere ajustes para mejorar la interacción directa.
+
 ### 4.3.3. Evaluaciones según heurísticas
+
+**UX Heuristics & Principles Evaluation**  
+ **Usability \- Inclusive Design \- Information Architecture**
+
+**CARRERA:** Ingeniería de Software  
+ **CURSO:** 1acc0238 Aplicaciones para dispositivos móviles  
+ **SECCIÓN:** No proporcionado  
+ **PROFESORES:** Todos  
+ **AUDITOR:** No proporcionado  
+ **CLIENTE(S):** Carlos García; Lu / Luciana (según la transcripción); Jeip
+
+**SITE o APP A EVALUAR:** AutoMatch
+
+#### **TAREAS A EVALUAR**
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Entender qué ofrece AutoMatch y para qué sirve.  
+2. Buscar mecánicos cercanos.  
+3. Revisar perfiles, ratings y testimonios de mecánicos.  
+4. Contactar o solicitar información a un mecánico.  
+5. Usar el formulario de contacto de la landing page.
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1. Registro completo dentro de la app.  
+2. Gestión interna de mecánicos.  
+3. Reservas avanzadas o pagos dentro del flujo completo.  
+4. Compartir servicios entre usuarios.  
+5. Funciones no visibles en la landing page revisada.
+
+#### **ESCALA DE SEVERIDAD**
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+**1** Problema superficial: Puede ser fácilmente superado por el usuario y ocurre con muy poca frecuencia.  
+ **2** Problema menor: Puede ocurrir con más frecuencia o ser un poco más difícil de superar.  
+ **3** Problema mayor: Ocurre frecuentemente o los usuarios no son capaces de resolverlo.  
+ **4** Problema muy grave: Un error de gran impacto que impide continuar con el uso de la herramienta.
+
+#### **TABLA RESUMEN**
+
+| \# | Problema | Escala de severidad | Heurística/Principio violado(a) |
+| ----- | ----- | ----- | ----- |
+| 1 | No se muestran perfiles detallados de mecánicos que permitan evaluar experiencia, especialidad o trabajos previos | 3 | Usability: Match between system and the real world |
+| 2 | Las calificaciones y testimonios generan interés, pero no explican cómo se validan o qué significan exactamente | 2 | Usability: Visibility of system status |
+| 3 | La landing page no guía con suficiente claridad hacia el siguiente paso principal del usuario | 2 | Information Architecture: Is it usable? |
+
+#### **DESCRIPCIÓN DE PROBLEMAS**
+
+##### **PROBLEMA \#1: No se muestran perfiles detallados de mecánicos que permitan evaluar experiencia, especialidad o trabajos previos**
+
+**Severidad:** 3  
+ **Heurística violada:** Usability \- Match between system and the real world
+
+**Problema:**  
+ Los entrevistados expresan que para confiar en un mecánico necesitan ver más información concreta, como su rostro, experiencia, proyectos previos o especialidad. En la landing page sí se muestran referencias generales, pero no perfiles detallados que permitan comparar y decidir con seguridad antes de contactar a un profesional.
+
+**Recomendación:**  
+Agregar tarjetas o secciones de perfil con foto del mecánico, especialidad, años de experiencia, trabajos previos, calificación y verificación. Esto ayudaría a que el usuario compare opciones de forma más parecida a cómo elige un servicio en la vida real.
+
+
+##### **PROBLEMA \#2: Las calificaciones y testimonios generan interés, pero no explican cómo se validan o qué significan exactamente**
+
+**Severidad:** 2  
+**Heurística violada:** Usability \- Visibility of system status
+
+**Problema:**  
+ La landing page muestra métricas como “4.8” y “100% response rate”, además de testimonios. Sin embargo, desde la perspectiva del usuario no queda claro cómo se obtienen esos valores, cuántas personas los respaldan ni si los mecánicos están realmente verificados. Eso puede generar dudas, tal como se observa en las entrevistas.
+
+**Recomendación:**  
+Explicar de forma breve qué significa cada métrica, cómo se calculan los ratings y cuál es el criterio de validación de los testimonios. También sería útil mostrar el número de reseñas o una etiqueta de verificación visible.
+
+#### **PROBLEMA \#3: La landing page no guía con suficiente claridad hacia el siguiente paso principal del usuario**
+
+**Severidad:** 2  
+ **Heurística violada:** Information Architecture \- Is it usable?
+
+**Problema:**  
+ La página presenta varias secciones informativas, pero no deja completamente claro cuál es la acción principal que debe realizar el usuario después de entender el servicio. Hay botones como “Download App”, “Learn more” y “Submit”, pero no una ruta visual muy directa para pasar de la información a la acción concreta de buscar o contactar a un mecánico.
+
+**Recomendación:**  
+ Definir un CTA principal más claro, por ejemplo “Buscar mecánico ahora”, y organizar el flujo en pasos simples: buscar, comparar, contactar y reservar o solicitar información. Eso ayudaría a reducir la confusión inicial.
 
 # Conclusiones
 
