@@ -41,6 +41,9 @@
 **AV1:**
 ![pcav1](assets/project%20collaboration/av1.png)
 
+**TB1:**
+![pcav1](assets/project%20collaboration/tb1.png)
+
 
 # Registro de Versiones del Informe
 
@@ -3025,10 +3028,6 @@ Explicar de forma breve qué significa cada métrica, cómo se calculan los rati
 Asociación Automotriz del Perú. (2023). *Parque automotor peruano y tendencias del sector*. https://aap.org.pe/
 
 Instituto Nacional de Estadística e Informática. (2023). *Estadísticas de servicios y actividades económicas en el Perú*. https://www.inei.gob.pe/
-
-
-
-
 
 # Anexos
 
