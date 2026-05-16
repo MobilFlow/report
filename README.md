@@ -54,7 +54,7 @@
 | 1.0     | 23/04/2026 | Braulio Rodrigo Torrejon Navarro | Cargo archivos, entrevistas, user stories, candidate context discovery, domain message flow modeling, bounded context canvases, software architecture y impact mapping |
 | 1.0     | 23/04/2026 | Giussepe Taquiri             | Cargó archivos, correcciones del AV1, desarrollo de la API de Reputation CRUD, Product Design, Style Guidelines, Information Architecture, Organization Systems, Labelling Systems, SEO Tags and Meta Tags, Searching Systems, Navigation Systems, Software Configuration Management, Software Development Environment Configuration, Source Code Management, Source Code Style Guide & Conventions y Software Deployment Configuration. |
 | 1.0     | 23/04/2026 | Liam Villugas          | Antecedentes y problematica, Lean UX Canvas, Lean UX Hypothesis Statements, Lean UX Assumptions, Lean UX Problem Statements y Context mapping |
-| 2.0     | 14/04/2026 | Gabriel Sanchez          | Correcciones del AV1, desarrollo de la API de geolocalización CRUD, desarrollo de la API de IAM CRUD, desarrollo del sprint planning 1, desarrollo del sprint backlog 1, desarrollo del development evidence for sprint review, desarrollo del testing suite evidence for sprint review, desarrollo de execution evidence for sprint review, desarrollo de servicios, services documentation evidence for sprint review, preguntas para validation interviews, registro de 3 validation interviews, desarrollo de evaluación según heuristicas, Pantallas de IAM (Login, Sign Up) |
+| 2.0     | 14/04/2026 | Gabriel Sanchez          | Correcciones del AV1, desarrollo de la API de geolocalización CRUD, desarrollo de la API de IAM CRUD, desarrollo del sprint planning 1, desarrollo del sprint backlog 1, desarrollo del development evidence for sprint review, desarrollo del testing suite evidence for sprint review, desarrollo de execution evidence for sprint review, desarrollo de servicios, services documentation evidence for sprint review, preguntas para validation interviews, registro de 3 validation interviews, desarrollo de evaluación según heuristicas, Pantallas de IAM (Login, Sign Up), Backend Desplegado |
 | 2.0     | 14/04/2026 | Romina Tuesta          | UX/UI Design, Landing Page, Navegación General de Mobile, Despliege de Landing Page, RequestServiceDriver, ScheduleScreen y SearchDriverScreen, DriverProfileView, MechanicHistoryScreen, MechanicRequestScreen |
 | 2.0     | 14/04/2026 | Giussepe Taquiri         | Pantallas de Reviews y request de mechanics, API CRUD de Calificación y Reputación, Correciones AV1  |
 | 2.0     | 14/04/2026 | Liam Villugas         | Pantallas de vista conductor y perfil conductor, API CRUD de Manejo de Servicios  |
@@ -2874,6 +2874,23 @@ En esta entega se realizó el despliegue de la Landing Page por medio de Github 
 
 Link a Landing Page: [Landing Page](https://mobilflow.github.io/Landing_Page/)
 
+
+Ademas, se entrego el deployment del backend a partir de Azure y Render
+
+Base de Datos MySQL en Azure:
+
+<img src="assets/images/azure.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
+
+Backend en Render:
+
+*Cada vez que se prenda el backend tiene un tiempo de demora de alrededor de 1 minuto a 3 minutos*
+
+Link a Backend: [Link Backend](https://back-end-automatch1.onrender.com)
+
+Link a Swagger de Backend: [Link a Swagger de Backend](https://back-end-automatch1.onrender.com/swagger-ui/index.html#/)
+
+<img src="assets/images/backend-onrender.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
+
 #### 4.2.1.8. Team Collaboration Insights during Sprint
 
 **BACKEND**
@@ -3142,6 +3159,9 @@ Entrevista:
 [Entrevista App Moviles.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310609_upc_edu_pe/IQCiDe1DPL8sSrLgZHVSbiiNASFOLEMg63PK2nBlIJpFs6E?e=NNQS9v&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) 
 
 
+Link a Backend: [Link Backend](https://back-end-automatch1.onrender.com)
+
+Link a Swagger de Backend: [Link a Swagger de Backend](https://back-end-automatch1.onrender.com/swagger-ui/index.html#/)
 
 Github Reporte:
 [Link a repositorio de reporte en github](https://github.com/MobilFlow)
