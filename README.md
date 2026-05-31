@@ -7,7 +7,7 @@
 <strong>Facultad de Ingeniería</strong><br>
 <strong>Carrera: Ingeniería de Software</strong><br>
 
-<strong>Periodo:</strong> 202601<br>
+<strong>Periodo:</strong> 202610<br>
 <strong>Codigo del curso:</strong> 1ACC0238<br>
 <strong>Nombre del curso:</strong> Aplicaciones para Dispositivos Móviles<br>
 <strong>NRC:</strong> 3690<br>
