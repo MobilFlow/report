@@ -59,7 +59,11 @@
 | 2.0     | 14/04/2026 | Giussepe Taquiri         | Pantallas de Reviews y request de mechanics, API CRUD de Calificación y Reputación, Correciones AV1  |
 | 2.0     | 14/04/2026 | Liam Villugas         | Pantallas de vista conductor y perfil conductor, API CRUD de Manejo de Servicios  |
 | 2.0     | 14/04/2026 | Braulio Torrejon         | Pantallas de vistas de mecanico (Perfil y Home), API CRUD de Catalogo de Servicios, Correciones AV1  |
-
+| 3.0     | 21/06/2026 | Gabriel Sanchez          |  |
+| 3.0     | 21/06/2026 | Romina Tuesta            | UX/UI  |
+| 3.0     | 21/06/2026 | Giussepe Taquiri         | Desarrollo e integración del módulo de Calificación y Reputación, implementación de endpoints de reviews, ratings y reputation summary, conexión de las pantallas de reputación con el backend, integración del perfil de mecánico con datos reales de la API, visualización de reseñas y calificaciones, validación del flujo de perfiles de conductor |
+| 3.0     | 21/06/2026 | Liam Villugas            |  |
+| 3.0     | 21/06/2026 | Braulio Torrejon         | |
 
 <div style="page-break-after: always;"></div>
 
@@ -337,17 +341,8 @@
       - [4.2.1.6. Services Documentation Evidence for Sprint Review](#4216-services-documentation-evidence-for-sprint-review)
       - [4.2.1.7. Software Deployment Evidence for Sprint Review](#4217-software-deployment-evidence-for-sprint-review)
       - [4.2.1.8. Team Collaboration Insights during Sprint](#4218-team-collaboration-insights-during-sprint)
-    - [4.3.1. Sprint 2](#431-sprint-2)
-      - [4.3.1.1. Sprint Planning 2](#4311-sprint-planning-2)
-      - [4.3.1.2. Sprint Backlog 2](#4312-sprint-backlog-2)
-      - [4.3.1.3. Development Evidence for Sprint Review](#4313-development-evidence-for-sprint-review)
-      - [4.3.1.4. Testing Suite Evidence for Sprint Review](#4314-testing-suite-evidence-for-sprint-review)
-      - [4.3.1.5. Execution Evidence for Sprint Review](#4315-execution-evidence-for-sprint-review)
-      - [4.3.1.6. Services Documentation Evidence for Sprint Review](#4316-services-documentation-evidence-for-sprint-review)
-      - [4.3.1.7. Software Deployment Evidence for Sprint Review](#4317-software-deployment-evidence-for-sprint-review)
-      - [4.3.1.8. Team Collaboration Insights during Sprint](#4318-team-collaboration-insights-during-sprint)
-  - [4.4. Validation Interviews](#44-validation-interviews)
-    - [4.4.1. Diseño de Entrevistas](#441-diseño-de-entrevistas)
+  - [4.3. Validation Interviews](#43-validation-interviews)
+    - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
     - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
     - [**Entrevista N°1 - Carlo García (Mecanico)**](#entrevista-n1---carlo-garcía-mecanico)
       - [**Datos del entrevistado**](#datos-del-entrevistado)
@@ -363,7 +358,7 @@
       - [**Resumen de la entrevista:**](#resumen-de-la-entrevista-2)
     - [**Entrevista N°4 - Juan (Mecanico)**](#entrevista-n4---juan-mecanico)
       - [**Resumen de la entrevista:**](#resumen-de-la-entrevista-3)
-    - [4.4.3. Evaluaciones según heurísticas](#443-evaluaciones-según-heurísticas)
+    - [4.3.3. Evaluaciones según heurísticas](#433-evaluaciones-según-heurísticas)
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
@@ -392,8 +387,15 @@ tecnologías de ingeniería de software
 
 | **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
 | :---- | :---- | :---- |
-| **Criterio 1:** Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de ingeniería de software | **Gabriel Sanchez** <br><br> **AV1:** Descripción del startup; entrevistas a usuarios; diseño de user personas; elaboración de empathy mapping; definición de ubiquitous language; creación del product backlog; desarrollo de event storming <br><br> **TB1:**  Apliqué la actualización de mis conocimientos mediante la corrección del AV1 y el desarrollo de APIs CRUD como IAM y geolocalización, fortaleciendo mis habilidades en backend y arquitectura de servicios. También reforcé mi aprendizaje con la planificación del sprint, evidencias de desarrollo y testing, validaciones mediante entrevistas y evaluación de heurísticas dentro del proyecto de ingeniería de software. <br><br> **Braulio Torrejon** <br><br> **AV1:** Cargo archivos; entrevistas a usuarios; elaboración de user stories; candidate context discovery; domain message flow modeling; bounded context canvases; definición de software architecture; desarrollo de impact mapping <br><br> **Romina Tuesta** <br><br> **AV1:** Realicé todo el punto 2.6 diagrama de clase, base de datos y contenedores C4 y la estructuración de layers. **TP:** He podido ampliar mis conocimientos en desarrollo movil, con el desarollo de diferentes vistas, pantallas, navegación, etc. <br><br> **Giussepe Taquiri** <br><br> **AV1:** Análisis competitivo; definición de estrategias y tácticas frente a competidores; elaboración de User Task Matrix; desarrollo de User Journey Mapping <br><br> **TB1:** Desarrollo de Product Design, Style Guidelines, Information Architecture, Organization Systems, Labelling Systems, SEO Tags and Meta Tags, Searching Systems, Navigation Systems, Software Configuration Management, Software Development Environment Configuration, Source Code Management, Source Code Style Guide & Conventions y Software Deployment Configuration. <br><br> **Liam Villugas** <br><br> **AV1:** entrevistas a mecanicos; Elaboracion de Antecedentes y problematica; Lean UX Problem Statements; Lean UX Assumptions; Lean UX Hypothesis Statements; Lean UX Canvas; desarrollo de Context mapping <br><br> **TB1:** Realicé entrevistas a mecánicos para análisis de requerimientos, desarrollo de servicios backend enfocados en service request (CRUD y lógica de solicitudes), desarrollo de vistas frontend para conductores, implementación de pantallas de solicitud de servicio y seguimiento, validación de flujos de usuario conductor, registro de hallazgos en entrevistas, y documentación técnica de los servicios implementados. <br>| **Gabriel Sanchez** <br><br> **AV1:** Durante este avance desarrollé la descripción completa del startup, realicé entrevistas a usuarios, diseñé user personas y empathy maps, construí el ubiquitous language, elaboré el product backlog y llevé a cabo el event storming.<br><br> **TB1:** En este avance desarrolle correcciones del AV1, desarrollo de la API de geolocalización CRUD, desarrollo de la API de IAM CRUD, desarrollo del sprint planning 1, desarrollo del sprint backlog 1, desarrollo del development evidence for sprint review, desarrollo del testing suite evidence for sprint review, desarrollo de execution evidence for sprint review, desarrollo de servicios, services documentation evidence for sprint review, preguntas para validation interviews, registro de 3 validation interviews, desarrollo de evaluación según heuristicas <br><br> **Braulio Torrejon** <br><br> **AV1:** En este avance consolidé la arquitectura del proyecto mediante entrevistas, user stories y modelado de contextos. Implementé diagramas de flujo de mensajes y bounded contexts, definiendo la arquitectura de software y el impact mapping, lo que permitió dar claridad técnica y trazabilidad al proyecto. <br><br> **Romina Tuesta** <br><br> **AV1:** En este avance pude conocer más acerca de la estructura de los bounded context, realizando los layers como domain, interface, etc., además de adentrarme más a los contenedores de cada bounded. <br><br> **Giussepe Taquiri** <br><br> **AV1:** Durante este avance desarrollé el análisis competitivo y definí estrategias y tácticas frente a los competidores. Asimismo, elaboré el User Task Matrix y los User Journey Maps, aplicando herramientas de análisis UX para comprender mejor las necesidades del usuario y contribuir a la solución del proyecto.<br><br> **TB1:** En este avance fortalecí mis conocimientos en diseño UI/UX, organización de información y configuración de proyectos de software mediante el desarrollo de arquitecturas de navegación, sistemas de etiquetado, gestión de código fuente y configuración de despliegue. Esto me permitió mejorar mis habilidades en documentación técnica y organización de soluciones móviles. <br><br> **Liam Villugas**  <br><br> **AV1:** En este avance consolidé la visión estratégica y técnica de AutoMatch mediante el uso de Lean UX y Domain-Driven Design (DDD). Al integrar las entrevistas a mecánicos con el modelado de Bounded Contexts, logré alinear los objetivos de negocio de MobilFlow con una arquitectura de software escalable. Este proceso me permitió aplicar conocimientos avanzados en ingeniería de software para garantizar la trazabilidad y la correcta delimitación de dominios en la solución.<br><br> **TB1:** Apliqué la actualización de mis conocimientos mediante la realización de entrevistas a mecánicos para el análisis de requerimientos, el desarrollo de servicios backend enfocados en service request (solicitudes de servicio), y la implementación de vistas frontend para conductores en la aplicación móvil. Fortalecí mis habilidades en  diseño de interfaces centradas en el usuario conductor dentro de la app movil Automatch.  |
-| **Criterio 2:** Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de tecnologías de ingeniería de software | **Gabriel Sanchez** <br><br>**Gabriel Sanchez** <br><br> **AV1:** Descripción del startup; entrevistas a usuarios; diseño de user personas; elaboración de empathy mapping; definición de ubiquitous language; creación del product backlog; desarrollo de event storming **TB1:** Correcciones del AV1, desarrollo de la API de geolocalización CRUD, desarrollo de la API de IAM CRUD, desarrollo del sprint planning 1, desarrollo del sprint backlog 1, desarrollo del development evidence for sprint review, desarrollo del testing suite evidence for sprint review, desarrollo de execution evidence for sprint review, desarrollo de servicios, services documentation evidence for sprint review, preguntas para validation interviews, registro de 3 validation interviews, desarrollo de evaluación según heuristicas<br><br> **Braulio Torrejon** <br><br> **AV1:** Cargo archivos; entrevistas a usuarios; elaboración de user stories; candidate context discovery; domain message flow modeling; bounded context canvases; definición de software architecture; desarrollo de impact mapping <br><br> **Romina Tuesta** <br><br> **AV1:** En este avance pude conocer más acerca de la estructura de los bounded context, realizando los layers como domain, interface, etc., además de adentrarme más a los contenedores de cada bounded. <br><br> **Giussepe Taquiri** <br><br> **AV1:** Análisis competitivo; estrategias y tácticas frente a competidores; User Task Matrix; User Journey Mapping; uso de herramientas de análisis y gestión <br><br> **Liam Villugas** <br><br> **AV1:**  entrevistas a mecanicos; Elaboracion de Antecedentes y problematica; Lean UX Problem Statements; Lean UX Assumptions; Lean UX Hypothesis Statements; Lean UX Canvas; desarrollo de Context mapping <br><br> **TB1:** Realicé entrevistas a mecánicos para análisis de requerimientos, desarrollo de servicios backend enfocados en service request (CRUD y lógica de solicitudes), desarrollo de vistas frontend para conductores, implementación de pantallas de solicitud de servicio y seguimiento, validación de flujos de usuario conductor, registro de hallazgos en entrevistas, y documentación técnica de los servicios implementados. | **Gabriel Sanchez** <br><br> **AV1:** Este proceso evidenció que el desarrollo de soluciones de software exige aprendizaje constante. Comprendí que debo seguir actualizándome y explorando nuevas metodologías y tecnologías para mejorar la calidad y efectividad de mis proyectos. <br> **TB1:**Apliqué el aprendizaje permanente al reforzar continuamente mis conocimientos durante el desarrollo del proyecto, investigando y mejorando mis habilidades en APIs, arquitectura de microservicios y pruebas. Esto me permitió adaptarme a nuevas necesidades del sistema y mejorar la calidad de las soluciones implementadas en cada entrega del proyecto de ingeniería de software. <br><br> **Braulio Torrejon** <br><br> **AV1:** Este proceso me permitió reconocer que la construcción de arquitecturas sólidas requiere aprendizaje continuo. La integración de técnicas como EventStorming, DMFM y bounded contexts evidenció la necesidad de seguir perfeccionando metodologías y herramientas para lograr soluciones escalables y auditables. <br><br> **Romina Tuesta** <br><br> **AV1:** Lo realizado en esta entrega refuerza la necesidad de obtener más conocimiento para llegar a la vida profesional preparados y listos para aplicar lo aprendido. <br><br> **Giussepe Taquiri** <br><br> **AV1:** Este avance me permitió reconocer la importancia del aprendizaje continuo en el desarrollo de soluciones tecnológicas. A través del análisis competitivo y herramientas UX, comprendí la necesidad de actualizar constantemente mis conocimientos para adaptarme a nuevas tecnologías y metodologías en ingeniería de software. <br><br> **Liam Villugas** <br><br> **AV1:** El desarrollo de AutoMatch evidencia que la ingeniería de software exige un aprendizaje permanente para dominar marcos como Lean UX y DDD. La complejidad del ecosistema de MobilFlow reafirma que la actualización constante en metodologías y arquitecturas es indispensable para resolver problemas reales y mantener la competitividad profesional en el diseño de soluciones tecnológicas.<br><br> **TB1:**  Apliqué el aprendizaje permanente al investigar continuamente sobre buenas prácticas en desarrollo de servicios REST, manejo eficiente de solicitudes (service request), y diseño de interfaces móviles para conductores. Durante el desarrollo del proyecto, reforcé mis competencias en tecnologías backend y frontend, adaptándome a nuevos requerimientos surgidos de las entrevistas con mecánicos y mejorando la calidad de las vistas del conductor en cada iteración de la app movil. |
+| **Criterio 1:** Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de ingeniería de software | **Gabriel Sanchez** <br><br> **AV1:** Descripción del startup; entrevistas a usuarios; diseño de user personas; elaboración de empathy mapping; definición de ubiquitous language; creación del product backlog; desarrollo de event storming <br><br> **TB1:** Apliqué la actualización de mis conocimientos mediante la corrección del AV1 y el desarrollo de APIs CRUD como IAM y geolocalización, fortaleciendo mis habilidades en backend y arquitectura de servicios. También reforcé mi aprendizaje con la planificación del sprint, evidencias de desarrollo y testing, validaciones mediante entrevistas y evaluación de heurísticas dentro del proyecto de ingeniería de software. <br><br> **Braulio Torrejon** <br><br> **AV1:** Cargo archivos; entrevistas a usuarios; elaboración de user stories; candidate context discovery; domain message flow modeling; bounded context canvases; definición de software architecture; desarrollo de impact mapping <br><br> **Romina Tuesta** <br><br> **AV1:** Realicé todo el punto 2.6 diagrama de clase, base de datos y contenedores C4 y la estructuración de layers. **TP:** He podido ampliar mis conocimientos en desarrollo movil, con el desarollo de diferentes vistas, pantallas, navegación, etc. <br><br> **Giussepe Taquiri** <br><br> **AV1:** Análisis competitivo; definición de estrategias y tácticas frente a competidores; elaboración de User Task Matrix; desarrollo de User Journey Mapping <br><br> **TB1:** Desarrollo de Product Design, Style Guidelines, Information Architecture, Organization Systems, Labelling Systems, SEO Tags and Meta Tags, Searching Systems, Navigation Systems, Software Configuration Management, Software Development Environment Configuration, Source Code Management, Source Code Style Guide & Conventions y Software Deployment Configuration. <br><br> **AV2:** Desarrollo e integración del módulo de Calificación y Reputación, implementación de endpoints de reviews, ratings y reputation summary, conexión de las pantallas de reputación con el backend, integración del perfil de mecánico con datos reales de la API, visualización de reseñas y calificaciones, validación del flujo de perfiles de conductor. <br><br> **Liam Villugas** <br><br> **AV1:** entrevistas a mecanicos; Elaboracion de Antecedentes y problematica; Lean UX Problem Statements; Lean UX Assumptions; Lean UX Hypothesis Statements; Lean UX Canvas; desarrollo de Context mapping <br><br> **TB1:** Realicé entrevistas a mecánicos para análisis de requerimientos, desarrollo de servicios backend enfocados en service request (CRUD y lógica de solicitudes), desarrollo de vistas frontend para conductores, implementación de pantallas de solicitud de servicio y seguimiento, validación de flujos de usuario conductor, registro de hallazgos en entrevistas, y documentación técnica de los servicios implementados. <br> | **Gabriel Sanchez** <br><br> **AV1:** Durante este avance desarrollé la descripción completa del startup, realicé entrevistas a usuarios, diseñé user personas y empathy maps, construí el ubiquitous language, elaboré el product backlog y llevé a cabo el event storming.<br><br> **TB1:** En este avance desarrolle correcciones del AV1, desarrollo de la API de geolocalización CRUD, desarrollo de la API de IAM CRUD, desarrollo del sprint planning 1, desarrollo del sprint backlog 1, desarrollo del development evidence for sprint review, desarrollo del testing suite evidence for sprint review, desarrollo de execution evidence for sprint review, desarrollo de servicios, services documentation evidence for sprint review, preguntas para validation interviews, registro de 3 validation interviews, desarrollo de evaluación según heuristicas <br><br> **Braulio Torrejon** <br><br> **AV1:** En este avance consolidé la arquitectura del proyecto mediante entrevistas, user stories y modelado de contextos. Implementé diagramas de flujo de mensajes y bounded contexts, definiendo la arquitectura de software y el impact mapping, lo que permitió dar claridad técnica y trazabilidad al proyecto. <br><br> **Romina Tuesta** <br><br> **AV1:** En este avance pude conocer más acerca de la estructura de los bounded context, realizando los layers como domain, interface, etc., además de adentrarme más a los contenedores de cada bounded. <br><br> **Giussepe Taquiri** <br><br> **AV1:** Durante este avance desarrollé el análisis competitivo y definí estrategias y tácticas frente a los competidores. Asimismo, elaboré el User Task Matrix y los User Journey Maps, aplicando herramientas de análisis UX para comprender mejor las necesidades del usuario y contribuir a la solución del proyecto.<br><br> **TB1:** En este avance fortalecí mis conocimientos en diseño UI/UX, organización de información y configuración de proyectos de software mediante el desarrollo de arquitecturas de navegación, sistemas de etiquetado, gestión de código fuente y configuración de despliegue. Esto me permitió mejorar mis habilidades en documentación técnica y organización de soluciones móviles. <br><br> **AV2:** Durante este avance fortalecí mis conocimientos en desarrollo móvil e integración de servicios backend mediante la implementación del módulo de Calificación y Reputación. La conexión de las pantallas con APIs reales y la validación de flujos funcionales me permitieron mejorar mis competencias en consumo de servicios REST, integración frontend-backend y resolución de problemas dentro de un entorno colaborativo de desarrollo de software. <br><br> **Liam Villugas** <br><br> **AV1:** En este avance consolidé la visión estratégica y técnica de AutoMatch mediante el uso de Lean UX y Domain-Driven Design (DDD). Al integrar las entrevistas a mecánicos con el modelado de Bounded Contexts, logré alinear los objetivos de negocio de MobilFlow con una arquitectura de software escalable. Este proceso me permitió aplicar conocimientos avanzados en ingeniería de software para garantizar la trazabilidad y la correcta delimitación de dominios en la solución.<br><br> **TB1:** Apliqué la actualización de mis conocimientos mediante la realización de entrevistas a mecánicos para el análisis de requerimientos, el desarrollo de servicios backend enfocados en service request (solicitudes de servicio), y la implementación de vistas frontend para conductores en la aplicación móvil. Fortalecí mis habilidades en diseño de interfaces centradas en el usuario conductor dentro de la app movil Automatch. |
+| **Criterio 2:** Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de tecnologías de ingeniería de software | **Gabriel Sanchez** <br><br> **AV1:** Descripción del startup; entrevistas a usuarios; diseño de user personas; elaboración de empathy mapping; definición de ubiquitous language; creación del product backlog; desarrollo de event storming **TB1:** Correcciones del AV1, desarrollo de la API de geolocalización CRUD, desarrollo de la API de IAM CRUD, desarrollo del sprint planning 1, desarrollo del sprint backlog 1, desarrollo del development evidence for sprint review, desarrollo del testing suite evidence for sprint review, desarrollo de execution evidence for sprint review, desarrollo de servicios, services documentation evidence for sprint review, preguntas para validation interviews, registro de 3 validation interviews, desarrollo de evaluación según heuristicas<br><br> **Braulio Torrejon** <br><br> **AV1:** Cargo archivos; entrevistas a usuarios; elaboración de user stories; candidate context discovery; domain message flow modeling; bounded context canvases; definición de software architecture; desarrollo de impact mapping <br><br> **Romina Tuesta** <br><br> **AV1:** En este avance pude conocer más acerca de la estructura de los bounded context, realizando los layers como domain, interface, etc., además de adentrarme más a los contenedores de cada bounded. <br><br> **Giussepe Taquiri** <br><br> **AV1:** Análisis competitivo; estrategias y tácticas frente a competidores; User Task Matrix; User Journey Mapping; uso de herramientas de análisis y gestión <br><br> **TB1:** Desarrollo de Product Design, Style Guidelines, Information Architecture, Organization Systems, Labelling Systems, SEO Tags and Meta Tags, Searching Systems, Navigation Systems, Software Configuration Management, Software Development Environment Configuration, Source Code Management, Source Code Style Guide & Conventions y Software Deployment Configuration. <br><br> **AV2:** Desarrollo e integración del módulo de Calificación y Reputación, implementación de endpoints de reviews, ratings y reputation summary, conexión de las pantallas de reputación con el backend, integración del perfil de mecánico con datos reales de la API, visualización de reseñas y calificaciones, validación del flujo de perfiles de conductor. <br><br> **Liam Villugas** <br><br> **AV1:** entrevistas a mecanicos; Elaboracion de Antecedentes y problematica; Lean UX Problem Statements; Lean UX Assumptions; Lean UX Hypothesis Statements; Lean UX Canvas; desarrollo de Context mapping <br><br> **TB1:** Realicé entrevistas a mecánicos para análisis de requerimientos, desarrollo de servicios backend enfocados en service request (CRUD y lógica de solicitudes), desarrollo de vistas frontend para conductores, implementación de pantallas de solicitud de servicio y seguimiento, validación de flujos de usuario conductor, registro de hallazgos en entrevistas, y documentación técnica de los servicios implementados. | **Gabriel Sanchez** <br><br> **AV1:** Este proceso evidenció que el desarrollo de soluciones de software exige aprendizaje constante. Comprendí que debo seguir actualizándome y explorando nuevas metodologías y tecnologías para mejorar la calidad y efectividad de mis proyectos. <br> **TB1:**Apliqué el aprendizaje permanente al reforzar continuamente mis conocimientos durante el desarrollo del proyecto, investigando y mejorando mis habilidades en APIs, arquitectura de microservicios y pruebas. Esto me permitió adaptarme a nuevas necesidades del sistema y mejorar la calidad de las soluciones implementadas en cada entrega del proyecto de ingeniería de software. <br><br> **Braulio Torrejon** <br><br> **AV1:** Este proceso me permitió reconocer que la construcción de arquitecturas sólidas requiere aprendizaje continuo. La integración de técnicas como EventStorming, DMFM y bounded contexts evidenció la necesidad de seguir perfeccionando metodologías y herramientas para lograr soluciones escalables y auditables. <br><br> **Romina Tuesta** <br><br> **AV1:** Lo realizado en esta entrega refuerza la necesidad de obtener más conocimiento para llegar a la vida profesional preparados y listos para aplicar lo aprendido. <br><br> **Giussepe Taquiri** <br><br> **AV1:** Este avance me permitió reconocer la importancia del aprendizaje continuo en el desarrollo de soluciones tecnológicas. A través del análisis competitivo y herramientas UX, comprendí la necesidad de actualizar constantemente mis conocimientos para adaptarme a nuevas tecnologías y metodologías en ingeniería de software. <br><br> **AV2:** Durante este avance fortalecí mis conocimientos en desarrollo móvil e integración de servicios backend mediante la implementación del módulo de Calificación y Reputación. La conexión de las pantallas con APIs reales y la validación de flujos funcionales me permitieron mejorar mis competencias en consumo de servicios REST, integración frontend-backend y resolución de problemas dentro de un entorno colaborativo de desarrollo de software. <br><br> **Liam Villugas** <br><br> **AV1:** El desarrollo de AutoMatch evidencia que la ingeniería de software exige un aprendizaje permanente para dominar marcos como Lean UX y DDD. La complejidad del ecosistema de MobilFlow reafirma que la actualización constante en metodologías y arquitecturas es indispensable para resolver problemas reales y mantener la competitividad profesional en el diseño de soluciones tecnológicas.<br><br> **TB1:** Apliqué el aprendizaje permanente al investigar continuamente sobre buenas prácticas en desarrollo de servicios REST, manejo eficiente de solicitudes (service request), y diseño de interfaces móviles para conductores. Durante el desarrollo del proyecto, reforcé mis competencias en tecnologías backend y frontend, adaptándome a nuevos requerimientos surgidos de las entrevistas con mecánicos y mejorando la calidad de las vistas del conductor en cada iteración de la app movil.
+|
+
+
+
+
+
+
 
 
 <div style="page-break-after: always;"></div>
@@ -2914,162 +2916,9 @@ Link a Swagger de Backend: [Link a Swagger de Backend](https://back-end-automatc
 
 <img src="assets/images/landing-page-collaboration-tb1.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
-### 4.3.1. Sprint 2
+## 4.3. Validation Interviews
 
-#### 4.3.1.1. Sprint Planning 2
-
-| Sprint \# | Sprint 2 |
-| :---- | :---- |
-| **Sprint Planning Background** |  |
-| Date | 2026-06-21 |
-| Time | 06:30 PM |
-| Location | Google Meets |
-| Prepared By | Gabriel Sanchez |
-| Attendees (to planning meeting) | Gabriel Sanchez, Romina Tuesta, Braulio, Liam, Giuseppe |
-| Sprint 1 Review Summary | Durante el Sprint 1, logramos completar los objetivos planificados relacionados con la implementación de las funcionalidades base de la plataforma. Desarrollamos correctamente el sistema de autenticación mediante JWT en el backend, así como las funcionalidades de administración de usuarios y publicación de servicios para mecánicos. Además, implementamos las principales interfaces del frontend, permitiendo la navegación entre las pantallas iniciales de la aplicación. Si bien la publicación de servicios quedó operativa, identificamos que aún es necesario fortalecer su integración con algunos request del sistema. Consideramos que los resultados obtenidos fueron satisfactorios, ya que nos permitieron contar con una primera versión funcional de la plataforma sobre la cual continuaremos construyendo las siguientes funcionalidades. |
-| Sprint 1 Retrospective Summary | Durante la retrospectiva del Sprint 1, reconocimos como principal logro el cumplimiento de los objetivos comprometidos para el sprint gracias al trabajo colaborativo realizado en el desarrollo del backend y frontend. Asimismo, identificamos oportunidades de mejora relacionadas con la coordinación entre los integrantes del equipo, especialmente en el seguimiento de tareas y la gestión de tiempos. Concluimos que una comunicación más constante, una mejor distribución de responsabilidades y la realización de reuniones de seguimiento con mayor frecuencia nos permitirán detectar bloqueos de manera más temprana, mejorar la visibilidad del avance de cada integrante y aumentar nuestra eficiencia en los próximos sprints. |
-| **Sprint Goal & User Stories** |  |
-| Sprint 2 Goal | Nuestro enfoque está en desarrollar las principales pantallas de la aplicación móvil en Flutter e integrar las funcionalidades de inteligencia artificial con el sistema. Creemos que esto brinda una experiencia más completa e interactiva para conductores y mecánicos que utilizarán la plataforma. Esto se confirmará cuando los usuarios puedan navegar correctamente por la aplicación Android y utilizar las funcionalidades de IA conectadas con los servicios del sistema. |
-| Sprint 2 Velocity | 80 |
-| Sum of Story Points | 74 |
-
-#### 4.3.1.2. Sprint Backlog 2
-
-| User Story Id | User Story Title | Work-Item / Task Id | Work-Item / Task Title | Description | Estimation (Hours) | Assigned To | Status |
-| :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
-| US-16 | Sugerir Match de mecánicos | TK-01 | Integración de IA con OpenAI | Implementación de IA para sugerir mecánicos a partir de lenguaje natural | 10 | Romina Tuesta | Done |
-| TS-10 | IA de recomendación inteligente | TK-02 | Conectar backend con OpenAI API | Integración del sistema con OpenAI para procesamiento de solicitudes | 10 | Romina Tuesta | Done |
-| US-02 | Geolocalización de servicios | TK-03 | Integración de Google Maps API | Desarrollo de la interfaz de geolocalización en Kotlin para mostrar ubicación de mecánicos  | 6 | Braulio / Gabriel | Done |
-| US-01 | Calificaciones y reseñas | TK-04 | Módulo de reviews | Desarrollo de sistema de calificaciones y reseñas de servicios | 3 | Giuseppe | In Progress |
-| US-10 | Búsqueda de mecánicos | TK-05 | Implementar búsqueda con filtros | Desarrollo de búsqueda de mecánicos por criterios y filtros | 4 | Liam / Gabriel Sanchez | Done |
-| US-11 | Lista de mecánicos disponibles | TK-06 | UI lista de mecánicos | Implementación de pantalla con listado de mecánicos disponibles (Flutter) | 4 | Gabriel Sanchez | Done |
-| US-12 | Perfil público de mecánico | TK-07 | Vista de perfil de mecánico | Desarrollo de pantalla de detalle de mecánico con información pública (Flutter) | 4 | Gabriel Sanchez | Done |
-| US-10 | Buscar mecánicos con filtros | TK-05 | Implementar búsqueda de mecánicos | Desarrollo de funcionalidad de búsqueda de mecánicos con filtros en la aplicación Kotlin | 4 | Liam | Done |
-| US-18 | Solicitud de servicio | TK-08 | Crear request de servicio | Implementación del flujo de solicitud de servicio entre usuario y mecánico (Kotlin) | 8 | Gabriel Sanchez | Done |
-| US-18 | Solicitud de servicio | TK-08 | Crear request de servicio | Implementación del flujo de solicitud de servicio entre usuario y mecánico (Flutter) | 4 | Gabriel Sanchez | Done |
-| US-21 | Dashboard de conductor | TK-09 | Pantalla principal driver | Desarrollo del dashboard principal del conductor en Kotlin | 4 | Liam | Done |
-| US-21 | Dashboard de conductor | TK-09 | Pantalla principal driver | Desarrollo del dashboard principal del conductor en Flutter | 4 | Gabriel | Done |
-| TS-03 | Login de usuario | TK-11 | Autenticación en Flutter | Implementación de login conectado al backend en Flutter | 4 | Gabriel Sanchez | Done |
-| TS-04 | Registro de usuario | TK-12 | Registro en Flutter | Implementación de registro e inicio de sesión de usuario en la app móvil en Flutter | 4 | Gabriel Sanchez | Done |
-| SS-01 | Integración de OpenAI para recomendación de mecánicos | TK-13 | Investigación e integración de OpenAI API | Investigación e implementación de la integración con OpenAI para la recomendación de mecánicos basada en lenguaje natural | 4 | Romina Tuesta | Done |
-| SS-02 | Recomendación de mecánicos con IA | TK-14 | Lógica de recomendación inteligente | Desarrollo de pruebas y lógica de recomendación de mecánicos utilizando IA | 4 | Romina Tuesta | Done |
-| SS-03 | Geolocalización en Flutter | TK-15 | Investigación e implementación de mapas en frontend | Investigación e implementación de geolocalización en Flutter para mostrar ubicación de mecánicos | 4 | Braulio | Done |
-
-#### 4.3.1.3. Development Evidence for Sprint Review
-
-| Repository | Branch | Commit Id | Commit Message | Author | Committed on |
-| :---- | :---- | :---- | :---- | :---- | :---- |
-| [MobilFlow/flutter](https://github.com/MobilFlow/flutter) | `main` | 31e685c | feat: add request service, mechanic profile, driver profile and search tab, and other tabs | yigabriel | 2026-06-21 |
-| [MobilFlow/flutter](https://github.com/MobilFlow/flutter) | `main` | 69df581 | Initial commit | yigabriel | 2026-06-19 |
-| [MobilFlow/back-end](https://github.com/MobilFlow/back-end) | `main` | 3664402 | fix: add speciality create endpoint | yigabriel | 2026-06-21 |
-| [MobilFlow/back-end](https://github.com/MobilFlow/back-end) | `main` | ad54db6 | Merge branch 'develop' | GiuseppeTC0410 | 2026-06-18 |
-| [MobilFlow/back-end](https://github.com/MobilFlow/back-end) | `main` | 10096db | Merge branch 'feature/reputationgiuseppe' into develop | GiuseppeTC0410 | 2026-06-18 |
-| [MobilFlow/back-end](https://github.com/MobilFlow/back-end) | `main` | 2541440 | feat(reputation): add reputation query services and summary endpoints | GiuseppeTC0410 | 2026-06-18 |
-| [MobilFlow/back-end](https://github.com/MobilFlow/back-end) | `main` | 5480292 | feat: add ratings and reviews query endpoints reputation | Liamwillugs, GiuseppeTC0410 | 2026-06-18 |
-| [MobilFlow/back-end](https://github.com/MobilFlow/back-end) | `main` | e8b820e | Add serviceId to requests and validate service | BraulioTN | 2026-06-11 |
-| [MobilFlow/back-end](https://github.com/MobilFlow/back-end) | `main` | a5e4f81 | hotfix: comment SecurityConfiguration for one security config | yigabriel | 2026-06-07 |
-| [MobilFlow/back-end](https://github.com/MobilFlow/back-end) | `main` | 04fdc1a | hotfix: SecurityConfiguration for auth | yigabriel | 2026-06-07 |
-| [MobilFlow/back-end](https://github.com/MobilFlow/back-end) | `main` | 3843396 | hotfix: SecurityConfiguration for auth | yigabriel | 2026-06-07 |
-| [MobilFlow/back-end](https://github.com/MobilFlow/back-end) | `main` | 2a6cb88 | hotfix: permits | yigabriel | 2026-06-05 |
-| [MobilFlow/front-end](https://github.com/MobilFlow/front-end) | `main` | 587a37b | feat: add launcher image | yigabriel | 2026-06-21 |
-| [MobilFlow/front-end](https://github.com/MobilFlow/front-end) | `main` | edbdcc5 | feat: add services for mechanics to edit and view | yigabriel | 2026-06-21 |
-| [MobilFlow/front-end](https://github.com/MobilFlow/front-end) | `main` | 72256a9 | feat: add service request for mechanic | yigabriel | 2026-06-21 |
-| [MobilFlow/front-end](https://github.com/MobilFlow/front-end) | `main` | f1c0a6b | Cleanup: dejar de rastrear archivos de compilación | BraulioTN | 2026-06-19 |
-| [MobilFlow/front-end](https://github.com/MobilFlow/front-end) | `main` | ee4d7c2 | Refactor | BraulioTN | 2026-06-19 |
-| [MobilFlow/front-end](https://github.com/MobilFlow/front-end) | `main` | 8c3c9b0 | Merge main into feature/reputation | GiuseppeTC0410 | 2026-06-19 |
-| [MobilFlow/front-end](https://github.com/MobilFlow/front-end) | `main` | b14847c | feat(mechanic): update mechanic profile and map integration | GiuseppeTC0410 | 2026-06-19 |
-| [MobilFlow/front-end](https://github.com/MobilFlow/front-end) | `main` | 0a10b36 | Merge pull request \#4 from MobilFlow/feature/vistaconductor | Liamvillugas | 2026-06-18 |
-| [MobilFlow/front-end](https://github.com/MobilFlow/front-end) | `main` | e503e41 | feature: add driver screens | Liamvillugas | 2026-06-18 |
-| [MobilFlow/front-end](https://github.com/MobilFlow/front-end) | `main` | dea300b | feat(mechanic): update mechanic profile integration | GiuseppeTC0410 | 2026-06-18 |
-| [MobilFlow/front-end](https://github.com/MobilFlow/front-end) | `main` | f18be9f | feat(reputation): connect mechanic profile reviews with backend | GiuseppeTC0410 | 2026-06-18 |
-| [MobilFlow/front-end](https://github.com/MobilFlow/front-end) | `main` | d88d74a | feat: fix sign up | Liamvillugas | 2026-06-18 |
-| [MobilFlow/front-end](https://github.com/MobilFlow/front-end) | `main` | 0a9512e | connecting driver screen to the backend | Liamvillugas | 2026-06-18 |
-| [MobilFlow/front-end](https://github.com/MobilFlow/front-end) | `main` | e34399d | feat: Update Presentation | Romin40 | 2026-06-11 |
-| [MobilFlow/front-end](https://github.com/MobilFlow/front-end) | `main` | c469ffa | Delete app/src/main/java/com/edu/pe/automatch/presentation directory | Romin40 | 2026-06-11 |
-
-#### 4.3.1.4. Testing Suite Evidence for Sprint Review
-
-Para este Sprint no se contemplaron pruebas unitarias
-
-#### 4.3.1.5. Execution Evidence for Sprint Review
-
-<img src="assets/images/capture-backend.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
-
-**Flutter Evidence:** [Video de Ejecución de Aplicación Flutter](https://youtu.be/LfCBa6sJvFg)
-
-![alt text](assets/execEvidence2/image.png)
-
-![alt text](assets/execEvidence2/image-1.png)
-
-![alt text](assets/execEvidence2/image-2.png)
-
-![alt text](assets/execEvidence2/image-3.png)
-
-![alt text](assets/execEvidence2/image-4.png)
-
-**Android Evidence:**
-
-
-#### 4.3.1.6. Services Documentation Evidence for Sprint Review
-
-A continuación se documentan los endpoints que tuvieron cambios dentro de este sprint:
-
-| Endpoint                                            | HTTP Method | Description                           | Request Body         | Response                                                                                                                                      |
-| --------------------------------------------------- | ----------: | ------------------------------------- | -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| `/api/v1/reputation/mechanics/{mechanicId}/summary` |         GET | Get reputation summary by mechanic ID | None                 | { "averageRating": 0, "totalRatings": 0, "totalReviews": 0 }                                                                                  |
-| `/api/v1/reputation/mechanics/{mechanicId}/reviews` |         GET | Get reviews by mechanic ID            | None                 | [ { "id": 0, "content": "string", "mechanicId": 0, "driverId": 0, "serviceId": 0, "createdAt": "2026-06-22T00:56:25.592Z", "edited": true } ] |
-| `/api/v1/reputation/mechanics/{mechanicId}/ratings` |         GET | Get ratings by mechanic ID            | None                 | [ { "id": 0, "score": 0, "mechanicId": 0, "driverId": 0, "serviceId": 0, "createdAt": "2026-06-22T00:56:25.593Z", "edited": true } ]          |
-| `/api/v1/mechanics/specialties`                     |        POST | Create specialty                      | { "name": "string" } | { "id": 0, "name": "string" }                                                                                                                 |
-
-
-#### 4.3.1.7. Software Deployment Evidence for Sprint Review
-
-Se realizó el despliegue de la Landing Page por medio de Github Pages, a continuación se explica el proceso y lo que se consiguió:
-
-<img src="assets/images/github-landing.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
-
-<img src="assets/images/landing%20image.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
-
-
-Link a Landing Page: [Landing Page](https://mobilflow.github.io/Landing_Page/)
-
-
-El deployment del backend a partir de Azure y Render
-
-Base de Datos MySQL en Azure:
-
-<img src="assets/images/azure.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
-
-Backend en Render:
-
-*Cada vez que se prenda el backend tiene un tiempo de demora de alrededor de 1 minuto a 3 minutos*
-
-Link a Backend: [Link Backend](https://back-end-automatch1.onrender.com)
-
-Link a Swagger de Backend: [Link a Swagger de Backend](https://back-end-automatch1.onrender.com/swagger-ui/index.html#/)
-
-<img src="assets/images/backend-onrender.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
-
-
-#### 4.3.1.8. Team Collaboration Insights during Sprint
-
-**BACKEND**
-
-<img src="assets/images/backendcolab2.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
-
-
-**FRONTEND KOTLIN**
-
-<img src="assets/images/kotcolab2.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
-
-
-**FRONTEND FLUTTER**
-
-<img src="assets/images/FLUTCOLAB2.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
-
-## 4.4. Validation Interviews
-
-### 4.4.1. Diseño de Entrevistas
+### 4.3.1. Diseño de Entrevistas
 
 **Drivers**
 
@@ -3210,7 +3059,7 @@ Rommer menciona que es interesante ya que puede llegar a más clientes, es atrac
 Le causa desconfianza que hayan posibles clientes que puedan no ser serias con respecto a tomar el servicio y gaste tiempo en este tipo de clientes por la facilidad de acceso. La razón que podría frenar la decisión de unirse a la plataforma es que no tendría la oportunidad de ver en persona el vehículo antes de dar una estimación del costo y/o diagnóstico del automóvil. 
 <br>
 
-### 4.4.3. Evaluaciones según heurísticas
+### 4.3.3. Evaluaciones según heurísticas
 
 **UX Heuristics & Principles Evaluation**  
  **Usability \- Inclusive Design \- Information Architecture**
@@ -3306,6 +3155,9 @@ Explicar de forma breve qué significa cada métrica, cómo se calculan los rati
 Asociación Automotriz del Perú. (2023). *Parque automotor peruano y tendencias del sector*. https://aap.org.pe/
 
 Instituto Nacional de Estadística e Informática. (2023). *Estadísticas de servicios y actividades económicas en el Perú*. https://www.inei.gob.pe/
+
+
+
 
 
 # Anexos
