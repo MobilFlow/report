@@ -2957,6 +2957,15 @@ Link a Swagger de Backend: [Link a Swagger de Backend](https://back-end-automatc
 
 #### 4.3.1.3. Development Evidence for Sprint Review
 
+
+#### 4.3.1.4. Testing Suite Evidence for Sprint Review
+
+Para este Sprint no se contemplaron pruebas unitarias
+
+#### 4.3.1.5. Execution Evidence for Sprint Review
+
+<img src="assets/images/capture-backend.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
+
 **Flutter Evidence:** [Video de Ejecución de Aplicación Flutter](https://youtu.be/LfCBa6sJvFg)
 
 ![alt text](assets/execEvidence2/image.png)
@@ -2969,19 +2978,8 @@ Link a Swagger de Backend: [Link a Swagger de Backend](https://back-end-automatc
 
 ![alt text](assets/execEvidence2/image-4.png)
 
-Android Evidence: 
+**Android Evidence:**
 
-#### 4.3.1.4. Testing Suite Evidence for Sprint Review
-
-Para este Sprint no se contemplaron pruebas unitarias
-
-#### 4.3.1.5. Execution Evidence for Sprint Review
-
-<img src="assets/images/capture-backend.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
-
-Link a Execution Evidende de Back y Landing Page: [Backend y Landing](https://youtu.be/vTRZWOIpazM)
-
-Link a Execution Evidence de Mobile App: [Mobile App](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211706_upc_edu_pe/IQB5bPr7UFn8QLWpUrhgTk_9ARDha-jKPHWjHWX3hwAhPz0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rfuiog)
 
 #### 4.3.1.6. Services Documentation Evidence for Sprint Review
 
