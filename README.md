@@ -2957,6 +2957,35 @@ Link a Swagger de Backend: [Link a Swagger de Backend](https://back-end-automatc
 
 #### 4.3.1.3. Development Evidence for Sprint Review
 
+| Repository | Branch | Commit Id | Commit Message | Author | Committed on |
+| :---- | :---- | :---- | :---- | :---- | :---- |
+| [MobilFlow/flutter](https://github.com/MobilFlow/flutter) | `main` | 31e685c | feat: add request service, mechanic profile, driver profile and search tab, and other tabs | yigabriel | 2026-06-21 |
+| [MobilFlow/flutter](https://github.com/MobilFlow/flutter) | `main` | 69df581 | Initial commit | yigabriel | 2026-06-19 |
+| [MobilFlow/back-end](https://github.com/MobilFlow/back-end) | `main` | 3664402 | fix: add speciality create endpoint | yigabriel | 2026-06-21 |
+| [MobilFlow/back-end](https://github.com/MobilFlow/back-end) | `main` | ad54db6 | Merge branch 'develop' | GiuseppeTC0410 | 2026-06-18 |
+| [MobilFlow/back-end](https://github.com/MobilFlow/back-end) | `main` | 10096db | Merge branch 'feature/reputationgiuseppe' into develop | GiuseppeTC0410 | 2026-06-18 |
+| [MobilFlow/back-end](https://github.com/MobilFlow/back-end) | `main` | 2541440 | feat(reputation): add reputation query services and summary endpoints | GiuseppeTC0410 | 2026-06-18 |
+| [MobilFlow/back-end](https://github.com/MobilFlow/back-end) | `main` | 5480292 | feat: add ratings and reviews query endpoints reputation | Liamwillugs, GiuseppeTC0410 | 2026-06-18 |
+| [MobilFlow/back-end](https://github.com/MobilFlow/back-end) | `main` | e8b820e | Add serviceId to requests and validate service | BraulioTN | 2026-06-11 |
+| [MobilFlow/back-end](https://github.com/MobilFlow/back-end) | `main` | a5e4f81 | hotfix: comment SecurityConfiguration for one security config | yigabriel | 2026-06-07 |
+| [MobilFlow/back-end](https://github.com/MobilFlow/back-end) | `main` | 04fdc1a | hotfix: SecurityConfiguration for auth | yigabriel | 2026-06-07 |
+| [MobilFlow/back-end](https://github.com/MobilFlow/back-end) | `main` | 3843396 | hotfix: SecurityConfiguration for auth | yigabriel | 2026-06-07 |
+| [MobilFlow/back-end](https://github.com/MobilFlow/back-end) | `main` | 2a6cb88 | hotfix: permits | yigabriel | 2026-06-05 |
+| [MobilFlow/front-end](https://github.com/MobilFlow/front-end) | `main` | 587a37b | feat: add launcher image | yigabriel | 2026-06-21 |
+| [MobilFlow/front-end](https://github.com/MobilFlow/front-end) | `main` | edbdcc5 | feat: add services for mechanics to edit and view | yigabriel | 2026-06-21 |
+| [MobilFlow/front-end](https://github.com/MobilFlow/front-end) | `main` | 72256a9 | feat: add service request for mechanic | yigabriel | 2026-06-21 |
+| [MobilFlow/front-end](https://github.com/MobilFlow/front-end) | `main` | f1c0a6b | Cleanup: dejar de rastrear archivos de compilación | BraulioTN | 2026-06-19 |
+| [MobilFlow/front-end](https://github.com/MobilFlow/front-end) | `main` | ee4d7c2 | Refactor | BraulioTN | 2026-06-19 |
+| [MobilFlow/front-end](https://github.com/MobilFlow/front-end) | `main` | 8c3c9b0 | Merge main into feature/reputation | GiuseppeTC0410 | 2026-06-19 |
+| [MobilFlow/front-end](https://github.com/MobilFlow/front-end) | `main` | b14847c | feat(mechanic): update mechanic profile and map integration | GiuseppeTC0410 | 2026-06-19 |
+| [MobilFlow/front-end](https://github.com/MobilFlow/front-end) | `main` | 0a10b36 | Merge pull request \#4 from MobilFlow/feature/vistaconductor | Liamvillugas | 2026-06-18 |
+| [MobilFlow/front-end](https://github.com/MobilFlow/front-end) | `main` | e503e41 | feature: add driver screens | Liamvillugas | 2026-06-18 |
+| [MobilFlow/front-end](https://github.com/MobilFlow/front-end) | `main` | dea300b | feat(mechanic): update mechanic profile integration | GiuseppeTC0410 | 2026-06-18 |
+| [MobilFlow/front-end](https://github.com/MobilFlow/front-end) | `main` | f18be9f | feat(reputation): connect mechanic profile reviews with backend | GiuseppeTC0410 | 2026-06-18 |
+| [MobilFlow/front-end](https://github.com/MobilFlow/front-end) | `main` | d88d74a | feat: fix sign up | Liamvillugas | 2026-06-18 |
+| [MobilFlow/front-end](https://github.com/MobilFlow/front-end) | `main` | 0a9512e | connecting driver screen to the backend | Liamvillugas | 2026-06-18 |
+| [MobilFlow/front-end](https://github.com/MobilFlow/front-end) | `main` | e34399d | feat: Update Presentation | Romin40 | 2026-06-11 |
+| [MobilFlow/front-end](https://github.com/MobilFlow/front-end) | `main` | c469ffa | Delete app/src/main/java/com/edu/pe/automatch/presentation directory | Romin40 | 2026-06-11 |
 
 #### 4.3.1.4. Testing Suite Evidence for Sprint Review
 
