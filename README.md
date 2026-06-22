@@ -2993,10 +2993,9 @@ A continuación se documentan los endpoints que tuvieron cambios dentro de este 
 | `/api/v1/mechanics/specialties`                     |        POST | Create specialty                      | { "name": "string" } | { "id": 0, "name": "string" }                                                                                                                 |
 
 
-
 #### 4.3.1.7. Software Deployment Evidence for Sprint Review
 
-En esta entega se realizó el despliegue de la Landing Page por medio de Github Pages, a continuación se explica el proceso y lo que se consiguió:
+Se realizó el despliegue de la Landing Page por medio de Github Pages, a continuación se explica el proceso y lo que se consiguió:
 
 <img src="assets/images/github-landing.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
@@ -3006,7 +3005,7 @@ En esta entega se realizó el despliegue de la Landing Page por medio de Github 
 Link a Landing Page: [Landing Page](https://mobilflow.github.io/Landing_Page/)
 
 
-Ademas, se entrego el deployment del backend a partir de Azure y Render
+El deployment del backend a partir de Azure y Render
 
 Base de Datos MySQL en Azure:
 
@@ -3022,20 +3021,22 @@ Link a Swagger de Backend: [Link a Swagger de Backend](https://back-end-automatc
 
 <img src="assets/images/backend-onrender.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
+
 #### 4.3.1.8. Team Collaboration Insights during Sprint
 
 **BACKEND**
 
-<img src="assets/images/backend-collaboration-tb1.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
+<img src="assets/images/backendcolab2.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
-**FRONTEND**
 
-<img src="assets/images/front-end-collaboration-tb1.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
+**FRONTEND KOTLIN**
 
-**LANDING PAGE**
+<img src="assets/images/kotcolab2.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
-<img src="assets/images/landing-page-collaboration-tb1.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
+**FRONTEND FLUTTER**
+
+<img src="assets/images/FLUTCOLAB2.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
 ## 4.4. Validation Interviews
 
