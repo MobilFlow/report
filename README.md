@@ -2935,67 +2935,41 @@ Link a Swagger de Backend: [Link a Swagger de Backend](https://back-end-automatc
 
 #### 4.3.1.2. Sprint Backlog 2
 
-Durante este Sprint se trabajó en la implementación de las funcionalidades base de autenticación, gestión de usuarios y servicios de la plataforma. El equipo desarrolló las pantallas principales de acceso, navegación inicial del frontend, endpoints CRUD de usuarios y servicios, así como la integración de autenticación mediante JWT desde el backend.
-
-Link a Trello: [https://trello.com/invite/b/6a068841acbe1487bd955d97/ATTI93e02f577752f14ff38f789bc8fc666eCFE5AB80/automathc](https://trello.com/invite/b/6a068841acbe1487bd955d97/ATTI93e02f577752f14ff38f789bc8fc666eCFE5AB80/automathc)
-
-| Sprint \# | Sprint 1 |
-| :---- | :---- |
-
 | User Story Id | User Story Title | Work-Item / Task Id | Work-Item / Task Title | Description | Estimation (Hours) | Assigned To | Status |
-| :---- | :---- | :---- | :---- | :---- | ----- | :---- | :---- |
-| US-04 | Registro de usuario | TK-01 | Diseñar pantalla Sign Up | Diseño e implementación de interfaz de registro de usuario | 5 | Gabriel Sanchez | Done |
-| TS-04 | Registro de usuario | TK-02 | Implementar autenticación JWT | Desarrollo de autenticación y generación de token JWT | 6 | Gabriel Sanchez | Done |
-| TS-03 | Login de usuario | TK-02 | Implementar autenticación JWT | Desarrollo de autenticación y generación de token JWT | 6 | Gabriel Sanchez | Done |
-| TS-03 | Login de usuario | TK-04 | Implementar Login de usuario | Desarrollo y validación de autenticación desde Swagger | 5 | Gabriel Sanchez | Done |
-| TS-04 | Diseñar API CRUD de usuarios | TK-05 | Implementar CRUD de usuarios | Creación de endpoints CRUD y queries de usuarios | 8 | Gabriel Sanchez | Done |
-| US-24 | Landing Page | TK-06 | Diseñar Landing Page | Desarrollo visual e interfaz principal de la plataforma | 5 | Romina Tuesta | Done |
-| US-05 | Completar perfil de conductor | TK-07 | Implementar perfil de conductor | Desarrollo de formulario y almacenamiento de datos | 4 | Gabriel Sanchez | Done |
-| TS-05 | Diseñar CRUD API de servicios | TK-08 | Implementar CRUD de servicios | Desarrollo de endpoints para publicar, actualizar, listar, obtener y desactivar servicios | 10 | Braulio | Done |
-| US-08 | Publicar servicio | TK-09 | Integrar publicación de servicios | Conexión lógica para publicación desde backend | 5 | Braulio | Done |
-| US-23 | Publicar reseña | TK-11 | Diseñar pantalla de reseñas | Desarrollo de la interfaz de reseñas en frontend | 4 | Giuseppe | Done |
-| US-11 | Ver lista de mecánicos disponibles | TK-12 | Implementar pantalla principal del mecánico | Desarrollo de la vista principal del mecánico en frontend | 5 | Braulio | Done |
-| US-12 | Consultar perfil público del mecánico | TK-13 | Implementar información del mecánico | Desarrollo de la vista con información del mecánico en frontend | 4 | Braulio | Done |
-| US-05 | Completar perfil de conductor | TK-14 | Implementar Driver Profile View | Desarrollo de la vista del perfil del conductor en frontend | 4 | Romina Tuesta | Done |
-| US-03 | Historial de servicios | TK-15 | Implementar Mechanic History Screen | Desarrollo de la pantalla de historial del mecánico en frontend | 5 | Romina Tuesta | Done |
-| US-18 | Crear solicitud de servicio | TK-16 | Implementar Mechanic Request Screen | Desarrollo de la pantalla de solicitudes del mecánico en frontend | 4 | Romina Tuesta | Done |
-| US-18 | Crear solicitud de servicio | TK-17 | Implementar Request Service Driver Screen | Desarrollo de la pantalla para solicitar servicio desde el conductor en frontend | 4 | Romina Tuesta | Done |
-| US-13 | Gestionar disponibilidad y horarios | TK-18 | Implementar Schedule Screen | Desarrollo de la pantalla de horarios y disponibilidad en frontend | 3 | Romina Tuesta | Done |
-| US-10 | Buscar mecánicos con filtros | TK-19 | Implementar Search Driver Screen | Desarrollo de la pantalla de búsqueda con navegación actualizada en frontend | 4 | Romina Tuesta | Done |
-| US-11 | Ver lista de mecánicos disponibles | TK-20 | Implementar perfil del mecánico | Desarrollo de las vistas relacionadas al perfil del mecánico en frontend | 5 | Liam | Done |
-| US-05 | Completar perfil de conductor | TK-21 | Implementar vista del perfil del conductor | Desarrollo de la vista del perfil del conductor en frontend | 4 | Liam | Done |
-| US-01 | Calificaciones y reseñas | TK-22 | Implementar reseñas | Desarrollo de las pantallas relacionadas a reseñas en frontend | 4 | Liam | Done |
-| US-20 | Marcar servicio | TK-23 | Implementar inicio de pantalla del conductor | Desarrollo de la pantalla inicial del conductor en frontend | 3 | Liam | Done |
-| TS-05 | Diseñar API CRUD de servicios | TK-25 | Implementar endpoints del ciclo de vida de servicios | Desarrollo de endpoints para creación, actualización, consulta y estados de servicios | 5 | Liam | Done |
-| TS-08 | Diseñar API CRUD de Catálogo de Servicios | TK-26 | Implementar API del catálogo de servicios | Desarrollo del backend del catálogo de servicios con estructura de endpoints principales | 5 | Braulio | Done |
-| TS-08 | Diseñar API CRUD de Catálogo de Servicios | TK-27 | Implementar search del catálogo | Desarrollo de endpoints para búsqueda, filtrado y consulta de servicios disponibles | 3 | Braulio | Done |
-| TS-09 | Diseñar API CRUD de Calificación y Reputación | TK-29 | Implementar comandos de reputación y agregación de reseñas | Lógica de agregación de ratings y cálculo de score de reputación | 3 | Giuseppe | Done |
+| :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
+| US-16 | Sugerir Match de mecánicos | TK-01 | Integración de IA con OpenAI | Implementación de IA para sugerir mecánicos a partir de lenguaje natural | 10 | Romina Tuesta | Done |
+| TS-10 | IA de recomendación inteligente | TK-02 | Conectar backend con OpenAI API | Integración del sistema con OpenAI para procesamiento de solicitudes | 10 | Romina Tuesta | Done |
+| US-02 | Geolocalización de servicios | TK-03 | Integración de Google Maps API | Desarrollo de la interfaz de geolocalización en Kotlin para mostrar ubicación de mecánicos  | 6 | Braulio / Gabriel | Done |
+| US-01 | Calificaciones y reseñas | TK-04 | Módulo de reviews | Desarrollo de sistema de calificaciones y reseñas de servicios | 3 | Giuseppe | In Progress |
+| US-10 | Búsqueda de mecánicos | TK-05 | Implementar búsqueda con filtros | Desarrollo de búsqueda de mecánicos por criterios y filtros | 4 | Liam / Gabriel Sanchez | Done |
+| US-11 | Lista de mecánicos disponibles | TK-06 | UI lista de mecánicos | Implementación de pantalla con listado de mecánicos disponibles (Flutter) | 4 | Gabriel Sanchez | Done |
+| US-12 | Perfil público de mecánico | TK-07 | Vista de perfil de mecánico | Desarrollo de pantalla de detalle de mecánico con información pública (Flutter) | 4 | Gabriel Sanchez | Done |
+| US-10 | Buscar mecánicos con filtros | TK-05 | Implementar búsqueda de mecánicos | Desarrollo de funcionalidad de búsqueda de mecánicos con filtros en la aplicación Kotlin | 4 | Liam | Done |
+| US-18 | Solicitud de servicio | TK-08 | Crear request de servicio | Implementación del flujo de solicitud de servicio entre usuario y mecánico (Kotlin) | 8 | Gabriel Sanchez | Done |
+| US-18 | Solicitud de servicio | TK-08 | Crear request de servicio | Implementación del flujo de solicitud de servicio entre usuario y mecánico (Flutter) | 4 | Gabriel Sanchez | Done |
+| US-21 | Dashboard de conductor | TK-09 | Pantalla principal driver | Desarrollo del dashboard principal del conductor en Kotlin | 4 | Liam | Done |
+| US-21 | Dashboard de conductor | TK-09 | Pantalla principal driver | Desarrollo del dashboard principal del conductor en Flutter | 4 | Gabriel | Done |
+| TS-03 | Login de usuario | TK-11 | Autenticación en Flutter | Implementación de login conectado al backend en Flutter | 4 | Gabriel Sanchez | Done |
+| TS-04 | Registro de usuario | TK-12 | Registro en Flutter | Implementación de registro e inicio de sesión de usuario en la app móvil en Flutter | 4 | Gabriel Sanchez | Done |
+| SS-01 | Integración de OpenAI para recomendación de mecánicos | TK-13 | Investigación e integración de OpenAI API | Investigación e implementación de la integración con OpenAI para la recomendación de mecánicos basada en lenguaje natural | 4 | Romina Tuesta | Done |
+| SS-02 | Recomendación de mecánicos con IA | TK-14 | Lógica de recomendación inteligente | Desarrollo de pruebas y lógica de recomendación de mecánicos utilizando IA | 4 | Romina Tuesta | Done |
+| SS-03 | Geolocalización en Flutter | TK-15 | Investigación e implementación de mapas en frontend | Investigación e implementación de geolocalización en Flutter para mostrar ubicación de mecánicos | 4 | Braulio | Done |
 
 #### 4.3.1.3. Development Evidence for Sprint Review
 
-| Repository | Branch | Commit Id | Commit Message | Author | Committed on |
-|---|---|---|---|---|---|
-| [MobilFlow/front-end](https://github.com/MobilFlow/front-end) | `main` | 575f92e | feat: changes main | Romimi1 | 2026-05-14 |
-| [MobilFlow/front-end](https://github.com/MobilFlow/front-end) | `main` | 9b116b7 | feat: update for presentation | Romimi1 | 2026-05-14 |
-| [MobilFlow/front-end](https://github.com/MobilFlow/front-end) | `main` | a4036ee | feat: modify main | Romimi1 | 2026-05-14 |
-| [MobilFlow/front-end](https://github.com/MobilFlow/front-end) | `main` | 96eede6 | docs: Refactor navigation to use AutoMatchNavigation | Romimi1 | 2026-05-14 |
-| [MobilFlow/front-end](https://github.com/MobilFlow/front-end) | `main` | 0a3f5c2 | feat: add driver views | Liamvillugas | 2026-05-13 |
-| [MobilFlow/back-end](https://github.com/MobilFlow/back-end) | `main` | 0ab2a34 | feat: implementation bounded context service management | Liamvillugas | 2026-05-12 |
-| [MobilFlow/back-end](https://github.com/MobilFlow/back-end) | `main` | 5ede791 | docs: config settings | Liamvillugas | 2026-05-12 |
-| [MobilFlow/back-end](https://github.com/MobilFlow/back-end) | `main` | fb180ea | feat: implement service management bounded context | Liamvillugas | 2026-05-12 |
-| [MobilFlow/back-end](https://github.com/MobilFlow/back-end) | `main` | 9794610 | feat: implement reputation bounded context | GiussepeTC0410 | 2026-05-11 |
-| [MobilFlow/back-end](https://github.com/MobilFlow/back-end) | `main` | f39ddc9 | feat: add IAM Facade Implementation | yigabriel | 2026-05-10 |
-| [MobilFlow/back-end](https://github.com/MobilFlow/back-end) | `main` | c77de9d | feat: add mechanic geolocalization bc | yigabriel | 2026-05-10 |
-| [MobilFlow/back-end](https://github.com/MobilFlow/back-end) | `main` | e6c39e2 | feat: add mechanic specialities and cars for roles | yigabriel | 2026-05-10 |
-| [MobilFlow/back-end](https://github.com/MobilFlow/back-end) | `main` | 6c0ddd0 | feat: add entities nad valueObject for profile management | yigabriel | 2026-05-10 |
-| [MobilFlow/back-end](https://github.com/MobilFlow/back-end) | `main` | 13235aa | feat: add IAM bounded context with JWT | yigabriel | 2026-05-10 |
-| [MobilFlow/front-end](https://github.com/MobilFlow/front-end) | `main` | b7af756 | feat: add preview for main | yigabriel | 2026-05-11 |
-| [MobilFlow/front-end](https://github.com/MobilFlow/front-end) | `main` | 6afd175 | feat: add navigation | yigabriel | 2026-05-11 |
-| [MobilFlow/back-end](https://github.com/MobilFlow/back-end) | `main` | fa61c50 | chore: add service catalog domain and services | BraulioTN | 2026-05-11 |
-| [MobilFlow/back-end](https://github.com/MobilFlow/back-end) | `main` | f4d0d45 | chore: add initial service-catalog module scaffold | BraulioTN | 2026-05-11 |
-| [MobilFlow/front-end](https://github.com/MobilFlow/front-end) | `main` | f36bd81 | feat: wire up navigation for mechanic screens | BraulioTN | 2026-05-13 |
-| [MobilFlow/front-end](https://github.com/MobilFlow/front-end) | `main` | 23f5736 | chore: update generated build artifacts and add Kotlin error log | BraulioTN | 2026-05-13 |
-| [MobilFlow/front-end](https://github.com/MobilFlow/front-end) | `main` | 4b27d32 | chore: add IDE configs and generated build files | BraulioTN | 2026-05-12 |
+**Flutter Evidence:** [Video de Ejecución de Aplicación Flutter](https://youtu.be/LfCBa6sJvFg)
+
+![alt text](assets/execEvidence2/image.png)
+
+![alt text](assets/execEvidence2/image-1.png)
+
+![alt text](assets/execEvidence2/image-2.png)
+
+![alt text](assets/execEvidence2/image-3.png)
+
+![alt text](assets/execEvidence2/image-4.png)
+
+Android Evidence: 
 
 #### 4.3.1.4. Testing Suite Evidence for Sprint Review
 
