@@ -44,6 +44,9 @@
 **TB1:**
 ![pcav1](assets/project%20collaboration/tb1.png)
 
+**AV2:**
+![pcav1](assets/project%20collaboration/av2.png)
+
 <div style="page-break-after: always;"></div>
 
 # Registro de Versiones del Informe
@@ -59,7 +62,11 @@
 | 2.0     | 14/04/2026 | Giussepe Taquiri         | Pantallas de Reviews y request de mechanics, API CRUD de Calificación y Reputación, Correciones AV1  |
 | 2.0     | 14/04/2026 | Liam Villugas         | Pantallas de vista conductor y perfil conductor, API CRUD de Manejo de Servicios  |
 | 2.0     | 14/04/2026 | Braulio Torrejon         | Pantallas de vistas de mecanico (Perfil y Home), API CRUD de Catalogo de Servicios, Correciones AV1  |
-
+| 3.0     | 21/06/2026 | Gabriel Sánchez      | Desarrollo de Aplicación en Flutter, Desarrollo de correciones de pantallas y nuevas pantallas faltantes en Kotlin e integración de flujo, Documentación de Sprint 2  |
+| 3.0     | 21/06/2026 | Braulio Torrejon     | Desarrollo de pantallas de mecanico en Kotlin e integración de flujo, Video about the product, Video about the team |
+| 3.0     | 21/06/2026 | Romina Tuesta     | Desarrollo e investigación de integración de IA dentro de backend |
+| 3.0     | 21/06/2026 | Liam Villugas   | Desarrollo de pantallas de dashboard y search services en Kotlin e integración de flujo|
+| 3.0     | 21/06/2026 | Giussepe Taquiri  | Desarrollo de pantallas de reputación |
 
 <div style="page-break-after: always;"></div>
 
@@ -2940,7 +2947,7 @@ Link a Swagger de Backend: [Link a Swagger de Backend](https://back-end-automatc
 | US-16 | Sugerir Match de mecánicos | TK-01 | Integración de IA con OpenAI | Implementación de IA para sugerir mecánicos a partir de lenguaje natural | 10 | Romina Tuesta | Done |
 | TS-10 | IA de recomendación inteligente | TK-02 | Conectar backend con OpenAI API | Integración del sistema con OpenAI para procesamiento de solicitudes | 10 | Romina Tuesta | Done |
 | US-02 | Geolocalización de servicios | TK-03 | Integración de Google Maps API | Desarrollo de la interfaz de geolocalización en Kotlin para mostrar ubicación de mecánicos  | 6 | Braulio / Gabriel | Done |
-| US-01 | Calificaciones y reseñas | TK-04 | Módulo de reviews | Desarrollo de sistema de calificaciones y reseñas de servicios | 3 | Giuseppe | In Progress |
+| US-01 | Calificaciones y reseñas | TK-04 | Módulo de reviews | Desarrollo de sistema de calificaciones y reseñas de servicios | 3 | Giuseppe | Done |
 | US-10 | Búsqueda de mecánicos | TK-05 | Implementar búsqueda con filtros | Desarrollo de búsqueda de mecánicos por criterios y filtros | 4 | Liam / Gabriel Sanchez | Done |
 | US-11 | Lista de mecánicos disponibles | TK-06 | UI lista de mecánicos | Implementación de pantalla con listado de mecánicos disponibles (Flutter) | 4 | Gabriel Sanchez | Done |
 | US-12 | Perfil público de mecánico | TK-07 | Vista de perfil de mecánico | Desarrollo de pantalla de detalle de mecánico con información pública (Flutter) | 4 | Gabriel Sanchez | Done |
@@ -3007,7 +3014,16 @@ Para este Sprint no se contemplaron pruebas unitarias
 
 ![alt text](assets/execEvidence2/image-4.png)
 
-**Android Evidence:**
+**Android Evidence:** [Video de Ejecución de Aplicación Kotlin](https://youtu.be/iM-TwW16No0)
+
+![alt text](assets/execEvidence2/kot/image.png)
+
+![alt text](assets/execEvidence2/kot/image-1.png)
+
+![alt text](assets/execEvidence2/kot/image-2.png)
+
+![alt text](assets/execEvidence2/kot/image-3.png)
+
 
 
 #### 4.3.1.6. Services Documentation Evidence for Sprint Review
@@ -3318,6 +3334,8 @@ Event Storming: [https://lucid.app/lucidspark/273a3243-b31d-4c41-8b85-4a83e48956
 Entrevista:  
 [Entrevista App Moviles.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310609_upc_edu_pe/IQCiDe1DPL8sSrLgZHVSbiiNASFOLEMg63PK2nBlIJpFs6E?e=NNQS9v&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) 
 
+Link a Video About the Product: [Link a video about the product](https://youtu.be/BXflrP2g3ks)
+
 
 Link a Backend: [Link Backend](https://back-end-automatch1.onrender.com)
 
@@ -3325,3 +3343,20 @@ Link a Swagger de Backend: [Link a Swagger de Backend](https://back-end-automatc
 
 Github Reporte:
 [Link a repositorio de reporte en github](https://github.com/MobilFlow)
+
+Github Flutter:
+[Link a  repositorio de flutter](https://github.com/MobilFlow/flutter)
+
+Github Backend:
+[Link a  repositorio de backend](https://github.com/MobilFlow/back-end)
+
+Github Kotlin:
+[Link a  repositorio de kotlin](https://github.com/MobilFlow/front-end)
+
+Github Flutter:
+[Link a  repositorio de landing page](https://github.com/MobilFlow/Landing_Page)
+
+**Flutter Evidence:** [Video de Ejecución de Aplicación Flutter](https://youtu.be/LfCBa6sJvFg)
+
+**Android Evidence:** [Video de Ejecución de Aplicación Kotlin](https://youtu.be/iM-TwW16No0)
+
