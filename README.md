@@ -340,6 +340,27 @@
       - [4.2.1.6. Services Documentation Evidence for Sprint Review](#4216-services-documentation-evidence-for-sprint-review)
       - [4.2.1.7. Software Deployment Evidence for Sprint Review](#4217-software-deployment-evidence-for-sprint-review)
       - [4.2.1.8. Team Collaboration Insights during Sprint](#4218-team-collaboration-insights-during-sprint)
+
+
+          - [4.3.1. Sprint 2](#431-sprint-2)
+      - [4.3.1.1. Sprint Planning 2](#4311-sprint-planning-2)
+      - [4.3.1.2. Sprint Backlog 2](#4312-sprint-backlog-2)
+      - [4.3.1.3. Development Evidence for Sprint Review](#4313-development-evidence-for-sprint-review)
+      - [4.3.1.4. Testing Suite Evidence for Sprint Review](#4314-testing-suite-evidence-for-sprint-review)
+      - [4.3.1.5. Execution Evidence for Sprint Review](#4315-execution-evidence-for-sprint-review)
+      - [4.3.1.6. Services Documentation Evidence for Sprint Review](#4316-services-documentation-evidence-for-sprint-review)
+      - [4.3.1.7. Software Deployment Evidence for Sprint Review](#4317-software-deployment-evidence-for-sprint-review)
+      - [4.3.1.8. Team Collaboration Insights during Sprint](#4318-team-collaboration-insights-during-sprint)
+
+    - [4.3.2. Sprint 3](#432-sprint-3)
+      - [4.3.2.1. Sprint Planning 3](#4321-sprint-planning-3)
+      - [4.3.2.2. Sprint Backlog 3](#4322-sprint-backlog-3)
+      - [4.3.2.3. Development Evidence for Sprint Review](#4323-development-evidence-for-sprint-review)
+      - [4.3.2.4. Testing Suite Evidence for Sprint Review](#4324-testing-suite-evidence-for-sprint-review)
+      - [4.3.2.5. Execution Evidence for Sprint Review](#4325-execution-evidence-for-sprint-review)
+      - [4.3.2.6. Services Documentation Evidence for Sprint Review](#4326-services-documentation-evidence-for-sprint-review)
+      - [4.3.2.7. Software Deployment Evidence for Sprint Review](#4327-software-deployment-evidence-for-sprint-review)
+      - [4.3.2.8. Team Collaboration Insights during Sprint](#4328-team-collaboration-insights-during-sprint)
   - [4.3. Validation Interviews](#43-validation-interviews)
     - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
     - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
@@ -3067,6 +3088,45 @@ Link a Swagger de Backend: [Link a Swagger de Backend](https://back-end-automatc
 **FRONTEND FLUTTER**
 
 <img src="assets/images/FLUTCOLAB2.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
+
+
+### 4.3.2. Sprint 3
+
+#### 4.3.2.1. Sprint Planning 3
+
+| Sprint # | Sprint 3 |
+| :---- | :---- |
+| **Sprint Planning Background** | |
+| Date | 2026-07-05 |
+| Time | 07:00 PM |
+| Location | Google Meets |
+| Prepared By | Gabriel Sanchez |
+| Attendees (to planning meeting) | Gabriel Sanchez, Romina Tuesta, Braulio Torrejon, Liam Villugas, Giussepe Taquiri |
+| Sprint 2 Review Summary | Durante el Sprint 2 se completó la integración de las funcionalidades principales de la plataforma. Se implementó el sistema de reputación mediante calificaciones y reseñas, la geolocalización de mecánicos, la integración de inteligencia artificial para sugerencias y la conexión entre frontend y backend. Asimismo, se documentaron los nuevos endpoints mediante Swagger y se realizaron pruebas funcionales sobre las principales historias de usuario. Los resultados obtenidos permitieron contar con una versión estable de la aplicación lista para la etapa de validación y preparación del Release. |
+| Sprint 2 Retrospective Summary | Durante la retrospectiva identificamos como principal fortaleza la mejora en la coordinación entre frontend y backend, lo que permitió reducir tiempos de integración y solucionar incidencias de manera colaborativa. Como oportunidad de mejora se acordó reforzar la ejecución de pruebas finales antes de cada integración y revisar continuamente la documentación técnica para mantenerla sincronizada con los cambios realizados en el proyecto. |
+| **Sprint Goal & User Stories** | |
+| Sprint 3 Goal | Nuestro enfoque está en consolidar la versión final de AutoMatch mediante la optimización de las funcionalidades implementadas, la corrección de incidencias, la validación integral del sistema y la preparación del despliegue final. Creemos que esto brinda una aplicación estable, confiable y lista para su presentación. Esto se confirmará cuando los usuarios puedan utilizar correctamente todas las funcionalidades principales de la plataforma, la documentación de los servicios se encuentre actualizada y el sistema permanezca desplegado y operativo. |
+| Sprint 3 Velocity | 85 Story Points |
+| Sum of Story Points | 82 Story Points |
+
+#### 4.3.2.2. Sprint Backlog 3
+
+Durante este Sprint el equipo se enfocó en la estabilización de la plataforma AutoMatch, realizando la integración final entre todos los módulos desarrollados, corrigiendo incidencias detectadas durante las pruebas, optimizando el rendimiento de la aplicación móvil y actualizando la documentación técnica del proyecto. Asimismo, se preparó la versión final para el despliegue y validación del sistema.
+
+**Link a Trello:** https://trello.com/invite/b/6a068841acbe1487bd955d97/ATTI93e02f577752f14ff38f789bc8fc666eCFE5AB80/automathc
+
+| User Story Id | User Story Title | Work-Item / Task Id | Work-Item / Task Title | Description | Estimation (Hours) | Assigned To | Status |
+| :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
+| US-25 | Optimizar experiencia de usuario | TK-01 | Corrección de incidencias UI | Ajuste de interfaces y mejora de experiencia de usuario | 6 | Gabriel Sanchez | Done |
+| US-26 | Mejorar integración móvil | TK-02 | Integración final Backend-Frontend | Corrección de errores de integración entre API y aplicación móvil | 8 | Giussepe Taquiri | Done |
+| TS-11 | Optimización de autenticación | TK-03 | Validación de sesiones JWT | Corrección y optimización del manejo de autenticación | 6 | Gabriel Sanchez | Done |
+| US-23 | Publicar reseñas | TK-04 | Optimización del módulo de reputación | Mejoras en el registro y visualización de reseñas y calificaciones | 7 | Giussepe Taquiri | Done |
+| TS-12 | Documentación API | TK-05 | Actualizar documentación Swagger | Incorporación de los nuevos endpoints implementados | 5 | Braulio Torrejon | Done |
+| US-16 | IA de recomendación | TK-06 | Optimizar recomendaciones IA | Ajustes en las respuestas del asistente inteligente | 6 | Romina Tuesta | Done |
+| US-11 | Lista de mecánicos | TK-07 | Optimización de carga de información | Mejorar tiempos de respuesta en consultas de mecánicos | 6 | Liam Villugas | Done |
+| TS-13 | Pruebas funcionales | TK-08 | Ejecución de pruebas integrales | Validación funcional de los principales flujos de usuario | 8 | Todo el equipo | Done |
+| TS-14 | Deployment final | TK-09 | Actualización del despliegue | Publicación de la versión final en Render y GitHub Pages | 5 | Braulio Torrejon | Done |
+| TS-15 | Documentación final | TK-10 | Actualizar Project Report | Incorporación de evidencias finales del Sprint 3 y Release | 7 | Todo el equipo | Done |
 
 ## 4.4. Validation Interviews
 
