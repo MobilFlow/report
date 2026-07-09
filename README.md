@@ -3130,6 +3130,8 @@ Durante este Sprint el equipo se enfocó en la estabilización de la plataforma 
 
 #### 4.3.2.5. Execution Evidence for Sprint Review
 
+
+
 <img src="assets/images/capture-backend.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
 **Android Evidence:** 
@@ -3146,6 +3148,70 @@ Durante este Sprint el equipo se enfocó en la estabilización de la plataforma 
 ![alt text](assets/execEvidence3/img6.png)
 
 #### 4.3.2.6. Services Documentation Evidence for Sprint Review
+
+Backend final:
+
+| Endpoint | HTTP Method | Description | Request Body | Response |
+| --- | --- | --- | --- | --- |
+| **Autenticación** | | | | |
+| `/api/v1/authentication/sign-in` | POST | Inicia sesión y genera el token JWT | `{ "email": "string", "password": "string" }` | `{ "id": 0, "email": "string", "token": "string" }` |
+| `/api/v1/authentication/sign-up` | POST | Registra un nuevo usuario | `{ "email": "string", "password": "string", "fullName": "string", "phoneNumber": "string", "role": "string" }` | `{ "id": 0, "email": "string", "fullName": "string", "profilePicture": "string", "role": "string" }` |
+| **Usuarios** | | | | |
+| `/api/v1/users` | GET | Obtiene todos los usuarios | None | `[ { "id": 0, "email": "string", "fullName": "string", "profilePicture": "string", "role": "string" } ]` |
+| `/api/v1/users/{userId}` | GET | Obtiene un usuario por su ID | None | `{ "id": 0, "email": "string", "fullName": "string", "profilePicture": "string", "role": "string" }` |
+| `/api/v1/users/{id}` | PUT | Actualiza los datos de un usuario | `{ "name": "string", "email": "string", "profilePicture": "string" }` | `{ "id": 0, "email": "string", "fullName": "string", "profilePicture": "string", "role": "string" }` |
+| `/api/v1/users/{id}/change-password` | PATCH | Cambia la contraseña de un usuario | `{ "currentPassword": "string", "newPassword": "string" }` | `{ }` |
+| **Conductores (Drivers)** | | | | |
+| `/api/v1/drivers/user/{userId}` | GET | Obtiene perfil de conductor por ID de usuario | None | `{ "id": 0, "userId": 0, "cars": [] }` |
+| `/api/v1/drivers` | POST | Crea un nuevo perfil de conductor | `{ "userId": 0, "licenseNumber": "string" }` | `{ "id": 0, "userId": 0, "cars": [] }` |
+| `/api/v1/drivers/{driverProfileId}/cars` | GET | Obtiene los vehículos de un conductor | None | `[ { "id": 0, "ownerId": 0, "brand": "string", "model": "string", "year": 0, "plate": "string", "fuelType": "string" } ]` |
+| `/api/v1/drivers/{driverProfileId}/cars` | POST | Registra un nuevo vehículo | `{ "brand": "string", "model": "string", "year": 0, "plate": "string", "fuelType": "string" }` | `{ "id": 0, "ownerId": 0, "brand": "string", "model": "string", "year": 0, "plate": "string", "fuelType": "string" }` |
+| `/api/v1/drivers/cars/{carId}` | PUT | Actualiza un vehículo | `{ "brand": "string", "model": "string", "year": 0, "plate": "string", "fuelType": "string" }` | `{ "id": 0, "ownerId": 0, "brand": "string", "model": "string", "year": 0, "plate": "string", "fuelType": "string" }` |
+| `/api/v1/drivers/cars/{carId}` | DELETE | Elimina un vehículo | None | `{ }` |
+| **Mecánicos** | | | | |
+| `/api/v1/mechanics` | GET | Obtiene todos los perfiles de mecánico | None | `[ { "id": 0, "userId": 0, "bio": "string", "workshopName": "string", "workshopAddress": "string", "specialties": [] } ]` |
+| `/api/v1/mechanics` | POST | Crea un perfil de mecánico | `{ "userId": 0, "description": "string", "workshopName": "string", "workshopAddress": "string" }` | `{ "id": 0, "userId": 0, "bio": "string", "workshopName": "string", "workshopAddress": "string", "specialties": [] }` |
+| `/api/v1/mechanics/user/{userId}` | GET | Obtiene perfil de mecánico por ID de usuario | None | `{ "id": 0, "userId": 0, "bio": "string", "workshopName": "string", "workshopAddress": "string", "specialties": [] }` |
+| `/api/v1/mechanics/{mechanicProfileId}` | PUT | Actualiza un perfil de mecánico | `{ "description": "string", "workshopName": "string", "workshopAddress": "string" }` | `{ "id": 0, "userId": 0, "bio": "string", "workshopName": "string", "workshopAddress": "string", "specialties": [] }` |
+| `/api/v1/mechanics/specialties` | GET | Obtiene todas las especialidades | None | `{ }` |
+| `/api/v1/mechanics/{mechanicProfileId}/specialties/{specialtyId}` | POST | Agrega especialidad a un mecánico | None | `{ "id": 0, "userId": 0, "bio": "string", "workshopName": "string", "workshopAddress": "string", "specialties": [] }` |
+| `/api/v1/mechanics/{mechanicProfileId}/specialties/{specialtyId}` | DELETE | Elimina especialidad de un mecánico | None | `{ "id": 0, "userId": 0, "bio": "string", "workshopName": "string", "workshopAddress": "string", "specialties": [] }` |
+| **Servicios (Catálogo)** | | | | |
+| `/api/v1/services` | GET | Obtiene todos los servicios disponibles | None | `[ { "id": 0, "mechanicProfileId": 0, "title": "string", "description": "string", "minimumPrice": 0.0, "maximumPrice": 0.0, "status": "string", "category": { }, "tags": [], "images": [] } ]` |
+| `/api/v1/services` | POST | Publica un nuevo servicio | `{ "mechanicProfileId": 0, "title": "string", "description": "string", "priceMin": 0.0, "priceMax": 0.0, "categoryId": 0 }` | `{ "id": 0, "mechanicProfileId": 0, "title": "string", "description": "string", "minimumPrice": 0.0, "maximumPrice": 0.0, "status": "string", "category": { }, "tags": [], "images": [] }` |
+| `/api/v1/services/{serviceId}` | GET | Obtiene un servicio por su ID | None | `{ "id": 0, "mechanicProfileId": 0, "title": "string", "description": "string", "minimumPrice": 0.0, "maximumPrice": 0.0, "status": "string", "category": { }, "tags": [], "images": [] }` |
+| `/api/v1/services/{serviceId}` | PUT | Actualiza un servicio | `{ "title": "string", "description": "string", "priceMin": 0.0, "priceMax": 0.0, "categoryId": 0 }` | `{ "id": 0, "mechanicProfileId": 0, "title": "string", "description": "string", "minimumPrice": 0.0, "maximumPrice": 0.0, "status": "string", "category": { }, "tags": [], "images": [] }` |
+| `/api/v1/services/{serviceId}/deactivate` | PATCH | Desactiva un servicio | None | `{ "id": 0, "mechanicProfileId": 0, "title": "string", "description": "string", "minimumPrice": 0.0, "maximumPrice": 0.0, "status": "string", "category": { }, "tags": [], "images": [] }` |
+| `/api/v1/services/{serviceId}/tags` | POST | Agrega un tag a un servicio | `{ "tagId": 0 }` | `{ "id": 0, "mechanicProfileId": 0, "title": "string", "description": "string", "minimumPrice": 0.0, "maximumPrice": 0.0, "status": "string", "category": { }, "tags": [], "images": [] }` |
+| **Solicitudes de Servicio** | | | | |
+| `/api/v1/service-requests` | POST | Crea una nueva solicitud de servicio | `{ "serviceId": 0, "driverProfileId": 0, "mechanicProfileId": 0, "carId": 0, "description": "string", "scheduledDate": "datetime" }` | `{ "id": 0, "serviceId": 0, "driverProfileId": 0, "mechanicProfileId": 0, "carId": 0, "description": "string", "scheduledDate": "datetime", "status": "SCHEDULED", "driverConfirmed": false, "mechanicConfirmed": false, "completedAt": null, "createdAt": "datetime" }` |
+| `/api/v1/service-requests/{serviceId}` | GET | Obtiene una solicitud por su ID | None | `{ "id": 0, "serviceId": 0, "driverProfileId": 0, "mechanicProfileId": 0, "carId": 0, "description": "string", "scheduledDate": "datetime", "status": "string", "driverConfirmed": false, "mechanicConfirmed": false, "completedAt": "datetime", "createdAt": "datetime" }` |
+| `/api/v1/service-requests/driver/{driverProfileId}` | GET | Obtiene solicitudes por perfil de conductor | None | `[ { "id": 0, "serviceId": 0, "driverProfileId": 0, "mechanicProfileId": 0, "carId": 0, "description": "string", "scheduledDate": "datetime", "status": "string", "driverConfirmed": false, "mechanicConfirmed": false, "completedAt": "datetime", "createdAt": "datetime" } ]` |
+| `/api/v1/service-requests/mechanic/{mechanicProfileId}` | GET | Obtiene solicitudes por perfil de mecánico | None | `[ { "id": 0, "serviceId": 0, "driverProfileId": 0, "mechanicProfileId": 0, "carId": 0, "description": "string", "scheduledDate": "datetime", "status": "string", "driverConfirmed": false, "mechanicConfirmed": false, "completedAt": "datetime", "createdAt": "datetime" } ]` |
+| `/api/v1/service-requests/history/{driverProfileId}` | GET | Obtiene historial de solicitudes de un conductor | None | `[ { "id": 0, "serviceId": 0, "driverProfileId": 0, "mechanicProfileId": 0, "carId": 0, "description": "string", "scheduledDate": "datetime", "status": "string", "driverConfirmed": false, "mechanicConfirmed": false, "completedAt": "datetime", "createdAt": "datetime" } ]` |
+| `/api/v1/service-requests/{serviceId}/confirm` | PUT | Confirma finalización de un servicio | `{ "actorProfileId": 0, "role": "string" }` | `{ "id": 0, "serviceId": 0, "driverProfileId": 0, "mechanicProfileId": 0, "carId": 0, "description": "string", "scheduledDate": "datetime", "status": "string", "driverConfirmed": false, "mechanicConfirmed": false, "completedAt": "datetime", "createdAt": "datetime" }` |
+| `/api/v1/service-requests/{serviceId}/cancel` | PUT | Cancela un servicio | `{ "actorProfileId": 0, "role": "string" }` | `{ "id": 0, "serviceId": 0, "driverProfileId": 0, "mechanicProfileId": 0, "carId": 0, "description": "string", "scheduledDate": "datetime", "status": "string", "driverConfirmed": false, "mechanicConfirmed": false, "completedAt": "datetime", "createdAt": "datetime" }` |
+| **Ubicaciones de Mecánicos** | | | | |
+| `/api/v1/mechanic-locations` | GET | Obtiene todas las ubicaciones de mecánicos | None | `[ { "id": 0, "mechanicId": 0, "latitude": 0.0, "longitude": 0.0, "addressText": "string" } ]` |
+| `/api/v1/mechanic-locations/{mechanicId}` | GET | Obtiene ubicación de un mecánico | None | `{ "id": 0, "mechanicId": 0, "latitude": 0.0, "longitude": 0.0, "addressText": "string" }` |
+| `/api/v1/mechanic-locations/{mechanicId}` | POST | Registra ubicación de un mecánico | `{ "latitude": 0.0, "longitude": 0.0, "addressText": "string" }` | `{ "id": 0, "mechanicId": 0, "latitude": 0.0, "longitude": 0.0, "addressText": "string" }` |
+| **Reputación** | | | | |
+| `/api/v1/reputation/mechanics/{mechanicId}/summary` | GET | Obtiene resumen de reputación de un mecánico | None | `{ "averageRating": 0.0, "totalRatings": 0, "totalReviews": 0 }` |
+| `/api/v1/reputation/mechanics/{mechanicId}/reviews` | GET | Obtiene reseñas de un mecánico | None | `[ { "id": 0, "content": "string", "mechanicId": 0, "driverId": 0, "serviceId": 0, "createdAt": "datetime", "edited": false } ]` |
+| `/api/v1/reputation/mechanics/{mechanicId}/ratings` | GET | Obtiene calificaciones de un mecánico | None | `[ { "id": 0, "score": 0, "mechanicId": 0, "driverId": 0, "serviceId": 0, "createdAt": "datetime", "edited": false } ]` |
+| `/api/v1/reputation/reviews` | POST | Crea una reseña para un mecánico | `{ "content": "string", "mechanicId": 0, "driverId": 0, "serviceId": 0, "serviceFinished": false }` | `{ "id": 0, "content": "string", "mechanicId": 0, "driverId": 0, "serviceId": 0, "createdAt": "datetime", "edited": false }` |
+| `/api/v1/reputation/reviews/{id}` | PUT | Actualiza una reseña | `{ "content": "string", "serviceFinished": false }` | `{ "id": 0, "content": "string", "mechanicId": 0, "driverId": 0, "serviceId": 0, "createdAt": "datetime", "edited": false }` |
+| `/api/v1/reputation/ratings` | POST | Crea una calificación para un mecánico | `{ "score": 0, "mechanicId": 0, "driverId": 0, "serviceId": 0, "serviceFinished": false }` | `{ "id": 0, "score": 0, "mechanicId": 0, "driverId": 0, "serviceId": 0, "createdAt": "datetime", "edited": false }` |
+| `/api/v1/reputation/ratings/{id}` | PUT | Actualiza una calificación | `{ "score": 0, "serviceFinished": false }` | `{ "id": 0, "score": 0, "mechanicId": 0, "driverId": 0, "serviceId": 0, "createdAt": "datetime", "edited": false }` |
+| **Categorías y Tags** | | | | |
+| `/api/v1/categories` | GET | Obtiene todas las categorías | None | `[ { "id": 0, "name": "string" } ]` |
+| `/api/v1/categories` | POST | Crea una nueva categoría | `{ "id": 0, "name": "string" }` | `{ "id": 0, "name": "string" }` |
+| `/api/v1/tags` | GET | Obtiene todos los tags | None | `[ { "id": 0, "name": "string" } ]` |
+| `/api/v1/tags` | POST | Crea un nuevo tag | `{ "id": 0, "name": "string" }` | `{ "id": 0, "name": "string" }` |
+| **Búsqueda** | | | | |
+| `/api/v1/search?keyword=` | GET | Busca servicios por palabra clave | None | `[ { "id": 0, "mechanicProfileId": 0, "title": "string", "description": "string", "minimumPrice": 0.0, "maximumPrice": 0.0, "status": "string", "category": { }, "tags": [], "images": [] } ]` |
+| **Imágenes de Servicio** | | | | |
+| `/api/v1/service-images/{serviceId}` | POST | Sube una imagen para un servicio | `{ "imageUrl": "string" }` | `{ "id": 0, "imageUrl": "string" }` |
 
 ## 4.4. Validation Interviews
 
