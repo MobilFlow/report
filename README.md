@@ -3237,6 +3237,12 @@ Durante el Sprint Review, se realizó el despliegue de AutoMatch v1.0.0 mediante
 
 #### 4.2.1.8. Team Collaboration Insights during Sprint
 
+**Backend**
+<img src="assets/insighttf/insightbacks3.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
+
+**Flutter**
+<img src="assets/insighttf/insightflutters3.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
+
 
 ## 4.5. Validation Interviews
 
