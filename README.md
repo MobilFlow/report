@@ -3097,9 +3097,9 @@ Link a Swagger de Backend: [Link a Swagger de Backend](https://back-end-automatc
 <img src="assets/images/FLUTCOLAB2.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
 
-### 4.3.2. Sprint 3
+### 4.4.1. Sprint 3
 
-#### 4.3.2.1. Sprint Planning 3
+#### 4.4.1.1. Sprint Planning 3
 
 | Sprint # | Sprint 3 |
 | :---- | :---- |
@@ -3116,7 +3116,7 @@ Link a Swagger de Backend: [Link a Swagger de Backend](https://back-end-automatc
 | Sprint 3 Velocity | 85 Story Points |
 | Sum of Story Points | 82 Story Points |
 
-#### 4.3.2.2. Sprint Backlog 3
+#### 4.4.1.2. Sprint Backlog 3
 
 Durante este Sprint el equipo se enfocó en la estabilización de la plataforma AutoMatch, realizando la integración final entre todos los módulos desarrollados, corrigiendo incidencias detectadas durante las pruebas, optimizando el rendimiento de la aplicación móvil y actualizando la documentación técnica del proyecto. Asimismo, se preparó la versión final para el despliegue y validación del sistema.
 
@@ -3135,7 +3135,31 @@ Durante este Sprint el equipo se enfocó en la estabilización de la plataforma 
 | TS-14 | Deployment final | TK-09 | Actualización del despliegue | Publicación de la versión final en Render y GitHub Pages | 5 | Braulio Torrejon | Done |
 | TS-15 | Documentación final | TK-10 | Actualizar Project Report | Incorporación de evidencias finales del Sprint 3 y Release | 7 | Todo el equipo | Done |
 
-#### 4.3.2.5. Execution Evidence for Sprint Review
+#### 4.4.1.3. Development Evidence for Sprint Review
+
+
+| Repository       | Branch             | Commit Id | Commit Message                                          | Commit Message Body                                                              | Commited on (Date) |
+|------------------|--------------------|-----------|---------------------------------------------------------|----------------------------------------------------------------------------------|--------------------|
+| front-end-kotlin | fix/mechanics-view | e9bbeb0   | Add mechanic profile creation on sign-up                | Added functionality to create mechanic profiles during the registration process. | 09/07/2026         |
+| front-end-kotlin | fix/mechanics-view | a171988   | Merge pull request #5 from MobilFlow/fix/mechanics-view | Merge pull request containing mechanics view improvements.                       | 08/07/2026         |
+| front-end-kotlin | fix/mechanics-view | 72fc032   | fix: mechanics view from driver and drivers car         | Fixed mechanics view functionality for drivers and their vehicles.               | 08/07/2026         |
+| front-end-kotlin | fix/mechanics-view | 62eb68b   | Add smart diagnosis feature with symptom analysis      | Added smart diagnosis functionality based on symptom analysis.                   | 08/07/2026         |
+| front-end-kotlin | main               | 5a4d652   | feat: map                                               | Added map feature to the application.                                            | 06/07/2026         |
+| front-end-kotlin | main               | 11544e4   | feat: service history, review and service logic        | Implemented service history, reviews, and service-related business logic.        | 22/06/2026         |
+| front-end-kotlin | main               | 587a73b   | feat: add launcher image                                | Added application launcher image.                                                | 21/06/2026         |
+| front-end-kotlin | main               | edbdcc5   | feat: add services for mechanics to edit and view      | Added mechanic service management allowing services to be edited and viewed.     | 21/06/2026         |
+| front-end-kotlin | main               | 72256a9   | feat: add service request for mechanic                  | Added functionality to request services from mechanics.                          | 21/06/2026         |
+| back-end | main               | 105bc79  | Add: diagnosis and mechanic matching system            | Added map feature to the application.           | 08/07/2026         |
+| back-end | main               | 78652f6  | feat: update ai search and other config and fixes      | Implemented new AI feature for matching.        | 21/06/2026         |
+| back-end | main               | 3664d02  | fix: add speciality create endpoint                    | Added specialty endpoint for tags creation      | 21/06/2026         |
+| back-end | main               | 2541440  | feat(reputation): add reputation query services and summary endpoints    |  New reputation feature       | 18/06/2026         |
+
+
+
+#### 4.4.1.4. Testing Suite Evidence for Sprint Review
+
+
+#### 4.4.1.5. Execution Evidence for Sprint Review
 
 
 
@@ -3154,7 +3178,7 @@ Durante este Sprint el equipo se enfocó en la estabilización de la plataforma 
 
 ![alt text](assets/execEvidence3/img6.png)
 
-#### 4.3.2.6. Services Documentation Evidence for Sprint Review
+#### 4.3.1.6. Services Documentation Evidence for Sprint Review
 
 Backend final:
 
