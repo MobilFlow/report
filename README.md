@@ -66,7 +66,12 @@
 | 3.0     | 21/06/2026 | Braulio Torrejon     | Desarrollo de pantallas de mecanico en Kotlin e integración de flujo, Video about the product, Video about the team |
 | 3.0     | 21/06/2026 | Romina Tuesta     | Desarrollo e investigación de integración de IA dentro de backend |
 | 3.0     | 21/06/2026 | Liam Villugas   | Desarrollo de pantallas de dashboard y search services en Kotlin e integración de flujo|
-| 3.0     | 21/06/2026 | Giussepe Taquiri  | Desarrollo de pantallas de reputación |
+| 3.0     | 21/06/2026 | Giussepe Taquiri  |  Desarrollo de pantallas de reputación |
+| 4.0     | 21/06/2026 | Gabriel Sánchez      | Desarrollo de Aplicación en Flutter, Desarrollo de correciones de pantallas y nuevas pantallas faltantes en Kotlin e integración de flujo, Deployment Evidence, Team Collaboration Insight  |
+| 4.0     | 09/07/2026 | Braulio Torrejon     | Desarrollo de Aplicación Kotlin, Desarrollo de correciones Backend  |
+| 4.0     | 09/07/2026 | Romina Tuesta     | Desarrollo de Aplicación Kotlin, Desarrollo de correciones Backend, Developmnet Evidence, Testing Suite Evidence |
+| 4.0     | 09/07/2026 | Liam Villugas   | Execution Evidence, Service Documentation |
+| 4.0     | 09/07/2026 | Giussepe Taquiri  | Sprint Planning 3, Sprint Backlog |
 
 
 
