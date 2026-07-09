@@ -3128,6 +3128,14 @@ Durante este Sprint el equipo se enfocó en la estabilización de la plataforma 
 | TS-14 | Deployment final | TK-09 | Actualización del despliegue | Publicación de la versión final en Render y GitHub Pages | 5 | Braulio Torrejon | Done |
 | TS-15 | Documentación final | TK-10 | Actualizar Project Report | Incorporación de evidencias finales del Sprint 3 y Release | 7 | Todo el equipo | Done |
 
+#### 4.3.2.5. Execution Evidence for Sprint Review
+
+<img src="assets/images/capture-backend.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
+
+**Android Evidence:** 
+
+
+
 ## 4.4. Validation Interviews
 
 ### 4.4.1. Diseño de Entrevistas
