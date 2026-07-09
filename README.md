@@ -3220,9 +3220,27 @@ Backend final:
 | **Imágenes de Servicio** | | | | |
 | `/api/v1/service-images/{serviceId}` | POST | Sube una imagen para un servicio | `{ "imageUrl": "string" }` | `{ "id": 0, "imageUrl": "string" }` |
 
-## 4.4. Validation Interviews
+#### 4.4.1. Sprint 4
 
-### 4.4.1. Diseño de Entrevistas
+#### 4.4.1.1. Sprint Planning 4
+
+#### 4.4.1.2. Sprint Backlog 4
+
+#### 4.4.1.3. Development Evidence for Sprint Review
+
+#### 4.4.1.4. Testing Suite Evidence for Sprint Review
+
+#### 4.4.1.5. Execution Evidence for Sprint Review
+
+#### 4.4.1.6. Services Documentation Evidence for Sprint Review
+
+#### 4.4.1.7. Software Deployment Evidence for Sprint Review
+
+#### 4.4.1.8. Team Collaboration Insights during Sprint
+
+## 4.5. Validation Interviews
+
+### 4.5.1. Diseño de Entrevistas
 
 **Drivers**
 
@@ -3240,7 +3258,7 @@ Backend final:
 9. ¿Qué elementos del proceso (registro, visibilidad, reputación, tarifas, etc.) podrían frenar tu decisión de unirte?  
 10. ¿Qué tendría que ofrecerte esta plataforma para que sientas que realmente vale la pena formar parte como profesional?
 
-### 4.3.2. Registro de Entrevistas
+### 4.5.2. Registro de Entrevistas
 
 ### **Entrevista N°1 \- Carlo García (Mecanico)**
 
@@ -3363,7 +3381,7 @@ Rommer menciona que es interesante ya que puede llegar a más clientes, es atrac
 Le causa desconfianza que hayan posibles clientes que puedan no ser serias con respecto a tomar el servicio y gaste tiempo en este tipo de clientes por la facilidad de acceso. La razón que podría frenar la decisión de unirse a la plataforma es que no tendría la oportunidad de ver en persona el vehículo antes de dar una estimación del costo y/o diagnóstico del automóvil. 
 <br>
 
-### 4.4.3. Evaluaciones según heurísticas
+### 4.4.5. Evaluaciones según heurísticas
 
 **UX Heuristics & Principles Evaluation**  
  **Usability \- Inclusive Design \- Information Architecture**
