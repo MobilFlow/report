@@ -3133,8 +3133,19 @@ Durante este Sprint el equipo se enfocó en la estabilización de la plataforma 
 <img src="assets/images/capture-backend.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
 **Android Evidence:** 
+![alt text](assets/execEvidence3/img1.png)
 
+![alt text](assets/execEvidence3/img2.png)
 
+![alt text](assets/execEvidence3/img3.png)
+
+![alt text](assets/execEvidence3/img4.png)
+
+![alt text](assets/execEvidence3/img5.png)
+
+![alt text](assets/execEvidence3/img6.png)
+
+#### 4.3.2.6. Services Documentation Evidence for Sprint Review
 
 ## 4.4. Validation Interviews
 
