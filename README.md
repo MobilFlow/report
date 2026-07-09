@@ -3220,23 +3220,6 @@ Backend final:
 | **Imágenes de Servicio** | | | | |
 | `/api/v1/service-images/{serviceId}` | POST | Sube una imagen para un servicio | `{ "imageUrl": "string" }` | `{ "id": 0, "imageUrl": "string" }` |
 
-#### 4.4.1. Sprint 4
-
-#### 4.4.1.1. Sprint Planning 4
-
-#### 4.4.1.2. Sprint Backlog 4
-
-#### 4.4.1.3. Development Evidence for Sprint Review
-
-#### 4.4.1.4. Testing Suite Evidence for Sprint Review
-
-#### 4.4.1.5. Execution Evidence for Sprint Review
-
-#### 4.4.1.6. Services Documentation Evidence for Sprint Review
-
-#### 4.4.1.7. Software Deployment Evidence for Sprint Review
-
-#### 4.4.1.8. Team Collaboration Insights during Sprint
 
 ## 4.5. Validation Interviews
 
