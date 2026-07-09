@@ -47,6 +47,10 @@
 **AV2:**
 ![pcav1](assets/project%20collaboration/av2.png)
 
+**TF:**
+
+![alt text](assets/project%20collaboration/image-4.png)
+
 <div style="page-break-after: always;"></div>
 
 # Registro de Versiones del Informe
