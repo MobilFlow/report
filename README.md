@@ -31,7 +31,7 @@
 | Tuesta Marin, Romina Alejandra       | U202211706  |
 | Torrejon Navarro, Braulio Rodrigo    | U201711828  |
 
-<strong> Junio 2026</strong><br>
+<strong> Julio 2026</strong><br>
 </div>
 
 <div style="page-break-after: always;"></div>
@@ -67,6 +67,7 @@
 | 3.0     | 21/06/2026 | Romina Tuesta     | Desarrollo e investigación de integración de IA dentro de backend |
 | 3.0     | 21/06/2026 | Liam Villugas   | Desarrollo de pantallas de dashboard y search services en Kotlin e integración de flujo|
 | 3.0     | 21/06/2026 | Giussepe Taquiri  | Desarrollo de pantallas de reputación |
+
 
 
 <div style="page-break-after: always;"></div>
