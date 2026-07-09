@@ -47,6 +47,10 @@
 **AV2:**
 ![pcav1](assets/project%20collaboration/av2.png)
 
+**TF:**
+
+![alt text](assets/project%20collaboration/image-4.png)
+
 <div style="page-break-after: always;"></div>
 
 # Registro de Versiones del Informe
@@ -66,7 +70,12 @@
 | 3.0     | 21/06/2026 | Braulio Torrejon     | Desarrollo de pantallas de mecanico en Kotlin e integración de flujo, Video about the product, Video about the team |
 | 3.0     | 21/06/2026 | Romina Tuesta     | Desarrollo e investigación de integración de IA dentro de backend |
 | 3.0     | 21/06/2026 | Liam Villugas   | Desarrollo de pantallas de dashboard y search services en Kotlin e integración de flujo|
-| 3.0     | 21/06/2026 | Giussepe Taquiri  | Desarrollo de pantallas de reputación |
+| 3.0     | 21/06/2026 | Giussepe Taquiri  |  Desarrollo de pantallas de reputación |
+| 4.0     | 21/06/2026 | Gabriel Sánchez      | Desarrollo de Aplicación en Flutter, Desarrollo de correciones de pantallas y nuevas pantallas faltantes en Kotlin e integración de flujo, Deployment Evidence, Team Collaboration Insight  |
+| 4.0     | 09/07/2026 | Braulio Torrejon     | Desarrollo de Aplicación Kotlin, Desarrollo de correciones Backend  |
+| 4.0     | 09/07/2026 | Romina Tuesta     | Desarrollo de Aplicación Kotlin, Desarrollo de correciones Backend, Developmnet Evidence, Testing Suite Evidence |
+| 4.0     | 09/07/2026 | Liam Villugas   | Execution Evidence, Service Documentation |
+| 4.0     | 09/07/2026 | Giussepe Taquiri  | Sprint Planning 3, Sprint Backlog |
 
 
 
@@ -360,9 +369,11 @@
       - [4.3.2.2. Sprint Backlog 3](#4322-sprint-backlog-3)
       - [4.3.2.5. Execution Evidence for Sprint Review](#4325-execution-evidence-for-sprint-review)
       - [4.3.2.6. Services Documentation Evidence for Sprint Review](#4326-services-documentation-evidence-for-sprint-review)
-  - [4.4. Validation Interviews](#44-validation-interviews)
-    - [4.4.1. Diseño de Entrevistas](#441-diseño-de-entrevistas)
-    - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
+      - [4.2.1.7. Software Deployment Evidence for Sprint Review](#4217-software-deployment-evidence-for-sprint-review-1)
+      - [4.2.1.8. Team Collaboration Insights during Sprint](#4218-team-collaboration-insights-during-sprint-1)
+  - [4.5. Validation Interviews](#45-validation-interviews)
+    - [4.5.1. Diseño de Entrevistas](#451-diseño-de-entrevistas)
+    - [4.5.2. Registro de Entrevistas](#452-registro-de-entrevistas)
     - [**Entrevista N°1 - Carlo García (Mecanico)**](#entrevista-n1---carlo-garcía-mecanico)
       - [**Datos del entrevistado**](#datos-del-entrevistado)
       - [**Resumen de la entrevista:**](#resumen-de-la-entrevista)
@@ -377,7 +388,7 @@
       - [**Resumen de la entrevista:**](#resumen-de-la-entrevista-2)
     - [**Entrevista N°4 - Juan (Mecanico)**](#entrevista-n4---juan-mecanico)
       - [**Resumen de la entrevista:**](#resumen-de-la-entrevista-3)
-    - [4.4.3. Evaluaciones según heurísticas](#443-evaluaciones-según-heurísticas)
+    - [4.4.5. Evaluaciones según heurísticas](#445-evaluaciones-según-heurísticas)
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
@@ -3240,6 +3251,27 @@ Backend final:
 | `/api/v1/search?keyword=` | GET | Busca servicios por palabra clave | None | `[ { "id": 0, "mechanicProfileId": 0, "title": "string", "description": "string", "minimumPrice": 0.0, "maximumPrice": 0.0, "status": "string", "category": { }, "tags": [], "images": [] } ]` |
 | **Imágenes de Servicio** | | | | |
 | `/api/v1/service-images/{serviceId}` | POST | Sube una imagen para un servicio | `{ "imageUrl": "string" }` | `{ "id": 0, "imageUrl": "string" }` |
+
+#### 4.2.1.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint Review, se realizó el despliegue de AutoMatch v1.0.0 mediante un GitHub Release, permitiendo que los testers descargaran e instalaran la aplicación Android (APK) para su evaluación. Este despliegue constituye la evidencia de distribución del software y facilita la validación de las funcionalidades implementadas en el sprint.
+
+[Link a Release Flutter en Github](https://github.com/MobilFlow/flutter/releases/tag/v1.0.0)
+
+**Flutter:**
+
+<img src="assets/deploy/deploy-flutter1.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
+
+<img src="assets/deploy/deploy-flutter.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
+
+
+#### 4.2.1.8. Team Collaboration Insights during Sprint
+
+**Backend**
+<img src="assets/insighttf/insightbacks3.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
+
+**Flutter**
+<img src="assets/insighttf/insightflutters3.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
 
 ## 4.5. Validation Interviews
