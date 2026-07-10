@@ -3262,10 +3262,13 @@ Durante el Sprint Review, se realizó el despliegue de AutoMatch v1.0.0 mediante
 
 **Flutter:**
 
-<img src="assets/deploy/deploy-flutter1.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
-
 <img src="assets/deploy/deploy-flutter.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
+**Android - Kotlin:**
+
+[Link a Release Kotlin en Github](https://github.com/MobilFlow/front-end/releases/tag/v1.0.0)
+
+<img src="assets/deploy/kotrel.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
 #### 4.3.2.8. Team Collaboration Insights during Sprint
 
@@ -3274,6 +3277,9 @@ Durante el Sprint Review, se realizó el despliegue de AutoMatch v1.0.0 mediante
 
 **Flutter**
 <img src="assets/insighttf/insightflutters3.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
+
+**Android**
+<img src="assets/insighttf/image-4.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
 
 ## 4.5. Validation Interviews
