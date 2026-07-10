@@ -392,6 +392,7 @@
       - [**Resumen de la entrevista:**](#resumen-de-la-entrevista-3)
     - [4.4.5. Evaluaciones según heurísticas](#445-evaluaciones-según-heurísticas)
 - [Conclusiones](#conclusiones)
+- [Recomendaciones](#recomendaciones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
   - [Anexo A: Links](#anexo-a-links)
@@ -3517,6 +3518,12 @@ Explicar de forma breve qué significa cada métrica, cómo se calculan los rati
 * En esta entrega se consolidó una solución integral para MobilFlow, abarcando el diseño UX/UI, la landing page, el frontend y backend funcionales, junto con validaciones con usuarios reales y evaluaciones heurísticas. Los resultados evidencian una propuesta bien estructurada y alineada con las necesidades del mercado, con oportunidades de mejora enfocadas principalmente en la interacción directa entre usuarios y mecánicos.
 * Durante el desarrollo del AV2, logramos avanzar progresivamente desde la construcción inicial del frontend hasta la integración completa con los servicios backend. Este proceso implicó investigar nuevas tecnologías, adaptar herramientas a las necesidades del proyecto y enfrentar desafíos relacionados con la comunicación entre aplicaciones móviles y servicios web. Asimismo, exploramos e incorporamos funcionalidades basadas en inteligencia artificial de manera gradual, integrándolas al backend para mejorar la experiencia de los usuarios y ampliar las capacidades de la plataforma. Estas actividades nos permitieron fortalecer nuestras habilidades técnicas, de investigación y de resolución de problemas en un entorno de desarrollo real.
 * El despliegue de una versión estable evidenció una mayor madurez del proyecto y del proceso de desarrollo seguido por el equipo. Al contar con una aplicación completamente integrada, lista para ser instalada y evaluada por los usuarios, fue posible comprobar que las funcionalidades implementadas en los diferentes sprints trabajaban de forma conjunta y respondían adecuadamente a los requerimientos establecidos. Además, esta etapa permitió validar el correcto funcionamiento de la integración entre el frontend, el backend y los servicios desplegados, reduciendo inconsistencias y fortaleciendo la calidad del producto final. Como resultado, el proyecto quedó mejor preparado para futuras iteraciones, facilitando la incorporación de nuevas funcionalidades, el mantenimiento del sistema y una eventual implementación en un entorno de producción real.
+
+# Recomendaciones
+
+* Implementar un pipeline de Integración Continua y Despliegue Continuo (CI/CD) para automatizar el proceso de compilación, pruebas y publicación de la aplicación móvil. Esto permitirá reducir los tiempos de entrega, minimizar errores ocasionados por procesos manuales y garantizar que cada nueva versión sea validada antes de su despliegue. Además, facilitará el mantenimiento del proyecto y una distribución más rápida de futuras actualizaciones.
+* Incorporar un sistema de comunicación en tiempo real entre conductores y mecánicos mediante un chat integrado dentro de la aplicación. Esta funcionalidad permitirá coordinar detalles del servicio, resolver consultas durante la atención y compartir información relevante sin necesidad de utilizar aplicaciones externas. Como resultado, se mejorará la experiencia del usuario y la eficiencia en la prestación del servicio.
+* Desarrollar un sistema de notificaciones inteligentes y recordatorios personalizados para mantener informados a los usuarios sobre el estado de sus solicitudes y próximos mantenimientos. Estas notificaciones podrán alertar sobre cambios en el servicio, confirmaciones de citas o recordatorios preventivos según el historial del vehículo. De esta manera, se incrementará la participación de los usuarios y se fortalecerá la fidelización hacia la plataforma.
 
 # Bibliografía
 
