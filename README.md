@@ -1649,7 +1649,7 @@ Durante el EventStorming se aplicó la técnica look-for-pivotal-events para ide
 
 #### 2.5.3.1. Software Architecture Context Level Diagrams
 
-<img src="assets/entrevistas/DDD/Software%20Architecture%20Context%20Level.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
+<img src="assets/ContainerDiagram-dark (1).png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
 #### 2.5.3.2. Software Architecture Container Level Diagrams
 
