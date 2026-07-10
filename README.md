@@ -47,7 +47,7 @@
 **AV2:**
 ![pcav1](assets/project%20collaboration/av2.png)
 
-**TF:**
+**TB2:**
 
 ![alt text](assets/project%20collaboration/image-4.png)
 
@@ -366,6 +366,8 @@
       - [4.3.1.8. Team Collaboration Insights during Sprint](#4318-team-collaboration-insights-during-sprint)
     - [4.3.2. Sprint 3](#432-sprint-3)
       - [4.3.2.1. Sprint Planning 3](#4321-sprint-planning-3)
+    - [4.3.2. Sprint 3](#432-sprint-3-1)
+      - [4.3.2.1. Sprint Planning 3](#4321-sprint-planning-3-1)
       - [4.3.2.2. Sprint Backlog 3](#4322-sprint-backlog-3)
       - [4.3.2.5. Execution Evidence for Sprint Review](#4325-execution-evidence-for-sprint-review)
       - [4.3.2.6. Services Documentation Evidence for Sprint Review](#4326-services-documentation-evidence-for-sprint-review)
