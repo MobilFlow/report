@@ -3170,6 +3170,122 @@ Durante este Sprint el equipo se enfocó en la estabilización de la plataforma 
 | TS-14 | Despliegue final | TK-09 | Actualización del despliegue | Publicación de la versión final en Render y GitHub Pages | 5 | Braulio Torrejon | Done |
 | TS-15 | Documentación final | TK-10 | Actualizar el Project Report | Incorporación de las evidencias finales del Sprint 3 y del Release | 7 | Todo el equipo | Done |
 
+#### 4.4.1.3. Development Evidence for Sprint Review
+
+
+| Repository       | Branch             | Commit Id | Commit Message                                          | Commit Message Body                                                              | Commited on (Date) |
+|------------------|--------------------|-----------|---------------------------------------------------------|----------------------------------------------------------------------------------|--------------------|
+| front-end-kotlin | fix/mechanics-view | e9bbeb0   | Add mechanic profile creation on sign-up                | Added functionality to create mechanic profiles during the registration process. | 09/07/2026         |
+| front-end-kotlin | fix/mechanics-view | a171988   | Merge pull request #5 from MobilFlow/fix/mechanics-view | Merge pull request containing mechanics view improvements.                       | 08/07/2026         |
+| front-end-kotlin | fix/mechanics-view | 72fc032   | fix: mechanics view from driver and drivers car         | Fixed mechanics view functionality for drivers and their vehicles.               | 08/07/2026         |
+| front-end-kotlin | fix/mechanics-view | 62eb68b   | Add smart diagnosis feature with symptom analysis      | Added smart diagnosis functionality based on symptom analysis.                   | 08/07/2026         |
+| front-end-kotlin | main               | 5a4d652   | feat: map                                               | Added map feature to the application.                                            | 06/07/2026         |
+| front-end-kotlin | main               | 11544e4   | feat: service history, review and service logic        | Implemented service history, reviews, and service-related business logic.        | 22/06/2026         |
+| front-end-kotlin | main               | 587a73b   | feat: add launcher image                                | Added application launcher image.                                                | 21/06/2026         |
+| front-end-kotlin | main               | edbdcc5   | feat: add services for mechanics to edit and view      | Added mechanic service management allowing services to be edited and viewed.     | 21/06/2026         |
+| front-end-kotlin | main               | 72256a9   | feat: add service request for mechanic                  | Added functionality to request services from mechanics.                          | 21/06/2026         |
+| back-end | main               | 105bc79  | Add: diagnosis and mechanic matching system            | Added map feature to the application.           | 08/07/2026         |
+| back-end | main               | 78652f6  | feat: update ai search and other config and fixes      | Implemented new AI feature for matching.        | 21/06/2026         |
+| back-end | main               | 3664d02  | fix: add speciality create endpoint                    | Added specialty endpoint for tags creation      | 21/06/2026         |
+| back-end | main               | 2541440  | feat(reputation): add reputation query services and summary endpoints    |  New reputation feature       | 18/06/2026         |
+
+
+
+#### 4.4.1.4. Testing Suite Evidence for Sprint Review
+
+La siguiente tabla presenta un resumen de los commits realizados durante la fase de desarrollo del proyecto. En ella se detalla el repositorio donde se efectuó cada cambio, la rama correspondiente, el identificador del commit, el mensaje asociado, una breve descripción de las modificaciones realizadas y la fecha en que fueron registradas. Estos commits evidencian el desarrollo de funcionalidades en el backend, la implementación de pruebas unitarias e integración, así como la creación de escenarios de pruebas de aceptación para las principales funcionalidades del sistema.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|------------|--------|-----------|----------------|---------------------|--------------------|
+| **back-end** | `feat/unit-integration-tests` | `6469363` | feat: unit and integration tests for sprint | Added unit and integration tests for the sprint. | Jul 9, 2026 |
+| **acceptance-test** | `main`* | `bb208b5` | Delete TS-13_functional_flows.feature | Removed the obsolete `TS-13_functional_flows.feature` file. | Jul 9, 2026 |
+| **acceptance-test** | `main`* | `b786945` | feat: Add API documentation feature using Swagger | Added acceptance test scenarios for the Swagger API documentation feature. | Jul 9, 2026 |
+| **acceptance-test** | `main`* | `f245391` | feat: Add optimized mechanic search feature scenarios | Added acceptance test scenarios for the optimized mechanic search functionality. | Jul 9, 2026 |
+| **acceptance-test** | `main`* | `dfe42e3` | feat: Add AI recommendation feature with scenarios | Added acceptance test scenarios for the AI recommendation feature. | Jul 9, 2026 |
+| **acceptance-test** | `main`* | `55a3115` | feat: Add feature for mechanic reviews registration and display | Added acceptance test scenarios for mechanic review registration and display. | Jul 9, 2026 |
+| **acceptance-test** | `main`* | `8cd67fe` | feat: Add authentication validation scenarios with JWT | Added JWT authentication validation scenarios. | Jul 9, 2026 |
+| **acceptance-test** | `main`* | `5dff7a1` | feat: Add feature file for mobile integration tests | Added feature file covering mobile integration test scenarios. | Jul 9, 2026 |
+| **acceptance-test** | `main`* | `b1a2ede` | feat: Add user experience optimization feature scenarios | Added acceptance test scenarios for user experience optimization. | Jul 9, 2026 |
+
+Se implementaron pruebas unitarias, integrales y de aceptación para cada user story funcional del presente sprint:
+
+**Pruebas unitarias:**
+
+TS-11 Optimización de autenticación: Validación de sesiones JWT. 
+se encuentra en: UserCommandServiceImplTest.java
+![alt text](assets/tests/u_T11.png)
+
+US-11 – Lista de mecánicos: Optimización de la carga de información.
+Se encuentra en: MechanicProfileCommandServiceTest:
+![alt text](assets/tests/u_S11_1.png)
+
+MechanicProfileQueryServiceTest:
+![alt text](assets/tests/u_S11_2.png)
+
+US-23 – Publicar reseñas: Optimización del módulo de reputación
+Se encuentra en: ReviewCommandServiceTest:
+![alt text](assets/tests/u_23_1.png)
+
+ReviewQueryServiceTest:
+![alt text](assets/tests/u_23_2.png)
+
+**Pruebas Integración:**
+
+TS-11 Optimización de autenticación: Validación de sesiones JWT. 
+En: AuthenticationControllerTest
+![alt text](assets/tests/i_T11.png)
+
+US-16 – IA de recomendación: Optimizar recomendaciones de IA.
+En: AISearchControllerTest
+
+![alt text](assets/tests/i_16.png)
+
+US-23 – Publicar reseñas: Mejoras en el registro y visualización de reseñas y calificaciones.
+En: ReputationControllerTest
+
+![alt text](assets/tests/i_23_1.png)
+
+
+**Pruebas de aceptación:**
+se encuentran en el siguiente repositorio: https://github.com/MobilFlow/Acceptance-Tests/tree/main
+
+- **US-25:** Optimizar experiencia de usuario
+   **TK-01:** Corrección de incidencias de la interfaz
+  
+    ![alt text](assets/tests/acc_25.png)
+
+- **US-26:** Mejorar integración móvil
+   **TK-02:** Integración final entre Backend y Frontend
+  
+![alt text](assets/tests/acc_26.png)
+
+- **TS-11:** Optimización de autenticación
+   **TK-03:** Validación de sesiones JWT
+  
+![alt text](assets/tests/acc_T11.png)
+
+- **US-23:** Publicar reseñas
+   **TK-04:** Optimización del módulo de reputación
+  
+![alt text](assets/tests/acc_23.png)
+
+- **TS-12:** Documentación de la API
+   **TK-05:** Actualizar documentación de Swagger
+  
+![alt text](assets/tests/acc_12.png)
+
+- **US-16:** IA de recomendación
+   **TK-06:** Optimizar recomendaciones de IA
+  
+![alt text](assets/tests/acc_16.png)
+
+
+- **US-11:** Lista de mecánicos
+   **TK-07:** Optimización de la carga de información
+  
+  ![alt text](assets/tests/acc_S11.png)
+
+
 #### 4.3.2.5. Execution Evidence for Sprint Review
 
 
