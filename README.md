@@ -47,8 +47,9 @@
 **AV2:**
 ![pcav1](assets/project%20collaboration/av2.png)
 
-**TB2:**
+<div style="page-break-after: always;"></div>
 
+**TB2:**
 ![alt text](assets/project%20collaboration/image-4.png)
 
 <div style="page-break-after: always;"></div>
@@ -366,9 +367,10 @@
       - [4.3.1.8. Team Collaboration Insights during Sprint](#4318-team-collaboration-insights-during-sprint)
     - [4.3.2. Sprint 3](#432-sprint-3)
       - [4.3.2.1. Sprint Planning 3](#4321-sprint-planning-3)
-    - [4.3.2. Sprint 3](#432-sprint-3-1)
       - [4.3.2.1. Sprint Planning 3](#4321-sprint-planning-3-1)
       - [4.3.2.2. Sprint Backlog 3](#4322-sprint-backlog-3)
+      - [4.4.1.3. Development Evidence for Sprint Review](#4413-development-evidence-for-sprint-review)
+      - [4.4.1.4. Testing Suite Evidence for Sprint Review](#4414-testing-suite-evidence-for-sprint-review)
       - [4.3.2.5. Execution Evidence for Sprint Review](#4325-execution-evidence-for-sprint-review)
       - [4.3.2.6. Services Documentation Evidence for Sprint Review](#4326-services-documentation-evidence-for-sprint-review)
       - [4.3.2.7. Software Deployment Evidence for Sprint Review](#4327-software-deployment-evidence-for-sprint-review)
@@ -3130,8 +3132,6 @@ Link a Swagger de Backend: [Link a Swagger de Backend](https://back-end-automatc
 
 
 
-### 4.3.2. Sprint 3
-
 #### 4.3.2.1. Sprint Planning 3
 
 | Sprint # | Sprint 3 |
@@ -3388,12 +3388,15 @@ Durante el Sprint Review, se realizó el despliegue de AutoMatch v1.0.0 mediante
 #### 4.3.2.8. Team Collaboration Insights during Sprint
 
 **Backend**
+
 <img src="assets/insighttf/insightbacks3.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
 **Flutter**
+
 <img src="assets/insighttf/insightflutters3.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
 **Android**
+
 <img src="assets/insighttf/image-4.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
 
