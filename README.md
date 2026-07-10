@@ -3158,6 +3158,87 @@ Durante este Sprint el equipo se enfocó en la estabilización de la plataforma 
 
 #### 4.4.1.4. Testing Suite Evidence for Sprint Review
 
+La siguiente tabla presenta un resumen de los commits realizados durante la fase de desarrollo del proyecto. En ella se detalla el repositorio donde se efectuó cada cambio, la rama correspondiente, el identificador del commit, el mensaje asociado, una breve descripción de las modificaciones realizadas y la fecha en que fueron registradas. Estos commits evidencian el desarrollo de funcionalidades en el backend, la implementación de pruebas unitarias e integración, así como la creación de escenarios de pruebas de aceptación para las principales funcionalidades del sistema.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|------------|--------|-----------|----------------|---------------------|--------------------|
+| **back-end** | `feat/unit-integration-tests` | `6469363` | feat: unit and integration tests for sprint | Added unit and integration tests for the sprint. | Jul 9, 2026 |
+| **acceptance-test** | `main`* | `bb208b5` | Delete TS-13_functional_flows.feature | Removed the obsolete `TS-13_functional_flows.feature` file. | Jul 9, 2026 |
+| **acceptance-test** | `main`* | `b786945` | feat: Add API documentation feature using Swagger | Added acceptance test scenarios for the Swagger API documentation feature. | Jul 9, 2026 |
+| **acceptance-test** | `main`* | `f245391` | feat: Add optimized mechanic search feature scenarios | Added acceptance test scenarios for the optimized mechanic search functionality. | Jul 9, 2026 |
+| **acceptance-test** | `main`* | `dfe42e3` | feat: Add AI recommendation feature with scenarios | Added acceptance test scenarios for the AI recommendation feature. | Jul 9, 2026 |
+| **acceptance-test** | `main`* | `55a3115` | feat: Add feature for mechanic reviews registration and display | Added acceptance test scenarios for mechanic review registration and display. | Jul 9, 2026 |
+| **acceptance-test** | `main`* | `8cd67fe` | feat: Add authentication validation scenarios with JWT | Added JWT authentication validation scenarios. | Jul 9, 2026 |
+| **acceptance-test** | `main`* | `5dff7a1` | feat: Add feature file for mobile integration tests | Added feature file covering mobile integration test scenarios. | Jul 9, 2026 |
+| **acceptance-test** | `main`* | `b1a2ede` | feat: Add user experience optimization feature scenarios | Added acceptance test scenarios for user experience optimization. | Jul 9, 2026 |
+
+Se implementaron pruebas unitarias, integrales y de aceptación para cada user story funcional del presente sprint:
+
+**Pruebas unitarias:**
+
+TS-11 Optimización de autenticación: Validación de sesiones JWT. 
+se encuentra en: UserCommandServiceImplTest.java
+![alt text](assets/tests/u_T11.png)
+
+US-11 – Lista de mecánicos: Optimización de la carga de información.
+Se encuentra en: MechanicProfileCommandServiceTest:
+![alt text](assets/test/u_S11_1.png)
+
+MechanicProfileQueryServiceTest:
+![alt text](assets/test/u_S11_2.png)
+
+US-23 – Publicar reseñas: Optimización del módulo de reputación
+Se encuentra en: ReviewCommandServiceTest:
+![alt text](assets/test/u_23_1.png)
+
+ReviewQueryServiceTest:
+![alt text](assets/test/u_23_2.png)
+
+**Pruebas Integración:**
+
+TS-11 Optimización de autenticación: Validación de sesiones JWT. 
+En: AuthenticationControllerTest
+![alt text](assets/tests/i_T11.png)
+
+US-16 – IA de recomendación: Optimizar recomendaciones de IA.
+En: AISearchControllerTest
+![alt text](assets/tests/i_16.png)
+
+US-23 – Publicar reseñas: Mejoras en el registro y visualización de reseñas y calificaciones.
+En: ReputationControllerTest
+![alt text](assets/tests/i_23.png)
+
+**Pruebas de aceptación:**
+
+- **US-25:** Optimizar experiencia de usuario
+   **TK-01:** Corrección de incidencias de la interfaz
+    ![alt text](assets/tests/acc_25.png)
+
+- **US-26:** Mejorar integración móvil
+   **TK-02:** Integración final entre Backend y Frontend
+![alt text](assets/tests/acc_26.png)
+
+- **TS-11:** Optimización de autenticación
+   **TK-03:** Validación de sesiones JWT
+![alt text](assets/tests/acc_T11.png)
+
+- **US-23:** Publicar reseñas
+   **TK-04:** Optimización del módulo de reputación
+![alt text](assets/tests/acc_23.png)
+
+- **TS-12:** Documentación de la API
+   **TK-05:** Actualizar documentación de Swagger
+![alt text](assets/tests/acc_12.png)
+
+- **US-16:** IA de recomendación
+   **TK-06:** Optimizar recomendaciones de IA
+![alt text](assets/tests/acc_16.png)
+
+
+- **US-11:** Lista de mecánicos
+   **TK-07:** Optimización de la carga de información
+  ![alt text](assets/tests/acc_S11.png)
+
 
 #### 4.4.1.5. Execution Evidence for Sprint Review
 
