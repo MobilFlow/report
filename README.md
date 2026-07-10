@@ -369,8 +369,8 @@
       - [4.3.2.2. Sprint Backlog 3](#4322-sprint-backlog-3)
       - [4.3.2.5. Execution Evidence for Sprint Review](#4325-execution-evidence-for-sprint-review)
       - [4.3.2.6. Services Documentation Evidence for Sprint Review](#4326-services-documentation-evidence-for-sprint-review)
-      - [4.2.1.7. Software Deployment Evidence for Sprint Review](#4217-software-deployment-evidence-for-sprint-review-1)
-      - [4.2.1.8. Team Collaboration Insights during Sprint](#4218-team-collaboration-insights-during-sprint-1)
+      - [4.3.2.7. Software Deployment Evidence for Sprint Review](#4327-software-deployment-evidence-for-sprint-review)
+      - [4.3.2.8. Team Collaboration Insights during Sprint](#4328-team-collaboration-insights-during-sprint)
   - [4.5. Validation Interviews](#45-validation-interviews)
     - [4.5.1. Diseño de Entrevistas](#451-diseño-de-entrevistas)
     - [4.5.2. Registro de Entrevistas](#452-registro-de-entrevistas)
@@ -3231,7 +3231,7 @@ Backend final:
 | **Imágenes de Servicio** | | | | |
 | `/api/v1/service-images/{serviceId}` | POST | Sube una imagen para un servicio | `{ "imageUrl": "string" }` | `{ "id": 0, "imageUrl": "string" }` |
 
-#### 4.2.1.7. Software Deployment Evidence for Sprint Review
+#### 4.3.2.7. Software Deployment Evidence for Sprint Review
 
 Durante el Sprint Review, se realizó el despliegue de AutoMatch v1.0.0 mediante un GitHub Release, permitiendo que los testers descargaran e instalaran la aplicación Android (APK) para su evaluación. Este despliegue constituye la evidencia de distribución del software y facilita la validación de las funcionalidades implementadas en el sprint.
 
@@ -3244,7 +3244,7 @@ Durante el Sprint Review, se realizó el despliegue de AutoMatch v1.0.0 mediante
 <img src="assets/deploy/deploy-flutter.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
 
-#### 4.2.1.8. Team Collaboration Insights during Sprint
+#### 4.3.2.8. Team Collaboration Insights during Sprint
 
 **Backend**
 <img src="assets/insighttf/insightbacks3.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
