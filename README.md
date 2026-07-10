@@ -3290,7 +3290,10 @@ se encuentran en el siguiente repositorio: https://github.com/MobilFlow/Acceptan
 
 <img src="assets/images/capture-backend.png" style="max-width:700px; max-height:800px; width:auto; height:auto;">
 
-**Android Evidence:** 
+
+
+**Android Evidence:** [Video de Ejecución de Aplicación Kotlin](https://youtu.be/1hrALHBiAG8)
+
 ![alt text](assets/execEvidence3/img1.png)
 
 ![alt text](assets/execEvidence3/img2.png)
